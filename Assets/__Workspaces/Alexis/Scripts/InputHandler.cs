@@ -19,7 +19,7 @@ public class InputHandler : MonoBehaviour
         _playerInput.actions["Move"].canceled += OnMove;
         
         _playerInput.actions["Interact"].performed += OnShielding;
-        _playerInput.actions["Interact"].performed += OnShielding;
+        _playerInput.actions["Interact"].canceled += OnShielding;
     }
 
     private void OnDisable()
@@ -28,7 +28,7 @@ public class InputHandler : MonoBehaviour
         _playerInput.actions["Move"].canceled -= OnMove;
         
         _playerInput.actions["Interact"].performed -= OnShielding;
-        _playerInput.actions["Interact"].performed -= OnShielding;
+        _playerInput.actions["Interact"].canceled -= OnShielding;
     }
     
     void OnMove(InputAction.CallbackContext context)

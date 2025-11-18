@@ -80,6 +80,7 @@ public class PlayerController : MonoBehaviour
         if (_shieldOn)
         {
             Debug.Log("Shielding");
+            _shieldOn = false;
         }
     }
 
