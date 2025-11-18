@@ -17,17 +17,28 @@ public class InputHandler : MonoBehaviour
     {
         _playerInput.actions["Move"].performed += OnMove;
         _playerInput.actions["Move"].canceled += OnMove;
+        
+        _playerInput.actions["Interact"].performed += OnShielding;
+        _playerInput.actions["Interact"].performed += OnShielding;
     }
 
     private void OnDisable()
     {
         _playerInput.actions["Move"].performed -= OnMove;
         _playerInput.actions["Move"].canceled -= OnMove;
+        
+        _playerInput.actions["Interact"].performed -= OnShielding;
+        _playerInput.actions["Interact"].performed -= OnShielding;
     }
     
     void OnMove(InputAction.CallbackContext context)
     {
         _playerController.Move = context.ReadValue<Vector2>();
     }
-    
+
+    void OnShielding(InputAction.CallbackContext context)
+    {
+        Debug.Log("Shielding");
+        _playerController._shieldOn = true;
+    }
 }
