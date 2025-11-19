@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3735835502500226202}
   - component: {fileID: 9099244878736014097}
   - component: {fileID: 4061718727564902542}
+  - component: {fileID: 1198741060495456370}
   m_Layer: 0
   m_Name: FlyDrone
   m_TagString: Untagged
@@ -180,3 +181,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
+--- !u!114 &1198741060495456370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3931284701107870744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11781fd2545ece34cbeaec56394a72d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionDamage

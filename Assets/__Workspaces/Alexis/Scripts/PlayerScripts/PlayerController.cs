@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -96,13 +97,15 @@ public class PlayerController : MonoBehaviour
         {
             DoJetpackLocomotion();
             JetpackFuel -= Time.deltaTime;
-            print(JetpackFuel);
+            if (JetpackFuel <= 0)
+            {
+                IsInJetpack = false;
+            }
         }
 
         if (!IsInJetpack)
         {
             JetpackFuel +=  Time.deltaTime/2;
-            print(JetpackFuel);
         }
         
         if (JetpackFuel <= 0)
@@ -124,6 +127,7 @@ public class PlayerController : MonoBehaviour
             {
                 _rb.linearVelocity = Vector2.zero;
             }
+            _rb.gravityScale = 0.1f;
             _canWalk = false;
             IsInJetpack = false;
             _canJumpRightWall = true;
@@ -135,6 +139,7 @@ public class PlayerController : MonoBehaviour
             {
                 _rb.linearVelocity = Vector2.zero;
             }
+            _rb.gravityScale = 0.1f;
             _canWalk = false;
             IsInJetpack = false;
             _canJumpLeftWall = true;
@@ -145,7 +150,20 @@ public class PlayerController : MonoBehaviour
             _canWalk = true;
         }
     }
-    
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "LeftWall")
+        {
+            _rb.gravityScale = 1;
+        }
+
+        if (other.gameObject.tag == "RightWall")
+        {
+            _rb.gravityScale = 1;
+        }
+    }
+
     void DoLocomotion()
     {
         _rb.linearVelocity = new Vector2(Move.x * MoveSpeed * Time.deltaTime, _rb.linearVelocity.y);

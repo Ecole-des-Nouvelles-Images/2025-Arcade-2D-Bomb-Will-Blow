@@ -49,10 +49,16 @@ public class InputHandler : MonoBehaviour
 
     void OnJetpackUse(InputAction.CallbackContext context)
     {
-        if (_playerController.JetpackFuel >= 3)
+        if (_playerController.JetpackFuel >= 3 && !_playerController.IsInJetpack)
         {
             Debug.Log("Jetpack used");
             _playerController.IsInJetpack = true;   
+        }
+
+        if (_playerController.JetpackFuel <= 4.8 && _playerController.IsInJetpack)
+        {
+            Debug.Log("Jetpack stopped");
+            _playerController.IsInJetpack = false;
         }
         else
         {
