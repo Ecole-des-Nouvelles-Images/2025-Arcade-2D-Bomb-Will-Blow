@@ -348,7 +348,7 @@ Transform:
   m_GameObject: {fileID: 369201489}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 18, z: -40}
+  m_LocalPosition: {x: 0, y: 14.9, z: -40}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -547,7 +547,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   Move: {x: 0, y: 0}
   MoveSpeed: 3000
-  _shieldOn: 0
+  ShieldOn: 0
+  IsInJetpack: 0
+  JetpackFuel: 5
 --- !u!61 &699512885
 BoxCollider2D:
   m_ObjectHideFlags: 0

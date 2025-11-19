@@ -14,16 +14,20 @@ public class PlayerController : MonoBehaviour
     private bool _canJumpLeftWall;
     private bool _canWalk;
     
-    //PowerDash
+    //Power Dash
     private bool _canDash = true;
     private float _dashCd = 0.1f;
     private int _timeToRefillDash = 10;
     private float _dashDuration;
     private float _maxDashDuration = 0.01f;
     
-    //PowerShield
-    public bool _shieldOn;
+    //Power Shield
+    public bool ShieldOn;
     
+    //Power Jetpack
+    public bool IsInJetpack;
+    public float JetpackFuel = 5;
+    private float _jetpackForce = 5;
     
 
     void Awake()
@@ -34,6 +38,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Walk
         if (_canWalk && Input.GetKey(KeyCode.LeftArrow) || _canWalk && Input.GetKey(KeyCode.RightArrow))
         {
             DoLocomotion();
@@ -44,6 +49,7 @@ public class PlayerController : MonoBehaviour
             _rb.linearVelocity = Vector2.zero;
         }
         
+        //Jump
         if (_canJumpRightWall && Input.GetButtonDown("Jump"))
         {
             DoJumpRightWall();
@@ -54,6 +60,7 @@ public class PlayerController : MonoBehaviour
             DoJumpLeftWall();
         }
 
+        //Dash
         if (_canDash && !_canWalk && Input.GetMouseButtonDown(1))
         {
             DoDash();
@@ -77,10 +84,35 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (_shieldOn)
+        //Shield
+        if (ShieldOn)
         {
             Debug.Log("Shielding");
-            _shieldOn = false;
+            ShieldOn = false;
+        }
+        
+        //Jetpack
+        if (IsInJetpack)
+        {
+            DoJetpackLocomotion();
+            JetpackFuel -= Time.deltaTime;
+            print(JetpackFuel);
+        }
+
+        if (!IsInJetpack)
+        {
+            JetpackFuel +=  Time.deltaTime/2;
+            print(JetpackFuel);
+        }
+        
+        if (JetpackFuel <= 0)
+        {
+            JetpackFuel = 0;
+        }
+
+        if (JetpackFuel > 5)
+        {
+            JetpackFuel = 5;
         }
     }
 
@@ -93,6 +125,7 @@ public class PlayerController : MonoBehaviour
                 _rb.linearVelocity = Vector2.zero;
             }
             _canWalk = false;
+            IsInJetpack = false;
             _canJumpRightWall = true;
         }
 
@@ -103,6 +136,7 @@ public class PlayerController : MonoBehaviour
                 _rb.linearVelocity = Vector2.zero;
             }
             _canWalk = false;
+            IsInJetpack = false;
             _canJumpLeftWall = true;
         }
 
@@ -137,5 +171,9 @@ public class PlayerController : MonoBehaviour
         _dashDuration = 0;
         _dashCd = 0;
     }
-    
+
+    void DoJetpackLocomotion()
+    {
+        _rb.linearVelocity = new Vector2(Move.x * MoveSpeed * Time.deltaTime / 2, _jetpackForce);
+    }
 }

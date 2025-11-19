@@ -19,7 +19,10 @@ public class InputHandler : MonoBehaviour
         _playerInput.actions["Move"].canceled += OnMove;
         
         _playerInput.actions["Interact"].performed += OnShielding;
-        _playerInput.actions["Interact"].canceled += OnShielding;
+
+
+        _playerInput.actions["Attack"].performed += OnJetpackUse;
+        _playerInput.actions["Attack"].canceled += OnJetpackUse;
     }
 
     private void OnDisable()
@@ -28,7 +31,9 @@ public class InputHandler : MonoBehaviour
         _playerInput.actions["Move"].canceled -= OnMove;
         
         _playerInput.actions["Interact"].performed -= OnShielding;
-        _playerInput.actions["Interact"].canceled -= OnShielding;
+        
+        _playerInput.actions["Attack"].performed -= OnJetpackUse;
+        _playerInput.actions["Attack"].canceled -= OnJetpackUse;
     }
     
     void OnMove(InputAction.CallbackContext context)
@@ -39,6 +44,19 @@ public class InputHandler : MonoBehaviour
     void OnShielding(InputAction.CallbackContext context)
     {
         Debug.Log("Shielding");
-        _playerController._shieldOn = true;
+        _playerController.ShieldOn = true;
+    }
+
+    void OnJetpackUse(InputAction.CallbackContext context)
+    {
+        if (_playerController.JetpackFuel >= 3)
+        {
+            Debug.Log("Jetpack used");
+            _playerController.IsInJetpack = true;   
+        }
+        else
+        {
+            Debug.Log("Not enough fuel");
+        }
     }
 }
