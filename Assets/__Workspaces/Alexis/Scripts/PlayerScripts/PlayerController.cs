@@ -119,14 +119,12 @@ public class PlayerController : MonoBehaviour
 
     void DoJumpLeftWall()
     {
-        Debug.Log("JumpLeftWall");
         _rb.AddForce(new Vector2(1500, 1500));
         _canJumpLeftWall = false;
     }
     
     void DoJumpRightWall()
     {
-        Debug.Log("JumpRightWall");
         _rb.AddForce(new Vector2(-1500, 1500));
         _canJumpRightWall = false;
     }
