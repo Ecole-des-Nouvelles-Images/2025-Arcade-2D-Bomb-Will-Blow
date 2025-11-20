@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class TurretBehaviour : MonoBehaviour
@@ -5,6 +6,9 @@ public class TurretBehaviour : MonoBehaviour
     [Header("BulletReferences")]
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private GameObject bulletSpawn;
+
+    public bool ShootRight;
+    public bool ShootLeft;
     
     private Transform _bulletSpawnTransform;
     
@@ -33,6 +37,19 @@ public class TurretBehaviour : MonoBehaviour
             {
                 _hasShot = false;
             }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "LeftWall")
+        {
+            ShootRight = true;
+        }
+
+        if (other.gameObject.tag == "RightWall")
+        {
+            ShootLeft = true;
         }
     }
 
