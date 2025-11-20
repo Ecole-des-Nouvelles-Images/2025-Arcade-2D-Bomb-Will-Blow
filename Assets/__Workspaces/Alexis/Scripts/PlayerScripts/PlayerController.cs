@@ -15,6 +15,9 @@ public class PlayerController : MonoBehaviour
     private bool _canJumpLeftWall;
     private bool _canWalk;
     
+    //Air Movement
+    private bool _inAir;
+    
     //Power Dash
     private bool _canDash = true;
     public float _dashCd = 0.1f;
@@ -176,11 +179,13 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "LeftWall")
         {
             _rb.gravityScale = 1;
+            _inAir = true;
         }
 
         if (other.gameObject.tag == "RightWall")
         {
             _rb.gravityScale = 1;
+            _inAir = true;
         }
     }
 
@@ -203,7 +208,7 @@ public class PlayerController : MonoBehaviour
     
     void DoDash()
     {
-        _rb.AddForce(new Vector2(0, 100000));
+        _rb.AddForce(new Vector2(0, 50000));
         _canDash = false;
         _maxDashDuration = 0.01f;
         _dashDuration = 0;
