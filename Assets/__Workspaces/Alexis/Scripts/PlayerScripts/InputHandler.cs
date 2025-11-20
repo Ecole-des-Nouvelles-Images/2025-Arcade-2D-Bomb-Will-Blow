@@ -19,8 +19,8 @@ public class InputHandler : MonoBehaviour
         _playerInput.actions["Move"].canceled += OnMove;
         
         _playerInput.actions["Interact"].performed += OnShielding;
-
-
+        _playerInput.actions["Interact"].canceled += OnShielding;
+        
         _playerInput.actions["Attack"].performed += OnJetpackUse;
         _playerInput.actions["Attack"].canceled += OnJetpackUse;
     }
@@ -31,6 +31,7 @@ public class InputHandler : MonoBehaviour
         _playerInput.actions["Move"].canceled -= OnMove;
         
         _playerInput.actions["Interact"].performed -= OnShielding;
+        _playerInput.actions["Interact"].canceled -= OnShielding;
         
         _playerInput.actions["Attack"].performed -= OnJetpackUse;
         _playerInput.actions["Attack"].canceled -= OnJetpackUse;
@@ -44,7 +45,7 @@ public class InputHandler : MonoBehaviour
     void OnShielding(InputAction.CallbackContext context)
     {
         Debug.Log("Shielding");
-        _playerController.ShieldOn = true;
+        _playerController.IsShielding = true;
     }
 
     void OnJetpackUse(InputAction.CallbackContext context)

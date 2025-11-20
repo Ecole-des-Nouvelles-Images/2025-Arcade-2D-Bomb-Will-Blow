@@ -17,13 +17,15 @@ public class PlayerController : MonoBehaviour
     
     //Power Dash
     private bool _canDash = true;
-    private float _dashCd = 0.1f;
-    private int _timeToRefillDash = 10;
+    public float _dashCd = 0.1f;
+    public int _timeToRefillDash = 10;
     private float _dashDuration;
     private float _maxDashDuration = 0.01f;
     
     //Power Shield
-    public bool ShieldOn;
+    public bool IsShielding;
+    private bool ShieldOn;
+    public float ShieldTimer;
     
     //Power Jetpack
     public bool IsInJetpack;
@@ -70,7 +72,12 @@ public class PlayerController : MonoBehaviour
         if (!_canDash)
         {
             _dashDuration += Time.deltaTime;
-            _dashCd += Time.deltaTime;
+            
+            if (_dashCd <= _timeToRefillDash)
+            {
+                _dashCd += Time.deltaTime;
+            }
+            
             if (_dashDuration >= _maxDashDuration)
             {
                 _rb.linearVelocity = Vector2.zero;
@@ -80,16 +87,29 @@ public class PlayerController : MonoBehaviour
             
             if (_dashCd >= _timeToRefillDash)
             {
-                _dashCd = 0;
+                _dashCd = 10;
                 _canDash = true;
             }
         }
 
         //Shield
-        if (ShieldOn)
+        if (ShieldOn && IsShielding)
         {
             Debug.Log("Shielding");
+            ShieldTimer = 0;
             ShieldOn = false;
+            IsShielding = false;
+        }
+
+        if (!ShieldOn)
+        {
+            ShieldTimer += Time.deltaTime;
+        }
+
+        if (ShieldTimer >= 5)
+        {
+            ShieldOn = true;
+            ShieldTimer = 5;
         }
         
         //Jetpack
