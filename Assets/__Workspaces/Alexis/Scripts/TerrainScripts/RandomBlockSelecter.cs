@@ -1,11 +1,15 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class RandomBlockSelecter : MonoBehaviour
 {
-    [SerializeField] public List<GameObject> TerrainBlocks;
+    [SerializeField] private List<GameObject> terrainBlocks;
+    [SerializeField] private GameObject startingChunk;
 
     private GameObject _selectedBlock;
+    private GameObject _lastUsedChunk;
+    private int _numberofSelectedBlock;
     
     void Start()
     {
@@ -23,14 +27,14 @@ public class RandomBlockSelecter : MonoBehaviour
 
     private void SpawnNextBlock()
     {
-        Debug.Log(TerrainBlocks.Count);
-        _selectedBlock = TerrainBlocks[Random.Range(0, TerrainBlocks.Count)];
-        GameObject previousSelectedBlock = _selectedBlock;
-        Instantiate(_selectedBlock, transform.position = new Vector3(0,20,0), Quaternion.identity);
-        _selectedBlock = TerrainBlocks[Random.Range(0, TerrainBlocks.Count)];
-        //while (_selectedBlock == previousSelectedBlock)
-        //{
-            //_selectedBlock = TerrainBlocks[Random.Range(0, TerrainBlocks.Count)];
-        //}
+        _selectedBlock = terrainBlocks[Random.Range(0, terrainBlocks.Count)];
+        _numberofSelectedBlock++;
+        if (_lastUsedChunk == null)
+        {
+            _lastUsedChunk  = startingChunk;
+        }
+        Instantiate(_selectedBlock, _lastUsedChunk.transform.position + new Vector3(-0.921f,23 * _numberofSelectedBlock,0), Quaternion.identity);
+        _lastUsedChunk = _selectedBlock;
+        _selectedBlock = terrainBlocks[Random.Range(0, terrainBlocks.Count)];
     }
 }
