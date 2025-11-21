@@ -219,4 +219,9 @@ public class PlayerController : MonoBehaviour
     {
         _rb.linearVelocity = new Vector2(Move.x * MoveSpeed * Time.deltaTime / 2, _jetpackForce);
     }
+
+    void DoAirLocomotion()
+    {
+        
+    }
 }
