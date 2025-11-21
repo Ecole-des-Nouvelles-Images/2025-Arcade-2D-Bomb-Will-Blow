@@ -10,6 +10,8 @@ public class BulletBehaviour : MonoBehaviour
 
     private float _timeBeforeDestroy = 0.8f;
     private float _timerForDestroy;
+    private bool _moveRight;
+    private bool _moveLeft;
 
     private void Awake()
     {
@@ -23,18 +25,27 @@ public class BulletBehaviour : MonoBehaviour
         _rb.gravityScale = 0;
         if (_wayToShoot.ShootLeft)
         {
-            _rb.AddForce(new Vector2(- 600,0));
+            _moveLeft = true;
         }
 
         if (_wayToShoot.ShootRight)
         { 
-            _rb.AddForce(new Vector2(600,0));
+            _moveRight = true;
         }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (_moveLeft)
+        {
+            _rb.AddForce(new Vector2(- 600,0));
+        }
+
+        if (_moveRight)
+        {
+            _rb.AddForce(new Vector2(600,0));
+        }
         _timerForDestroy += Time.deltaTime;
         if (_timerForDestroy >= _timeBeforeDestroy)
         {

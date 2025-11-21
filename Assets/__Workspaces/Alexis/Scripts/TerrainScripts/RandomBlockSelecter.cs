@@ -3,17 +3,11 @@ using UnityEngine;
 
 public class RandomBlockSelecter : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> TerrainBlocks;
+    [SerializeField] public List<GameObject> TerrainBlocks;
 
     private GameObject _selectedBlock;
     
     void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
     {
         for (int i = 0; i < 5; i++)
         {
@@ -21,12 +15,19 @@ public class RandomBlockSelecter : MonoBehaviour
         }
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
     private void SpawnNextBlock()
     {
-        _selectedBlock = TerrainBlocks[Random.Range(0, TerrainBlocks.Count - 1)];
+        Debug.Log(TerrainBlocks.Count);
+        _selectedBlock = TerrainBlocks[Random.Range(0, TerrainBlocks.Count)];
         GameObject previousSelectedBlock = _selectedBlock;
         Instantiate(_selectedBlock, transform.position = new Vector3(0,20,0), Quaternion.identity);
-        _selectedBlock = TerrainBlocks[Random.Range(0, TerrainBlocks.Count - 1)];
+        _selectedBlock = TerrainBlocks[Random.Range(0, TerrainBlocks.Count)];
         //while (_selectedBlock == previousSelectedBlock)
         //{
             //_selectedBlock = TerrainBlocks[Random.Range(0, TerrainBlocks.Count)];
