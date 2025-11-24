@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8ff65179eb8f609468d059994e8025c9
+guid: be944e8dda7fcf5499ad77913edb4eff
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,23 +110,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: batiment tout fond_0
+      name: Nuages_0
       rect:
         serializedVersion: 2
-        x: 182
-        y: 0
-        width: 636
-        height: 3504
+        x: 0
+        y: 1071
+        width: 2160
+        height: 1890
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 1580, z: 0, w: 1463}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8c13833b9059944594e5fce00435559
-      internalID: -1039753507
+      spriteID: 1c29df62aa4252844a53ca4de89a5a12
+      internalID: 1251310877
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3d86b412e28ffb448a412eb74738363b
+    spriteID: 1eeb686fddf77a84b92ddbef80a44081
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      batiment tout fond_0: -1039753507
+      Nuages_0: 1251310877
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
