@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 115e460b0e2b30148a1b52af12ee62b0
+guid: b93b6f57f02a61941a0761e9bffadcb2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 512
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,199 +110,287 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TileMap_Murs_gauche_0
+      name: "Props_D\xE9cors_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1024
-        width: 512
-        height: 512
+        x: 46
+        y: 1205
+        width: 178
+        height: 267
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 1, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6dcec5464be3054f92781131f063af1
-      internalID: 1336699896
+      spriteID: eb51ec52b9c5fa1459502a35b5c7deff
+      internalID: 2080982727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMap_Murs_gauche_1
+      name: "Props_D\xE9cors_1"
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1024
-        width: 512
-        height: 512
+        x: 28
+        y: 1526
+        width: 181
+        height: 603
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e7f66d2363fb4d45848753d4633f750
-      internalID: -1834989230
+      spriteID: 17984e5ca96975740a70e5aba5bdf67a
+      internalID: 2027767621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMap_Murs_gauche_2
+      name: "Props_D\xE9cors_2"
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 1024
-        width: 512
-        height: 512
+        x: 269
+        y: 1526
+        width: 167
+        height: 602
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7352bde29e5dbf448988fea238b01219
-      internalID: -1209567559
+      spriteID: 341cf8c014e0a784b81512608242195a
+      internalID: 1870346505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMap_Murs_gauche_3
+      name: "Props_D\xE9cors_3"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
-        width: 512
-        height: 512
+        x: 856
+        y: 1846
+        width: 268
+        height: 269
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cd5838c30f07c741a168be1a3f39dc9
-      internalID: 2050407378
+      spriteID: 77a6d420cb4558e4cad456406e55b138
+      internalID: 705225181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMap_Murs_gauche_4
+      name: "Props_D\xE9cors_4"
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
-        width: 512
-        height: 512
+        x: 1143
+        y: 1846
+        width: 269
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d93fe75c0f61a1e439077c604fbe5f0b
-      internalID: -2071265446
+      spriteID: e45abd85c08a00f489a9af38debee1b1
+      internalID: 2057091279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMap_Murs_gauche_5
+      name: "Props_D\xE9cors_5"
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 512
-        width: 512
-        height: 512
+        x: 891
+        y: 1615
+        width: 199
+        height: 182
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0da09f21a1ce9442b90dad3d46b5efc
-      internalID: -2088168990
+      spriteID: 674b66c25f97271408f1bba5d2f5a9ae
+      internalID: -1197791250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMap_Murs_gauche_6
+      name: "Props_D\xE9cors_6"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 512
-        height: 512
+        x: 1177
+        y: 1586
+        width: 200
+        height: 184
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 854502ac46edb6541aec9a1e9a9c96d4
-      internalID: 159716672
+      spriteID: 1b04b403d73e031449aaff64c1a480ba
+      internalID: 139729560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMap_Murs_gauche_7
+      name: "Props_D\xE9cors_7"
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 512
-        height: 512
+        x: 1875
+        y: 1383
+        width: 577
+        height: 733
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23bfc350a8404ca43a9bd5f11783fc35
-      internalID: 531341750
+      spriteID: 4fef69c53aa83d24782a77a0815ae738
+      internalID: 160623220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileMap_Murs_gauche_8
+      name: "Props_D\xE9cors_8"
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 512
-        height: 512
+        x: 2486
+        y: 1382
+        width: 575
+        height: 735
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea7837c161f6d2648b69c53ec879b4a9
-      internalID: 1845801876
+      spriteID: 8ee0000c1ec9b5d4b8c169e48d8825bc
+      internalID: 542422622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Props_D\xE9cors_9"
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 1683
+        width: 584
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384f736f31116604eb8f2dbfd1563d70
+      internalID: -590005425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Props_D\xE9cors_10"
+      rect:
+        serializedVersion: 2
+        x: 3148
+        y: 1233
+        width: 581
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce68e17358cd384abc375dc74ab007a
+      internalID: 641866052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Props_D\xE9cors_11"
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 1135
+        width: 97
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fab387a5f0d924db8bf54928a96bf2
+      internalID: -943777617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Props_D\xE9cors_12"
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 1136
+        width: 95
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bbd078c4d0f3f4ba1072521c4ed2a6
+      internalID: -1874007882
       vertices: []
       indices: 
       edges: []
@@ -311,7 +399,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 55456683de4d7d644968370f34caf939
+    spriteID: 221da0e10d32d78468acaa46b1e0928d
     internalID: 0
     vertices: []
     indices: 
@@ -319,19 +407,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      TileMap_Murs_gauche_0: 1336699896
-      TileMap_Murs_gauche_1: -1834989230
-      TileMap_Murs_gauche_2: -1209567559
-      TileMap_Murs_gauche_3: 2050407378
-      TileMap_Murs_gauche_4: -2071265446
-      TileMap_Murs_gauche_5: -2088168990
-      TileMap_Murs_gauche_6: 159716672
-      TileMap_Murs_gauche_7: 531341750
-      TileMap_Murs_gauche_8: 1845801876
+      "Props_D\xE9cors_0": 2080982727
+      "Props_D\xE9cors_1": 2027767621
+      "Props_D\xE9cors_10": 641866052
+      "Props_D\xE9cors_11": -943777617
+      "Props_D\xE9cors_12": -1874007882
+      "Props_D\xE9cors_2": 1870346505
+      "Props_D\xE9cors_3": 705225181
+      "Props_D\xE9cors_4": 2057091279
+      "Props_D\xE9cors_5": -1197791250
+      "Props_D\xE9cors_6": 139729560
+      "Props_D\xE9cors_7": 160623220
+      "Props_D\xE9cors_8": 542422622
+      "Props_D\xE9cors_9": -590005425
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
