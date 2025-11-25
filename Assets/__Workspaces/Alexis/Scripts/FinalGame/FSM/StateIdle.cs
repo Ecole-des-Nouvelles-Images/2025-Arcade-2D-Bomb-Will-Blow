@@ -6,6 +6,7 @@ public class StateIdle : BaseState
     
     public override void OnEnter()
     {
+        Debug.Log("Idle");
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
         //Animator update
     }
@@ -32,6 +33,12 @@ public class StateIdle : BaseState
         if (PlayerControllerFinal.IsInJetpack)
         {
             return new StateJetpack(PlayerControllerFinal);
+        }
+
+        //Shield state
+        if (PlayerControllerFinal.UseShield)
+        {
+            return new StateShield(PlayerControllerFinal);
         }
         
         return null;

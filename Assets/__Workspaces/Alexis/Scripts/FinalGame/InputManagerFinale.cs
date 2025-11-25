@@ -31,6 +31,12 @@ public class InputManagerFinale : MonoBehaviour
         _playerInput.actions["Shield"].performed += OnGuard;
         _playerInput.actions["Shield"].canceled += OnGuard;
         
+        _playerInput.actions["Dash"].started += OnDash;
+        _playerInput.actions["Dash"].canceled += OnDash;
+        
+        _playerInput.actions["Jetpack"].started += OnJetpack;
+        _playerInput.actions["Jetpack"].canceled += OnJetpack;
+        
         DetectCurrentInputDevice();
     }
 
@@ -47,6 +53,12 @@ public class InputManagerFinale : MonoBehaviour
         
         _playerInput.actions["Shield"].performed -= OnGuard;
         _playerInput.actions["Shield"].canceled -= OnGuard;
+        
+        _playerInput.actions["Dash"].started -= OnDash;
+        _playerInput.actions["Dash"].canceled -= OnDash;
+        
+        _playerInput.actions["Jetpack"].started -= OnJetpack;
+        _playerInput.actions["Jetpack"].canceled -= OnJetpack;
     }
     
     private void OnDeviceChange(InputDevice device, InputDeviceChange change)
@@ -69,6 +81,10 @@ public class InputManagerFinale : MonoBehaviour
 
     private void OnMove(InputAction.CallbackContext context)
     {
+        if (_playerControllerFinal.CanWalk)
+        {
+            _playerControllerFinal.Walk = true;
+        }
         _playerControllerFinal.Move = context.ReadValue<Vector2>();
     }
 
@@ -80,5 +96,15 @@ public class InputManagerFinale : MonoBehaviour
     private void OnGuard(InputAction.CallbackContext context)
     {
         _playerControllerFinal.UseShield = context.ReadValueAsButton();
+    }
+
+    private void OnDash(InputAction.CallbackContext context)
+    {
+        _playerControllerFinal.UseDash = context.ReadValueAsButton();
+    }
+
+    private void OnJetpack(InputAction.CallbackContext context)
+    {
+        _playerControllerFinal.UseJetpack = context.ReadValueAsButton();
     }
 }

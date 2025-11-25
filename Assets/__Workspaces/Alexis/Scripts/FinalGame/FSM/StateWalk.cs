@@ -6,17 +6,19 @@ public class StateWalk : BaseState
     
     public override void OnEnter()
     {
+        Debug.Log("Walk");
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
         //Animator update
     }
 
     public override void OnUpdate()
     {
-        PlayerControllerFinal.Rb.AddForce(new Vector2(PlayerControllerFinal.Move.x * Time.deltaTime, 0));
+        PlayerControllerFinal.Rb.AddForce(new Vector2(PlayerControllerFinal.Move.x * Time.deltaTime * 5000, 0));
     }
 
     public override void OnExit()
     {
+        PlayerControllerFinal.Walk = false;
         //Animator Update
     }
 
@@ -38,6 +40,12 @@ public class StateWalk : BaseState
         if (PlayerControllerFinal.IsInJetpack)
         {
             return new StateJetpack(PlayerControllerFinal);
+        }
+        
+        //Shield state
+        if (PlayerControllerFinal.UseShield)
+        {
+            return new StateShield(PlayerControllerFinal);
         }
         
         return null;

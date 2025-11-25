@@ -6,6 +6,7 @@ public class StateShield : BaseState
     
     public override void OnEnter()
     {
+        Debug.Log("Shield");
         PlayerControllerFinal.UseShield = true;
         DoShield();
     }
@@ -22,8 +23,36 @@ public class StateShield : BaseState
 
     public override BaseState NextState()
     {
-        //state à faire : wall - air - jetpack - idle - walk
-        return NextState();
+        //Walk state
+        if (PlayerControllerFinal.Walk && PlayerControllerFinal.CanWalk)
+        {
+            return new StateWalk(PlayerControllerFinal);
+        }
+        
+        //WallCatch state
+        if (PlayerControllerFinal.IsOnRightWall || PlayerControllerFinal.IsOnLeftWall)
+        {
+            return new StateWallCatch(PlayerControllerFinal);
+        }
+        
+        //InAir state
+        if (!PlayerControllerFinal.IsOnLeftWall || !PlayerControllerFinal.IsOnRightWall && !PlayerControllerFinal.IsInJetpack)
+        {
+            return new StateInAir(PlayerControllerFinal);
+        }
+        
+        //JetpackState
+        if (PlayerControllerFinal.IsInJetpack)
+        {
+            return new StateJetpack(PlayerControllerFinal);
+        }
+        
+        if (PlayerControllerFinal.Move == Vector2.zero)
+        {
+            return new StateIdle(PlayerControllerFinal);
+        }
+        
+        return null;
     }
 
     private void DoShield()

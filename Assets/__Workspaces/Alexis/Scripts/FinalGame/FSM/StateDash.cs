@@ -10,6 +10,7 @@ public class StateDash : BaseState
     
     public override void OnEnter()
     {
+        Debug.Log("Dash");
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
         //Animator update
     }

@@ -11,6 +11,7 @@ public class StateWallCatch : BaseState
 
     public override void OnEnter()
     {
+        Debug.Log("WallCatch");
         PlayerControllerFinal.Rb.gravityScale = 0;
     }
 
@@ -41,12 +42,30 @@ public class StateWallCatch : BaseState
 
     public override BaseState NextState()
     {
-        return NextState();
+        //InAir state
+        if (PlayerControllerFinal.Jump)
+        {
+            return new StateJump(PlayerControllerFinal);
+        }
+        
+        //Jetpack state
+        if (PlayerControllerFinal.IsInJetpack)
+        {
+            return new StateJetpack(PlayerControllerFinal);
+        }
+        
+        //Shield state
+        if (PlayerControllerFinal.UseShield)
+        {
+            return new StateShield(PlayerControllerFinal);
+        }
+        
+        return null;
     }
 
     private void DoWallSlide()
     {
-        PlayerControllerFinal.Rb.AddForce(new Vector2(0,10));
+        PlayerControllerFinal.Rb.AddForce(new Vector2(0, - 1));
         _canGetSpeed = false;
         _activatesOnlyOnce = false;
     }

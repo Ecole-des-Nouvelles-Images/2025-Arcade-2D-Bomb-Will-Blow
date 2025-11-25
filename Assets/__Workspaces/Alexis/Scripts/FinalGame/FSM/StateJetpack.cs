@@ -8,6 +8,7 @@ public class StateJetpack : BaseState
     
     public override void OnEnter()
     {
+        Debug.Log("Jetpack");
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
         //Animator update
         DoJetpack();
@@ -29,12 +30,19 @@ public class StateJetpack : BaseState
 
     public override BaseState NextState()
     {
-        if (!PlayerControllerFinal.IsInJetpack)
+        //InAir state
+        if (!PlayerControllerFinal.IsOnLeftWall || !PlayerControllerFinal.IsOnRightWall && !PlayerControllerFinal.IsInJetpack)
         {
-            //Changer l'état retourné par "InAir" lorsqu'il sera créé.
-            return new StateIdle(PlayerControllerFinal);
+            return new StateInAir(PlayerControllerFinal);
         }
-        return NextState();
+        
+        //Shield state
+        if (PlayerControllerFinal.UseShield)
+        {
+            return new StateShield(PlayerControllerFinal);
+        }
+        
+        return null;
     }
 
     private void DoJetpack()

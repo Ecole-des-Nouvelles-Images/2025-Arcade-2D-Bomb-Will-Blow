@@ -54,6 +54,11 @@ public class PlayerControllerFinal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (IsGrounded)
+        {
+            CanWalk = true;
+        }
+        
         _currentState.OnUpdate();
         
         BaseState nextBaseState = _currentState.NextState(); 

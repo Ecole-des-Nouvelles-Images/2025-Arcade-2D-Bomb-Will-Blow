@@ -6,6 +6,7 @@ public class StateJump : BaseState
     
     public override void OnEnter()
     {
+        Debug.Log("Jump");
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
         if (PlayerControllerFinal.IsOnRightWall)
         {
@@ -32,17 +33,11 @@ public class StateJump : BaseState
     public override BaseState NextState()
     {
         //InAir state
-        if (!PlayerControllerFinal.IsOnLeftWall)
+        if (!PlayerControllerFinal.IsOnLeftWall || !PlayerControllerFinal.IsOnRightWall && !PlayerControllerFinal.IsInJetpack)
         {
             return new StateInAir(PlayerControllerFinal);
         }
 
-        //InAir state
-        if (!PlayerControllerFinal.IsOnRightWall)
-        {
-            return new StateInAir(PlayerControllerFinal);
-        }
-        
         return null;
     }
 
