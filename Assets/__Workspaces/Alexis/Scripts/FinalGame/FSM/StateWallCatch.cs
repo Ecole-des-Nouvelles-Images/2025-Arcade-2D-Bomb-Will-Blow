@@ -7,12 +7,13 @@ public class StateWallCatch : BaseState
     private bool _canGetSpeed;
     private bool _activatesOnlyOnce;
     private float _timerBeforeFall;
-    private float _timeToReach;
+    private float _timeToReach = 0.5f;
 
     public override void OnEnter()
     {
         Debug.Log("WallCatch");
         PlayerControllerFinal.Rb.gravityScale = 0;
+        PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
     }
 
     public override void OnUpdate()
@@ -49,7 +50,7 @@ public class StateWallCatch : BaseState
         }
         
         //Jetpack state
-        if (PlayerControllerFinal.IsInJetpack)
+        if (PlayerControllerFinal.UseJetpack)
         {
             return new StateJetpack(PlayerControllerFinal);
         }

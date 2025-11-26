@@ -5,15 +5,31 @@ public class StateInAir : BaseState
     public StateInAir(PlayerControllerFinal playerControllerFinal) : base(playerControllerFinal) { }
 
     private float _yVelocity;
+    private float _timeBeforeCatch;
+    private bool _canCatch;
     
     public override void OnEnter()
     {
         Debug.Log("InAir");
-        PlayerControllerFinal.Rb.gravityScale = 0;
+        
+        /*{
+            PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
+        }*/
     }
 
     public override void OnUpdate()
     {
+        if (_timeBeforeCatch < 0.2)
+        {
+            _timeBeforeCatch += Time.deltaTime;
+            _canCatch = false;
+        }
+
+        if (_timeBeforeCatch >= 0.2)
+        {
+            _canCatch = true;
+        }
+        
         _yVelocity = PlayerControllerFinal.Rb.linearVelocity.y;
         if (_yVelocity <= 0)
         {
@@ -23,7 +39,7 @@ public class StateInAir : BaseState
 
     public override void OnExit()
     {
-        
+        _timeBeforeCatch = 0;
     }
 
     public override BaseState NextState()
@@ -35,13 +51,13 @@ public class StateInAir : BaseState
         }
         
         //Wall state
-        if (PlayerControllerFinal.IsOnRightWall || PlayerControllerFinal.IsOnLeftWall)
+        if (PlayerControllerFinal.IsOnRightWall && _canCatch || PlayerControllerFinal.IsOnLeftWall && _canCatch)
         {
             return new StateWallCatch(PlayerControllerFinal);
         }
         
         //Jetpack state
-        if (PlayerControllerFinal.IsInJetpack)
+        if (PlayerControllerFinal.UseJetpack)
         {
             return new StateJetpack(PlayerControllerFinal);
         }

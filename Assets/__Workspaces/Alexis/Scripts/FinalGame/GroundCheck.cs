@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class GroundCheck : MonoBehaviour
@@ -7,19 +8,21 @@ public class GroundCheck : MonoBehaviour
     {
         player = gameObject.GetComponent<PlayerControllerFinal>();
     }
-    
-    void OnCollisionEnter2D(Collision2D other)
+
+    private void Update()
     {
-        if (other.gameObject.tag == "Ground")
-        {
-            player.IsGrounded = true;
-        }
+        GroundcheckRaycast();
     }
 
-    void OnCollisionExit2D(Collision2D other)
-    {
-        if (other.gameObject.tag == "Ground")
-        {
+    private void GroundcheckRaycast()
+    { 
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.3f, LayerMask.GetMask("Ground")); 
+        if( hit.collider != null) 
+        { 
+            player.IsGrounded = true;
+        }
+        else 
+        { 
             player.IsGrounded = false;
         }
     }

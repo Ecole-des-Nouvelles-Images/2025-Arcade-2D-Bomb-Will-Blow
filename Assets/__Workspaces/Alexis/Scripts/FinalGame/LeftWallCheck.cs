@@ -1,29 +1,34 @@
+using System;
 using UnityEngine;
 
 public class LeftWallCheck : MonoBehaviour
 {
+    public GameObject LefWallRaycastStart;
     private PlayerControllerFinal player;
+    
     void Awake()
     {
         player = gameObject.GetComponent<PlayerControllerFinal>();
     }
-    
-    void OnCollisionEnter2D(Collision2D other)
+
+    private void Update()
     {
-        if (other.gameObject.tag == "LeftWall")
+        LeftWallCheckRaycast();
+    }
+
+    void LeftWallCheckRaycast()
+    {
+        RaycastHit2D hit  = Physics2D.Raycast(LefWallRaycastStart.transform.position, new Vector2(-1,0), 0.1f, LayerMask.GetMask("Wall"));
+        Debug.DrawLine(LefWallRaycastStart.transform.position, new Vector3(LefWallRaycastStart.transform.position.x - 0.5f, LefWallRaycastStart.transform.position.y, LefWallRaycastStart.transform.position.z), Color.red);
+        if (hit.collider != null)
         {
             player.IsOnLeftWall = true;
             player.CanJumpToRightWall = true;
         }
-    }
-
-    void OnCollisionExit2D(Collision2D other)
-    {
-        if (other.gameObject.tag == "LeftWall")
+        else
         {
             player.IsOnLeftWall = false;
-            player.CanJumpToRightWall = false;
+            player.CanJumpToRightWall = true;
         }
     }
-    
 }

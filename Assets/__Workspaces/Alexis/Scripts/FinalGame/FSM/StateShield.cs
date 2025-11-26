@@ -42,7 +42,7 @@ public class StateShield : BaseState
         }
         
         //JetpackState
-        if (PlayerControllerFinal.IsInJetpack)
+        if (PlayerControllerFinal.UseJetpack)
         {
             return new StateJetpack(PlayerControllerFinal);
         }

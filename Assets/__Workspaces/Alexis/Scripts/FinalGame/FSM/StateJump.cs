@@ -6,7 +6,6 @@ public class StateJump : BaseState
     
     public override void OnEnter()
     {
-        Debug.Log("Jump");
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
         if (PlayerControllerFinal.IsOnRightWall)
         {

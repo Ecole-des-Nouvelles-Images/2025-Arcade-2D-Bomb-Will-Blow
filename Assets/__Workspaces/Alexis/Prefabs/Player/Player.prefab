@@ -78,6 +78,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &4394455696334032829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7911195982892433323}
+  m_Layer: 0
+  m_Name: RightWallRaycastStart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7911195982892433323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4394455696334032829}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 121723838745017328}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4510057821674243094
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,6 +353,8 @@ Transform:
   - {fileID: 4171647076258168181}
   - {fileID: 5781556436480620735}
   - {fileID: 7586304538715210456}
+  - {fileID: 6555370499021689513}
+  - {fileID: 7911195982892433323}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7050860275694196609
@@ -486,6 +519,10 @@ MonoBehaviour:
   DashRefillTime: 0
   UseShield: 0
   ShieldEffect: {fileID: 4747603662305410989}
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  IsGroundedTest: 0
 --- !u!114 &1285085348665157858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -498,6 +535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4d3da9959e70284095c3e98292ed1bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RightWallCheck
+  RightWallRaycastStart: {fileID: 4394455696334032829}
 --- !u!114 &8729189201517125839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -510,6 +548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e0485a52ba5d3489f36d51fd80a76f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LeftWallCheck
+  LefWallRaycastStart: {fileID: 8461771519655630182}
 --- !u!114 &6962606972706208552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -564,3 +603,34 @@ MonoBehaviour:
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!1 &8461771519655630182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6555370499021689513}
+  m_Layer: 0
+  m_Name: LeftWallRaycastStart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6555370499021689513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8461771519655630182}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 121723838745017328}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

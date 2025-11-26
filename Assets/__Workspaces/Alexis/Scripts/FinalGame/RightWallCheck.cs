@@ -2,27 +2,30 @@ using UnityEngine;
 
 public class RightWallCheck : MonoBehaviour
 {
+    public GameObject RightWallRaycastStart;
     private PlayerControllerFinal player;
     void Awake()
     {
         player = gameObject.GetComponent<PlayerControllerFinal>();
     }
-    
-    void OnCollisionEnter2D(Collision2D other)
+
+    void Update()
     {
-        if (other.gameObject.tag == "RightWall")
+        RightWallCheckRaycast();
+    }
+    
+    void RightWallCheckRaycast()
+    {
+        RaycastHit2D hit  = Physics2D.Raycast(RightWallRaycastStart.transform.position, new Vector2(1,0), 0.1f, LayerMask.GetMask("Wall"));
+        if (hit.collider != null)
         {
             player.IsOnRightWall = true;
             player.CanJumpToLeftWall = true;
         }
-    }
-
-    void OnCollisionExit2D(Collision2D other)
-    {
-        if (other.gameObject.tag == "RightWall")
+        else
         {
             player.IsOnRightWall = false;
+            player.CanJumpToLeftWall = true;
         }
     }
-    
 }

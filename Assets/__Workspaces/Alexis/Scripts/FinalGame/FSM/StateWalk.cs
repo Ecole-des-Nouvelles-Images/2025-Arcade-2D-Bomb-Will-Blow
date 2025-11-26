@@ -6,7 +6,6 @@ public class StateWalk : BaseState
     
     public override void OnEnter()
     {
-        Debug.Log("Walk");
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
         //Animator update
     }
@@ -37,7 +36,7 @@ public class StateWalk : BaseState
         }
         
         //Jetpack state
-        if (PlayerControllerFinal.IsInJetpack)
+        if (PlayerControllerFinal.UseJetpack)
         {
             return new StateJetpack(PlayerControllerFinal);
         }

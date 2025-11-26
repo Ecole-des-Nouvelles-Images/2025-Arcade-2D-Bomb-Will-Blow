@@ -4,7 +4,7 @@ public class PlayerControllerFinal : MonoBehaviour
 {
     //Ground
     public bool IsGrounded;
-    
+    [Space(10), Header("moveParameters")]
     //Walk
     public Vector2 Move;
     public bool Walk;
@@ -39,16 +39,21 @@ public class PlayerControllerFinal : MonoBehaviour
     //Faire un script dans le gameobject Shield qui gère sa durée.
     
     //FSM
+    public BaseState PreviousState;
     private BaseState _currentState;
+    
+    //Exemple
+    public LayerMask LayerMask;
+    public bool IsGroundedTest;
 
-    void Awake()
-    {
+    void Awake() {
         Rb = GetComponent<Rigidbody2D>();
     }
     
     void Start()
     {
         _currentState = new StateIdle(this);
+        Debug.Log(JetpackFuel);
     }
 
     // Update is called once per frame
@@ -63,7 +68,8 @@ public class PlayerControllerFinal : MonoBehaviour
         
         BaseState nextBaseState = _currentState.NextState(); 
         if (nextBaseState != null)
-        { 
+        {
+            PreviousState = _currentState;
             _currentState.OnExit(); 
             _currentState = nextBaseState; 
             _currentState.OnEnter();
