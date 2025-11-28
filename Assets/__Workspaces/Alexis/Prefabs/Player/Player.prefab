@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 6962606972706208552}
   - component: {fileID: 1856976741872764884}
   - component: {fileID: 4324967185160638138}
-  - component: {fileID: 2813402199425677}
+  - component: {fileID: 4013401958223537875}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -601,7 +601,7 @@ MonoBehaviour:
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!95 &2813402199425677
+--- !u!95 &4013401958223537875
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -611,7 +611,7 @@ Animator:
   m_GameObject: {fileID: 7838103970437092494}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a9430a7119aca7748901eaa0ff789237, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
