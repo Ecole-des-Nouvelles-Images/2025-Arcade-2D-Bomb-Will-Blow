@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 17210859cacf40f4b9d44d61edd68855
+guid: e509f09c4099dce4d807ceaa4b864b30
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: animation sheet idle non binaire_0
+      name: animation sheet sprint test non binaire_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,14 +125,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5b4f8352443a7d449cdb649557586e7
-      internalID: -1701618955
+      spriteID: 9e25cc4ef5e7e73449ed7c842817aa77
+      internalID: -576142948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation sheet idle non binaire_1
+      name: animation sheet sprint test non binaire_1
       rect:
         serializedVersion: 2
         x: 256
@@ -147,14 +147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5f13a781a0ff1f478c1614c26787160
-      internalID: -1814834764
+      spriteID: 8cb8873199374f54b8cd742faf08e5d6
+      internalID: -1088677500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation sheet idle non binaire_2
+      name: animation sheet sprint test non binaire_2
       rect:
         serializedVersion: 2
         x: 512
@@ -169,14 +169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b1bee14486f93d40a8105c21c240001
-      internalID: 629074271
+      spriteID: 9f0403dfb1e40a04dac8f734ba9ef324
+      internalID: -2072973788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation sheet idle non binaire_3
+      name: animation sheet sprint test non binaire_3
       rect:
         serializedVersion: 2
         x: 768
@@ -191,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8b0b6f808c589541a476d42514b0eab
-      internalID: 608164202
+      spriteID: 72734782ad48c1647b0ed7e0f5285eb2
+      internalID: 1621617165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation sheet idle non binaire_4
+      name: animation sheet sprint test non binaire_4
       rect:
         serializedVersion: 2
         x: 1024
@@ -213,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 224639a066767ab40bdb2939d884ae12
-      internalID: 1942911585
+      spriteID: b1f96f4111ab0034b866e5bb57a0fdcb
+      internalID: -1383924436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation sheet idle non binaire_5
+      name: animation sheet sprint test non binaire_5
       rect:
         serializedVersion: 2
         x: 1280
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfda3ff9484b674419dac8a7efe7404e
-      internalID: 1490742888
+      spriteID: 715c6eb2472bfc4459cb225fbeb1925a
+      internalID: 1534140517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation sheet idle non binaire_6
+      name: animation sheet sprint test non binaire_6
       rect:
         serializedVersion: 2
         x: 1536
@@ -257,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a06d38cd77e9da46b7da8c6cc4194f5
-      internalID: -999787249
+      spriteID: 3de38e8c5272f1e41a7a997ea66bd434
+      internalID: -1667297243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation sheet idle non binaire_7
+      name: animation sheet sprint test non binaire_7
       rect:
         serializedVersion: 2
         x: 1792
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 774f5ce883d186540b14f62443a18780
-      internalID: 1858951503
+      spriteID: a9aa8cb1b1f242a4c95b6db799448f2c
+      internalID: -1822337524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation sheet idle non binaire_8
+      name: animation sheet sprint test non binaire_8
       rect:
         serializedVersion: 2
         x: 2048
@@ -301,8 +301,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53f186813948f7544a5b4c9721930955
-      internalID: -1043523820
+      spriteID: f792cb68bf4f16e48abb72cfe010b31b
+      internalID: -1895350578
       vertices: []
       indices: 
       edges: []
@@ -311,7 +311,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2aa1b8e998139a94983d36214e87747c
+    spriteID: c510f1bb79dde2746bdd47e10e8e73b0
     internalID: 0
     vertices: []
     indices: 
@@ -323,15 +323,15 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      animation sheet idle non binaire_0: -1701618955
-      animation sheet idle non binaire_1: -1814834764
-      animation sheet idle non binaire_2: 629074271
-      animation sheet idle non binaire_3: 608164202
-      animation sheet idle non binaire_4: 1942911585
-      animation sheet idle non binaire_5: 1490742888
-      animation sheet idle non binaire_6: -999787249
-      animation sheet idle non binaire_7: 1858951503
-      animation sheet idle non binaire_8: -1043523820
+      animation sheet sprint test non binaire_0: -576142948
+      animation sheet sprint test non binaire_1: -1088677500
+      animation sheet sprint test non binaire_2: -2072973788
+      animation sheet sprint test non binaire_3: 1621617165
+      animation sheet sprint test non binaire_4: -1383924436
+      animation sheet sprint test non binaire_5: 1534140517
+      animation sheet sprint test non binaire_6: -1667297243
+      animation sheet sprint test non binaire_7: -1822337524
+      animation sheet sprint test non binaire_8: -1895350578
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

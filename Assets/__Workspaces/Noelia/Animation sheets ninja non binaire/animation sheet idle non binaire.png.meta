@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5ac8b26911fae1e4cbaa358a46a585f7
+guid: 17210859cacf40f4b9d44d61edd68855
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pose idle mur_0
+      name: animation sheet idle non binaire_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,14 +125,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5206826b5c262fc41a903b50145f7264
-      internalID: 93481648
+      spriteID: e5b4f8352443a7d449cdb649557586e7
+      internalID: -1701618955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pose idle mur_1
+      name: animation sheet idle non binaire_1
       rect:
         serializedVersion: 2
         x: 256
@@ -147,14 +147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60a0b77969d64d54a9392927639f7155
-      internalID: 807027660
+      spriteID: c5f13a781a0ff1f478c1614c26787160
+      internalID: -1814834764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pose idle mur_2
+      name: animation sheet idle non binaire_2
       rect:
         serializedVersion: 2
         x: 512
@@ -169,14 +169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5796983b89d73045adcc6feab2963eb
-      internalID: -1437444969
+      spriteID: 2b1bee14486f93d40a8105c21c240001
+      internalID: 629074271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pose idle mur_3
+      name: animation sheet idle non binaire_3
       rect:
         serializedVersion: 2
         x: 768
@@ -191,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c664909f9b1879842a21a3f14d7b3a45
-      internalID: -1037637997
+      spriteID: a8b0b6f808c589541a476d42514b0eab
+      internalID: 608164202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pose idle mur_4
+      name: animation sheet idle non binaire_4
       rect:
         serializedVersion: 2
         x: 1024
@@ -213,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ede112c97b95ad4888923892ff188cc
-      internalID: 1630859352
+      spriteID: 224639a066767ab40bdb2939d884ae12
+      internalID: 1942911585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pose idle mur_5
+      name: animation sheet idle non binaire_5
       rect:
         serializedVersion: 2
         x: 1280
@@ -235,8 +235,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b7ed278a0a090042b50ec1dbbf4200d
-      internalID: 88570334
+      spriteID: bfda3ff9484b674419dac8a7efe7404e
+      internalID: 1490742888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation sheet idle non binaire_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a06d38cd77e9da46b7da8c6cc4194f5
+      internalID: -999787249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation sheet idle non binaire_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774f5ce883d186540b14f62443a18780
+      internalID: 1858951503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animation sheet idle non binaire_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f186813948f7544a5b4c9721930955
+      internalID: -1043523820
       vertices: []
       indices: 
       edges: []
@@ -245,7 +311,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 96dd7a349cf10514b8bbb94da0ddc04e
+    spriteID: 2aa1b8e998139a94983d36214e87747c
     internalID: 0
     vertices: []
     indices: 
@@ -257,12 +323,15 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      pose idle mur_0: 93481648
-      pose idle mur_1: 807027660
-      pose idle mur_2: -1437444969
-      pose idle mur_3: -1037637997
-      pose idle mur_4: 1630859352
-      pose idle mur_5: 88570334
+      animation sheet idle non binaire_0: -1701618955
+      animation sheet idle non binaire_1: -1814834764
+      animation sheet idle non binaire_2: 629074271
+      animation sheet idle non binaire_3: 608164202
+      animation sheet idle non binaire_4: 1942911585
+      animation sheet idle non binaire_5: 1490742888
+      animation sheet idle non binaire_6: -999787249
+      animation sheet idle non binaire_7: 1858951503
+      animation sheet idle non binaire_8: -1043523820
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
