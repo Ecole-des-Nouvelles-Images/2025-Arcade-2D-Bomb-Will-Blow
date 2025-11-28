@@ -8,7 +8,7 @@ public class StateIdle : BaseState
     {
         
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
-        //Animator update
+        PlayerControllerFinal.PlayerAnimator.SetBool("IdleGround", true);
     }
 
     public override void OnUpdate()
@@ -18,7 +18,7 @@ public class StateIdle : BaseState
 
     public override void OnExit()
     {
-        //Animator update
+        PlayerControllerFinal.PlayerAnimator.SetBool("IdleGround", false);
     }
 
     public override BaseState NextState()

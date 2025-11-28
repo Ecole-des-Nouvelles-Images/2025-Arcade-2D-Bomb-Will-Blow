@@ -42,12 +42,12 @@ public class PlayerControllerFinal : MonoBehaviour
     public BaseState PreviousState;
     private BaseState _currentState;
     
-    //Exemple
-    public LayerMask LayerMask;
-    public bool IsGroundedTest;
+    //Animator
+	public Animator PlayerAnimator;
 
     void Awake() {
         Rb = GetComponent<Rigidbody2D>();
+        PlayerAnimator = GetComponent<Animator>();
     }
     
     void Start()

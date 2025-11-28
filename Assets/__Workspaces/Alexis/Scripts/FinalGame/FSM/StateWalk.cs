@@ -7,7 +7,7 @@ public class StateWalk : BaseState
     public override void OnEnter()
     {
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
-        //Animator update
+        PlayerControllerFinal.PlayerAnimator.SetBool("Walking", true);
     }
 
     public override void OnUpdate()
@@ -18,7 +18,7 @@ public class StateWalk : BaseState
     public override void OnExit()
     {
         PlayerControllerFinal.Walk = false;
-        //Animator Update
+        PlayerControllerFinal.PlayerAnimator.SetBool("Walking", false);
     }
 
     public override BaseState NextState()

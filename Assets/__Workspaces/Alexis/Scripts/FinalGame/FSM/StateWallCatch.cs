@@ -14,6 +14,7 @@ public class StateWallCatch : BaseState
         Debug.Log("WallCatch");
         PlayerControllerFinal.Rb.gravityScale = 0;
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
+        PlayerControllerFinal.PlayerAnimator.SetBool("IdleWall", true);
     }
 
     public override void OnUpdate()
@@ -38,7 +39,7 @@ public class StateWallCatch : BaseState
 
     public override void OnExit()
     {
-        
+        PlayerControllerFinal.PlayerAnimator.SetBool("IdleWall", false);
     }
 
     public override BaseState NextState()

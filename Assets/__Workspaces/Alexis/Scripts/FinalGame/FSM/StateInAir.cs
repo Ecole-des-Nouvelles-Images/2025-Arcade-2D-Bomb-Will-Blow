@@ -10,6 +10,7 @@ public class StateInAir : BaseState
     
     public override void OnEnter()
     {
+        PlayerControllerFinal.PlayerAnimator.SetBool("InAir", true);
         Debug.Log("InAir");
         
         /*{
@@ -40,6 +41,7 @@ public class StateInAir : BaseState
     public override void OnExit()
     {
         _timeBeforeCatch = 0;
+        PlayerControllerFinal.PlayerAnimator.SetBool("InAir", false);
     }
 
     public override BaseState NextState()

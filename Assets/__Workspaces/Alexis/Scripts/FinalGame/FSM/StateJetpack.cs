@@ -8,6 +8,7 @@ public class StateJetpack : BaseState
     
     public override void OnEnter()
     {
+        PlayerControllerFinal.PlayerAnimator.SetBool("Jetpack", true);
         Debug.Log("Jetpack");
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
         PlayerControllerFinal.IsInJetpack = true;
@@ -27,7 +28,7 @@ public class StateJetpack : BaseState
 
     public override void OnExit()
     {
-        
+        PlayerControllerFinal.PlayerAnimator.SetBool("Jetpack", false);
     }
 
     public override BaseState NextState()
