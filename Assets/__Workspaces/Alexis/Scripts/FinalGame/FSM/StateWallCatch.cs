@@ -40,6 +40,7 @@ public class StateWallCatch : BaseState
     public override void OnExit()
     {
         PlayerControllerFinal.PlayerAnimator.SetBool("IdleWall", false);
+        PlayerControllerFinal.Rb.gravityScale = 1;
     }
 
     public override BaseState NextState()
