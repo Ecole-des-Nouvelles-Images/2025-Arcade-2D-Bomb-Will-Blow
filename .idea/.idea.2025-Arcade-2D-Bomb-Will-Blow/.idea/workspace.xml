@@ -35,7 +35,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "XThreadsFramesViewSplitterKey": "0.3953202",
-    "git-widget-placeholder": "Alexis",
+    "git-widget-placeholder": "int",
     "ignore.virus.scanning.warn.message": "true",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -168,6 +168,7 @@
       <workItem from="1764333623801" duration="102000" />
       <workItem from="1764333751789" duration="987000" />
       <workItem from="1764581285093" duration="6523000" />
+      <workItem from="1764596260868" duration="2241000" />
     </task>
     <servers />
   </component>
