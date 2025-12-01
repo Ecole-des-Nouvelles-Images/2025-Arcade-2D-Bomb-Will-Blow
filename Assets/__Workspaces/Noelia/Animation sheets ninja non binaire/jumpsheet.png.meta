@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6c7f4da9c550bf54889edbfbc1f511c0
+guid: 43f3be5ec3fd0814e8477db48d8e7d3d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: animation sheet start sprint non binaire_0
+      name: jumpsheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,14 +125,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ba1bd71fa7e89c4e958335fa629a63c
-      internalID: 2043195876
+      spriteID: 10abe072a8eb5f1408feedcdd15c8b43
+      internalID: 1577401346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation sheet start sprint non binaire_1
+      name: jumpsheet_1
       rect:
         serializedVersion: 2
         x: 256
@@ -147,14 +147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 392db23104d39614aa915e7887a72335
-      internalID: 885651989
+      spriteID: 44b4f4a642551c2489f74cd8389889f1
+      internalID: 1446546795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation sheet start sprint non binaire_2
+      name: jumpsheet_2
       rect:
         serializedVersion: 2
         x: 512
@@ -169,14 +169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d09de18745d3b134e8979ef3e080694f
-      internalID: -1616704795
+      spriteID: 4ddb782a19a42074492132b7fb15fb1c
+      internalID: 534272702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animation sheet start sprint non binaire_3
+      name: jumpsheet_3
       rect:
         serializedVersion: 2
         x: 768
@@ -191,8 +191,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38680497e6df4914d9a61ecbf2fd51d0
-      internalID: -916686681
+      spriteID: 5368d1833883af44e9d7914c3862e8d9
+      internalID: -1381055481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpsheet_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d6cf4b75b39ec4697ef49a0bf3d1d0
+      internalID: -134312078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpsheet_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b58c21cc3cc24d489e7af63b5f2175d
+      internalID: 1915602869
       vertices: []
       indices: 
       edges: []
@@ -201,7 +245,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 54e44f062becb704aaabc6f40c98f0c0
+    spriteID: 4fd547cb42a5eb1438759dce26a1040f
     internalID: 0
     vertices: []
     indices: 
@@ -213,10 +257,12 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      animation sheet start sprint non binaire_0: 2043195876
-      animation sheet start sprint non binaire_1: 885651989
-      animation sheet start sprint non binaire_2: -1616704795
-      animation sheet start sprint non binaire_3: -916686681
+      jumpsheet_0: 1577401346
+      jumpsheet_1: 1446546795
+      jumpsheet_2: 534272702
+      jumpsheet_3: -1381055481
+      jumpsheet_4: -134312078
+      jumpsheet_5: 1915602869
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
