@@ -13,7 +13,7 @@ public class StateWalk : BaseState
 
     public override void OnUpdate()
     {
-        PlayerControllerFinal.Rb.AddForce(new Vector2(PlayerControllerFinal.Move.x * Time.deltaTime * 5000, 0));
+        PlayerControllerFinal.Rb.AddForce(new Vector2(PlayerControllerFinal.Move.x * Time.deltaTime * 500, 0));
     }
 
     public override void OnExit()

@@ -43,13 +43,13 @@ public class StateJump : BaseState
 
     private void DoJumpToLeftWall()
     {
-        PlayerControllerFinal.Rb.AddForce(new Vector2(- 1500, 1500));
+        PlayerControllerFinal.Rb.AddForce(new Vector2(- 1000, 1000));
         PlayerControllerFinal.CanJumpToLeftWall = false;
     }
 
     private void DoJumpToRightWall()
     {
-        PlayerControllerFinal.Rb.AddForce(new Vector2(1500, 1500));
+        PlayerControllerFinal.Rb.AddForce(new Vector2(1000, 1000));
         PlayerControllerFinal.CanJumpToRightWall = false;
     }
 }

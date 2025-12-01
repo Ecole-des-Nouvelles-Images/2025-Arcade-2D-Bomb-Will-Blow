@@ -44,10 +44,15 @@ public class PlayerControllerFinal : MonoBehaviour
     
     //Animator
 	public Animator PlayerAnimator;
+    
+    //SpriteRenderer
+    [SerializeField] private GameObject _Visual;
+    private SpriteRenderer _spriteRenderer;
 
     void Awake() 
     {
         Rb = GetComponent<Rigidbody2D>();
+        _spriteRenderer = _Visual.GetComponent<SpriteRenderer>();
     }
     
     void Start()
@@ -59,6 +64,16 @@ public class PlayerControllerFinal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Rb.linearVelocityX < 0)
+        {
+            _spriteRenderer.flipX = true;
+        }
+
+        if (Rb.velocity.x > 0)
+        {
+            _spriteRenderer.flipX = false;
+        }
+        
         if (IsGrounded)
         {
             CanWalk = true;
