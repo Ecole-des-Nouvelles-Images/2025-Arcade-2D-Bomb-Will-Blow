@@ -45,9 +45,9 @@ public class PlayerControllerFinal : MonoBehaviour
     //Animator
 	public Animator PlayerAnimator;
 
-    void Awake() {
+    void Awake() 
+    {
         Rb = GetComponent<Rigidbody2D>();
-        PlayerAnimator = GetComponent<Animator>();
     }
     
     void Start()

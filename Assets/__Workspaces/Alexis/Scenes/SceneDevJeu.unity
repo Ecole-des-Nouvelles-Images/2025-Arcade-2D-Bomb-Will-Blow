@@ -434,6 +434,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1997062766285708662, guid: 11189e4161e011a47ba0ecd1c680dd80, type: 3}
+      propertyPath: SpawnBulletToTheRightSide
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5203659833494140171, guid: 11189e4161e011a47ba0ecd1c680dd80, type: 3}
       propertyPath: m_Name
       value: Turret
@@ -611,6 +615,11 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!95 &1708295584 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3174844919600878019, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+  m_PrefabInstance: {fileID: 7913754713255077758}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1911464495
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,6 +773,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: 3c432d465010b8943bb1b0b1478f6e72, type: 2}
+    - target: {fileID: 3174844919600878019, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e624c06c3d754424bab2dd9d43cb9167, type: 2}
     - target: {fileID: 4324967185160638138, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
       propertyPath: m_ActionEvents.Array.size
       value: 16
@@ -900,6 +913,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7156072096551686853, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: PlayerAnimator
+      value: 
+      objectReference: {fileID: 1708295584}
     - target: {fileID: 7156072096551686853, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
       propertyPath: LayerMask.m_Bits
       value: 8

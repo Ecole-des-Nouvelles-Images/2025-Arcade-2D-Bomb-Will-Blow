@@ -3,40 +3,32 @@ using UnityEngine;
 public class TurretBehaviour : MonoBehaviour
 {
     [Header("BulletReferences")]
-    [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private GameObject bulletSpawn;
+    [SerializeField] private GameObject bulletPrefabRightSide;
+    [SerializeField] private GameObject bulletPrefabLeftSide;
     
-    public bool ShootRight;
-    public bool ShootLeft;
+    [Space(4), Header("BulletSpawners")]
+    [SerializeField] private GameObject bulletSpawnRightSide;
+    [SerializeField] private GameObject bulletSpawnLeftSide;
     
-    private Transform _bulletSpawnTransform;
+    [Space(4), Header("SideToShoot")]
+    [SerializeField] private bool SpawnBulletToTheRightSide;
+    [SerializeField] private bool SpawnBulletToTheLeftSide;
     
     private bool _hasShot;
     private float _shootingRate = 1.1f;
     private float _shootingTimer;
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
-        RightWallCheckRaycast();
-        LeftWallCheckRaycast();
-        
-        if (ShootLeft)
+        if (!_hasShot && SpawnBulletToTheRightSide)
         {
-            bulletSpawn.transform.position = new Vector3(- bulletSpawn.transform.position.x,  bulletSpawn.transform.position.y, bulletSpawn.transform.position.z);
+            FireRightSide();
         }
         
-        _bulletSpawnTransform = bulletSpawn.transform;
-        
-        if (!_hasShot)
+        if (!_hasShot && SpawnBulletToTheLeftSide)
         {
-            Fire();
+            FireLeftSide();
         }
 
         if (_hasShot)
@@ -49,36 +41,17 @@ public class TurretBehaviour : MonoBehaviour
         }
     }
 
-    void Fire()
+    void FireRightSide()
     {
-        Instantiate(bulletPrefab, _bulletSpawnTransform.position, _bulletSpawnTransform.rotation);
+        Instantiate(bulletPrefabRightSide, bulletSpawnRightSide.transform.position, bulletSpawnRightSide.transform.rotation);
         _hasShot = true;
         _shootingTimer = 0;
     }
     
-    void RightWallCheckRaycast()
+    void FireLeftSide()
     {
-        RaycastHit2D hit  = Physics2D.Raycast(gameObject.transform.position, new Vector2(1,0), 0.6f, LayerMask.GetMask("Wall"));
-        if (hit.collider != null)
-        {
-            ShootLeft = true;
-        }
-        else
-        {
-            ShootLeft = false;
-        }
-    }
-    
-    void LeftWallCheckRaycast()
-    {
-        RaycastHit2D hit  = Physics2D.Raycast(gameObject.transform.position, new Vector2(-1,0), 0.6f, LayerMask.GetMask("Wall"));
-        if (hit.collider != null)
-        {
-            ShootRight = true;
-        }
-        else
-        {
-            ShootRight = false;
-        }
+        Instantiate(bulletPrefabLeftSide, bulletSpawnLeftSide.transform.position, bulletSpawnLeftSide.transform.rotation);
+        _hasShot = true;
+        _shootingTimer = 0;
     }
 }

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3959642989324491241}
   m_Layer: 0
-  m_Name: BulletSpawn
+  m_Name: BulletSpawnRightSide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,6 +26,37 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.45, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.31675643, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6267806651133609117}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4554063734759801000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5844824920418564366}
+  m_Layer: 0
+  m_Name: BulletSpawnLeftSide
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5844824920418564366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4554063734759801000}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.45, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 0.31675643, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -66,6 +97,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3959642989324491241}
+  - {fileID: 5844824920418564366}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1227788182909063007
@@ -223,7 +255,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d9fc6762a4bf544b9b2b01e94faf49f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TurretBehaviour
-  bulletPrefab: {fileID: 96113044916704286, guid: 3af729258f4783442a3428e31844f8d8, type: 3}
-  bulletSpawn: {fileID: 2448149741435972552}
-  ShootRight: 0
-  ShootLeft: 0
+  bulletPrefabRightSide: {fileID: 96113044916704286, guid: 3af729258f4783442a3428e31844f8d8, type: 3}
+  bulletPrefabLeftSide: {fileID: 96113044916704286, guid: f813f54a20fa30748a37f4f4fc25be61, type: 3}
+  bulletSpawnRightSide: {fileID: 2448149741435972552}
+  bulletSpawnLeftSide: {fileID: 4554063734759801000}
+  SpawnBulletToTheRightSide: 0
+  SpawnBulletToTheLeftSide: 0
