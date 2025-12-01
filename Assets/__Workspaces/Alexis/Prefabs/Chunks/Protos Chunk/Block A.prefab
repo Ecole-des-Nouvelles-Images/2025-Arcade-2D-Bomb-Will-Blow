@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3850308073826993668}
   - component: {fileID: 611361238875307291}
   - component: {fileID: 1003896523118219214}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightWallBlockA
   m_TagString: RightWall
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 1941837309043895889}
   - component: {fileID: 6707635920243033391}
   - component: {fileID: 4041714843505304713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftWallBlockA
   m_TagString: LeftWall
   m_Icon: {fileID: 0}
