@@ -1,16 +1,20 @@
 using System;
 using UnityEngine;
 
-public class CollisionDamage : MonoBehaviour
+namespace Proto
 {
-    private PlayerStats _playerStats;
-    private int _damage = 1;
-
-    private void OnCollisionEnter2D(Collision2D other)
+    public class CollisionDamage : MonoBehaviour
     {
-        if (other.gameObject.CompareTag("Player"))
+        private PlayerStats _playerStats;
+        private int _damage = 1;
+
+        private void OnCollisionEnter2D(Collision2D other)
         {
-            other.gameObject.GetComponent<PlayerStats>().TakeDamage(_damage);
+            if (other.gameObject.CompareTag("Player"))
+            {
+                other.gameObject.GetComponent<PlayerStats>().TakeDamage(_damage);
+            }
         }
     }
 }
+

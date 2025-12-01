@@ -11,7 +11,7 @@ public class StateWallCatch : BaseState
 
     public override void OnEnter()
     {
-        Debug.Log("WallCatch");
+        PlayerControllerFinal.PlayerAnimator.SetTrigger("EndJump");
         PlayerControllerFinal.Rb.gravityScale = 0;
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
         PlayerControllerFinal.PlayerAnimator.SetBool("IdleWall", true);

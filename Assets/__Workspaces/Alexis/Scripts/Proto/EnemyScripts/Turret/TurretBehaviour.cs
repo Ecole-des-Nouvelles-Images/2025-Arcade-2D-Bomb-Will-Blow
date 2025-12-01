@@ -1,62 +1,65 @@
 using System;
 using UnityEngine;
 
-public class TurretBehaviour : MonoBehaviour
+namespace Proto
 {
-    [Header("BulletReferences")]
-    [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private GameObject bulletSpawn;
-
-    public bool ShootRight;
-    public bool ShootLeft;
-    
-    private Transform _bulletSpawnTransform;
-    
-    private bool _hasShot;
-    private float _shootingRate = 1.1f;
-    private float _shootingTimer;
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class TurretBehaviour : MonoBehaviour
     {
-        _bulletSpawnTransform = bulletSpawn.transform;
-    }
+        [Header("BulletReferences")]
+        [SerializeField] private GameObject bulletPrefab;
+        [SerializeField] private GameObject bulletSpawn;
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (!_hasShot)
+        public bool ShootRight;
+        public bool ShootLeft;
+    
+        private Transform _bulletSpawnTransform;
+    
+        private bool _hasShot;
+        private float _shootingRate = 1.1f;
+        private float _shootingTimer;
+    
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void Start()
         {
-            Fire();
+            _bulletSpawnTransform = bulletSpawn.transform;
         }
 
-        if (_hasShot)
+        // Update is called once per frame
+        void Update()
         {
-            _shootingTimer += Time.deltaTime;
-            if (_shootingTimer >= _shootingRate)
+            if (!_hasShot)
             {
-                _hasShot = false;
+                Fire();
+            }
+
+            if (_hasShot)
+            {
+                _shootingTimer += Time.deltaTime;
+                if (_shootingTimer >= _shootingRate)
+                {
+                    _hasShot = false;
+                }
             }
         }
-    }
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.tag == "LeftWall")
+        private void OnCollisionEnter2D(Collision2D other)
         {
-            ShootRight = true;
+            if (other.gameObject.tag == "LeftWall")
+            {
+                ShootRight = true;
+            }
+
+            if (other.gameObject.tag == "RightWall")
+            {
+                ShootLeft = true;
+            }
         }
 
-        if (other.gameObject.tag == "RightWall")
+        void Fire()
         {
-            ShootLeft = true;
+            Instantiate(bulletPrefab, _bulletSpawnTransform.position, _bulletSpawnTransform.rotation);
+            _hasShot = true;
+            _shootingTimer = 0;
         }
-    }
-
-    void Fire()
-    {
-        Instantiate(bulletPrefab, _bulletSpawnTransform.position, _bulletSpawnTransform.rotation);
-        _hasShot = true;
-        _shootingTimer = 0;
     }
 }

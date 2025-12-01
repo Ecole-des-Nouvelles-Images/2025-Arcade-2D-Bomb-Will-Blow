@@ -43,8 +43,8 @@ GameObject:
   - component: {fileID: 1227788182909063007}
   - component: {fileID: 7962530310217901248}
   - component: {fileID: 7192326226684731594}
-  - component: {fileID: 5633136808114560695}
   - component: {fileID: 3172417098269325412}
+  - component: {fileID: 1997062766285708662}
   m_Layer: 0
   m_Name: Turret
   m_TagString: Untagged
@@ -156,7 +156,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -199,20 +199,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &5633136808114560695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5203659833494140171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ae049d01cfb2a04f83ad87c7214abea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TurretBehaviour
-  bulletPrefab: {fileID: 96113044916704286, guid: 3af729258f4783442a3428e31844f8d8, type: 3}
-  bulletSpawn: {fileID: 2448149741435972552}
 --- !u!114 &3172417098269325412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,3 +211,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11781fd2545ece34cbeaec56394a72d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollisionDamage
+--- !u!114 &1997062766285708662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5203659833494140171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9fc6762a4bf544b9b2b01e94faf49f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TurretBehaviour
+  bulletPrefab: {fileID: 96113044916704286, guid: 3af729258f4783442a3428e31844f8d8, type: 3}
+  bulletSpawn: {fileID: 2448149741435972552}
+  ShootRight: 0
+  ShootLeft: 0

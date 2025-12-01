@@ -1,55 +1,60 @@
 using System;
+using Proto;
 using UnityEngine;
 
-public class BulletBehaviour : MonoBehaviour
+namespace Proto
 {
-    [SerializeField] private GameObject _turret;
+    public class BulletBehaviour : MonoBehaviour
+    {
+        [SerializeField] private GameObject _turret;
     
-    private Rigidbody2D _rb;
-    private TurretBehaviour _wayToShoot;
+        private Rigidbody2D _rb;
+        private TurretBehaviour _wayToShoot;
 
-    private float _timeBeforeDestroy = 0.8f;
-    private float _timerForDestroy;
-    private bool _moveRight;
-    private bool _moveLeft;
+        private float _timeBeforeDestroy = 0.8f;
+        private float _timerForDestroy;
+        private bool _moveRight;
+        private bool _moveLeft;
 
-    private void Awake()
-    {
-        _wayToShoot =  _turret.GetComponent<TurretBehaviour>();
-    }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        _rb = GetComponent<Rigidbody2D>();
-        _rb.gravityScale = 0;
-        if (_wayToShoot.ShootLeft)
+        private void Awake()
         {
-            _moveLeft = true;
+            _wayToShoot =  _turret.GetComponent<TurretBehaviour>();
         }
 
-        if (_wayToShoot.ShootRight)
-        { 
-            _moveRight = true;
-        }
-    }
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void Start()
+        {
+            _rb = GetComponent<Rigidbody2D>();
+            _rb.gravityScale = 0;
+            if (_wayToShoot.ShootLeft)
+            {
+                _moveLeft = true;
+            }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (_moveLeft)
-        {
-            _rb.AddForce(new Vector2(- 600,0));
+            if (_wayToShoot.ShootRight)
+            { 
+                _moveRight = true;
+            }
         }
 
-        if (_moveRight)
+        // Update is called once per frame
+        void Update()
         {
-            _rb.AddForce(new Vector2(600,0));
-        }
-        _timerForDestroy += Time.deltaTime;
-        if (_timerForDestroy >= _timeBeforeDestroy)
-        {
-            Destroy(gameObject);
+            if (_moveLeft)
+            {
+                _rb.AddForce(new Vector2(- 600,0));
+            }
+
+            if (_moveRight)
+            {
+                _rb.AddForce(new Vector2(600,0));
+            }
+            _timerForDestroy += Time.deltaTime;
+            if (_timerForDestroy >= _timeBeforeDestroy)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }
+

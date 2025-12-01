@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4341785905365993140}
   - component: {fileID: 5613284397800709352}
   - component: {fileID: -7938008239658803457}
-  - component: {fileID: 6260639230320554590}
+  - component: {fileID: 4103455226157241644}
   m_Layer: 0
   m_Name: TurretBullet
   m_TagString: Untagged
@@ -166,7 +166,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &6260639230320554590
+--- !u!114 &4103455226157241644
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,7 +175,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 96113044916704286}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9318ed64426d89f498a5686f3126b7da, type: 3}
+  m_Script: {fileID: 11500000, guid: 51628c2d985ac8a499e473d7979e8c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletBehaviour
   _turret: {fileID: 5203659833494140171, guid: 11189e4161e011a47ba0ecd1c680dd80, type: 3}
