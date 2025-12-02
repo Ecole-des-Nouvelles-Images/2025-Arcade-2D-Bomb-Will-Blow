@@ -1,9 +1,6 @@
-using System;
 using UnityEngine;
 
-namespace Proto
-{
-    public class CrawlerBehaviour : MonoBehaviour
+public class CrawlerBehaviour : MonoBehaviour
     {
         [Header("Movement Limits")]
         [SerializeField] private GameObject _upperLimit;
@@ -11,10 +8,9 @@ namespace Proto
 
         [Space(4), Header("Direction")] 
         [SerializeField] private bool OnLeftWall;
-        [SerializeField] private bool OnRightWall;
         
         private Rigidbody2D _rb;
-        private SpriteRenderer _spriteRenderer;
+        private Transform _transform;
         private bool _movesUp;
         private bool _movesDown;
     
@@ -22,17 +18,12 @@ namespace Proto
         void Start()
         {
             _rb = GetComponent<Rigidbody2D>();
-            _spriteRenderer = GetComponent<SpriteRenderer>();
+            _transform = GetComponent<Transform>();
             _movesUp = false;
             _movesDown = true;
             if (OnLeftWall)
             {
-                _spriteRenderer.flipX = true;
-            }
-
-            if (OnRightWall)
-            {
-                _spriteRenderer.flipX = false;
+                _transform.Rotate(new Vector3(0,0,- 180));
             }
         }
 
@@ -79,5 +70,3 @@ namespace Proto
             _rb.AddForce(new Vector2(0,-100));
         }
     }
-}
-

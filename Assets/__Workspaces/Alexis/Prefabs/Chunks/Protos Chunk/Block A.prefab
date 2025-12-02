@@ -426,6 +426,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7060103665375767444, guid: a5b903ca6ca75ef4eb80997d4768ed4b, type: 3}
+      propertyPath: OnLeftWall
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060103665375767444, guid: a5b903ca6ca75ef4eb80997d4768ed4b, type: 3}
+      propertyPath: OnRightWall
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060103665375767444, guid: a5b903ca6ca75ef4eb80997d4768ed4b, type: 3}
+      propertyPath: _lowerLimit
+      value: 
+      objectReference: {fileID: 1715556007930809555}
+    - target: {fileID: 7060103665375767444, guid: a5b903ca6ca75ef4eb80997d4768ed4b, type: 3}
+      propertyPath: _upperLimit
+      value: 
+      objectReference: {fileID: 3665455161590774977}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -444,6 +460,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5722082985808866988}
     m_Modifications:
+    - target: {fileID: 1227788182909063007, guid: 11189e4161e011a47ba0ecd1c680dd80, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 1997062766285708662, guid: 11189e4161e011a47ba0ecd1c680dd80, type: 3}
       propertyPath: SpawnBulletToTheLeftSide
       value: 1
@@ -454,7 +474,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6267806651133609117, guid: 11189e4161e011a47ba0ecd1c680dd80, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6267806651133609117, guid: 11189e4161e011a47ba0ecd1c680dd80, type: 3}
       propertyPath: m_LocalPosition.y
