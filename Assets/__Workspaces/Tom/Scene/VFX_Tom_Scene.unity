@@ -272,7 +272,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 2053125335
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Time: 1
   m_PreviewTimeScale: 1
@@ -6120,7 +6120,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 42783e6ac25904f44b9f5452b85d7ac2, type: 2}
+  - {fileID: 2100000, guid: 13d93bfcbe4dfa144b4ebc627194a5d3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
