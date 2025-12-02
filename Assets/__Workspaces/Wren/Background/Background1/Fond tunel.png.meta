@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7c37287024751584a8199e87e62ed036
+guid: 9fc25785d5197ec4298c42f2d42a3705
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nuages 1_0
+      name: Fond tunel_0
       rect:
         serializedVersion: 2
-        x: 121
-        y: 351
-        width: 2019
-        height: 2326
+        x: 753
+        y: 651
+        width: 647
+        height: 668
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +125,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07e41923eb941f94ba70810f6b9aec9a
-      internalID: 277083471
+      spriteID: 6338de168d28a994199faaa2c78eb50d
+      internalID: 1998635855
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 692337e99a0767e40a498825d2f441f9
+    spriteID: 70a13d82bfa45a440adcb2affc1c7b5f
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nuages 1_0: 277083471
+      Fond tunel_0: 1998635855
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7c37287024751584a8199e87e62ed036
+guid: ad7d1693282799d4d892f972f85d72aa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nuages 1_0
+      name: Ventillation_0
       rect:
         serializedVersion: 2
-        x: 121
-        y: 351
-        width: 2019
-        height: 2326
+        x: 205
+        y: 253
+        width: 102
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +125,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07e41923eb941f94ba70810f6b9aec9a
-      internalID: 277083471
+      spriteID: 8dc5268caf9e768459ce25b0e78f9eb6
+      internalID: -1430289475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ventillation_1
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 157
+        width: 76
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1948298dedeba144aa61d8163b5953a6
+      internalID: 1133515162
       vertices: []
       indices: 
       edges: []
@@ -135,7 +157,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 692337e99a0767e40a498825d2f441f9
+    spriteID: 720a5984c74e70d459ce2fab85da6968
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +167,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nuages 1_0: 277083471
+      Ventillation_0: -1430289475
+      Ventillation_1: 1133515162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
