@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7c37287024751584a8199e87e62ed036
+guid: dab964d5bbfb6be4eb8e718340341fdb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nuages 1_0
+      name: "c\xF4t\xE9s_0"
       rect:
         serializedVersion: 2
-        x: 121
-        y: 351
-        width: 2019
-        height: 2326
+        x: 0
+        y: 186
+        width: 517
+        height: 1464
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +125,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07e41923eb941f94ba70810f6b9aec9a
-      internalID: 277083471
+      spriteID: 2e8f0b5ce39d2d747aeed295aac45b31
+      internalID: 69258653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "c\xF4t\xE9s_1"
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 180
+        width: 519
+        height: 1470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8608a811c99039448270eea90ec2220
+      internalID: -1937809213
       vertices: []
       indices: 
       edges: []
@@ -135,7 +157,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 692337e99a0767e40a498825d2f441f9
+    spriteID: 3e8a6aa7e55316e48a4e00524a765a83
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +167,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nuages 1_0: 277083471
+      "c\xF4t\xE9s_0": 69258653
+      "c\xF4t\xE9s_1": -1937809213
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

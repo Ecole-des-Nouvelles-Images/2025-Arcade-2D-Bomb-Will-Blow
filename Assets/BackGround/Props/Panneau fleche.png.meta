@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7c37287024751584a8199e87e62ed036
+guid: e3aa045a63a9a9d4c80c95f5fa6704e5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nuages 1_0
+      name: Panneau fleche_0
       rect:
         serializedVersion: 2
-        x: 121
-        y: 351
-        width: 2019
-        height: 2326
+        x: 201
+        y: 182
+        width: 99
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +125,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07e41923eb941f94ba70810f6b9aec9a
-      internalID: 277083471
+      spriteID: ddcca08e2ecf5b84795191cd97016a39
+      internalID: 365256849
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 692337e99a0767e40a498825d2f441f9
+    spriteID: 8b7a4f659837f744f9fc6110640685ae
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nuages 1_0: 277083471
+      Panneau fleche_0: 365256849
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
