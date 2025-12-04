@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/59bd7c40c082431db25e1e728ab6278946ae00/f2/10674937/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Crawler/CrawlerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/PlayerControllerFinal.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="35bnCKSmL5xUXuSN6khzyPC1DxZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.3953202&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Alexis&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../BombWillBlowBuilds/Build_Semaine_Prod_1\Unity Template.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\BombWillBlowBuilds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="" />
+      <created>1763387509852</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763387509852</updated>
+      <workItem from="1763387511052" duration="584000" />
+      <workItem from="1763388110717" duration="2000" />
+      <workItem from="1763389896609" duration="123000" />
+      <workItem from="1763390035514" duration="36000" />
+      <workItem from="1763390105658" duration="36000" />
+      <workItem from="1763390161172" duration="40000" />
+      <workItem from="1763390209192" duration="13000" />
+      <workItem from="1763390227430" duration="26000" />
+      <workItem from="1763390418684" duration="4000" />
+      <workItem from="1763390507791" duration="17000" />
+      <workItem from="1763390537026" duration="8000" />
+      <workItem from="1763391405395" duration="30000" />
+      <workItem from="1763391451374" duration="38000" />
+      <workItem from="1763391495330" duration="74000" />
+      <workItem from="1763391644754" duration="85000" />
+      <workItem from="1763391822738" duration="1736000" />
+      <workItem from="1763394710056" duration="415000" />
+      <workItem from="1763455541283" duration="1918000" />
+      <workItem from="1763457503210" duration="6352000" />
+      <workItem from="1763464158768" duration="253000" />
+      <workItem from="1763464432957" duration="3059000" />
+      <workItem from="1763471679027" duration="6986000" />
+      <workItem from="1763479014801" duration="2772000" />
+      <workItem from="1763541270484" duration="7474000" />
+      <workItem from="1763549916919" duration="2580000" />
+      <workItem from="1763558134874" duration="2131000" />
+      <workItem from="1763560474675" duration="1003000" />
+      <workItem from="1763561646825" duration="3388000" />
+      <workItem from="1763565544309" duration="8000" />
+      <workItem from="1763565615520" duration="13000" />
+      <workItem from="1763565667819" duration="130000" />
+      <workItem from="1763565927494" duration="2429000" />
+      <workItem from="1763627919104" duration="10897000" />
+      <workItem from="1763645176954" duration="500000" />
+      <workItem from="1763646188565" duration="195000" />
+      <workItem from="1763646487150" duration="696000" />
+      <workItem from="1763647966858" duration="3426000" />
+      <workItem from="1763652897065" duration="891000" />
+      <workItem from="1763715737749" duration="8306000" />
+      <workItem from="1763735914249" duration="2233000" />
+      <workItem from="1763976074909" duration="96000" />
+      <workItem from="1763976707027" duration="859000" />
+      <workItem from="1763977619560" duration="565000" />
+      <workItem from="1763978210915" duration="12000" />
+      <workItem from="1763978237811" duration="17000" />
+      <workItem from="1763978275749" duration="27000" />
+      <workItem from="1763978323318" duration="107000" />
+      <workItem from="1763978445404" duration="11000" />
+      <workItem from="1763978466370" duration="1463000" />
+      <workItem from="1763980381919" duration="26000" />
+      <workItem from="1763980442307" duration="13000" />
+      <workItem from="1763980471715" duration="709000" />
+      <workItem from="1763981190523" duration="10000" />
+      <workItem from="1763981232778" duration="7484000" />
+      <workItem from="1763997467396" duration="20000" />
+      <workItem from="1763997499104" duration="499000" />
+      <workItem from="1763998018785" duration="1296000" />
+      <workItem from="1763999343824" duration="80000" />
+      <workItem from="1763999431122" duration="907000" />
+      <workItem from="1764060450859" duration="3786000" />
+      <workItem from="1764064602249" duration="6000" />
+      <workItem from="1764067004442" duration="6918000" />
+      <workItem from="1764080789458" duration="4515000" />
+      <workItem from="1764146834970" duration="15748000" />
+      <workItem from="1764234602063" duration="1785000" />
+      <workItem from="1764236946561" duration="10000" />
+      <workItem from="1764237027286" duration="23000" />
+      <workItem from="1764237163284" duration="12629000" />
+      <workItem from="1764333623801" duration="102000" />
+      <workItem from="1764333751789" duration="987000" />
+      <workItem from="1764581285093" duration="6523000" />
+      <workItem from="1764596260868" duration="2241000" />
+      <workItem from="1764599356318" duration="194000" />
+      <workItem from="1764602612747" duration="1397000" />
+      <workItem from="1764668290981" duration="2421000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
