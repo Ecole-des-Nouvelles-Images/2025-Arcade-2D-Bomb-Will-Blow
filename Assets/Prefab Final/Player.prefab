@@ -405,6 +405,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDamagedSystem
   player: {fileID: 7838103970437092494}
   Health: 5
+  _playerDamaged: 0
+  _playerHealed: 0
 --- !u!1 &7838103970437092494
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,6 +615,7 @@ MonoBehaviour:
   DashRefillTime: 0
   UseShield: 0
   ShieldEffect: {fileID: 4747603662305410989}
+  Hurtbox: {fileID: 5221676046918968834}
   PlayerAnimator: {fileID: 3174844919600878019}
   _Visual: {fileID: 4510057821674243094}
 --- !u!114 &1285085348665157858
@@ -665,6 +668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79e480168b99d8249b79fac9314d4b80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputManagerFinale
+  _UiScriptManager: {fileID: 0}
 --- !u!114 &4324967185160638138
 MonoBehaviour:
   m_ObjectHideFlags: 0
