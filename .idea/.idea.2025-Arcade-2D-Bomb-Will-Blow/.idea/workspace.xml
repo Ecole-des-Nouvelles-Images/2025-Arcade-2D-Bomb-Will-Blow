@@ -41,7 +41,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.3953202&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;int&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Alexis&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -180,7 +180,9 @@
       <workItem from="1764668290981" duration="2421000" />
       <workItem from="1764758204260" duration="6496000" />
       <workItem from="1764774458787" duration="3400000" />
-      <workItem from="1764837805469" duration="603000" />
+      <workItem from="1764837805469" duration="12598000" />
+      <workItem from="1764862660701" duration="38000" />
+      <workItem from="1764930994678" duration="7488000" />
     </task>
     <servers />
   </component>
