@@ -76,7 +76,7 @@ public class PlayerControllerFinal : MonoBehaviour
             _spriteRenderer.flipX = true;
         }
 
-        if (Rb.velocity.x > 0)
+        if (Rb.linearVelocity.x > 0)
         {
             _spriteRenderer.flipX = false;
         }
