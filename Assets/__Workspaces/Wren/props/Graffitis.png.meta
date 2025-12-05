@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6be05a8e1ec16c34f93c11df19363a88
+guid: 2b3fde1f8a83e6845ab7768bf42b483b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Graffiti Bomb Will Blow_0
+      name: Graffitis_0
       rect:
         serializedVersion: 2
-        x: 110
-        y: 156
-        width: 290
-        height: 201
+        x: 45
+        y: 398
+        width: 101
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +125,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9da6695f011134a4393c69a22ce630ab
-      internalID: 1654373464
+      spriteID: c636a0d37b958c440b7567474ce2d168
+      internalID: -101777353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graffitis_1
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 365
+        width: 245
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4a91dd77903f146bacc4fa67b5d3fc
+      internalID: -1871989154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graffitis_2
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 155
+        width: 144
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5933679fb9e0a6a4c85f7919bfbd10dc
+      internalID: -1372231475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graffitis_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 155
+        width: 290
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6c2fd37fabc0645a7d66131cfd05ef
+      internalID: -1533327647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graffitis_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 245
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890e0bca25a6df140a722cbace206399
+      internalID: -2141301578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graffitis_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 13
+        width: 249
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f49bd21d2b63644585ed8ff4c183c43
+      internalID: 1541444561
       vertices: []
       indices: 
       edges: []
@@ -135,7 +245,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e7083585491c9e64ab97fce9c47cdd6d
+    spriteID: 6e9fecbd0eea6044699a2c41f0e215e7
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +255,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Graffiti Bomb Will Blow_0: 1654373464
+      Graffitis_0: -101777353
+      Graffitis_1: -1871989154
+      Graffitis_2: -1372231475
+      Graffitis_3: -1533327647
+      Graffitis_4: -2141301578
+      Graffitis_5: 1541444561
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
