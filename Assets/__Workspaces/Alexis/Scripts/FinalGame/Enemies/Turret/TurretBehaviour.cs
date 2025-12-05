@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TurretBehaviour : MonoBehaviour
+public class TurretBehaviour : MonoBehaviour, IKillable
 {
     [Header("BulletReferences")]
     [SerializeField] private GameObject bulletPrefabRightSide;
@@ -68,5 +68,10 @@ public class TurretBehaviour : MonoBehaviour
         Instantiate(bulletPrefabLeftSide, bulletSpawnLeftSide.transform.position, bulletSpawnLeftSide.transform.rotation);
         _hasShot = true;
         _shootingTimer = 0;
+    }
+    
+    public void Kill() 
+    {
+        Destroy(gameObject);
     }
 }

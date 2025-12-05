@@ -320,6 +320,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5722082985808866988}
     m_Modifications:
+    - target: {fileID: -7986064672655763649, guid: 14ec987380c3186498f892a65b903463, type: 3}
+      propertyPath: leftSideLimit
+      value: 
+      objectReference: {fileID: 1172585760012123366}
+    - target: {fileID: -7986064672655763649, guid: 14ec987380c3186498f892a65b903463, type: 3}
+      propertyPath: rightSideLimit
+      value: 
+      objectReference: {fileID: 7350669107981091595}
     - target: {fileID: 3735835502500226202, guid: 14ec987380c3186498f892a65b903463, type: 3}
       propertyPath: leftSideLimit
       value: 
