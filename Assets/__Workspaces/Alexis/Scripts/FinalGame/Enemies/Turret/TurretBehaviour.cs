@@ -17,7 +17,22 @@ public class TurretBehaviour : MonoBehaviour
     private bool _hasShot;
     private float _shootingRate = 1.1f;
     private float _shootingTimer;
+    private SpriteRenderer _renderer;
 
+    void Start()
+    {
+        _renderer = GetComponent<SpriteRenderer>();
+        if (SpawnBulletToTheRightSide)
+        {
+            _renderer.flipX = false;
+        }
+
+        if (SpawnBulletToTheLeftSide)
+        {
+            _renderer.flipX = true;
+        }
+    }
+    
     // Update is called once per frame
     void Update()
     {

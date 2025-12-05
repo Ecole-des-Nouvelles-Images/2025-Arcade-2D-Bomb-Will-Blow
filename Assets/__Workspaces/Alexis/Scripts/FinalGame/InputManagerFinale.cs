@@ -5,15 +5,19 @@ using UnityEngine.InputSystem;
 public class InputManagerFinale : MonoBehaviour
 {
     public static event Action<bool> OnInputDeviceChanged;
+    [SerializeField] private GameObject _UiScriptManager;
 
     private PlayerInput _playerInput;
     private PlayerControllerFinal _playerControllerFinal;
+    private InGamePause _inGamePause;
     private bool _isControllerConnected;
+    
 
     private void Awake()
     {
         _playerInput = GetComponent<PlayerInput>();
         _playerControllerFinal = GetComponent<PlayerControllerFinal>();
+        _inGamePause = _UiScriptManager.GetComponent<InGamePause>();
         if (_playerInput == null) throw new NullReferenceException("PlayerInputManager is null");
     }
     
@@ -37,6 +41,9 @@ public class InputManagerFinale : MonoBehaviour
         _playerInput.actions["Jetpack"].started += OnJetpack;
         _playerInput.actions["Jetpack"].canceled += OnJetpack;
         
+        _playerInput.actions["Pause"].started += OnPauseMenuOpened;
+        _playerInput.actions["Pause"].canceled += OnPauseMenuOpened;
+        
         DetectCurrentInputDevice();
     }
 
@@ -59,6 +66,9 @@ public class InputManagerFinale : MonoBehaviour
         
         _playerInput.actions["Jetpack"].started -= OnJetpack;
         _playerInput.actions["Jetpack"].canceled -= OnJetpack;
+        
+        _playerInput.actions["Pause"].started += OnPauseMenuOpened;
+        _playerInput.actions["Pause"].canceled += OnPauseMenuOpened;
     }
     
     private void OnDeviceChange(InputDevice device, InputDeviceChange change)
@@ -106,5 +116,10 @@ public class InputManagerFinale : MonoBehaviour
     private void OnJetpack(InputAction.CallbackContext context)
     {
         _playerControllerFinal.UseJetpack = context.ReadValueAsButton();
+    }
+
+    private void OnPauseMenuOpened(InputAction.CallbackContext context)
+    {
+        _inGamePause.OpenPauseMenu();
     }
 }
