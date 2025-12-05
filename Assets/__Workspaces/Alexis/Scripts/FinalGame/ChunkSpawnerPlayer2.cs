@@ -13,6 +13,7 @@ public class ChunkSpawnerPlayer2 : MonoBehaviour
     
     void Start()
     {
+        _StartingChunk.GetComponent<Transform>().localScale = new Vector3(-1,1,1);
         SpawnStartingChunk();
         for (int i = 0; i < 5; i++)
         {
