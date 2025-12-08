@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 624e613ebac4a3645be0d4387180e9db
+guid: a9186858aa215ee4899c63d55193f8ee
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 512
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,23 +110,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fond_Mur_0
+      name: Sprite_perso_bleu_vie_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 10
-        width: 524
-        height: 549
+        x: 309
+        y: 721
+        width: 507
+        height: 717
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 247, z: 472, w: 257}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 074f77df44cfaea41b77c8faa511c943
-      internalID: -935444725
+      spriteID: 328a69a54ec25ce4ebb8f51d0cd1e879
+      internalID: -1154262683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_perso_bleu_vie_1
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 720
+        width: 547
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1265004dbd103446ae78fc3d77f5c98
+      internalID: 1473516759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_perso_bleu_vie_2
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 721
+        width: 549
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e560a22b6268744aefe260ad10d78d
+      internalID: 126630043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_perso_bleu_vie_3
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 721
+        width: 526
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b4f039b64198a489bce1ec8a0eddbd
+      internalID: 256650963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_perso_bleu_vie_4
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 725
+        width: 521
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2939cecce33494c88f87672b9805b2
+      internalID: -1590576607
       vertices: []
       indices: 
       edges: []
@@ -135,7 +223,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 91dc9deda4c8d494882c48e89f3b6ce2
+    spriteID: 7c18565595d9ec94f9c465d1651650c4
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +233,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fond_Mur_0: -935444725
+      Sprite_perso_bleu_vie_0: -1154262683
+      Sprite_perso_bleu_vie_1: 1473516759
+      Sprite_perso_bleu_vie_2: 126630043
+      Sprite_perso_bleu_vie_3: 256650963
+      Sprite_perso_bleu_vie_4: -1590576607
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 244bff728504a8f49bf938214359101e
+guid: 0431ce2b61a3ddd4ba67cd2f61b13902
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Graffiti Bomb Will Blow_0
+      name: nuages 2_0
       rect:
         serializedVersion: 2
-        x: 110
-        y: 156
-        width: 290
-        height: 201
+        x: 44
+        y: 224
+        width: 1452
+        height: 639
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +125,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9da6695f011134a4393c69a22ce630ab
-      internalID: 1654373464
+      spriteID: 4855ec452f1ba8f428c9700be6d1e79a
+      internalID: -145118222
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e7083585491c9e64ab97fce9c47cdd6d
+    spriteID: ed7a424786de732448fd7bcded22b167
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Graffiti Bomb Will Blow_0: 1654373464
+      nuages 2_0: -145118222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

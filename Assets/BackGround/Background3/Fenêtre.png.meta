@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 624e613ebac4a3645be0d4387180e9db
+guid: 753dac52798f7ea4dae4a3fc80edd5c6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,23 +110,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fond_Mur_0
+      name: 
       rect:
         serializedVersion: 2
-        x: 4
-        y: 10
-        width: 524
-        height: 549
+        x: 0
+        y: 5
+        width: 54
+        height: 554
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 247, z: 472, w: 257}
+      border: {x: 0, y: 268, z: 0, w: 266}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 074f77df44cfaea41b77c8faa511c943
-      internalID: -935444725
+      spriteID: 69f6bcd4921e5ad41b43ef1e4ad83abf
+      internalID: -900857962
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 91dc9deda4c8d494882c48e89f3b6ce2
+    spriteID: a8ddff8941754db4290b049a18db4d8e
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fond_Mur_0: -935444725
+      : -900857962
+      : -900857962
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4f6bd74dd5fb4e44cafe1af93e1bab56
+guid: 375086dcfb5645844bc31b4834e53c72
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nuages 1_0
+      name: Plante_0
       rect:
         serializedVersion: 2
-        x: 121
-        y: 351
-        width: 2019
-        height: 2326
+        x: 69
+        y: 0
+        width: 145
+        height: 367
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +125,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07e41923eb941f94ba70810f6b9aec9a
-      internalID: 277083471
+      spriteID: beaab63d94efc8c4f8f417614752979b
+      internalID: 1253560857
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 692337e99a0767e40a498825d2f441f9
+    spriteID: 2dde1709867154946aacc42011baaea8
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nuages 1_0: 277083471
+      Plante_0: 1253560857
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

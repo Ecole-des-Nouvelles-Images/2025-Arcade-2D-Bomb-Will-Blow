@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 624e613ebac4a3645be0d4387180e9db
+guid: e3398a723cf779343b4d0357c0552a41
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,23 +110,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fond_Mur_0
+      name: "Fen\xEAtre_couple_0"
       rect:
         serializedVersion: 2
-        x: 4
-        y: 10
-        width: 524
-        height: 549
+        x: 0
+        y: 0
+        width: 580
+        height: 739
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 247, z: 472, w: 257}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 074f77df44cfaea41b77c8faa511c943
-      internalID: -935444725
+      spriteID: 731313ec2cbb96641b19d0a856d35ce4
+      internalID: 1513929361
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 91dc9deda4c8d494882c48e89f3b6ce2
+    spriteID: 45cf42c9da2285f429097c492a2176e8
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fond_Mur_0: -935444725
+      "Fen\xEAtre_couple_0": 1513929361
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
