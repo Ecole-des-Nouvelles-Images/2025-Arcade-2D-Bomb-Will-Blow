@@ -6,7 +6,6 @@ public class StateShield : BaseState
     
     public override void OnEnter()
     {
-        Debug.Log("Shield");
         PlayerControllerFinal.UseShield = true;
         DoShield();
     }
@@ -58,5 +57,6 @@ public class StateShield : BaseState
     private void DoShield()
     {
         PlayerControllerFinal.ShieldEffect.SetActive(true);
+        PlayerControllerFinal.Hurtbox.SetActive(false);
     }
 }

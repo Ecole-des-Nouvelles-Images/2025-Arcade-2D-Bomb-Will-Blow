@@ -16,7 +16,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/59bd7c40c082431db25e1e728ab6278946ae00/f2/10674937/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Crawler/CrawlerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Drone/DroneBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/PlayerControllerFinal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayCredits.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/QuitGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/QuitSoundMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/SoundMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/SoundToPause.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -27,20 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.3953202&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Alexis&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "XThreadsFramesViewSplitterKey": "0.3953202",
+    "git-widget-placeholder": "int",
+    "ignore.virus.scanning.warn.message": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../BombWillBlowBuilds/Build_Semaine_Prod_1\Unity Template.exe" />
@@ -172,6 +179,11 @@
       <workItem from="1764599356318" duration="194000" />
       <workItem from="1764602612747" duration="1397000" />
       <workItem from="1764668290981" duration="2421000" />
+      <workItem from="1764758204260" duration="6496000" />
+      <workItem from="1764774458787" duration="3400000" />
+      <workItem from="1764837805469" duration="12598000" />
+      <workItem from="1764862660701" duration="38000" />
+      <workItem from="1764930994678" duration="8786000" />
     </task>
     <servers />
   </component>

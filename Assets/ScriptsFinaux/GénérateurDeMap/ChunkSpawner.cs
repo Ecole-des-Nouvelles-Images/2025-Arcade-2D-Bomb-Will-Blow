@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class ChunkSpawner : MonoBehaviour
 {
-    
     [SerializeField] private List<GameObject> terrainChunks;
     [SerializeField] private GameObject startingChunk;
 

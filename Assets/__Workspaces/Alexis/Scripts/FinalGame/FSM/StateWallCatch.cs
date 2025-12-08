@@ -63,6 +63,12 @@ public class StateWallCatch : BaseState
             return new StateShield(PlayerControllerFinal);
         }
         
+        //Dash state
+        if (PlayerControllerFinal.UseDash)
+        {
+            return new StateDash(PlayerControllerFinal);
+        }
+        
         return null;
     }
 
