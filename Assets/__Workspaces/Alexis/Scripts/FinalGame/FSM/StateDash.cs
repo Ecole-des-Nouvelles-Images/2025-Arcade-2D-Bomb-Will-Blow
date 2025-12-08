@@ -15,8 +15,7 @@ public class StateDash : BaseState
     {
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
         _playerPosition = PlayerControllerFinal.PlayerPosition;
-        _positionToReach = new Vector2(_playerPosition.position.x, _playerPosition.position.y + 30);
-        
+        _positionToReach = new Vector2(_playerPosition.position.x, _playerPosition.position.y + 5);
     }
 
     public override void OnUpdate()
@@ -29,11 +28,14 @@ public class StateDash : BaseState
         if (_timeToChargeDash >= 1.5f)
         {
             LaunchDash();
+            KillEnnemies();
         }
 
         
         if (_playerPosition.position.y >= _positionToReach.y)
         {
+            
+            PlayerControllerFinal.Rb.AddForce(new Vector2(0, -700));
             PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
             PlayerControllerFinal.PlayerPosition.position = _positionToReach;
             _hasDashed = true;
@@ -61,7 +63,6 @@ public class StateDash : BaseState
 
     private void LaunchDash()
     {
-        KillEnnemies();
         PlayerControllerFinal.Hurtbox.SetActive(false);
         PlayerControllerFinal.Rb.AddForce(new Vector2(0,700));
         PlayerControllerFinal.DashRefillTime = 0;
@@ -74,6 +75,7 @@ public class StateDash : BaseState
         
         foreach (var hit in hits) 
         {
+            Debug.Log(hit.collider.gameObject.name + "touché");
             hit.collider.gameObject.GetComponent<IKillable>().Kill();
         }
     }
