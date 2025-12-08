@@ -618,6 +618,7 @@ MonoBehaviour:
   Hurtbox: {fileID: 5221676046918968834}
   PlayerAnimator: {fileID: 3174844919600878019}
   _Visual: {fileID: 4510057821674243094}
+  PlayerPosition: {fileID: 0}
 --- !u!114 &1285085348665157858
 MonoBehaviour:
   m_ObjectHideFlags: 0
