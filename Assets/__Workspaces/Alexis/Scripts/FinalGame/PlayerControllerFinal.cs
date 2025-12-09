@@ -45,6 +45,9 @@ public class PlayerControllerFinal : MonoBehaviour
     public BaseState PreviousState;
     private BaseState _currentState;
     
+    //Bomb
+    public bool CanDeactivateBomb;
+    
     //Animator
 	public Animator PlayerAnimator;
     

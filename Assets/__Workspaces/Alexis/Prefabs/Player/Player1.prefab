@@ -350,6 +350,7 @@ MonoBehaviour:
   UseShield: 0
   ShieldEffect: {fileID: 2098591499368473647}
   Hurtbox: {fileID: 7779676862021751079}
+  CanDeactivateBomb: 0
   PlayerAnimator: {fileID: 1393612825892715235}
   _Visual: {fileID: 8331446572972086905}
   PlayerPosition: {fileID: 0}
@@ -403,7 +404,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79e480168b99d8249b79fac9314d4b80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputManagerFinale
-  _UiScriptManager: {fileID: 0}
+  _UiScriptManager: {fileID: 4067480659930288887, guid: d074945ceaad5de4cb8f4c34c175e969, type: 3}
+  _Bomb: {fileID: 5352060591868881465, guid: 474cd7b70387b4b4cb89a1a5b8135ea2, type: 3}
 --- !u!114 &6738911812003850326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,9 +495,9 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be
     m_ActionName: UI/TrackedDeviceOrientation
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: 
+  m_NeverAutoSwitchControlSchemes: 1
+  m_DefaultControlScheme: Gamepad
+  m_DefaultActionMap: df70fa95-8a34-4494-b137-73ab6b9c7d37
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &2196031241831584623
@@ -505,12 +507,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4952904180718490108}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 621567455fd1c4ceb811cc8a00b6a1a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInputManager
-  m_NotificationBehavior: 0
+  m_NotificationBehavior: 3
   m_MaxPlayerCount: 2
   m_AllowJoining: 1
   m_JoinBehavior: 0
@@ -523,13 +525,21 @@ MonoBehaviour:
   m_JoinAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Join
       m_Type: 0
       m_ExpectedControlType: 
       m_Id: 4cfc6026-b76d-4b37-b408-9090b5f5651c
       m_Processors: 
       m_Interactions: 
-      m_SingletonActionBindings: []
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: fa922221-d246-44d8-aa63-913a47709afd
+        m_Path: <Gamepad>/select
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Join
+        m_Flags: 0
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_PlayerPrefab: {fileID: 3172781799512426474, guid: bb979100d2580dc439cb301211c36401, type: 3}

@@ -53,12 +53,12 @@ public class DroneBehavior : MonoBehaviour, IKillable
     
     void GoToRightSideLimit()
     {
-        _rb.AddForce(new Vector2(100,0));
+        _rb.AddForce(new Vector2(7500 * Time.deltaTime,0));
     }
 
     void GoToLeftSideLimit()
     {
-        _rb.AddForce(new Vector2(-100,0));
+        _rb.AddForce(new Vector2(-7500 * Time.deltaTime,0));
     }
     
     public void Kill() 

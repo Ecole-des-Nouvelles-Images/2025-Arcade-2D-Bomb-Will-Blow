@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4192983498257878415}
   - component: {fileID: 4472963202158722580}
   - component: {fileID: 6907335283664168601}
+  - component: {fileID: 5700076771102261644}
   m_Layer: 0
   m_Name: UISrciptManager
   m_TagString: Untagged
@@ -122,3 +123,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SoundToPause
   _SoundMenu: {fileID: 0}
   _PauseMenu: {fileID: 0}
+--- !u!114 &5700076771102261644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4067480659930288887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97bb8e13bc1696542be92f35b7dc8aa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayAgain
