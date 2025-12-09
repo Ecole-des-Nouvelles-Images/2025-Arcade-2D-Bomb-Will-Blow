@@ -62,16 +62,16 @@ public class CrawlerBehaviour : MonoBehaviour , IKillable
     
         void GoToUpperLimit()
         {
-            _rb.AddForce(new Vector2(0,100));
+            _rb.AddForce(new Vector2(0,100 * Time.deltaTime));
         }
 
         void GoToLowerLimit()
         {
-            _rb.AddForce(new Vector2(0,-100));
+            _rb.AddForce(new Vector2(0,-100  * Time.deltaTime));
         }
 
         public void Kill() 
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }

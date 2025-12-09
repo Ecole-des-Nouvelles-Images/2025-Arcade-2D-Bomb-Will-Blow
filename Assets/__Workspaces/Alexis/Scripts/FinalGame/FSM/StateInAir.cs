@@ -12,10 +12,6 @@ public class StateInAir : BaseState
     {
         PlayerControllerFinal.PlayerAnimator.SetBool("InAir", true);
         Debug.Log("InAir");
-        
-        /*{
-            PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
-        }*/
     }
 
     public override void OnUpdate()
@@ -41,7 +37,6 @@ public class StateInAir : BaseState
     public override void OnExit()
     {
         _timeBeforeCatch = 0;
-        PlayerControllerFinal.PlayerAnimator.SetBool("InAir", false);
     }
 
     public override BaseState NextState()
