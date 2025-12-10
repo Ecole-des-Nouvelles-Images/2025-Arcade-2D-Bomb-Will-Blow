@@ -52,6 +52,10 @@ public class PlayerControllerFinal : MonoBehaviour
     [SerializeField] private GameObject _Visual;
     private SpriteRenderer _spriteRenderer;
     
+    //Bomb
+    public bool CanDeactivateBomb;
+    public bool BombDeactivated;
+    
     //Transform
     public Transform PlayerPosition;
 
@@ -107,5 +111,7 @@ public class PlayerControllerFinal : MonoBehaviour
             _currentState = nextBaseState; 
             _currentState.OnEnter();
         }
+        
+        
     }
 }
