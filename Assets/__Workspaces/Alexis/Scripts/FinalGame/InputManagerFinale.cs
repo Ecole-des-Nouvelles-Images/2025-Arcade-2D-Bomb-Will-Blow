@@ -6,12 +6,10 @@ public class InputManagerFinale : MonoBehaviour
 {
     public static event Action<bool> OnInputDeviceChanged;
     [SerializeField] private GameObject _UiScriptManager;
-    [SerializeField] private GameObject _Bomb;
 
     private PlayerInput _playerInput;
     private PlayerControllerFinal _playerControllerFinal;
     private InGamePause _inGamePause;
-    private DeactivateBomb _deactivateBomb;
     private bool _isControllerConnected;
     
 
@@ -20,7 +18,6 @@ public class InputManagerFinale : MonoBehaviour
         _playerInput = GetComponent<PlayerInput>();
         _playerControllerFinal = GetComponent<PlayerControllerFinal>();
         _inGamePause = _UiScriptManager.GetComponent<InGamePause>();
-        _deactivateBomb = _Bomb.GetComponent<DeactivateBomb>();
         if (_playerInput == null) throw new NullReferenceException("PlayerInputManager is null");
     }
     
@@ -118,15 +115,7 @@ public class InputManagerFinale : MonoBehaviour
 
     private void OnJetpack(InputAction.CallbackContext context)
     {
-        if (!_playerControllerFinal.CanDeactivateBomb)
-        {
-            _playerControllerFinal.UseJetpack = context.ReadValueAsButton();
-        }
-
-        if (_playerControllerFinal.CanDeactivateBomb)
-        {
-            _deactivateBomb.EndGame();
-        }
+        _playerControllerFinal.UseJetpack = context.ReadValueAsButton();
     }
 
     private void OnPauseMenuOpened(InputAction.CallbackContext context)

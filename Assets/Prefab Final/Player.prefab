@@ -557,7 +557,6 @@ MonoBehaviour:
   UseShield: 0
   ShieldEffect: {fileID: 4747603662305410989}
   Hurtbox: {fileID: 5221676046918968834}
-  CanDeactivateBomb: 0
   PlayerAnimator: {fileID: 3174844919600878019}
   _Visual: {fileID: 4510057821674243094}
   PlayerPosition: {fileID: 0}
@@ -639,7 +638,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: Gamepad
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!1 &8461771519655630182
