@@ -6,6 +6,7 @@ public class StateWalk : BaseState
     
     public override void OnEnter()
     {
+        Debug.Log("Walk");
         PlayerControllerFinal.PlayerAnimator.SetTrigger("StartWalk");
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
         PlayerControllerFinal.PlayerAnimator.SetBool("Walking", true);
@@ -13,7 +14,16 @@ public class StateWalk : BaseState
 
     public override void OnUpdate()
     {
-        PlayerControllerFinal.Rb.AddForce(new Vector2(PlayerControllerFinal.Move.x * Time.deltaTime * 500, 0));
+        PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
+        PlayerControllerFinal.Rb.AddForce(new Vector2(PlayerControllerFinal.Move.x * Time.deltaTime * 10000, 0));
+        if (PlayerControllerFinal.Move.x >= 0.2f)
+        {
+            PlayerControllerFinal.Rb.AddForce(new Vector2(Time.deltaTime * 5000, 0));
+        }
+        if (PlayerControllerFinal.Move.x <= -0.2f)
+        {
+            PlayerControllerFinal.Rb.AddForce(new Vector2(Time.deltaTime * -5000, 0));
+        }
     }
 
     public override void OnExit()
@@ -46,6 +56,13 @@ public class StateWalk : BaseState
         if (PlayerControllerFinal.UseShield)
         {
             return new StateShield(PlayerControllerFinal);
+        }
+        
+        //InAir state
+        if (!PlayerControllerFinal.IsGrounded && !PlayerControllerFinal.IsOnLeftWall &&
+            !PlayerControllerFinal.IsOnRightWall)
+        {
+            return new StateInAir(PlayerControllerFinal);
         }
         
         return null;

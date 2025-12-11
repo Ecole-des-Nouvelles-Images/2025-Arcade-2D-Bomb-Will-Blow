@@ -11,6 +11,7 @@ public class StateWallCatch : BaseState
 
     public override void OnEnter()
     {
+        Debug.Log("Entering StateWallCatch");
         PlayerControllerFinal.PlayerAnimator.SetBool("InAir", false);
         PlayerControllerFinal.PlayerAnimator.SetTrigger("EndJump");
         PlayerControllerFinal.Rb.gravityScale = 0;

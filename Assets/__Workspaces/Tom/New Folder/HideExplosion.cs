@@ -11,5 +11,10 @@ public class ExplosionFX : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    public void DisableChild(GameObject child)
+    {
+        child.SetActive(false);
+    }
 }
 
