@@ -383,7 +383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a261601a5ddcde740b9363d064693b99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CamFollowsPlayer2
-  player: {fileID: 3172781799512426474, guid: bb979100d2580dc439cb301211c36401, type: 3}
 --- !u!1 &1064306950
 GameObject:
   m_ObjectHideFlags: 0
