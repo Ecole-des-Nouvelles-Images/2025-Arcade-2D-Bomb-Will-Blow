@@ -130,6 +130,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!1 &321551288 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1239566711037840600, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
+  m_PrefabInstance: {fileID: 7741235656812506693}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &340873414
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,6 +253,7 @@ GameObject:
   - component: {fileID: 695581543}
   - component: {fileID: 695581542}
   - component: {fileID: 695581540}
+  - component: {fileID: 695581544}
   m_Layer: 0
   m_Name: CameraPlayer2
   m_TagString: MainCamera
@@ -365,6 +371,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &695581544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695581539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a261601a5ddcde740b9363d064693b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CamFollowsPlayer2
+  player: {fileID: 3172781799512426474, guid: bb979100d2580dc439cb301211c36401, type: 3}
 --- !u!1 &1064306950
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,7 +879,8 @@ PrefabInstance:
       value: FinalChunkP1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5971817781805678325, guid: 7a7c82c0929580542b884daface888b3, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a7c82c0929580542b884daface888b3, type: 3}
@@ -84321,6 +84341,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5134114246045572972, guid: dda65927add020540bb2be836c1b6828, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6181667346753250964, guid: dda65927add020540bb2be836c1b6828, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -84382,6 +84406,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 850533862306729526, guid: d074945ceaad5de4cb8f4c34c175e969, type: 3}
+      propertyPath: _victoryUI
+      value: 
+      objectReference: {fileID: 321551288}
     - target: {fileID: 3710592392115449260, guid: d074945ceaad5de4cb8f4c34c175e969, type: 3}
       propertyPath: '_HeartContainers.Array.data[0]'
       value: 
