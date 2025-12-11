@@ -72,6 +72,7 @@ public class TurretBehaviour : MonoBehaviour, IKillable
     
     public void Kill() 
     {
-        Destroy(gameObject);
+        Debug.Log("Kill turret");
+        gameObject.SetActive(false);
     }
 }
