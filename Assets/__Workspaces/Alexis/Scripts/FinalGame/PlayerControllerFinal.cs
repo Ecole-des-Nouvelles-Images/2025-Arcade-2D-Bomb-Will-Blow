@@ -36,16 +36,19 @@ public class PlayerControllerFinal : MonoBehaviour
     //Dash
     public bool UseDash;
     public bool CanDash = true;
-    public int DashCd;
+    public int DashCd = 500;
     public float DashRefillTime;
     
     [Space(4), Header("ShieldParameters")]
     //Shield
     public bool UseShield;
+    public bool CanUseShield = true;
     public GameObject ShieldEffect;
     public GameObject Hurtbox;
     private float _timeWithShieldActive = 0.5f;
     private float _TimeSinceShieldActive;
+    private float _timeToReuseShield;
+    private int ShieldCd = 500;
     
     
     //FSM
@@ -110,6 +113,26 @@ public class PlayerControllerFinal : MonoBehaviour
                 ShieldEffect.SetActive(false);
                 Hurtbox.SetActive(true);
                 _TimeSinceShieldActive = 0;
+            }
+        }
+        
+        //Shield cooldown
+        if (!CanUseShield)
+        {
+            _timeToReuseShield += Time.deltaTime;
+            if (_timeToReuseShield >= ShieldCd)
+            {
+                CanUseShield = true;
+            }
+        }
+        
+        //Dash cooldown
+        if (!CanDash)
+        {
+            DashRefillTime += Time.deltaTime;
+            if (DashRefillTime >= DashCd)
+            {
+                CanDash = true;
             }
         }
         

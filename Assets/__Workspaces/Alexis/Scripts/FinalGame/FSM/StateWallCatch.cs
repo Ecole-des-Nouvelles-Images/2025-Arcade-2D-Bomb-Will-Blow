@@ -60,13 +60,13 @@ public class StateWallCatch : BaseState
         }
         
         //Shield state
-        if (PlayerControllerFinal.UseShield)
+        if (PlayerControllerFinal.UseShield && PlayerControllerFinal.CanUseShield)
         {
             return new StateShield(PlayerControllerFinal);
         }
         
         //Dash state
-        if (PlayerControllerFinal.UseDash)
+        if (PlayerControllerFinal.UseDash && PlayerControllerFinal.CanDash)
         {
             return new StateDash(PlayerControllerFinal);
         }
