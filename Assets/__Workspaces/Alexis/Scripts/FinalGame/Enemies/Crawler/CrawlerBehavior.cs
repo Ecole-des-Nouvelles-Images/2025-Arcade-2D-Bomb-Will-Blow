@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CrawlerBehaviour : MonoBehaviour
+public class CrawlerBehaviour : MonoBehaviour , IKillable
     {
         [Header("Movement Limits")]
         [SerializeField] private GameObject _upperLimit;
@@ -62,11 +62,16 @@ public class CrawlerBehaviour : MonoBehaviour
     
         void GoToUpperLimit()
         {
-            _rb.AddForce(new Vector2(0,100));
+            _rb.AddForce(new Vector2(0,100 * Time.deltaTime));
         }
 
         void GoToLowerLimit()
         {
-            _rb.AddForce(new Vector2(0,-100));
+            _rb.AddForce(new Vector2(0,-100  * Time.deltaTime));
+        }
+
+        public void Kill() 
+        {
+            gameObject.SetActive(false);
         }
     }

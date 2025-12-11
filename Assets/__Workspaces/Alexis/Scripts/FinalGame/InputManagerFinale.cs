@@ -44,6 +44,9 @@ public class InputManagerFinale : MonoBehaviour
         _playerInput.actions["Pause"].started += OnPauseMenuOpened;
         _playerInput.actions["Pause"].canceled += OnPauseMenuOpened;
         
+        _playerInput.actions["DeactivateBomb"].performed += OnDeactivateBomb;
+        _playerInput.actions["DeactivateBomb"].canceled += OnDeactivateBomb;
+        
         DetectCurrentInputDevice();
     }
 
@@ -67,8 +70,11 @@ public class InputManagerFinale : MonoBehaviour
         _playerInput.actions["Jetpack"].started -= OnJetpack;
         _playerInput.actions["Jetpack"].canceled -= OnJetpack;
         
-        _playerInput.actions["Pause"].started += OnPauseMenuOpened;
-        _playerInput.actions["Pause"].canceled += OnPauseMenuOpened;
+        _playerInput.actions["Pause"].started -= OnPauseMenuOpened;
+        _playerInput.actions["Pause"].canceled -= OnPauseMenuOpened;
+        
+        _playerInput.actions["DeactivateBomb"].performed -= OnDeactivateBomb;
+        _playerInput.actions["DeactivateBomb"].canceled -= OnDeactivateBomb;
     }
     
     private void OnDeviceChange(InputDevice device, InputDeviceChange change)
@@ -121,5 +127,10 @@ public class InputManagerFinale : MonoBehaviour
     private void OnPauseMenuOpened(InputAction.CallbackContext context)
     {
         _inGamePause.OpenPauseMenu();
+    }
+
+    private void OnDeactivateBomb(InputAction.CallbackContext context)
+    {
+        _playerControllerFinal.BombDeactivated =  true;
     }
 }

@@ -18,8 +18,7 @@ public class LeftWallCheck : MonoBehaviour
 
     void LeftWallCheckRaycast()
     {
-        RaycastHit2D hit  = Physics2D.Raycast(LefWallRaycastStart.transform.position, new Vector2(-1,0), 0.1f, LayerMask.GetMask("Wall"));
-        Debug.DrawLine(LefWallRaycastStart.transform.position, new Vector3(LefWallRaycastStart.transform.position.x - 0.5f, LefWallRaycastStart.transform.position.y, LefWallRaycastStart.transform.position.z), Color.red);
+        RaycastHit2D hit  = Physics2D.Raycast(LefWallRaycastStart.transform.position, new Vector2(-1,0), 0.1f, LayerMask.GetMask("Wall")); 
         if (hit.collider != null)
         {
             player.IsOnLeftWall = true;

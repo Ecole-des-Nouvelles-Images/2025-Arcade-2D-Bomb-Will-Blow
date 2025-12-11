@@ -11,6 +11,7 @@ public class StateWallCatch : BaseState
 
     public override void OnEnter()
     {
+        PlayerControllerFinal.PlayerAnimator.SetBool("InAir", false);
         PlayerControllerFinal.PlayerAnimator.SetTrigger("EndJump");
         PlayerControllerFinal.Rb.gravityScale = 0;
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
@@ -61,6 +62,12 @@ public class StateWallCatch : BaseState
         if (PlayerControllerFinal.UseShield)
         {
             return new StateShield(PlayerControllerFinal);
+        }
+        
+        //Dash state
+        if (PlayerControllerFinal.UseDash)
+        {
+            return new StateDash(PlayerControllerFinal);
         }
         
         return null;

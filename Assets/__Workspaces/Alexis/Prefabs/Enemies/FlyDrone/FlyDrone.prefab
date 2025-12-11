@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 9059451425121527353}
   - component: {fileID: 3881909400711154743}
-  - component: {fileID: 3735835502500226202}
   - component: {fileID: 9099244878736014097}
   - component: {fileID: 4061718727564902542}
   - component: {fileID: 1198741060495456370}
+  - component: {fileID: -7986064672655763649}
   m_Layer: 0
   m_Name: FlyDrone
   m_TagString: Untagged
@@ -94,20 +94,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3735835502500226202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3931284701107870744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7536bbb1b039024b9a232eae3779aaa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlyDroneBehaviour
-  rightSideLimit: {fileID: 0}
-  leftSideLimit: {fileID: 0}
 --- !u!61 &9099244878736014097
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -193,3 +179,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11781fd2545ece34cbeaec56394a72d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollisionDamage
+--- !u!114 &-7986064672655763649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3931284701107870744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65691e96df90f104698b05a46d5f4423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DroneBehavior
+  rightSideLimit: {fileID: 0}
+  leftSideLimit: {fileID: 0}
