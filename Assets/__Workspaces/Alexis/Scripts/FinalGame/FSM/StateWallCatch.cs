@@ -47,8 +47,8 @@ public class StateWallCatch : BaseState
 
     public override BaseState NextState()
     {
-        //InAir state
-        if (PlayerControllerFinal.Jump)
+        //Jump state
+        if (PlayerControllerFinal.Jump && PlayerControllerFinal.Move.x != 0)
         {
             return new StateJump(PlayerControllerFinal);
         }

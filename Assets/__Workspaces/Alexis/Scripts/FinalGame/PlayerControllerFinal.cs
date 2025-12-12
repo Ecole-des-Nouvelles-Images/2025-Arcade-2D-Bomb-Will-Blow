@@ -148,7 +148,7 @@ public class PlayerControllerFinal : MonoBehaviour
         JumpY = Move.y;
         if (JumpY > Mathf.Abs(Move.x))
         {
-            JumpY = Mathf.Abs(Move.x);
+            JumpY = 0.7f;
         }
 
         if (JumpY < 0)
