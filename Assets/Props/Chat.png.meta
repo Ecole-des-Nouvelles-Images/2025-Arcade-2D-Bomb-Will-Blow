@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e447e3bf7f8917d41b3be2a45cc9cd6a
+guid: 3864c0e0bec1489429e6b35a0ab4de68
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Credit_0
+      name: Chat_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1340
-        height: 399
+        x: 226
+        y: 213
+        width: 60
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +125,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fff74e5154d0fe04db84f6e87b713ac7
-      internalID: 1163487504
+      spriteID: 6003f9c9f42181c4793b23593b3fbda3
+      internalID: -1565000479
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9bc32f89a7ca99040b98b44972dff3b3
+    spriteID: 1a84119462749324ead3a899f4918637
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Credit_0: 1163487504
+      Chat_0: -1565000479
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

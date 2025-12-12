@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 843a73838ccad4347b0c68c852ef7e38
+guid: 1c34d1450f3a4ae428f0974984e4de3b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Parametre_0
+      name: Lampadaires_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1340
-        height: 399
+        x: 5
+        y: 4
+        width: 147
+        height: 693
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +125,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 734a1082d8366fd4fa32799391bd1cdc
-      internalID: -973370188
+      spriteID: 6bd0df18a2529094da8c13b11f81dc46
+      internalID: 1775919076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampadaires_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 4
+        width: 94
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d03a96c1dc9e64997848c8e7db4732
+      internalID: 1085973026
       vertices: []
       indices: 
       edges: []
@@ -135,7 +157,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 90e5b3cb67d9a3246b604426843dd75b
+    spriteID: 0f2a3643b8427474eb84978d4281b45c
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +167,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Parametre_0: -973370188
+      Lampadaires_0: 1775919076
+      Lampadaires_1: 1085973026
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
