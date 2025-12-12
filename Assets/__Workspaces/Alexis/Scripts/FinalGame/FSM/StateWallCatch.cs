@@ -11,6 +11,7 @@ public class StateWallCatch : BaseState
 
     public override void OnEnter()
     {
+        Debug.Log("Entering StateWallCatch");
         PlayerControllerFinal.PlayerAnimator.SetBool("InAir", false);
         PlayerControllerFinal.PlayerAnimator.SetTrigger("EndJump");
         PlayerControllerFinal.Rb.gravityScale = 0;
@@ -46,8 +47,8 @@ public class StateWallCatch : BaseState
 
     public override BaseState NextState()
     {
-        //InAir state
-        if (PlayerControllerFinal.Jump)
+        //Jump state
+        if (PlayerControllerFinal.Jump && PlayerControllerFinal.Move.x != 0)
         {
             return new StateJump(PlayerControllerFinal);
         }
@@ -59,13 +60,13 @@ public class StateWallCatch : BaseState
         }
         
         //Shield state
-        if (PlayerControllerFinal.UseShield)
+        if (PlayerControllerFinal.UseShield && PlayerControllerFinal.CanUseShield)
         {
             return new StateShield(PlayerControllerFinal);
         }
         
         //Dash state
-        if (PlayerControllerFinal.UseDash)
+        if (PlayerControllerFinal.UseDash && PlayerControllerFinal.CanDash)
         {
             return new StateDash(PlayerControllerFinal);
         }

@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="" />
+    <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Animations/MuzzleShotV3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Animations/MuzzleShotV3.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Animations/SpriteSheetMUZZLESHOT_1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Animations/SpriteSheetMUZZLESHOT_1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/NewMonoBehaviourScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/NewMonoBehaviourScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scene/VFX_Tom_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scene/VFX_Tom_Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/VFX Finaux/Electricity 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/VFX Finaux/Electricity 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/VFX Finaux/Electricity 1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/VFX Finaux/Electricity 1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/VFX/Landing_Right.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/VFX/Landing_Right.prefab.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,8 +57,12 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.3953202&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;new-Alexis&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Alexis&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -187,6 +205,11 @@
       <workItem from="1764930994678" duration="8786000" />
       <workItem from="1765187047743" duration="5842000" />
       <workItem from="1765373152646" duration="3014000" />
+      <workItem from="1765444185891" duration="3889000" />
+      <workItem from="1765459237349" duration="8377000" />
+      <workItem from="1765527625874" duration="6398000" />
+      <workItem from="1765535117436" duration="2131000" />
+      <workItem from="1765542606464" duration="5796000" />
     </task>
     <servers />
   </component>

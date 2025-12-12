@@ -58,5 +58,6 @@ public class StateShield : BaseState
     {
         PlayerControllerFinal.ShieldEffect.SetActive(true);
         PlayerControllerFinal.Hurtbox.SetActive(false);
+        PlayerControllerFinal.CanUseShield = false;
     }
 }
