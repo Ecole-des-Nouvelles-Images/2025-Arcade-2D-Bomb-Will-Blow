@@ -628,21 +628,65 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1776377550019168629, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 1922073631234360676, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: m_SortingOrder
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931716853760595021, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2116247114897776508, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: m_Name
       value: SpiderDeathLeft
       objectReference: {fileID: 0}
+    - target: {fileID: 2959962959388916437, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3340023067886707678, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 3515049316762159041, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: m_SortingOrder
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 3569892393092144800, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3700355400760395060, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3818022658270632832, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4195316635517418909, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228311205867144958, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5948305126111714262, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: m_SortingOrder
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6960350565742897318, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041708083465881080, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
