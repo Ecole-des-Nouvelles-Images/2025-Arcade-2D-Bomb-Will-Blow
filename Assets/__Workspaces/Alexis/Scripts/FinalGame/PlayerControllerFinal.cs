@@ -14,6 +14,8 @@ public class PlayerControllerFinal : MonoBehaviour
     [Space(4), Header("Jump")]
     //Jump
     public bool Jump;
+    public float JumpXDynamic;
+    public float JumpY;
     
     [Space(4), Header("Walls")]
     //Wall
@@ -141,6 +143,21 @@ public class PlayerControllerFinal : MonoBehaviour
         {
             JetpackFuel += Time.deltaTime / 2;
         }
+        
+        //Jump value y to get max jump angle at 45°
+        JumpY = Move.y;
+        if (JumpY > Mathf.Abs(Move.x))
+        {
+            JumpY = Mathf.Abs(Move.x);
+        }
+
+        if (JumpY < 0)
+        {
+            JumpY = 0;
+        }
+        
+        //Getting Move.X to be a constant for an always dynamic jump
+        JumpXDynamic = 1 / Move.x;
         
         //FSM gestion
         _currentState.OnUpdate();

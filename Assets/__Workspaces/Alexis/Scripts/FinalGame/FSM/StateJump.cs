@@ -23,7 +23,19 @@ public class StateJump : BaseState
 
     public override void OnUpdate()
     {
-        
+        /*if (PlayerControllerFinal.Move.y < 0)
+        {
+            _adjustJumpValueY = 0;
+        }
+        else if (PlayerControllerFinal.Move.y > 0.7f)
+        {
+            _adjustJumpValueY = 0.7f;
+        }
+        else
+        {
+            _adjustJumpValueY = PlayerControllerFinal.Move.y;
+        }
+        Debug.Log("Valeur ajustée de saut en y = " + _adjustJumpValueY);*/
     }
 
     public override void OnExit()
@@ -44,13 +56,16 @@ public class StateJump : BaseState
 
     private void DoJumpToLeftWall()
     {
-        PlayerControllerFinal.Rb.AddForce(new Vector2(- 1000, 1000));
+        //PlayerControllerFinal.Rb.AddForce(new Vector2(- 1000, 1000));
+        PlayerControllerFinal.Rb.AddForce(new Vector2(- 1000 * Mathf.Abs(PlayerControllerFinal.Move.x) * Mathf.Abs(PlayerControllerFinal.JumpXDynamic), 1428 * PlayerControllerFinal.JumpY));
         PlayerControllerFinal.CanJumpToLeftWall = false;
     }
 
     private void DoJumpToRightWall()
     {
-        PlayerControllerFinal.Rb.AddForce(new Vector2(1000, 1000));
+        
+        //PlayerControllerFinal.Rb.AddForce(new Vector2(1000, 1000));
+        PlayerControllerFinal.Rb.AddForce(new Vector2(1000 * Mathf.Abs(PlayerControllerFinal.Move.x) * Mathf.Abs(PlayerControllerFinal.JumpXDynamic), 1428 * PlayerControllerFinal.JumpY));
         PlayerControllerFinal.CanJumpToRightWall = false;
     }
 }
