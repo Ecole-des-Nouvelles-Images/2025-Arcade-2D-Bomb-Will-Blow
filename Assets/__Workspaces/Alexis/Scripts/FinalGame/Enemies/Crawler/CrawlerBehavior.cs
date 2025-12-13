@@ -60,12 +60,12 @@ public class CrawlerBehaviour : MonoBehaviour , IKillable
     
         void GoToUpperLimit()
         {
-            _rb.AddForce(new Vector2(0,100 * Time.deltaTime));
+            _rb.AddForce(new Vector2(0,10000 * Time.deltaTime));
         }
 
         void GoToLowerLimit()
         {
-            _rb.AddForce(new Vector2(0,-100  * Time.deltaTime));
+            _rb.AddForce(new Vector2(0,-10000  * Time.deltaTime));
         }
 
         public void Kill() 

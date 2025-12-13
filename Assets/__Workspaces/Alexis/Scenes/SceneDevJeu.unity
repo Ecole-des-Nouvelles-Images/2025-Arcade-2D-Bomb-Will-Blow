@@ -84611,6 +84611,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999835e4684b9fe4ea55e89e1051a62c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
+--- !u!114 &7271085862360248706 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3163209002801644169, guid: d074945ceaad5de4cb8f4c34c175e969, type: 3}
+  m_PrefabInstance: {fileID: 7271085862360248704}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527865530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00477a94963cb1c4f896f299947062eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuitGame
 --- !u!1001 &7741235656812506693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84619,6 +84630,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 172455219606889155, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 172455219606889155, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 172455219606889155, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7271085862360248706}
+    - target: {fileID: 172455219606889155, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 172455219606889155, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
+      objectReference: {fileID: 0}
+    - target: {fileID: 172455219606889155, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: QuitGame, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 172455219606889155, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1126934626961319677, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
