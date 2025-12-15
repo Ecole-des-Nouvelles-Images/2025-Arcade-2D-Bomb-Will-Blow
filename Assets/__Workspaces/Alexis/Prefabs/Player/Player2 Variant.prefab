@@ -275,6 +275,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player2
       objectReference: {fileID: 0}
+    - target: {fileID: 8102973576218051080, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: m_GravityScale
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4747603662305410989, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}

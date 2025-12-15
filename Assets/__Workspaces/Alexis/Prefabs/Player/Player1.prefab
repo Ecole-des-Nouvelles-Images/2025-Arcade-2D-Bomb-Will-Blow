@@ -216,7 +216,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -245,6 +245,8 @@ MonoBehaviour:
   Walk: 0
   CanWalk: 0
   Jump: 0
+  JumpXDynamic: 0
+  JumpY: 0
   IsOnLeftWall: 0
   CanJumpToRightWall: 0
   IsOnRightWall: 0
@@ -258,6 +260,7 @@ MonoBehaviour:
   DashCd: 0
   DashRefillTime: 0
   UseShield: 0
+  CanUseShield: 1
   ShieldEffect: {fileID: 3605273399553287492}
   Hurtbox: {fileID: 7779676862021751079}
   PlayerAnimator: {fileID: 1393612825892715235}
