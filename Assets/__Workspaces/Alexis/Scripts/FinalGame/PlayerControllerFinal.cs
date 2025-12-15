@@ -156,7 +156,7 @@ public class PlayerControllerFinal : MonoBehaviour
             JumpY = 0;
         }
         
-        //Getting Move.X to be a constant for an always dynamic jump
+        //Getting Move.X to be a constant for a  jump that is always dynamic
         JumpXDynamic = 1 / Move.x;
         
         //FSM gestion
