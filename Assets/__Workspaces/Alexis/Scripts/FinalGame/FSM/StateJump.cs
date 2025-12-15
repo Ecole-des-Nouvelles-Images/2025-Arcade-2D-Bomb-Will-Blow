@@ -57,7 +57,12 @@ public class StateJump : BaseState
     private void DoJumpToLeftWall()
     {
         //PlayerControllerFinal.Rb.AddForce(new Vector2(- 1000, 1000));
-        PlayerControllerFinal.Rb.AddForce(new Vector2(- 1000 * Mathf.Abs(PlayerControllerFinal.Move.x) * Mathf.Abs(PlayerControllerFinal.JumpXDynamic), 1428 * PlayerControllerFinal.JumpY));
+        if (PlayerControllerFinal.IsGrounded)
+        {
+            PlayerControllerFinal.Rb.AddForce(new Vector2(- 1000 * Mathf.Abs(PlayerControllerFinal.Move.x) * Mathf.Abs(PlayerControllerFinal.JumpXDynamic), 1000));
+        }
+        
+        PlayerControllerFinal.Rb.AddForce(new Vector2(- 1000 * Mathf.Abs(PlayerControllerFinal.Move.x) * Mathf.Abs(PlayerControllerFinal.JumpXDynamic), 1000 * PlayerControllerFinal.JumpY));
         PlayerControllerFinal.CanJumpToLeftWall = false;
     }
 
@@ -65,7 +70,12 @@ public class StateJump : BaseState
     {
         
         //PlayerControllerFinal.Rb.AddForce(new Vector2(1000, 1000));
-        PlayerControllerFinal.Rb.AddForce(new Vector2(1000 * Mathf.Abs(PlayerControllerFinal.Move.x) * Mathf.Abs(PlayerControllerFinal.JumpXDynamic), 1428 * PlayerControllerFinal.JumpY));
+        if (PlayerControllerFinal.IsGrounded)
+        {
+            PlayerControllerFinal.Rb.AddForce(new Vector2(1000 * Mathf.Abs(PlayerControllerFinal.Move.x) * Mathf.Abs(PlayerControllerFinal.JumpXDynamic), 1000));
+        }
+        
+        PlayerControllerFinal.Rb.AddForce(new Vector2(1000 * Mathf.Abs(PlayerControllerFinal.Move.x) * Mathf.Abs(PlayerControllerFinal.JumpXDynamic), 1000 * PlayerControllerFinal.JumpY));
         PlayerControllerFinal.CanJumpToRightWall = false;
     }
 }
