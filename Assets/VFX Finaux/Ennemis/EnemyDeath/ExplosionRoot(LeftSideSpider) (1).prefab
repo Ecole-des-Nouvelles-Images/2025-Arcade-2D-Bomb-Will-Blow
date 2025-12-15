@@ -720,11 +720,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 533495561947228990, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 789603914933323780, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1490466408394916039, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: m_LocalPosition.x
@@ -772,7 +772,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1922073631234360676, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1931716853760595021, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: startDelay.scalar
@@ -792,7 +792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3515049316762159041, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3569892393092144800, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: startDelay.scalar
@@ -816,7 +816,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5948305126111714262, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6960350565742897318, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: startDelay.scalar
