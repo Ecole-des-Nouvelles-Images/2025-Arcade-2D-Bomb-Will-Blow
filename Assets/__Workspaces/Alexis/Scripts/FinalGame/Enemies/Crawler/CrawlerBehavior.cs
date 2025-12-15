@@ -9,6 +9,9 @@ public class CrawlerBehaviour : MonoBehaviour , IKillable
         [Space(4), Header("Direction")] 
         [SerializeField] private bool OnLeftWall;
         
+        [Space(4), Header("Death Effect Prefab")]
+        [SerializeField] private GameObject _deathEffect;
+        
         private Rigidbody2D _rb;
         private Transform _transform;
         private bool _movesUp;
@@ -25,11 +28,6 @@ public class CrawlerBehaviour : MonoBehaviour , IKillable
             {
                 _transform.Rotate(new Vector3(0,0,- 180));
             }
-        }
-
-        private void FixedUpdate()
-        {
-        
         }
 
         // Update is called once per frame
@@ -62,16 +60,17 @@ public class CrawlerBehaviour : MonoBehaviour , IKillable
     
         void GoToUpperLimit()
         {
-            _rb.AddForce(new Vector2(0,100 * Time.deltaTime));
+            _rb.AddForce(new Vector2(0,10000 * Time.deltaTime));
         }
 
         void GoToLowerLimit()
         {
-            _rb.AddForce(new Vector2(0,-100  * Time.deltaTime));
+            _rb.AddForce(new Vector2(0,-10000  * Time.deltaTime));
         }
 
         public void Kill() 
         {
+            _deathEffect.SetActive(true);
             gameObject.SetActive(false);
         }
     }

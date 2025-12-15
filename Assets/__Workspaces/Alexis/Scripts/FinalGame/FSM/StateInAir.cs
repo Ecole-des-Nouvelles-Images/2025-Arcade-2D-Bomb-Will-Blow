@@ -59,6 +59,18 @@ public class StateInAir : BaseState
             return new StateJetpack(PlayerControllerFinal);
         }
         
+        //Idle state 
+        if (PlayerControllerFinal.IsGrounded && PlayerControllerFinal.Move.x == 0)
+        {
+            return new StateIdle(PlayerControllerFinal);
+        }
+        
+        //Walk state
+        if (PlayerControllerFinal.IsGrounded && PlayerControllerFinal.Move.x != 0)
+        {
+            return new StateWalk(PlayerControllerFinal);
+        }
+        
         return null;
     }
 }

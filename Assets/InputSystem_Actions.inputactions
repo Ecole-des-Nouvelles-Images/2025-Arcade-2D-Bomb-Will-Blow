@@ -379,9 +379,9 @@
                 },
                 {
                     "name": "",
-                    "id": "fcc7b235-96c5-45dd-b751-3c3d396d3cc6",
+                    "id": "234580f1-255a-4b05-9592-6f8cde8140fa",
                     "path": "<Gamepad>/buttonEast",
-                    "interactions": "Press",
+                    "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
                     "action": "Jetpack",

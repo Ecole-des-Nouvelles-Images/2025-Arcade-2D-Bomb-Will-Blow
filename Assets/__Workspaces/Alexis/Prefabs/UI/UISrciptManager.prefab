@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 4472963202158722580}
   - component: {fileID: 6907335283664168601}
   - component: {fileID: 850533862306729526}
+  - component: {fileID: 8402607639939595710}
+  - component: {fileID: 4745879876212903559}
   m_Layer: 0
   m_Name: UISrciptManager
   m_TagString: Untagged
@@ -136,3 +138,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActivateVictoryUI
   _victoryUI: {fileID: 0}
+--- !u!114 &8402607639939595710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4067480659930288887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b7f0e14478b1d47b37af62c9efbe83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ReplayGame
+--- !u!114 &4745879876212903559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4067480659930288887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 999835e4684b9fe4ea55e89e1051a62c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MainMenu
