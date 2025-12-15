@@ -11,7 +11,6 @@ public class StateInAir : BaseState
     public override void OnEnter()
     {
         PlayerControllerFinal.PlayerAnimator.SetBool("InAir", true);
-        Debug.Log("InAir");
     }
 
     public override void OnUpdate()

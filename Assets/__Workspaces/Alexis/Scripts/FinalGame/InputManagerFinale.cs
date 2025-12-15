@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 public class InputManagerFinale : MonoBehaviour
 {
     public static event Action<bool> OnInputDeviceChanged;
+    public static event Action<PlayerControllerFinal> OnPlayer1Spawn;
+    public static event Action<PlayerControllerFinal> OnPlayer2Spawn;
     [SerializeField] private GameObject _UiScriptManager;
 
     private PlayerInput _playerInput;
@@ -13,12 +15,19 @@ public class InputManagerFinale : MonoBehaviour
     private bool _isControllerConnected;
     
 
-    private void Awake()
-    {
+    private void Awake() {
         _playerInput = GetComponent<PlayerInput>();
         _playerControllerFinal = GetComponent<PlayerControllerFinal>();
         _inGamePause = _UiScriptManager.GetComponent<InGamePause>();
         if (_playerInput == null) throw new NullReferenceException("PlayerInputManager is null");
+        
+        Debug.Log(" playde ID is "+ _playerInput.playerIndex);
+    }
+
+    private void Start() {
+        if (_playerInput.playerIndex == 0) OnPlayer1Spawn?.Invoke(_playerControllerFinal);
+        if (_playerInput.playerIndex == 1) OnPlayer2Spawn?.Invoke(_playerControllerFinal);
+        
     }
     
     private void OnEnable()
