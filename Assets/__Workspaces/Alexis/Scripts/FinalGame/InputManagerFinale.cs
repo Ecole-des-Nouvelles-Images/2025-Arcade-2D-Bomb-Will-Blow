@@ -21,8 +21,6 @@ public class InputManagerFinale : MonoBehaviour
         _playerControllerFinal = GetComponent<PlayerControllerFinal>();
         _inGamePause = _UiScriptManager.GetComponent<InGamePause>();
         if (_playerInput == null) throw new NullReferenceException("PlayerInputManager is null");
-        
-        Debug.Log(" playde ID is "+ _playerInput.playerIndex);
     }
 
     private void Start() {
@@ -99,10 +97,6 @@ public class InputManagerFinale : MonoBehaviour
     {
         _isControllerConnected = Gamepad.all.Count > 0;
         OnInputDeviceChanged?.Invoke(_isControllerConnected);
-
-        Debug.Log(_isControllerConnected
-            ? "Controller connected: Switching to Gamepad controls."
-            : "No controller connected: Switching to Keyboard/Mouse controls.");
     }
 
     private void OnMove(InputAction.CallbackContext context)

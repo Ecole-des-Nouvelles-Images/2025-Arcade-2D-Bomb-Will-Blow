@@ -6,6 +6,7 @@ public class StateIdle : BaseState
     
     public override void OnEnter()
     {
+        PlayerControllerFinal.PlayerAnimator.SetBool("InAir", false);
         PlayerControllerFinal.PlayerAnimator.SetTrigger("EndRun");
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
         PlayerControllerFinal.PlayerAnimator.SetBool("IdleGround", true);
