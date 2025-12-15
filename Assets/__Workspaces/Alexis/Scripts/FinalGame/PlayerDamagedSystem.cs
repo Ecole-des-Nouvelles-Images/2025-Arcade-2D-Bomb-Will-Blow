@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.InputSystem;
 
 public class PlayerDamagedSystem : MonoBehaviour
 {
@@ -10,6 +12,10 @@ public class PlayerDamagedSystem : MonoBehaviour
     
     public int Health = 5;
     //public bool _playerDamaged;
+
+    private void Start()
+    {
+    }
     
     private void Update()
     {

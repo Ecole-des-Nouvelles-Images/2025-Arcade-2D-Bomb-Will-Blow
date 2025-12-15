@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 850533862306729526}
   - component: {fileID: 8402607639939595710}
   - component: {fileID: 4745879876212903559}
+  - component: {fileID: 4696596526706381973}
   m_Layer: 0
   m_Name: UISrciptManager
   m_TagString: Untagged
@@ -142,3 +143,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999835e4684b9fe4ea55e89e1051a62c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
+--- !u!114 &4696596526706381973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4067480659930288887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77e41af808bbded4eb5a278748268c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VictoryAfterDeath
+  _victoryUI: {fileID: 0}

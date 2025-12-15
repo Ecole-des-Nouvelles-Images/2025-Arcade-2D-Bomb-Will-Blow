@@ -7,6 +7,7 @@ public class InputManagerFinale : MonoBehaviour
     public static event Action<bool> OnInputDeviceChanged;
     public static event Action<PlayerControllerFinal> OnPlayer1Spawn;
     public static event Action<PlayerControllerFinal> OnPlayer2Spawn;
+    
     [SerializeField] private GameObject _UiScriptManager;
 
     private PlayerInput _playerInput;
