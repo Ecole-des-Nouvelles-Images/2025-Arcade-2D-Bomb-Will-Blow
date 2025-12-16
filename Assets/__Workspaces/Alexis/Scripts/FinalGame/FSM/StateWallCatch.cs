@@ -11,12 +11,19 @@ public class StateWallCatch : BaseState
 
     public override void OnEnter()
     {
-        Debug.Log("Entering StateWallCatch");
+        if (PlayerControllerFinal.IsOnLeftWall)
+        {
+            PlayerControllerFinal.LandingEffectLeftSide.SetActive(true);
+        }
+        if (PlayerControllerFinal.IsOnRightWall)
+        {
+            PlayerControllerFinal.LandingEffectRightSide.SetActive(true);
+        }
         PlayerControllerFinal.PlayerAnimator.SetBool("InAir", false);
+        PlayerControllerFinal.PlayerAnimator.SetBool("IdleWall", true);
         PlayerControllerFinal.PlayerAnimator.SetTrigger("EndJump");
         PlayerControllerFinal.Rb.gravityScale = 0;
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
-        PlayerControllerFinal.PlayerAnimator.SetBool("IdleWall", true);
     }
 
     public override void OnUpdate()
@@ -41,6 +48,8 @@ public class StateWallCatch : BaseState
 
     public override void OnExit()
     {
+        PlayerControllerFinal.LandingEffectRightSide.SetActive(false);
+        PlayerControllerFinal.LandingEffectLeftSide.SetActive(false);
         PlayerControllerFinal.PlayerAnimator.SetBool("IdleWall", false);
         PlayerControllerFinal.Rb.gravityScale = 1;
     }
@@ -56,6 +65,7 @@ public class StateWallCatch : BaseState
         //Jetpack state
         if (PlayerControllerFinal.UseJetpack)
         {
+            PlayerControllerFinal.PlayerAnimator.SetTrigger("JetpackEntry");
             return new StateJetpack(PlayerControllerFinal);
         }
         

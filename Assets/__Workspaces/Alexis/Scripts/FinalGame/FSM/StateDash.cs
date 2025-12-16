@@ -72,7 +72,6 @@ public class StateDash : BaseState
     private void KillEnnemies()
     {
         RaycastHit2D[] hits = Physics2D.LinecastAll(_playerPosition.position, _positionToReach,  LayerMask.GetMask("Ennemies"));
-        
         foreach (var hit in hits) 
         {
             Debug.Log(hit.collider.gameObject.name + "touché");
