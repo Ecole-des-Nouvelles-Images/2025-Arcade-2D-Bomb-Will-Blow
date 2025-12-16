@@ -5,7 +5,6 @@ public class PlayerControllerFinal : MonoBehaviour
     [Space(5), Header("Grounded")]
     //Ground
     public bool IsGrounded;
-    
     [Space(4), Header("MoveParameters")]
     //Walk
     public Vector2 Move;
@@ -17,12 +16,6 @@ public class PlayerControllerFinal : MonoBehaviour
     public bool Jump;
     public float JumpXDynamic;
     public float JumpY;
-    public GameObject RightJumpEffect;
-    public GameObject LeftJumpEffect;
-    
-    [Space(4), Header("Landing Effect")]
-    public GameObject LandingEffectRightSide;
-    public GameObject LandingEffectLeftSide;
     
     [Space(4), Header("Walls")]
     //Wall
@@ -90,24 +83,22 @@ public class PlayerControllerFinal : MonoBehaviour
     void Start()
     {
         _currentState = new StateIdle(this);
+        Debug.Log(JetpackFuel);
     }
 
     // Update is called once per frame
     void Update()
     {
         //Character orientation
-        if (Rb.linearVelocityX < 0 && IsGrounded)
+        if (Rb.linearVelocityX < 0)
         {
             _spriteRenderer.flipX = true;
         }
 
-        if (Rb.linearVelocity.x > 0 && IsGrounded)
+        if (Rb.linearVelocity.x > 0)
         {
             _spriteRenderer.flipX = false;
         }
-        
-        if (IsOnLeftWall) _spriteRenderer.flipX = true;
-        if (IsOnRightWall) _spriteRenderer.flipX = false;
         
         //Can character walk ?
         if (IsGrounded)
