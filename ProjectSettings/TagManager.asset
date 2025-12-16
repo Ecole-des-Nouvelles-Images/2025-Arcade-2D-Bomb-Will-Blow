@@ -10,8 +10,6 @@ TagManager:
   - Enemy
   - Bullet
   - Player2
-  - Player1Hurtbox
-  - Player2Hurtbox
   layers:
   - Default
   - TransparentFX
