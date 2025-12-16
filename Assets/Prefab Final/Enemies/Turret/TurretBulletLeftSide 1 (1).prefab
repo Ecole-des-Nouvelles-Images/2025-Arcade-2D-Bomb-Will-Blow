@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5605851170948762562
 Transform:
   m_ObjectHideFlags: 0
@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 3909074956294590392}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.43, z: 0}
+  m_LocalPosition: {x: 0.98, y: -0.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -172,7 +172,7 @@ Transform:
   m_GameObject: {fileID: 5414357734752744037}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.599, y: -9.539, z: 0.02}
+  m_LocalPosition: {x: -20.728, y: -9.771, z: 0.02}
   m_LocalScale: {x: 0.17007, y: 0.17007, z: 0.17007}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -488,9 +488,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: ProjectilExplo
       objectReference: {fileID: 0}
+    - target: {fileID: 3167327906001339231, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3250910488247935626, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793251740582786651, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -613,8 +621,20 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 532963713484482627, guid: a982bc210130b1843bdc484e7e122347, type: 3}
+      propertyPath: VelocityModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 532963713484482627, guid: a982bc210130b1843bdc484e7e122347, type: 3}
       propertyPath: SizeModule.separateAxes
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 532963713484482627, guid: a982bc210130b1843bdc484e7e122347, type: 3}
+      propertyPath: VelocityModule.x.scalar
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 532963713484482627, guid: a982bc210130b1843bdc484e7e122347, type: 3}
+      propertyPath: ClampVelocityModule.enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 532963713484482627, guid: a982bc210130b1843bdc484e7e122347, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
@@ -670,7 +690,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2810468337971798723, guid: a982bc210130b1843bdc484e7e122347, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 2909675078786933665, guid: a982bc210130b1843bdc484e7e122347, type: 3}
       propertyPath: m_LocalScale.x
@@ -738,15 +758,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7626650029128765627, guid: a982bc210130b1843bdc484e7e122347, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.008805863
+      value: 0.999954
       objectReference: {fileID: 0}
     - target: {fileID: 7626650029128765627, guid: a982bc210130b1843bdc484e7e122347, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.99996126
+      value: -0.009592588
       objectReference: {fileID: 0}
     - target: {fileID: 7626650029128765627, guid: a982bc210130b1843bdc484e7e122347, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -181.009
+      value: -1.099
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
