@@ -15,29 +15,43 @@ public class StateInAir : BaseState
 
     public override void OnUpdate()
     {
-        if (_timeBeforeCatch < 0.2)
+        _yVelocity = PlayerControllerFinal.Rb.linearVelocity.y;
+        if (PlayerControllerFinal.HasJumped)
         {
-            _timeBeforeCatch += Time.deltaTime;
-            _canCatch = false;
+            if (_timeBeforeCatch < 0.2)
+            {
+                _timeBeforeCatch += Time.deltaTime;
+                _canCatch = false;
+            }
+            
+            if (_timeBeforeCatch >= 0.2)
+            {
+                _canCatch = true;
+            }
+            
+            if (_yVelocity <= 0)
+            {
+                PlayerControllerFinal.Rb.AddForce(new Vector2(PlayerControllerFinal.Move.x, 0));
+            }
         }
 
-        if (_timeBeforeCatch >= 0.2)
+        if (PlayerControllerFinal.OutOfJetpack)
         {
-            _canCatch = true;
-            PlayerControllerFinal.RightJumpEffect.SetActive(false);
-            PlayerControllerFinal.LeftJumpEffect.SetActive(false);
-        }
-        
-        _yVelocity = PlayerControllerFinal.Rb.linearVelocity.y;
-        if (_yVelocity <= 0)
-        {
-            PlayerControllerFinal.Rb.AddForce(new Vector2(PlayerControllerFinal.Move.x, 0));
+            if (_yVelocity <= 0)
+            {
+                _canCatch = true;
+                PlayerControllerFinal.Rb.AddForce(new Vector2(PlayerControllerFinal.Move.x * 8000 * Time.deltaTime, 0));
+            }
         }
     }
 
     public override void OnExit()
     {
         _timeBeforeCatch = 0;
+        PlayerControllerFinal.OutOfJetpack = false;
+        PlayerControllerFinal.PlayerAnimator.SetBool("EndJump", true);
+        PlayerControllerFinal.RightJumpEffect.SetActive(false);
+        PlayerControllerFinal.LeftJumpEffect.SetActive(false);
     }
 
     public override BaseState NextState()
