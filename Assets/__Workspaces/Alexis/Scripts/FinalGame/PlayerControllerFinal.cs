@@ -106,14 +106,24 @@ public class PlayerControllerFinal : MonoBehaviour
         _lastPosition = _currentPosition;
         _currentPosition = Rb.transform.position.x;
         
-        if (/*Rb.linearVelocityX < 0 && IsGrounded*/ _lastPosition > _currentPosition)
+        if (_lastPosition > _currentPosition && IsGrounded)
         {
             _spriteRenderer.flipX = true;
         }
 
-        if (/*Rb.linearVelocity.x > 0 && IsGrounded*/ _lastPosition < _currentPosition)
+        if (_lastPosition < _currentPosition && IsGrounded)
         {
             _spriteRenderer.flipX = false;
+        }
+        
+        if (!IsGrounded && _lastPosition > _currentPosition)
+        {
+            _spriteRenderer.flipX = false;
+        }
+
+        if (!IsGrounded && _lastPosition < _currentPosition)
+        {
+            _spriteRenderer.flipX = true;
         }
         
         if (IsOnLeftWall) _spriteRenderer.flipX = true;
