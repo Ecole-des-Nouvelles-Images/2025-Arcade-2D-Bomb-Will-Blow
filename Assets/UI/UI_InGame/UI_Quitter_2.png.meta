@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 31399c28526070e43814244c51895200
+guid: 733dc707a143e2f4a9945e0fbfbae367
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,133 +110,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_0
+      name: UI_Quitter_2_0
       rect:
         serializedVersion: 2
-        x: 1835
-        y: 876
-        width: 192
-        height: 955
+        x: 0
+        y: 0
+        width: 1327
+        height: 388
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 92, y: 376, z: 90, w: 309}
+      pivot: {x: 0, y: 0}
+      border: {x: 646, y: 196, z: 661, w: 181}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e07781d4d5cb87c428497efceb547b2e
-      internalID: -1845948873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_1
-      rect:
-        serializedVersion: 2
-        x: 2290
-        y: 828
-        width: 362
-        height: 1049
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 175, y: 480, z: 167, w: 553}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdf01587168fe964385e5f1f7002a4a9
-      internalID: 68185766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_2
-      rect:
-        serializedVersion: 2
-        x: 1580
-        y: 592
-        width: 145
-        height: 115
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77bdc0dbda495984882e94c16e448797
-      internalID: 1615774152
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_3
-      rect:
-        serializedVersion: 2
-        x: 1386
-        y: 60
-        width: 157
-        height: 500
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3333687e0fd6a594b8b10daf8a26f44d
-      internalID: -951335848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_4
-      rect:
-        serializedVersion: 2
-        x: 1574
-        y: 130
-        width: 247
-        height: 298
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71bc988f9e4b95348ba747d5f00d320d
-      internalID: -71285643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI_5
-      rect:
-        serializedVersion: 2
-        x: 1994
-        y: 133
-        width: 323
-        height: 311
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e0df430d5a707145ae29ea5e59904ef
-      internalID: -594754863
+      spriteID: 64b03539a1e304643b69a36942f8494a
+      internalID: -1793619345
       vertices: []
       indices: 
       edges: []
@@ -245,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6ff846c3d376fa64c8eda7c2f61dd8b9
+    spriteID: 9103f62eed9bda143911faf2a0121311
     internalID: 0
     vertices: []
     indices: 
@@ -255,13 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_0: -1845948873
-      UI_1: 68185766
-      UI_2: 1615774152
-      UI_3: -951335848
-      UI_4: -71285643
-      UI_5: -594754863
-      UI_6: -966111880
+      UI_Quitter_2_0: -1793619345
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
