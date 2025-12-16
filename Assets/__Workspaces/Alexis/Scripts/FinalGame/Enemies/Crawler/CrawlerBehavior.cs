@@ -11,7 +11,6 @@ public class CrawlerBehaviour : MonoBehaviour , IKillable
         
         [Space(4), Header("Death Effect Prefab")]
         [SerializeField] private GameObject _deathEffectLeftSide;
-
         [SerializeField] private GameObject _deathEffectRightSide;
         
         private Rigidbody2D _rb;
@@ -74,11 +73,11 @@ public class CrawlerBehaviour : MonoBehaviour , IKillable
         {
             if (OnLeftWall)
             {
-                _deathEffectLeftSide.SetActive(true);
+                Instantiate(_deathEffectLeftSide, transform.position, Quaternion.identity);
             }
             else
             {
-                _deathEffectRightSide.SetActive(true);
+                Instantiate(_deathEffectRightSide, transform.position, Quaternion.identity);
             }
             gameObject.SetActive(false);
         }

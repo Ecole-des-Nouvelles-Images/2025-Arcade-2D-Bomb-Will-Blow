@@ -4,7 +4,7 @@ public class StateJetpack : BaseState
 {
     public StateJetpack(PlayerControllerFinal playerControllerFinal) : base(playerControllerFinal) { }
 
-    private float JetpackForce = 1000;
+    private float JetpackForce = 25000;
     
     public override void OnEnter()
     {
@@ -40,6 +40,7 @@ public class StateJetpack : BaseState
         //InAir state
         if (PlayerControllerFinal.JetpackFuel <= 0)
         {
+            PlayerControllerFinal.OutOfJetpack = true;
             return new StateInAir(PlayerControllerFinal);
         }
         
@@ -61,11 +62,21 @@ public class StateJetpack : BaseState
     private void DoJetpack()
     {
         PlayerControllerFinal.IsInJetpack = true;
-        PlayerControllerFinal.Rb.AddForce(new Vector2 (PlayerControllerFinal.Move.x * Time.deltaTime * 4000, JetpackForce * Time.deltaTime)); 
+        PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
+        if (PlayerControllerFinal.IsOnLeftWall)
+        {
+            PlayerControllerFinal.Rb.AddForce(new Vector2 (Time.deltaTime * 40000, JetpackForce * Time.deltaTime)); 
+        }
+
+        if (PlayerControllerFinal.IsOnRightWall)
+        {
+            PlayerControllerFinal.Rb.AddForce(new Vector2 (Time.deltaTime * - 40000, JetpackForce * Time.deltaTime)); 
+        }
     }
 
     private void JetpackHorizontalMobility()
     {
-        PlayerControllerFinal.Rb.AddForce(new Vector2 (PlayerControllerFinal.Move.x * Time.deltaTime * 4000, JetpackForce * Time.deltaTime));
+        PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
+        PlayerControllerFinal.Rb.AddForce(new Vector2 (PlayerControllerFinal.Move.x * Time.deltaTime * 40000, JetpackForce * Time.deltaTime));
     }
 }
