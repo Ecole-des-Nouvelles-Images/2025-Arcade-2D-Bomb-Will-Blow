@@ -16,7 +16,10 @@ public class CamFollowsPlayer2 : MonoBehaviour
             {
                 _playerFound = true;
             }
+            
+            
         }
+        if (_player== null) return;
         
         if (_player.transform.position.y >= -290)
         {
