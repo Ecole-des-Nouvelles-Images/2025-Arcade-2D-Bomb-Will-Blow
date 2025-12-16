@@ -72,7 +72,6 @@ public class CrawlerBehaviour : MonoBehaviour , IKillable
 
         public void Kill() 
         {
-            Debug.Log("Kill");
             if (OnLeftWall)
             {
                 _deathEffectLeftSide.SetActive(true);
