@@ -77,7 +77,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../BombWillBlowBuilds/Build_Semaine_Prod_3/Build_Semaine_3\Unity Template.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../BombWillBlowBuilds/Build_Semaine_Prod_3/Build_semaine_4\Unity Template.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\BombWillBlowBuilds" />
       <option name="PASS_PARENT_ENVS" value="1" />
