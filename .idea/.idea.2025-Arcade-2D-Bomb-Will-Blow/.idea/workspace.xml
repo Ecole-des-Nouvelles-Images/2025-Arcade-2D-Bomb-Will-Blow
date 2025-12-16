@@ -6,15 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Animations/MuzzleShotV3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Animations/MuzzleShotV3.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Animations/SpriteSheetMUZZLESHOT_1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Animations/SpriteSheetMUZZLESHOT_1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/NewMonoBehaviourScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/NewMonoBehaviourScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scene/VFX_Tom_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scene/VFX_Tom_Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/VFX Finaux/Electricity 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/VFX Finaux/Electricity 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/VFX Finaux/Electricity 1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/VFX Finaux/Electricity 1.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/VFX/Landing_Right.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/VFX/Landing_Right.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Crawler/CrawlerHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Crawler/CrawlerHolder.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/R PlayerAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/R PlayerAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpLeftSide.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpLeftSide.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpRightSide 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpRightSide 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/Protos Chunk/Block A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/Protos Chunk/Block A.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/Player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/Player1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/SceneDevJeu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/SceneDevJeu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Crawler/CrawlerBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Crawler/CrawlerBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateDash.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateDash.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateIdle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateIdle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateInAir.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateInAir.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateJump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateJump.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateWallCatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateWallCatch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/GroundCheck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/GroundCheck.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/InputManagerFinale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/InputManagerFinale.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/PlayerControllerFinal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/PlayerControllerFinal.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +43,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/PlayerControllerFinal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayCredits.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayGame.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/QuitGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/QuitSoundMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/SoundMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/SoundToPause.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/VictoryAfterDeath.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -73,9 +81,7 @@
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\BombWillBlowBuilds" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
@@ -83,9 +89,7 @@
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
@@ -93,9 +97,20 @@
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -123,13 +138,13 @@
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="" />
@@ -227,6 +242,9 @@
       <workItem from="1765633609475" duration="85000" />
       <workItem from="1765633724111" duration="2478000" />
       <workItem from="1765788504005" duration="877000" />
+      <workItem from="1765817379966" duration="122000" />
+      <workItem from="1765817507868" duration="34000" />
+      <workItem from="1765817927167" duration="12032000" />
     </task>
     <servers />
   </component>
@@ -243,23 +261,5 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
-          <option name="timeStamp" value="3" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

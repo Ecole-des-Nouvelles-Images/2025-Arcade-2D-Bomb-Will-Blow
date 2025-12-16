@@ -255,6 +255,14 @@ PrefabInstance:
       propertyPath: m_ActionEvents.Array.data[15].m_ActionName
       value: UI/TrackedDeviceOrientation
       objectReference: {fileID: 0}
+    - target: {fileID: 5221676046918968834, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: m_Name
+      value: HurtboxP2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221676046918968834, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: m_TagString
+      value: Player2Hurtbox
+      objectReference: {fileID: 0}
     - target: {fileID: 7050860275694196609, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -267,6 +275,54 @@ PrefabInstance:
       propertyPath: LayerMask.m_Bits
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 7243323290223440517, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: _HeartContainersP1.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7243323290223440517, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: _HeartContainersP2.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7243323290223440517, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: '_HeartContainersP1.Array.data[0]'
+      value: 
+      objectReference: {fileID: 7719892456232005978, guid: 870b80340b93f4b4490956fed6b775bf, type: 3}
+    - target: {fileID: 7243323290223440517, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: '_HeartContainersP1.Array.data[1]'
+      value: 
+      objectReference: {fileID: 5942696392508316619, guid: 0db075483597ebe4fbbd08536223d39d, type: 3}
+    - target: {fileID: 7243323290223440517, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: '_HeartContainersP1.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2454659622907456292, guid: f1597dbf56684a245bd82b33206aa50b, type: 3}
+    - target: {fileID: 7243323290223440517, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: '_HeartContainersP1.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2724543253251534297, guid: 89fbcfb08f7c3c943bf20769847aeaa3, type: 3}
+    - target: {fileID: 7243323290223440517, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: '_HeartContainersP1.Array.data[4]'
+      value: 
+      objectReference: {fileID: 5694077378391487835, guid: 951308c3943115f45a542652d93aacb7, type: 3}
+    - target: {fileID: 7243323290223440517, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: '_HeartContainersP2.Array.data[0]'
+      value: 
+      objectReference: {fileID: 6833056735647410273, guid: 05d34b52e28bbe34ba5808c4fb8fdbed, type: 3}
+    - target: {fileID: 7243323290223440517, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: '_HeartContainersP2.Array.data[1]'
+      value: 
+      objectReference: {fileID: 4139746430817531589, guid: e1d4e55ca3472d046aeba1e1044b392e, type: 3}
+    - target: {fileID: 7243323290223440517, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: '_HeartContainersP2.Array.data[2]'
+      value: 
+      objectReference: {fileID: 6515465944606280382, guid: 08aa3c1edd6cf4b4baf25d728879e33c, type: 3}
+    - target: {fileID: 7243323290223440517, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: '_HeartContainersP2.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1621414660325377008, guid: 98ef9530f44265f438969ba5826c093a, type: 3}
+    - target: {fileID: 7243323290223440517, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: '_HeartContainersP2.Array.data[4]'
+      value: 
+      objectReference: {fileID: 8508122738899691535, guid: f45898521dc6f46449f86d4f17bfb921, type: 3}
     - target: {fileID: 7838103970437092494, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
       propertyPath: m_Name
       value: Player2 Variant
@@ -274,6 +330,10 @@ PrefabInstance:
     - target: {fileID: 7838103970437092494, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
       propertyPath: m_TagString
       value: Player2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8102973576218051080, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      propertyPath: m_GravityScale
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

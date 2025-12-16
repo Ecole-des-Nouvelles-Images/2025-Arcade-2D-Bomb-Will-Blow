@@ -5,6 +5,9 @@ using UnityEngine.InputSystem;
 public class InputManagerFinale : MonoBehaviour
 {
     public static event Action<bool> OnInputDeviceChanged;
+    public static event Action<PlayerControllerFinal> OnPlayer1Spawn;
+    public static event Action<PlayerControllerFinal> OnPlayer2Spawn;
+    
     [SerializeField] private GameObject _UiScriptManager;
 
     private PlayerInput _playerInput;
@@ -13,12 +16,17 @@ public class InputManagerFinale : MonoBehaviour
     private bool _isControllerConnected;
     
 
-    private void Awake()
-    {
+    private void Awake() {
         _playerInput = GetComponent<PlayerInput>();
         _playerControllerFinal = GetComponent<PlayerControllerFinal>();
         _inGamePause = _UiScriptManager.GetComponent<InGamePause>();
         if (_playerInput == null) throw new NullReferenceException("PlayerInputManager is null");
+    }
+
+    private void Start() {
+        if (_playerInput.playerIndex == 0) OnPlayer1Spawn?.Invoke(_playerControllerFinal);
+        if (_playerInput.playerIndex == 1) OnPlayer2Spawn?.Invoke(_playerControllerFinal);
+        
     }
     
     private void OnEnable()
@@ -89,10 +97,6 @@ public class InputManagerFinale : MonoBehaviour
     {
         _isControllerConnected = Gamepad.all.Count > 0;
         OnInputDeviceChanged?.Invoke(_isControllerConnected);
-
-        Debug.Log(_isControllerConnected
-            ? "Controller connected: Switching to Gamepad controls."
-            : "No controller connected: Switching to Keyboard/Mouse controls.");
     }
 
     private void OnMove(InputAction.CallbackContext context)
