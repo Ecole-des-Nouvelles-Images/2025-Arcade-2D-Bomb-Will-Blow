@@ -6,23 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Crawler/CrawlerHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Crawler/CrawlerHolder.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/R PlayerAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/R PlayerAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpLeftSide.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpLeftSide.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpRightSide 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpRightSide 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/Protos Chunk/Block A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/Protos Chunk/Block A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/Player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/Player1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/SceneDevJeu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/SceneDevJeu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Crawler/CrawlerBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Crawler/CrawlerBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateDash.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateDash.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateIdle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateIdle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateInAir.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateInAir.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateJump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateJump.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateWallCatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateWallCatch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/GroundCheck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/GroundCheck.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/InputManagerFinale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/InputManagerFinale.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/PlayerControllerFinal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/PlayerControllerFinal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/CamFollowsPlayer2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/CamFollowsPlayer2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/ActivateVictoryUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/ActivateVictoryUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scene/Chunk.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scene/Chunk.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scripts/HitEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scripts/HitEffect.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +54,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "XThreadsFramesViewSplitterKey": "0.3953202",
-    "git-widget-placeholder": "Wren",
+    "git-widget-placeholder": "Alexis",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -84,10 +72,6 @@
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\BombWillBlowBuilds" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
@@ -96,10 +80,6 @@
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
@@ -108,10 +88,6 @@
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -125,7 +101,6 @@
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -139,7 +114,6 @@
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
@@ -249,6 +223,7 @@
       <workItem from="1765817927167" duration="12032000" />
       <workItem from="1765880330008" duration="1251000" />
       <workItem from="1765895855624" duration="921000" />
+      <workItem from="1765908314892" duration="2409000" />
     </task>
     <servers />
   </component>

@@ -46,6 +46,8 @@ public class ActivateVictoryUI : MonoBehaviour
             _victoryUI.SetActive(true);
             Time.timeScale = 0;
         }
+
+        if (_playerControllerP2 == null) return;
         
         if (_playerControllerP2.CanDeactivateBomb && _playerControllerP2.BombDeactivated)
         {

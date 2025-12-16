@@ -466,7 +466,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChunkSpawner
   terrainChunks:
-  - {fileID: 7969226181336705412, guid: 3a34bcf0fcd06594ab1f8c35d81cde10, type: 3}
+  - {fileID: 8824541813889819809, guid: a714ef6deae55a94aa5941c89439cdc9, type: 3}
+  - {fileID: 59501269718971534, guid: ad4ebc1e7063c59448ffacc604b57a5c, type: 3}
+  - {fileID: 9219556159490915773, guid: 530aed199cad25248b5527b42ccab70b, type: 3}
+  - {fileID: 1844669093197960686, guid: 8c62612c6908c404fb0560c30763aa44, type: 3}
+  - {fileID: 7292521717157023030, guid: cc70052f6285d9c40a9756f6026bc3c0, type: 3}
   startingChunk: {fileID: 7733479920021568181, guid: dda65927add020540bb2be836c1b6828, type: 3}
 --- !u!4 &340873416
 Transform:
@@ -496,7 +500,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChunkSpawnerPlayer2
   terrainChunks:
-  - {fileID: 7969226181336705412, guid: 3a34bcf0fcd06594ab1f8c35d81cde10, type: 3}
+  - {fileID: 8824541813889819809, guid: a714ef6deae55a94aa5941c89439cdc9, type: 3}
+  - {fileID: 59501269718971534, guid: ad4ebc1e7063c59448ffacc604b57a5c, type: 3}
+  - {fileID: 9219556159490915773, guid: 530aed199cad25248b5527b42ccab70b, type: 3}
+  - {fileID: 1844669093197960686, guid: 8c62612c6908c404fb0560c30763aa44, type: 3}
+  - {fileID: 7292521717157023030, guid: cc70052f6285d9c40a9756f6026bc3c0, type: 3}
   _StartingChunk: {fileID: 7733479920021568181, guid: dda65927add020540bb2be836c1b6828, type: 3}
   _EndingChunk: {fileID: 2378600245576375042, guid: de7951af15599eb44a2af0b625709561, type: 3}
 --- !u!1 &345912897
