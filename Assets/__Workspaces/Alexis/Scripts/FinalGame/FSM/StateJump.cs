@@ -28,7 +28,7 @@ public class StateJump : BaseState
 
     public override void OnExit()
     {
-        
+        PlayerControllerFinal.HasJumped = true;
     }
 
     public override BaseState NextState()

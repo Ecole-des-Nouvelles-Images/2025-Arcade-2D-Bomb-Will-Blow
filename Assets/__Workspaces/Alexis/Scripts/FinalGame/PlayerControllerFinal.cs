@@ -15,6 +15,7 @@ public class PlayerControllerFinal : MonoBehaviour
     [Space(4), Header("Jump")]
     //Jump
     public bool Jump;
+    public bool HasJumped;
     public float JumpXDynamic;
     public float JumpY;
     public GameObject RightJumpEffect;
@@ -38,6 +39,7 @@ public class PlayerControllerFinal : MonoBehaviour
     [Space(4), Header("JetpackParameters")]
     //Jetpack
     public bool UseJetpack;
+    public bool OutOfJetpack;
     public bool IsInJetpack;
     public float JetpackFuel = 5;
     
@@ -67,6 +69,10 @@ public class PlayerControllerFinal : MonoBehaviour
     //Animator
 	public Animator PlayerAnimator;
     
+    //Flipx
+    private float _lastPosition;
+    private float _currentPosition;
+    
     //SpriteRenderer
     [SerializeField] private GameObject _Visual;
     private SpriteRenderer _spriteRenderer;
@@ -90,18 +96,22 @@ public class PlayerControllerFinal : MonoBehaviour
     void Start()
     {
         _currentState = new StateIdle(this);
+        _currentPosition = gameObject.transform.position.x;
     }
 
     // Update is called once per frame
     void Update()
     {
         //Character orientation
-        if (Rb.linearVelocityX < 0 && IsGrounded)
+        _lastPosition = _currentPosition;
+        _currentPosition = Rb.transform.position.x;
+        
+        if (/*Rb.linearVelocityX < 0 && IsGrounded*/ _lastPosition > _currentPosition)
         {
             _spriteRenderer.flipX = true;
         }
 
-        if (Rb.linearVelocity.x > 0 && IsGrounded)
+        if (/*Rb.linearVelocity.x > 0 && IsGrounded*/ _lastPosition < _currentPosition)
         {
             _spriteRenderer.flipX = false;
         }

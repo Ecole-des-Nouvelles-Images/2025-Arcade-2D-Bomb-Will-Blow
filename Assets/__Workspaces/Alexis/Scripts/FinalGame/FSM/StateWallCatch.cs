@@ -21,7 +21,7 @@ public class StateWallCatch : BaseState
         }
         PlayerControllerFinal.PlayerAnimator.SetBool("InAir", false);
         PlayerControllerFinal.PlayerAnimator.SetBool("IdleWall", true);
-        PlayerControllerFinal.PlayerAnimator.SetTrigger("EndJump");
+        PlayerControllerFinal.PlayerAnimator.SetBool("EndJump", false);
         PlayerControllerFinal.Rb.gravityScale = 0;
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
     }
