@@ -16,7 +16,7 @@ public class GroundCheck : MonoBehaviour
 
     private void GroundcheckRaycast()
     { 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.05f, LayerMask.GetMask("Ground")); 
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.3f, LayerMask.GetMask("Ground")); 
         if( hit.collider != null) 
         { 
             player.IsGrounded = true;
