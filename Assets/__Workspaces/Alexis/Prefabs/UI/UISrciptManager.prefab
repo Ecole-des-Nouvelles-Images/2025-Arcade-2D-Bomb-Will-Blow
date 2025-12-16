@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4401801640192009622}
-  - component: {fileID: 3710592392115449260}
   - component: {fileID: 8209254391660520993}
   - component: {fileID: 3163209002801644169}
   - component: {fileID: 4192983498257878415}
@@ -18,6 +17,7 @@ GameObject:
   - component: {fileID: 850533862306729526}
   - component: {fileID: 8402607639939595710}
   - component: {fileID: 4745879876212903559}
+  - component: {fileID: 4696596526706381973}
   m_Layer: 0
   m_Name: UISrciptManager
   m_TagString: Untagged
@@ -40,25 +40,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3710592392115449260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4067480659930288887}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec46b6f653f8a12418aff57980f00b91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HeartsOnUI
-  _HeartSprites: []
-  _HeartContainers:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &8209254391660520993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,3 +143,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999835e4684b9fe4ea55e89e1051a62c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
+--- !u!114 &4696596526706381973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4067480659930288887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77e41af808bbded4eb5a278748268c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VictoryAfterDeath
+  _victoryUI: {fileID: 0}

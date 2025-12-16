@@ -11,7 +11,6 @@ public class StateInAir : BaseState
     public override void OnEnter()
     {
         PlayerControllerFinal.PlayerAnimator.SetBool("InAir", true);
-        Debug.Log("InAir");
     }
 
     public override void OnUpdate()
@@ -25,6 +24,8 @@ public class StateInAir : BaseState
         if (_timeBeforeCatch >= 0.2)
         {
             _canCatch = true;
+            PlayerControllerFinal.RightJumpEffect.SetActive(false);
+            PlayerControllerFinal.LeftJumpEffect.SetActive(false);
         }
         
         _yVelocity = PlayerControllerFinal.Rb.linearVelocity.y;
@@ -60,13 +61,13 @@ public class StateInAir : BaseState
         }
         
         //Idle state 
-        if (PlayerControllerFinal.IsGrounded && PlayerControllerFinal.Move.x == 0)
+        if (PlayerControllerFinal.IsGrounded && PlayerControllerFinal.Move.x == 0 && _canCatch)
         {
             return new StateIdle(PlayerControllerFinal);
         }
         
         //Walk state
-        if (PlayerControllerFinal.IsGrounded && PlayerControllerFinal.Move.x != 0)
+        if (PlayerControllerFinal.IsGrounded && PlayerControllerFinal.Move.x != 0 && _canCatch)
         {
             return new StateWalk(PlayerControllerFinal);
         }

@@ -259,7 +259,7 @@
                 {
                     "name": "",
                     "id": "05f6913d-c316-48b2-a6bb-e225f14c7960",
-                    "path": "<Mouse>/leftButton",
+                    "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
@@ -369,7 +369,7 @@
                 {
                     "name": "",
                     "id": "d1ae2253-062a-40c5-b7b3-4b13c0510f4e",
-                    "path": "<Keyboard>/numpad1",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -417,6 +417,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
+                    "action": "DeactivateBomb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "652fa32d-49e4-4a51-8d86-bfc2640e168d",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "DeactivateBomb",
                     "isComposite": false,
                     "isPartOfComposite": false
