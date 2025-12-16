@@ -46,6 +46,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/QuitSoundMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/SoundMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/SoundToPause.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/VictoryText/VictoryAfterBombDefuse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/VictoryAfterDeath.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />

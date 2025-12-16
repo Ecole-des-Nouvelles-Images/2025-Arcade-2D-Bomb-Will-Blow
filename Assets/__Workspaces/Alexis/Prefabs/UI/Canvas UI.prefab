@@ -821,6 +821,7 @@ GameObject:
   - component: {fileID: 4796808444137340225}
   - component: {fileID: 522644182129306529}
   - component: {fileID: 2061884795837391851}
+  - component: {fileID: 6125226825099633806}
   m_Layer: 5
   m_Name: VictorySceneBg
   m_TagString: Untagged
@@ -888,6 +889,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6125226825099633806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239566711037840600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68f0fcdd8a53f840aa862c45b63cf40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VictoryAfterBombDefuse
+  _VictoryByDeathText: {fileID: 6462973480059621692}
 --- !u!1 &1240571603178322352
 GameObject:
   m_ObjectHideFlags: 0
