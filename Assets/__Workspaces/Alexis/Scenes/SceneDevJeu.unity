@@ -85447,6 +85447,14 @@ PrefabInstance:
       propertyPath: _PauseMenu
       value: 
       objectReference: {fileID: 1153019196}
+    - target: {fileID: 8402607639939595710, guid: d074945ceaad5de4cb8f4c34c175e969, type: 3}
+      propertyPath: _VictoryScreenFromBomb
+      value: 
+      objectReference: {fileID: 321551288}
+    - target: {fileID: 8402607639939595710, guid: d074945ceaad5de4cb8f4c34c175e969, type: 3}
+      propertyPath: _VictoryScreenFromDeath
+      value: 
+      objectReference: {fileID: 7741235656812506694}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
