@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4ef71a183de08a4488d2d3deb94176ca
+guid: f02498a430189d048952ec8909835c27
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,23 +110,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Parametre_0
+      name: escalier_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1327
-        height: 388
+        x: 72
+        y: 60
+        width: 422
+        height: 314
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 656, y: 189, z: 647, w: 180}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45e52cbb20a323144b18e29f4a19f082
-      internalID: -1389447850
+      spriteID: e761327d2a7b15f4db9e60429c04bfa6
+      internalID: -722942468
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c54006f3de5b675418658a184232ae5a
+    spriteID: ea0ee0cafcd916146890c45a3be9571f
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Parametre_0: -1389447850
+      escalier_0: -722942468
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
