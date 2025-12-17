@@ -73,11 +73,11 @@ public class CrawlerBehaviour : MonoBehaviour , IKillable
         {
             if (OnLeftWall)
             {
-                Instantiate(_deathEffectLeftSide, transform.position, Quaternion.identity);
+                _deathEffectLeftSide.SetActive(true);
             }
             else
             {
-                Instantiate(_deathEffectRightSide, transform.position, Quaternion.identity);
+                _deathEffectRightSide.SetActive(true);
             }
             gameObject.SetActive(false);
         }

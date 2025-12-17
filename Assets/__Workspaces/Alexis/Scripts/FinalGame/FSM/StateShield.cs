@@ -40,12 +40,6 @@ public class StateShield : BaseState
             return new StateInAir(PlayerControllerFinal);
         }
         
-        //JetpackState
-        if (PlayerControllerFinal.UseJetpack)
-        {
-            return new StateJetpack(PlayerControllerFinal);
-        }
-        
         if (PlayerControllerFinal.Move == Vector2.zero)
         {
             return new StateIdle(PlayerControllerFinal);
