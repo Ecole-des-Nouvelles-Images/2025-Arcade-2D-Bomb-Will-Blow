@@ -43,6 +43,7 @@ public class StateDash : BaseState
 
     public override void OnExit()
     {
+        PlayerControllerFinal.CanDash = false;
         PlayerControllerFinal.PlayerVisual.SetActive(true);
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
     }
@@ -77,7 +78,6 @@ public class StateDash : BaseState
         }
         PlayerControllerFinal.Rb.AddForce(new Vector2(0,700));
         PlayerControllerFinal.DashRefillTime = 0;
-        PlayerControllerFinal.CanDash = false;
     }
 
     private void KillEnnemies()
