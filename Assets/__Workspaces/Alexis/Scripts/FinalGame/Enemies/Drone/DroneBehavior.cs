@@ -6,6 +6,10 @@ public class DroneBehavior : MonoBehaviour, IKillable
     [SerializeField] private GameObject rightSideLimit;
     [SerializeField] private GameObject leftSideLimit;
     
+    [Space (4), Header("MovementSpeed")]
+    [SerializeField] private float MoveSpeedRight;
+    [SerializeField] private float MoveSpeedLeft;
+    
     private Rigidbody2D _rb;
     private bool _movesRight;
     private bool _movesLeft;
@@ -53,12 +57,12 @@ public class DroneBehavior : MonoBehaviour, IKillable
     
     void GoToRightSideLimit()
     {
-        _rb.AddForce(new Vector2(10000 * Time.deltaTime,0));
+        _rb.AddForce(new Vector2(MoveSpeedRight * Time.deltaTime,0));
     }
 
     void GoToLeftSideLimit()
     {
-        _rb.AddForce(new Vector2(-10000 * Time.deltaTime,0));
+        _rb.AddForce(new Vector2(-MoveSpeedLeft * Time.deltaTime,0));
     }
     
     public void Kill() 

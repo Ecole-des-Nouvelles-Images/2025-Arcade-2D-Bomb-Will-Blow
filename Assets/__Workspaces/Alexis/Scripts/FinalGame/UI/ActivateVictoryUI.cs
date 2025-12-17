@@ -5,6 +5,9 @@ using UnityEngine;
 public class ActivateVictoryUI : MonoBehaviour
 {
     [SerializeField] private GameObject _victoryUI;
+
+    public bool P1Win;
+    public bool P2Win;
     
     private GameObject _p1;
     private GameObject _p2;
@@ -39,11 +42,15 @@ public class ActivateVictoryUI : MonoBehaviour
         //ActivateVictoryScenes
         if (_playerControllerP1.CanDeactivateBomb && _playerControllerP1.BombDeactivated)
         {
+            P1Win = true;
             _victoryUI.SetActive(true);
         }
+
+        if (_playerControllerP2 == null) return;
         
         if (_playerControllerP2.CanDeactivateBomb && _playerControllerP2.BombDeactivated)
         {
+            P2Win = true;
             _victoryUI.SetActive(true);
         }
     }
