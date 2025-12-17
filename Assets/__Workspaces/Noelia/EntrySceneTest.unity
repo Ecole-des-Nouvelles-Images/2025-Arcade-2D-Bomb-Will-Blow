@@ -745,6 +745,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1752097238}
     m_Modifications:
+    - target: {fileID: 397179460817298467, guid: a1830aec7be853f4a8a485695a15e310, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 397179460817298467, guid: a1830aec7be853f4a8a485695a15e310, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 548719694516260595, guid: a1830aec7be853f4a8a485695a15e310, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -757,10 +765,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoundMenuBackGround
       objectReference: {fileID: 0}
+    - target: {fileID: 631971344065239784, guid: a1830aec7be853f4a8a485695a15e310, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2120290226293517620, guid: a1830aec7be853f4a8a485695a15e310, type: 3}
       propertyPath: _eventSystem
       value: 
       objectReference: {fileID: 676572316}
+    - target: {fileID: 2909602401423790224, guid: a1830aec7be853f4a8a485695a15e310, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498685176680301916, guid: a1830aec7be853f4a8a485695a15e310, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498685176680301916, guid: a1830aec7be853f4a8a485695a15e310, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5699633636761000761, guid: a1830aec7be853f4a8a485695a15e310, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5699633636761000761, guid: a1830aec7be853f4a8a485695a15e310, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5964302649487011065, guid: a1830aec7be853f4a8a485695a15e310, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -840,6 +872,14 @@ PrefabInstance:
     - target: {fileID: 5964302649487011065, guid: a1830aec7be853f4a8a485695a15e310, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8572760097692140997, guid: a1830aec7be853f4a8a485695a15e310, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8968087514801171201, guid: a1830aec7be853f4a8a485695a15e310, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

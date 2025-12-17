@@ -44,7 +44,6 @@ public class ActivateVictoryUI : MonoBehaviour
         {
             P1Win = true;
             _victoryUI.SetActive(true);
-            Time.timeScale = 0;
         }
 
         if (_playerControllerP2 == null) return;
@@ -53,7 +52,6 @@ public class ActivateVictoryUI : MonoBehaviour
         {
             P2Win = true;
             _victoryUI.SetActive(true);
-            Time.timeScale = 0;
         }
     }
 }
