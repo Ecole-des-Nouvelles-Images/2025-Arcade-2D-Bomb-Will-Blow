@@ -2771,7 +2771,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -4
   m_Sprite: {fileID: -1611125870, guid: 5ed640a88939f214baab9c9ce8341828, type: 3}
   m_Color: {r: 1, g: 0.585702, b: 0, a: 0.74509805}
   m_FlipX: 0
@@ -3000,7 +3000,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: -1611125870, guid: 5ed640a88939f214baab9c9ce8341828, type: 3}
   m_Color: {r: 1, g: 0.5882353, b: 0, a: 0.15686275}
   m_FlipX: 0
@@ -3756,7 +3756,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: -1611125870, guid: 5ed640a88939f214baab9c9ce8341828, type: 3}
   m_Color: {r: 1, g: 0.5882353, b: 0, a: 0.5529412}
   m_FlipX: 0
@@ -4279,7 +4279,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -4
   m_Sprite: {fileID: -1611125870, guid: 5ed640a88939f214baab9c9ce8341828, type: 3}
   m_Color: {r: 1, g: 0.5882353, b: 0, a: 0.2627451}
   m_FlipX: 0
@@ -4736,7 +4736,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: -1611125870, guid: 5ed640a88939f214baab9c9ce8341828, type: 3}
   m_Color: {r: 1, g: 0.5882353, b: 0, a: 0.38431373}
   m_FlipX: 0
@@ -89677,9 +89677,25 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+    - target: {fileID: 899878187846048527, guid: dda65927add020540bb2be836c1b6828, type: 3}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176454111412759803, guid: dda65927add020540bb2be836c1b6828, type: 3}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978813112658934472, guid: dda65927add020540bb2be836c1b6828, type: 3}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 3789759848869299557, guid: dda65927add020540bb2be836c1b6828, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797039147070994567, guid: dda65927add020540bb2be836c1b6828, type: 3}
+      propertyPath: m_SortingOrder
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5134114246045572972, guid: dda65927add020540bb2be836c1b6828, type: 3}
       propertyPath: m_Enabled
@@ -89732,6 +89748,10 @@ PrefabInstance:
     - target: {fileID: 7733479920021568181, guid: dda65927add020540bb2be836c1b6828, type: 3}
       propertyPath: m_Name
       value: StartChunk
+      objectReference: {fileID: 0}
+    - target: {fileID: 8252096960401301263, guid: dda65927add020540bb2be836c1b6828, type: 3}
+      propertyPath: m_SortingOrder
+      value: -3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
