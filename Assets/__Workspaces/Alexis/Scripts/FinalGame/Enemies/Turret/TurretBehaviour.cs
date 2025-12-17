@@ -14,6 +14,10 @@ public class TurretBehaviour : MonoBehaviour, IKillable
     [SerializeField] private bool SpawnBulletToTheRightSide;
     [SerializeField] private bool SpawnBulletToTheLeftSide;
     
+    [Space(4), Header("Death Effect Prefab")]
+    [SerializeField] private GameObject _deathEffectLeftSide;
+    [SerializeField] private GameObject _deathEffectRightSide;
+    
     private bool _hasShot;
     private float _shootingRate = 1.1f;
     private float _shootingTimer;
@@ -72,7 +76,14 @@ public class TurretBehaviour : MonoBehaviour, IKillable
     
     public void Kill() 
     {
-        Debug.Log("Kill turret");
+        if (SpawnBulletToTheRightSide)
+        {
+            _deathEffectLeftSide.SetActive(true);
+        }
+        else
+        {
+            _deathEffectRightSide.SetActive(true);
+        }
         gameObject.SetActive(false);
     }
 }
