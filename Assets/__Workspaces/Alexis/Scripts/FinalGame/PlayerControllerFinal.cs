@@ -187,8 +187,8 @@ public class PlayerControllerFinal : MonoBehaviour
                 CanDash = true;
             }
         }
-        Debug.Log("Temps depuis que le dash est passé en cooldown : " + DashRefillTime);
-        Debug.Log("Can dash : " + CanDash);
+        Debug.Log(DashRefillTime);
+        Debug.Log(CanDash);
         
         //Fuel management
         if (!IsInJetpack && JetpackFuel < 5)

@@ -329,11 +329,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 84708846}
   m_LocalEulerAnglesHint: {x: -6.158, y: -0.168, z: 1.563}
---- !u!212 &136059950 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 4057020370594603430, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
-  m_PrefabInstance: {fileID: 2352558673875754360}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &209963352
 GameObject:
   m_ObjectHideFlags: 0
@@ -4488,22 +4483,6 @@ PrefabInstance:
       propertyPath: m_JoinAction.m_Action.m_SingletonActionBindings.Array.data[0].m_Action
       value: Join
       objectReference: {fileID: 0}
-    - target: {fileID: 3782384943643539924, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
-      propertyPath: _Maxduration
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 3782384943643539924, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
-      propertyPath: flashMaterial
-      value: 
-      objectReference: {fileID: 2100000, guid: 1d1f830d3a8252840b10dbf0cbc838f8, type: 2}
-    - target: {fileID: 3782384943643539924, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
-      propertyPath: spriteRenderer
-      value: 
-      objectReference: {fileID: 136059950}
-    - target: {fileID: 3782384943643539924, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
-      propertyPath: originalMaterial
-      value: 
-      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 3782384943643539924, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
       propertyPath: _HeartContainersP1.Array.size
       value: 5

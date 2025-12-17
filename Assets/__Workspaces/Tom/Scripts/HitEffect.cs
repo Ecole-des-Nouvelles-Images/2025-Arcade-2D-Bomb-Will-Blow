@@ -38,6 +38,7 @@ public class HitEffect : MonoBehaviour
         {
            
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+
             
             originalMaterial = spriteRenderer.material;
         }
