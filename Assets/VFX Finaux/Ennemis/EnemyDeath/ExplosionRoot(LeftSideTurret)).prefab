@@ -584,15 +584,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 182707906168652530, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 374920465592054096, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 861670220259535750, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1508861377636953327, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: startDelay.scalar
@@ -600,15 +600,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1601911179018185200, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1742189983497192333, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2540249761159501022, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2849693690545268292, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: startDelay.scalar
@@ -632,7 +632,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5243914304339718400, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5373937131733362271, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: m_LocalScale.x
@@ -688,7 +688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6049238207547405625, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6086195742493357579, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: m_Name
@@ -696,11 +696,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6228060999395185979, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6323688520812749848, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6329965900308671929, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: startDelay.scalar
