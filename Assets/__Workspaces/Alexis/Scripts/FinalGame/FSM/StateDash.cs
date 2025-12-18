@@ -1,92 +1,66 @@
-using System.Collections.Generic;
-using UnityEditor;
+using __Workspaces.Alexis.Scripts.FinalGame.Player;
 using UnityEngine;
 
 public class StateDash : BaseState
 {
-    public StateDash(PlayerControllerFinal playerControllerFinal) : base(playerControllerFinal) { }
+    public StateDash(PlayerController playerController) : base(playerController) { }
     
-    private float _timeToChargeDash = 0.5f;
+    private float _dashTimer;
     private Transform _playerPosition;
     private Vector2 _positionToReach;
-    private bool _hasDashed;
+
+    private bool IsOnWall => PlayerController.IsOnRightWall || PlayerController.IsOnLeftWall;
     
     public override void OnEnter()
     {
-        PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
-        _playerPosition = PlayerControllerFinal.PlayerPosition;
-        _positionToReach = new Vector2(_playerPosition.position.x, _playerPosition.position.y + 5);
-    }
-
-    public override void OnUpdate()
-    {
-        if (_timeToChargeDash <= 0.2f )
-        {
-            _timeToChargeDash += Time.deltaTime;
-        }
-
-        if (_timeToChargeDash >= 0.2f)
-        {
-            LaunchDash();
-            KillEnnemies();
-        }
-
+        PlayerController.Rb.linearVelocity = Vector2.zero;
+        _playerPosition = PlayerController.transform;
+        _positionToReach = (Vector2) _playerPosition.position + PlayerController.PlayerData.DashDeathLine;
+        PlayerController.DashTimer = 0;
         
-        if (_playerPosition.position.y >= _positionToReach.y)
+        PlayerController.PlayerVisual.SetActive(false);
+        PlayerController.Hurtbox.SetActive(false);
+        
+        if (PlayerController.IsOnLeftWall)
         {
-            PlayerControllerFinal.Rb.AddForce(new Vector2(0, -700));
-            PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
-            PlayerControllerFinal.PlayerPosition.position = _positionToReach;
-            _hasDashed = true;
+            Object.Instantiate(PlayerController.DashLeftSide, PlayerController.transform.position, Quaternion.identity);
         }
-    }
 
-    public override void OnExit()
-    {
-        PlayerControllerFinal.PlayerVisual.SetActive(true);
-        PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
-    }
-
-    public override BaseState NextState()
-    {
-        //WallCatch state
-        if (PlayerControllerFinal.IsOnRightWall && _hasDashed|| PlayerControllerFinal.IsOnLeftWall && _hasDashed)
+        if (PlayerController.IsOnRightWall)
         {
-            _hasDashed = false;
-            PlayerControllerFinal.Hurtbox.SetActive(true);
-            return new StateWallCatch(PlayerControllerFinal);
+            Object.Instantiate(PlayerController.DashRightSide, PlayerController.transform.position, Quaternion.identity);
         }
         
-        return null;
-    }
-
-    private void LaunchDash()
-    {
-        PlayerControllerFinal.PlayerVisual.SetActive(false);
-        PlayerControllerFinal.Hurtbox.SetActive(false);
-        if (PlayerControllerFinal.IsOnLeftWall)
-        {
-            /*PlayerControllerFinal.InstantiateLeftDash = true;*/
-            PlayerControllerFinal.DashLeftSide.SetActive(true);
-        }
-
-        if (PlayerControllerFinal.IsOnRightWall)
-        {
-            /*PlayerControllerFinal.InstantiateRightDash = true;*/
-            PlayerControllerFinal.DashRightSide.SetActive(true);
-        }
-        PlayerControllerFinal.Rb.AddForce(new Vector2(0,700));
-        PlayerControllerFinal.DashRefillTime = 0;
-        PlayerControllerFinal.CanDash = false;
-    }
-
-    private void KillEnnemies()
-    {
         RaycastHit2D[] hits = Physics2D.LinecastAll(_playerPosition.position, _positionToReach,  LayerMask.GetMask("Ennemies"));
         
         foreach (var hit in hits) 
         {
             hit.collider.gameObject.GetComponent<IKillable>().Kill();
         }
+    }
+
+    public override void OnUpdate()
+    {
+        _dashTimer += Time.deltaTime;
+        float linearVelocityX = PlayerController.Rb.linearVelocityX;
+        float dashVelocity = PlayerController.PlayerData.DashCurve.Evaluate(_dashTimer / PlayerController.PlayerData.DashDuration) 
+                             * PlayerController.PlayerData.DashForce;
+        
+        PlayerController.Rb.linearVelocity = new Vector2(linearVelocityX,  dashVelocity);
+    }
+
+    public override void OnExit()
+    {
+        PlayerController.PlayerVisual.SetActive(true);
+        PlayerController.Hurtbox.SetActive(true);
+        PlayerController.Rb.linearVelocity = Vector2.zero;
+    }
+
+    public override BaseState NextState()
+    {
+        if (_dashTimer <= PlayerController.PlayerData.DashDuration) return null;
+        if (IsOnWall) return new StateWallCatch(PlayerController);
+
+        return new StateInAir(PlayerController);
     }
 }

@@ -1,12 +1,14 @@
 using System;
+using __Workspaces.Alexis.Scripts.FinalGame;
+using __Workspaces.Alexis.Scripts.FinalGame.Player;
 using UnityEngine;
 
 public class GroundCheck : MonoBehaviour
 {
-    private PlayerControllerFinal player;
+    private PlayerController player;
     void Awake()
     {
-        player = gameObject.GetComponent<PlayerControllerFinal>();
+        player = gameObject.GetComponent<PlayerController>();
     }
 
     private void Update()

@@ -62,14 +62,16 @@ public class TurretBehaviour : MonoBehaviour, IKillable
 
     void FireRightSide()
     {
-        Instantiate(bulletPrefabRightSide, bulletSpawnRightSide.transform.position, bulletSpawnRightSide.transform.rotation);
+        GameObject instantiate = Instantiate(bulletPrefabRightSide, bulletSpawnRightSide.transform.position, bulletSpawnRightSide.transform.rotation);
+        instantiate.GetComponent<Rigidbody2D>().AddForce(new Vector2(600,0));
         _hasShot = true;
         _shootingTimer = 0;
     }
     
     void FireLeftSide()
     {
-        Instantiate(bulletPrefabLeftSide, bulletSpawnLeftSide.transform.position, bulletSpawnLeftSide.transform.rotation);
+        GameObject instantiate = Instantiate(bulletPrefabLeftSide, bulletSpawnLeftSide.transform.position, bulletSpawnLeftSide.transform.rotation);
+        instantiate.GetComponent<Rigidbody2D>().AddForce(new Vector2(-600,0));
         _hasShot = true;
         _shootingTimer = 0;
     }

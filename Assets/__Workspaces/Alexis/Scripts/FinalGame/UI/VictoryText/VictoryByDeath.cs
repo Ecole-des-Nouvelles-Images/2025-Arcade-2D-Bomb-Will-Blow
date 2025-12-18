@@ -1,3 +1,5 @@
+using __Workspaces.Alexis.Scripts.FinalGame;
+using __Workspaces.Alexis.Scripts.FinalGame.Player;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,12 +8,12 @@ public class VictoryByDeath : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _VictoryByDeathText;
     
-    private PlayerControllerFinal _playerControllerP1;
-    private PlayerControllerFinal _playerControllerP2;
+    private PlayerController _playerControllerP1;
+    private PlayerController _playerControllerP2;
     
     private void Awake() {
-        InputManagerFinale.OnPlayer1Spawn += Player1Spawn;
-        InputManagerFinale.OnPlayer2Spawn += InputManagerFinaleOnOnPlayer2Spawn;
+        InputManager.OnPlayer1Spawn += Player1Spawn;
+        InputManager.OnPlayer2Spawn += InputManagerFinaleOnOnPlayer2Spawn;
         
         if (GameObject.FindWithTag("Player") != null)
         {
@@ -25,16 +27,16 @@ public class VictoryByDeath : MonoBehaviour
     }
 
     private void OnDestroy() {
-        InputManagerFinale.OnPlayer1Spawn -= Player1Spawn;
-        InputManagerFinale.OnPlayer2Spawn -= InputManagerFinaleOnOnPlayer2Spawn;
+        InputManager.OnPlayer1Spawn -= Player1Spawn;
+        InputManager.OnPlayer2Spawn -= InputManagerFinaleOnOnPlayer2Spawn;
     }
 
-    private void InputManagerFinaleOnOnPlayer2Spawn(PlayerControllerFinal playerControllerFinal) {
-        _playerControllerP2 = playerControllerFinal;
+    private void InputManagerFinaleOnOnPlayer2Spawn(PlayerController playerController) {
+        _playerControllerP2 = playerController;
     }
 
-    private void Player1Spawn(PlayerControllerFinal playerControllerFinal) {
-        _playerControllerP1 = playerControllerFinal;
+    private void Player1Spawn(PlayerController playerController) {
+        _playerControllerP1 = playerController;
     }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created

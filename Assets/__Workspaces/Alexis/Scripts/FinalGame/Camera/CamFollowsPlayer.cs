@@ -6,6 +6,8 @@ public class CamFollowsPlayer : MonoBehaviour
     
     void Update()
     {
+        if (!player) return;
+
         if (player.transform.position.y >= 10)
         {
             gameObject.transform.position = new Vector3(gameObject.transform.position.x, player.transform.position.y + 2, gameObject.transform.position.z);

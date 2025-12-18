@@ -1,12 +1,14 @@
+using __Workspaces.Alexis.Scripts.FinalGame;
+using __Workspaces.Alexis.Scripts.FinalGame.Player;
 using UnityEngine;
 
 public class StateShield : BaseState
 {
-    public StateShield(PlayerControllerFinal playerControllerFinal) : base(playerControllerFinal) { }
+    public StateShield(PlayerController playerController) : base(playerController) { }
     
     public override void OnEnter()
     {
-        PlayerControllerFinal.UseShield = true;
+        PlayerController.UseShield = true;
         DoShield();
     }
 
@@ -17,32 +19,32 @@ public class StateShield : BaseState
 
     public override void OnExit()
     {
-        PlayerControllerFinal.UseShield = false;
+        PlayerController.UseShield = false;
     }
 
     public override BaseState NextState()
     {
         //Walk state
-        if (PlayerControllerFinal.Walk && PlayerControllerFinal.CanWalk)
+        if (PlayerController.Walk && PlayerController.CanWalk)
         {
-            return new StateWalk(PlayerControllerFinal);
+            return new StateWalk(PlayerController);
         }
         
         //WallCatch state
-        if (PlayerControllerFinal.IsOnRightWall || PlayerControllerFinal.IsOnLeftWall)
+        if (PlayerController.IsOnRightWall || PlayerController.IsOnLeftWall)
         {
-            return new StateWallCatch(PlayerControllerFinal);
+            return new StateWallCatch(PlayerController);
         }
         
         //InAir state
-        if (!PlayerControllerFinal.IsOnLeftWall || !PlayerControllerFinal.IsOnRightWall && !PlayerControllerFinal.IsInJetpack)
+        if (!PlayerController.IsOnLeftWall || !PlayerController.IsOnRightWall && !PlayerController.IsInJetpack)
         {
-            return new StateInAir(PlayerControllerFinal);
+            return new StateInAir(PlayerController);
         }
         
-        if (PlayerControllerFinal.Move == Vector2.zero)
+        if (PlayerController.Move == Vector2.zero)
         {
-            return new StateIdle(PlayerControllerFinal);
+            return new StateIdle(PlayerController);
         }
         
         return null;
@@ -50,8 +52,9 @@ public class StateShield : BaseState
 
     private void DoShield()
     {
-        PlayerControllerFinal.ShieldEffect.SetActive(true);
-        PlayerControllerFinal.Hurtbox.SetActive(false);
-        PlayerControllerFinal.CanUseShield = false;
+        PlayerController.ShieldTimer = 0;
+        PlayerController.ShieldEffect.SetActive(true);
+        PlayerController.Hurtbox.SetActive(false);
+        PlayerController.CanUseShield = false;
     }
 }

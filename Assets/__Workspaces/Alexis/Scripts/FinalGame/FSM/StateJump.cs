@@ -1,20 +1,22 @@
+using __Workspaces.Alexis.Scripts.FinalGame;
+using __Workspaces.Alexis.Scripts.FinalGame.Player;
 using UnityEngine;
 
 public class StateJump : BaseState
 {
-    public StateJump(PlayerControllerFinal playerControllerFinal) : base(playerControllerFinal) { }
+    public StateJump(PlayerController playerController) : base(playerController) { }
     
     
     public override void OnEnter()
     {
-        PlayerControllerFinal.PlayerAnimator.SetTrigger("StartJump");
-        PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
-        if (PlayerControllerFinal.IsOnRightWall)
+        PlayerController.PlayerAnimator.SetTrigger("StartJump");
+        PlayerController.Rb.linearVelocity = Vector2.zero;
+        if (PlayerController.IsOnRightWall)
         {
             DoJumpToLeftWall();
         }
 
-        if (PlayerControllerFinal.IsOnLeftWall)
+        if (PlayerController.IsOnLeftWall)
         {
             DoJumpToRightWall();
         }
@@ -28,15 +30,15 @@ public class StateJump : BaseState
 
     public override void OnExit()
     {
-        PlayerControllerFinal.HasJumped = true;
+        PlayerController.HasJumped = true;
     }
 
     public override BaseState NextState()
     {
         //InAir state
-        if (!PlayerControllerFinal.IsOnLeftWall || !PlayerControllerFinal.IsOnRightWall && !PlayerControllerFinal.IsInJetpack)
+        if (!PlayerController.IsOnLeftWall || !PlayerController.IsOnRightWall && !PlayerController.IsInJetpack)
         {
-            return new StateInAir(PlayerControllerFinal);
+            return new StateInAir(PlayerController);
         }
 
         return null;
@@ -45,31 +47,31 @@ public class StateJump : BaseState
     private void DoJumpToLeftWall()
     {
         //PlayerControllerFinal.Rb.AddForce(new Vector2(- 1000, 1000));
-        if (PlayerControllerFinal.IsGrounded)
+        if (PlayerController.IsGrounded)
         {
-            PlayerControllerFinal.Rb.AddForce(new Vector2(- 1000 * Mathf.Abs(PlayerControllerFinal.Move.x) * Mathf.Abs(PlayerControllerFinal.JumpXDynamic), 1000));
+            PlayerController.Rb.AddForce(new Vector2(- 1000 * Mathf.Abs(PlayerController.Move.x) * Mathf.Abs(PlayerController.JumpXDynamic), 1000));
         }
         else
         {
-            PlayerControllerFinal.Rb.AddForce(new Vector2(- 1000 * Mathf.Abs(PlayerControllerFinal.Move.x) * Mathf.Abs(PlayerControllerFinal.JumpXDynamic), 1000 * PlayerControllerFinal.JumpY));
-            PlayerControllerFinal.CanJumpToLeftWall = false;
+            PlayerController.Rb.AddForce(new Vector2(- 1000 * Mathf.Abs(PlayerController.Move.x) * Mathf.Abs(PlayerController.JumpXDynamic), 1000 * PlayerController.JumpY));
+            PlayerController.CanJumpToLeftWall = false;
         }
-        PlayerControllerFinal.LeftJumpEffect.SetActive(true);
+        PlayerController.LeftJumpEffect.SetActive(true);
     }
 
     private void DoJumpToRightWall()
     {
         
         //PlayerControllerFinal.Rb.AddForce(new Vector2(1000, 1000));
-        if (PlayerControllerFinal.IsGrounded)
+        if (PlayerController.IsGrounded)
         {
-            PlayerControllerFinal.Rb.AddForce(new Vector2(1000 * Mathf.Abs(PlayerControllerFinal.Move.x) * Mathf.Abs(PlayerControllerFinal.JumpXDynamic), 1000));
+            PlayerController.Rb.AddForce(new Vector2(1000 * Mathf.Abs(PlayerController.Move.x) * Mathf.Abs(PlayerController.JumpXDynamic), 1000));
         }
         else
         {
-            PlayerControllerFinal.Rb.AddForce(new Vector2(1000 * Mathf.Abs(PlayerControllerFinal.Move.x) * Mathf.Abs(PlayerControllerFinal.JumpXDynamic), 1000 * PlayerControllerFinal.JumpY));
-            PlayerControllerFinal.CanJumpToRightWall = false;
+            PlayerController.Rb.AddForce(new Vector2(1000 * Mathf.Abs(PlayerController.Move.x) * Mathf.Abs(PlayerController.JumpXDynamic), 1000 * PlayerController.JumpY));
+            PlayerController.CanJumpToRightWall = false;
         }
-        PlayerControllerFinal.RightJumpEffect.SetActive(true);
+        PlayerController.RightJumpEffect.SetActive(true);
     }
 }

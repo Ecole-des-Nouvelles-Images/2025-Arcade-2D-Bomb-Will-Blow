@@ -1,16 +1,17 @@
+using __Workspaces.Alexis.Scripts.Proto.PlayerScripts;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class InputHandler : MonoBehaviour
 {
     private PlayerInput _playerInput;
-    private PlayerController _playerController;
+    private __Workspaces.Alexis.Scripts.Proto.PlayerScripts.PlayerController _playerController;
     private bool _isControllerConnected;
 
     void Awake()
     {
         _playerInput = GetComponent<PlayerInput>();
-        _playerController = GetComponent<PlayerController>();
+        _playerController = GetComponent<__Workspaces.Alexis.Scripts.Proto.PlayerScripts.PlayerController>();
     }
 
     private void OnEnable()

@@ -1,12 +1,14 @@
+using __Workspaces.Alexis.Scripts.FinalGame;
+using __Workspaces.Alexis.Scripts.FinalGame.Player;
 using UnityEngine;
 
 public abstract class BaseState
 {
-    protected PlayerControllerFinal PlayerControllerFinal;
+    protected PlayerController PlayerController;
 
-    protected BaseState(PlayerControllerFinal playerControllerFinal)
+    protected BaseState(PlayerController playerController)
     {
-        PlayerControllerFinal = playerControllerFinal;
+        PlayerController = playerController;
     }
 
     public abstract void OnEnter();

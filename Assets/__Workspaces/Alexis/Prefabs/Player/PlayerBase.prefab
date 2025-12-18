@@ -125,11 +125,11 @@ GameObject:
   - component: {fileID: 33740568722527982}
   - component: {fileID: 2325240412947786812}
   - component: {fileID: 4691937348572167235}
+  - component: {fileID: -7887693027402122416}
   - component: {fileID: 6738911812003850326}
   - component: {fileID: 2196031241831584623}
-  - component: {fileID: -7887693027402122416}
   m_Layer: 0
-  m_Name: Player1
+  m_Name: PlayerBase
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -174,7 +174,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 3c432d465010b8943bb1b0b1478f6e72, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -249,6 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04f462266cbe8ab4f9b3de097f905bf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControllerFinal
+  PlayerData: {fileID: 0}
   IsGrounded: 0
   Move: {x: 0, y: 0}
   Walk: 0
@@ -269,10 +270,7 @@ MonoBehaviour:
   UseJetpack: 0
   OutOfJetpack: 0
   IsInJetpack: 0
-  JetpackFuel: 5
   UseDash: 0
-  CanDash: 1
-  DashCd: 0
   DashRefillTime: 0
   DashLeftSide: {fileID: 3282695998715931745}
   DashRightSide: {fileID: 5224785901629017025}
@@ -280,6 +278,7 @@ MonoBehaviour:
   CanUseShield: 1
   ShieldEffect: {fileID: 3605273399553287492}
   Hurtbox: {fileID: 7779676862021751079}
+  JetpackCurrent: 0
   PlayerAnimator: {fileID: 1393612825892715235}
   _Visual: {fileID: 8331446572972086905}
   CanDeactivateBomb: 0
@@ -337,6 +336,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputManagerFinale
   _UiScriptManager: {fileID: 0}
+--- !u!114 &-7887693027402122416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952904180718490108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396cf27b20909a944b8397372aa5da3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HitEffect
+  flashMaterial: {fileID: 2100000, guid: 1d1f830d3a8252840b10dbf0cbc838f8, type: 2}
+  duration: 0.125
 --- !u!114 &6738911812003850326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,7 +478,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
-  m_PlayerPrefab: {fileID: 3172781799512426474, guid: bb979100d2580dc439cb301211c36401, type: 3}
+  m_PlayerPrefab: {fileID: 0}
   m_SplitScreen: 0
   m_MaintainAspectRatioInSplitScreen: 0
   m_FixedNumberOfSplitScreens: -1
@@ -475,20 +488,6 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
---- !u!114 &-7887693027402122416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4952904180718490108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396cf27b20909a944b8397372aa5da3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HitEffect
-  flashMaterial: {fileID: 2100000, guid: 1d1f830d3a8252840b10dbf0cbc838f8, type: 2}
-  duration: 0.125
 --- !u!1 &5878182420701774110
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,7 +623,7 @@ MonoBehaviour:
   - {fileID: 6515465944606280382, guid: 08aa3c1edd6cf4b4baf25d728879e33c, type: 3}
   - {fileID: 1621414660325377008, guid: 98ef9530f44265f438969ba5826c093a, type: 3}
   - {fileID: 8508122738899691535, guid: f45898521dc6f46449f86d4f17bfb921, type: 3}
-  Health: 5
+  HealthCurrent: 0
 --- !u!1 &8331446572972086905
 GameObject:
   m_ObjectHideFlags: 0
