@@ -518,6 +518,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2624426843426538993}
     m_Modifications:
+    - target: {fileID: 4059792016355407255, guid: ce9fcfea30be95e4c8a2fbf2e791d210, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 4221440068111897283, guid: ce9fcfea30be95e4c8a2fbf2e791d210, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.86482495
@@ -576,11 +580,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8888572284573306222, guid: ce9fcfea30be95e4c8a2fbf2e791d210, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 0.04
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 8888572284573306222, guid: ce9fcfea30be95e4c8a2fbf2e791d210, type: 3}
       propertyPath: InitialModule.startSize.minScalar
-      value: 0.13
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 8888572284573306222, guid: ce9fcfea30be95e4c8a2fbf2e791d210, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
