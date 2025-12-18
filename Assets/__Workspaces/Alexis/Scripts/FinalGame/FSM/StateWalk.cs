@@ -6,7 +6,8 @@ public class StateWalk : BaseState
     
     public override void OnEnter()
     {
-        PlayerControllerFinal.PlayerAnimator.SetTrigger("StartWalk");
+        Debug.Log("State walk Entry");
+        PlayerControllerFinal.PlayerAnimator.SetBool("StartWalk",true);
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
         PlayerControllerFinal.PlayerAnimator.SetBool("Walking", true);
     }

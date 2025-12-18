@@ -583,6 +583,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 3445532437177279014}
     m_Modifications:
     - target: {fileID: 3197965789251159249, guid: c1f0377893ee11040986775128fd37f4, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3197965789251159249, guid: c1f0377893ee11040986775128fd37f4, type: 3}
       propertyPath: startDelay.scalar
       value: 0.3
       objectReference: {fileID: 0}
@@ -693,6 +697,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2420412535391710178, guid: c53d70265aa86c74f8c8b7520345e7ec, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420412535391710178, guid: c53d70265aa86c74f8c8b7520345e7ec, type: 3}
       propertyPath: startDelay.scalar
       value: 0.2
       objectReference: {fileID: 0}
@@ -767,12 +775,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1776377550019168629, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776377550019168629, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1922073631234360676, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931716853760595021, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1931716853760595021, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: startDelay.scalar
@@ -783,8 +799,16 @@ PrefabInstance:
       value: SpiderDeathLeft
       objectReference: {fileID: 0}
     - target: {fileID: 2959962959388916437, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959962959388916437, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3340023067886707678, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3340023067886707678, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: startDelay.scalar
@@ -795,20 +819,40 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3569892393092144800, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569892393092144800, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3700355400760395060, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3700355400760395060, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 3818022658270632832, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3818022658270632832, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4195316635517418909, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4195316635517418909, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228311205867144958, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5228311205867144958, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: startDelay.scalar
@@ -819,8 +863,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6960350565742897318, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6960350565742897318, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041708083465881080, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041708083465881080, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: startDelay.scalar

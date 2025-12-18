@@ -49,6 +49,10 @@ public class PlayerControllerFinal : MonoBehaviour
     public bool CanDash = true;
     public int DashCd = 500;
     public float DashRefillTime;
+    public GameObject DashLeftSide;
+    public bool InstantiateLeftDash;
+    public GameObject DashRightSide;
+    public bool InstantiateRightDash;
     
     [Space(4), Header("ShieldParameters")]
     //Shield
@@ -85,6 +89,10 @@ public class PlayerControllerFinal : MonoBehaviour
     [Space(4), Header("TransformComponent")]
     //Transform
     public Transform PlayerPosition;
+    
+    [Space(4), Header("Visual")]
+    //Visual
+    public GameObject PlayerVisual;
 
     void Awake() 
     {
@@ -157,6 +165,19 @@ public class PlayerControllerFinal : MonoBehaviour
             }
         }
         
+        //Instantiation of dash effect
+        if (InstantiateLeftDash)
+        {
+            InstantiateLeftDash = false;
+            Instantiate(DashLeftSide, PlayerPosition.position, PlayerPosition.rotation);
+        }
+
+        if (InstantiateRightDash)
+        {
+            InstantiateRightDash = false;
+            Instantiate(DashRightSide, PlayerPosition.position, PlayerPosition.rotation);
+        }
+        
         //Dash cooldown
         if (!CanDash)
         {
@@ -166,6 +187,8 @@ public class PlayerControllerFinal : MonoBehaviour
                 CanDash = true;
             }
         }
+        Debug.Log(DashRefillTime);
+        Debug.Log(CanDash);
         
         //Fuel management
         if (!IsInJetpack && JetpackFuel < 5)

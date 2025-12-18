@@ -362,7 +362,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 121723838745017328, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
       insertIndex: 2
       addedObject: {fileID: 7985071113327445294}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7838103970437092494, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2158134591238288955}
+    - targetCorrespondingSourceObject: {fileID: 4510057821674243094, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8985138544895791784}
   m_SourcePrefab: {fileID: 100100000, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
 --- !u!1 &85611285452406806 stripped
 GameObject:
@@ -374,6 +380,23 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6989980799194248907, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
   m_PrefabInstance: {fileID: 4666140658866066276}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3172781799512426474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7838103970437092494, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+  m_PrefabInstance: {fileID: 4666140658866066276}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2158134591238288955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3172781799512426474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 675015cc2901f0046881c31ccc1a60f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ApparitionPerso
 --- !u!1 &4061921190549659645 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8691843899886406809, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
@@ -389,3 +412,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1476348798565597655, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
   m_PrefabInstance: {fileID: 4666140658866066276}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9103894178980796274 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4510057821674243094, guid: 2b8bee3a2ff6fab49a5e38d1820bcaa7, type: 3}
+  m_PrefabInstance: {fileID: 4666140658866066276}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8985138544895791784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9103894178980796274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 675015cc2901f0046881c31ccc1a60f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ApparitionPerso

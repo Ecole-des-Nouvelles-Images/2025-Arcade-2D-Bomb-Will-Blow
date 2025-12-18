@@ -26,7 +26,7 @@ public class CamFollowsPlayer2 : MonoBehaviour
             gameObject.transform.position = new Vector3(gameObject.transform.position.x, _player.transform.position.y + 2, gameObject.transform.position.z);
         }
 
-        if (_player.transform.position.y >= -115 && _player.transform.position.x >= 6.5)
+        if (_player.transform.position.y >= -116 && _player.transform.position.x >= 6.5)
         {
             gameObject.transform.position = new Vector3(_player.transform.position.x - 6.5f, _player.transform.position.y + 2, gameObject.transform.position.z);
         }

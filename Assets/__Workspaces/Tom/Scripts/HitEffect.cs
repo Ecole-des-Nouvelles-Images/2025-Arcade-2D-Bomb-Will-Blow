@@ -2,9 +2,6 @@ using UnityEngine;
 using System.Collections;
 
 public class HitEffect : MonoBehaviour
-
-   
-    
     {
         #region Datamembers
 
@@ -31,8 +28,8 @@ public class HitEffect : MonoBehaviour
         #endregion
 
         #endregion
-
-
+        
+        
         #region Methods
 
         #region Unity Callbacks
@@ -40,7 +37,7 @@ public class HitEffect : MonoBehaviour
         void Start()
         {
            
-            spriteRenderer = GetComponent<SpriteRenderer>();
+            spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
             
             originalMaterial = spriteRenderer.material;

@@ -595,6 +595,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1508861377636953327, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508861377636953327, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
       objectReference: {fileID: 0}
@@ -611,20 +615,40 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2849693690545268292, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2849693690545268292, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3320844622848158524, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3320844622848158524, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 3437485393723764825, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3437485393723764825, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 3724331894697377241, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3724331894697377241, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956697995809238773, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4956697995809238773, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: startDelay.scalar
@@ -683,6 +707,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5780237727141417170, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780237727141417170, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
       objectReference: {fileID: 0}
@@ -703,12 +731,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6329965900308671929, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329965900308671929, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6416079381489231808, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6416079381489231808, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: startDelay.scalar
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7656220304344234602, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7656220304344234602, guid: 0c06122aba6ffee4ea5f07bfb8598d54, type: 3}
       propertyPath: startDelay.scalar
@@ -732,6 +772,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8260475925360282128}
     m_Modifications:
+    - target: {fileID: 3197965789251159249, guid: c1f0377893ee11040986775128fd37f4, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3197965789251159249, guid: c1f0377893ee11040986775128fd37f4, type: 3}
       propertyPath: startDelay.scalar
       value: 0.3
@@ -853,6 +897,10 @@ PrefabInstance:
     - target: {fileID: 494259730175808146, guid: c53d70265aa86c74f8c8b7520345e7ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420412535391710178, guid: c53d70265aa86c74f8c8b7520345e7ec, type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2420412535391710178, guid: c53d70265aa86c74f8c8b7520345e7ec, type: 3}
       propertyPath: startDelay.scalar

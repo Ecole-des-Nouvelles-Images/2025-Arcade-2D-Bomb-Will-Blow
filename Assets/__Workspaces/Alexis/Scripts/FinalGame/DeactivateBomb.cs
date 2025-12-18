@@ -11,7 +11,7 @@ public class DeactivateBomb : MonoBehaviour
     
     private bool _playerControllerP1Found;
     private bool _playerControllerP2Found;
-
+    
     private void Awake() {
         InputManagerFinale.OnPlayer1Spawn += Player1Spawn;
         InputManagerFinale.OnPlayer2Spawn += InputManagerFinaleOnOnPlayer2Spawn;
