@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 433447961985760614}
   - component: {fileID: 8357070203920139460}
   - component: {fileID: 6407278596503492946}
-  - component: {fileID: -386676977876728250}
+  - component: {fileID: 4504604516005746994}
   m_Layer: 0
   m_Name: TurretBulletRightSide (1)
   m_TagString: Bullet
@@ -281,7 +281,7 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
---- !u!114 &-386676977876728250
+--- !u!114 &4504604516005746994
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -290,10 +290,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 443468841055730060}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51628c2d985ac8a499e473d7979e8c43, type: 3}
+  m_Script: {fileID: 11500000, guid: 92180025398b49e68c32b03d262d6e4b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BulletBehaviourRightSide
-  _turret: {fileID: 5203659833494140171, guid: 11189e4161e011a47ba0ecd1c680dd80, type: 3}
+  m_EditorClassIdentifier: Assembly-CSharp::__Workspaces.Alexis.Scripts.FinalGame.Enemies.Turret.BulletBehaviour
 --- !u!1 &1126612115291617317
 GameObject:
   m_ObjectHideFlags: 0

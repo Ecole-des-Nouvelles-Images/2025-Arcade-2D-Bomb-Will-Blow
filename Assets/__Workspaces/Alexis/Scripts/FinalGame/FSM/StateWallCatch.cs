@@ -1,8 +1,10 @@
+using __Workspaces.Alexis.Scripts.FinalGame;
+using __Workspaces.Alexis.Scripts.FinalGame.Player;
 using UnityEngine;
 
 public class StateWallCatch : BaseState
 {
-    public StateWallCatch(PlayerControllerFinal playerControllerFinal) : base(playerControllerFinal) { }
+    public StateWallCatch(PlayerController playerController) : base(playerController) { }
 
     private bool _canGetSpeed;
     private bool _activatesOnlyOnce;
@@ -11,24 +13,24 @@ public class StateWallCatch : BaseState
 
     public override void OnEnter()
     {
-        if (PlayerControllerFinal.IsOnLeftWall)
+        if (PlayerController.IsOnLeftWall)
         {
-            PlayerControllerFinal.LandingEffectLeftSide.SetActive(true);
+            PlayerController.LandingEffectLeftSide.SetActive(true);
         }
-        if (PlayerControllerFinal.IsOnRightWall)
+        if (PlayerController.IsOnRightWall)
         {
-            PlayerControllerFinal.LandingEffectRightSide.SetActive(true);
+            PlayerController.LandingEffectRightSide.SetActive(true);
         }
-        PlayerControllerFinal.PlayerAnimator.SetBool("InAir", false);
-        PlayerControllerFinal.PlayerAnimator.SetBool("IdleWall", true);
-        PlayerControllerFinal.PlayerAnimator.SetBool("EndJump", false);
-        PlayerControllerFinal.Rb.gravityScale = 0;
-        PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
+        PlayerController.PlayerAnimator.SetBool("InAir", false);
+        PlayerController.PlayerAnimator.SetBool("IdleWall", true);
+        PlayerController.PlayerAnimator.SetBool("EndJump", false);
+        PlayerController.Rb.gravityScale = 0;
+        PlayerController.Rb.linearVelocity = Vector2.zero;
     }
 
     public override void OnUpdate()
     {
-        PlayerControllerFinal.CanWalk = false;
+        PlayerController.CanWalk = false;
         
         if (!_activatesOnlyOnce)
         {
@@ -48,37 +50,37 @@ public class StateWallCatch : BaseState
 
     public override void OnExit()
     {
-        PlayerControllerFinal.LandingEffectRightSide.SetActive(false);
-        PlayerControllerFinal.LandingEffectLeftSide.SetActive(false);
-        PlayerControllerFinal.PlayerAnimator.SetBool("IdleWall", false);
-        PlayerControllerFinal.Rb.gravityScale = 1;
+        PlayerController.LandingEffectRightSide.SetActive(false);
+        PlayerController.LandingEffectLeftSide.SetActive(false);
+        PlayerController.PlayerAnimator.SetBool("IdleWall", false);
+        PlayerController.Rb.gravityScale = 1;
     }
 
     public override BaseState NextState()
     {
         //Jump state
-        if (PlayerControllerFinal.Jump && PlayerControllerFinal.Move.x != 0)
+        if (PlayerController.Jump && PlayerController.Move.x != 0)
         {
-            return new StateJump(PlayerControllerFinal);
+            return new StateJump(PlayerController);
         }
         
         //Jetpack state
-        if (PlayerControllerFinal.UseJetpack)
+        if (PlayerController.UseJetpack)
         {
-            PlayerControllerFinal.PlayerAnimator.SetTrigger("JetpackEntry");
-            return new StateJetpack(PlayerControllerFinal);
+            PlayerController.PlayerAnimator.SetTrigger("JetpackEntry");
+            return new StateJetpack(PlayerController);
         }
         
         //Shield state
-        if (PlayerControllerFinal.UseShield && PlayerControllerFinal.CanUseShield)
+        if (PlayerController.UseShield && PlayerController.CanUseShield)
         {
-            return new StateShield(PlayerControllerFinal);
+            return new StateShield(PlayerController);
         }
         
         //Dash state
-        if (PlayerControllerFinal.UseDash && PlayerControllerFinal.CanDash)
+        if (PlayerController.UseDash && PlayerController.CanDash)
         {
-            return new StateDash(PlayerControllerFinal);
+            return new StateDash(PlayerController);
         }
         
         return null;
@@ -86,7 +88,7 @@ public class StateWallCatch : BaseState
 
     private void DoWallSlide()
     {
-        PlayerControllerFinal.Rb.AddForce(new Vector2(0, - 1));
+        PlayerController.Rb.AddForce(new Vector2(0, - 1 * Time.deltaTime));
         _canGetSpeed = false;
         _activatesOnlyOnce = false;
     }

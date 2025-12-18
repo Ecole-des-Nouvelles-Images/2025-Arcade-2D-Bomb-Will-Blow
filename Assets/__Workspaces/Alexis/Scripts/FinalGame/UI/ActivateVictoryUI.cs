@@ -1,5 +1,7 @@
 using System;
 using System.Net;
+using __Workspaces.Alexis.Scripts.FinalGame;
+using __Workspaces.Alexis.Scripts.FinalGame.Player;
 using UnityEngine;
 
 public class ActivateVictoryUI : MonoBehaviour
@@ -12,28 +14,28 @@ public class ActivateVictoryUI : MonoBehaviour
     private GameObject _p1;
     private GameObject _p2;
     
-    private PlayerControllerFinal  _playerControllerP1;
-    private PlayerControllerFinal  _playerControllerP2;
+    private PlayerController  _playerControllerP1;
+    private PlayerController  _playerControllerP2;
     
     private bool _playerControllerP1Found;
     private bool _playerControllerP2Found;
 
     private void Awake() {
-        InputManagerFinale.OnPlayer1Spawn += Player1Spawn;
-        InputManagerFinale.OnPlayer2Spawn += InputManagerFinaleOnOnPlayer2Spawn;
+        InputManager.OnPlayer1Spawn += Player1Spawn;
+        InputManager.OnPlayer2Spawn += InputManagerFinaleOnOnPlayer2Spawn;
     }
 
     private void OnDestroy() {
-        InputManagerFinale.OnPlayer1Spawn -= Player1Spawn;
-        InputManagerFinale.OnPlayer2Spawn -= InputManagerFinaleOnOnPlayer2Spawn;
+        InputManager.OnPlayer1Spawn -= Player1Spawn;
+        InputManager.OnPlayer2Spawn -= InputManagerFinaleOnOnPlayer2Spawn;
     }
 
-    private void InputManagerFinaleOnOnPlayer2Spawn(PlayerControllerFinal playerControllerFinal) {
-        _playerControllerP2 = playerControllerFinal;
+    private void InputManagerFinaleOnOnPlayer2Spawn(PlayerController playerController) {
+        _playerControllerP2 = playerController;
     }
 
-    private void Player1Spawn(PlayerControllerFinal playerControllerFinal) {
-        _playerControllerP1 = playerControllerFinal;
+    private void Player1Spawn(PlayerController playerController) {
+        _playerControllerP1 = playerController;
     }
 
     // Update is called once per frame

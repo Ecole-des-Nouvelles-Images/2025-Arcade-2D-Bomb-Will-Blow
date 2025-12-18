@@ -154,8 +154,8 @@ GameObject:
   - component: {fileID: 8919633299279307388}
   - component: {fileID: 4677712606219864309}
   - component: {fileID: 6005500741684855055}
-  - component: {fileID: 3607606665818550321}
   - component: {fileID: 6940317020353355891}
+  - component: {fileID: 7481548534404689501}
   m_Layer: 0
   m_Name: TurretBulletLeftSide 1 (1)
   m_TagString: Bullet
@@ -313,19 +313,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
---- !u!114 &3607606665818550321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5414357734752744037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ff8dae1c239f794c854272c11d667bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  _turret: {fileID: 5203659833494140171, guid: 11189e4161e011a47ba0ecd1c680dd80, type: 3}
 --- !u!96 &6940317020353355891
 TrailRenderer:
   serializedVersion: 3
@@ -436,6 +423,18 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
+--- !u!114 &7481548534404689501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5414357734752744037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92180025398b49e68c32b03d262d6e4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::__Workspaces.Alexis.Scripts.FinalGame.Enemies.Turret.BulletBehaviour
 --- !u!1001 &2820395716325446595
 PrefabInstance:
   m_ObjectHideFlags: 0

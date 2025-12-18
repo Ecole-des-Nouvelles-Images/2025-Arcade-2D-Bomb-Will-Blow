@@ -1,8 +1,10 @@
+using __Workspaces.Alexis.Scripts.FinalGame;
+using __Workspaces.Alexis.Scripts.FinalGame.Player;
 using UnityEngine;
 
 public class StateInAir : BaseState
 {
-    public StateInAir(PlayerControllerFinal playerControllerFinal) : base(playerControllerFinal) { }
+    public StateInAir(PlayerController playerController) : base(playerController) { }
 
     private float _yVelocity;
     private float _timeBeforeCatch;
@@ -10,13 +12,13 @@ public class StateInAir : BaseState
     
     public override void OnEnter()
     {
-        PlayerControllerFinal.PlayerAnimator.SetBool("InAir", true);
+        PlayerController.PlayerAnimator.SetBool("InAir", true);
     }
 
     public override void OnUpdate()
     {
-        _yVelocity = PlayerControllerFinal.Rb.linearVelocity.y;
-        if (PlayerControllerFinal.HasJumped)
+        _yVelocity = PlayerController.Rb.linearVelocity.y;
+        if (PlayerController.HasJumped)
         {
             if (_timeBeforeCatch < 0.2)
             {
@@ -31,16 +33,16 @@ public class StateInAir : BaseState
             
             if (_yVelocity <= 0)
             {
-                PlayerControllerFinal.Rb.AddForce(new Vector2(PlayerControllerFinal.Move.x, 0));
+                PlayerController.Rb.AddForce(new Vector2(PlayerController.Move.x, 0));
             }
         }
 
-        if (PlayerControllerFinal.OutOfJetpack)
+        if (PlayerController.OutOfJetpack)
         {
             if (_yVelocity <= 0)
             {
                 _canCatch = true;
-                PlayerControllerFinal.Rb.AddForce(new Vector2(PlayerControllerFinal.Move.x * 8000 * Time.deltaTime, 0));
+                PlayerController.Rb.AddForce(new Vector2(PlayerController.Move.x * 8000 * Time.deltaTime, 0));
             }
         }
     }
@@ -48,24 +50,24 @@ public class StateInAir : BaseState
     public override void OnExit()
     {
         _timeBeforeCatch = 0;
-        PlayerControllerFinal.OutOfJetpack = false;
-        PlayerControllerFinal.RightJumpEffect.SetActive(false);
-        PlayerControllerFinal.LeftJumpEffect.SetActive(false);
+        PlayerController.OutOfJetpack = false;
+        PlayerController.RightJumpEffect.SetActive(false);
+        PlayerController.LeftJumpEffect.SetActive(false);
     }
 
     public override BaseState NextState()
     {
         //Shield state
-        if (PlayerControllerFinal.UseShield)
+        if (PlayerController.UseShield)
         {
-            return new StateShield(PlayerControllerFinal);
+            return new StateShield(PlayerController);
         }
         
         //Wall state
-        if (PlayerControllerFinal.IsOnRightWall && _canCatch || PlayerControllerFinal.IsOnLeftWall && _canCatch)
+        if (PlayerController.IsOnRightWall && _canCatch || PlayerController.IsOnLeftWall && _canCatch)
         {
-            PlayerControllerFinal.PlayerAnimator.SetBool("EndJump", true);
-            return new StateWallCatch(PlayerControllerFinal);
+            PlayerController.PlayerAnimator.SetBool("EndJump", true);
+            return new StateWallCatch(PlayerController);
         }
         
         /*
@@ -76,15 +78,15 @@ public class StateInAir : BaseState
         }*/
         
         //Idle state 
-        if (PlayerControllerFinal.IsGrounded && PlayerControllerFinal.Move.x == 0 && _canCatch)
+        if (PlayerController.IsGrounded && PlayerController.Move.x == 0 && _canCatch)
         {
-            return new StateIdle(PlayerControllerFinal);
+            return new StateIdle(PlayerController);
         }
         
         //Walk state
-        if (PlayerControllerFinal.IsGrounded && PlayerControllerFinal.Move.x != 0 && _canCatch)
+        if (PlayerController.IsGrounded && PlayerController.Move.x != 0 && _canCatch)
         {
-            return new StateWalk(PlayerControllerFinal);
+            return new StateWalk(PlayerController);
         }
         
         return null;

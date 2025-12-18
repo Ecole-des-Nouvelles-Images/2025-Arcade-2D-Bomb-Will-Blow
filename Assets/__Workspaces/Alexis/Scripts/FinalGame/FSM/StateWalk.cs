@@ -1,68 +1,62 @@
+using __Workspaces.Alexis.Scripts.FinalGame;
+using __Workspaces.Alexis.Scripts.FinalGame.Player;
 using UnityEngine;
 
 public class StateWalk : BaseState
 {
-    public StateWalk(PlayerControllerFinal playerControllerFinal) : base(playerControllerFinal) { }
+    public StateWalk(PlayerController playerController) : base(playerController) { }
     
     public override void OnEnter()
     {
         Debug.Log("State walk Entry");
-        PlayerControllerFinal.PlayerAnimator.SetBool("StartWalk",true);
-        PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
-        PlayerControllerFinal.PlayerAnimator.SetBool("Walking", true);
+        PlayerController.PlayerAnimator.SetBool("StartWalk",true);
+        PlayerController.Rb.linearVelocity = Vector2.zero;
+        PlayerController.PlayerAnimator.SetBool("Walking", true);
     }
 
     public override void OnUpdate()
     {
-        PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
-        PlayerControllerFinal.Rb.AddForce(new Vector2(PlayerControllerFinal.Move.x * Time.deltaTime * 10000, 0));
-        if (PlayerControllerFinal.Move.x >= 0.2f)
-        {
-            PlayerControllerFinal.Rb.AddForce(new Vector2(Time.deltaTime * 5000, 0));
-        }
-        if (PlayerControllerFinal.Move.x <= -0.2f)
-        {
-            PlayerControllerFinal.Rb.AddForce(new Vector2(Time.deltaTime * -5000, 0));
-        }
+        float moveX = PlayerController.Move.x * Time.deltaTime * PlayerController.PlayerData.MoveSpeed;
+        PlayerController.Rb.linearVelocity = new Vector2(moveX, PlayerController.Rb.linearVelocity.y);
     }
 
     public override void OnExit()
     {
-        PlayerControllerFinal.Walk = false;
-        PlayerControllerFinal.PlayerAnimator.SetBool("Walking", false);
+        PlayerController.Walk = false;
+        PlayerController.PlayerAnimator.SetBool("Walking", false);
     }
 
     public override BaseState NextState()
     {
         //Wall state
-        if (PlayerControllerFinal.IsOnRightWall || PlayerControllerFinal.IsOnLeftWall)
+        if (PlayerController.IsOnRightWall || PlayerController.IsOnLeftWall)
         {
-            return new StateWallCatch(PlayerControllerFinal);
+            return new StateWallCatch(PlayerController);
         }
 
         //Idle state
-        if (PlayerControllerFinal.Move == Vector2.zero)
+        if (PlayerController.Move == Vector2.zero)
         {
-            return new StateIdle(PlayerControllerFinal);
+            return new StateIdle(PlayerController);
         }
         
         //Jetpack state
-        if (PlayerControllerFinal.UseJetpack)
+        if (PlayerController.UseJetpack)
         {
-            return new StateJetpack(PlayerControllerFinal);
+            return new StateJetpack(PlayerController);
         }
         
         //Shield state
-        if (PlayerControllerFinal.UseShield)
+        if (PlayerController.UseShield)
         {
-            return new StateShield(PlayerControllerFinal);
+            return new StateShield(PlayerController);
         }
         
         //InAir state
-        if (!PlayerControllerFinal.IsGrounded && !PlayerControllerFinal.IsOnLeftWall &&
-            !PlayerControllerFinal.IsOnRightWall)
+        if (!PlayerController.IsGrounded && !PlayerController.IsOnLeftWall &&
+            !PlayerController.IsOnRightWall)
         {
-            return new StateInAir(PlayerControllerFinal);
+            return new StateInAir(PlayerController);
         }
         
         return null;

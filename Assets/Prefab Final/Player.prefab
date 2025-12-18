@@ -406,7 +406,7 @@ MonoBehaviour:
   player: {fileID: 7838103970437092494}
   _HeartContainersP1: []
   _HeartContainersP2: []
-  Health: 5
+  HealthCurrent: 0
 --- !u!1 &7838103970437092494
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,38 +543,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04f462266cbe8ab4f9b3de097f905bf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControllerFinal
+  PlayerData: {fileID: 0}
   IsGrounded: 0
   Move: {x: 0, y: 0}
   Walk: 0
   CanWalk: 0
   Jump: 0
+  HasJumped: 0
   JumpXDynamic: 0
   JumpY: 0
-  RightJumpEffect: {fileID: 0}
-  LeftJumpEffect: {fileID: 0}
-  LandingEffectRightSide: {fileID: 0}
-  LandingEffectLeftSide: {fileID: 0}
+  RightJumpEffect: {fileID: 4751668375457878898}
+  LeftJumpEffect: {fileID: 1476348798565597655}
+  LandingEffectRightSide: {fileID: 8691843899886406809}
+  LandingEffectLeftSide: {fileID: 6989980799194248907}
   IsOnLeftWall: 0
   CanJumpToRightWall: 0
   IsOnRightWall: 0
   CanJumpToLeftWall: 0
   Rb: {fileID: 0}
   UseJetpack: 0
+  OutOfJetpack: 0
   IsInJetpack: 0
-  JetpackFuel: 5
   UseDash: 0
-  CanDash: 1
-  DashCd: 0
-  DashRefillTime: 0
+  DashTimer: 0
+  DashLeftSide: {fileID: 0}
+  InstantiateLeftDash: 0
+  DashRightSide: {fileID: 0}
+  InstantiateRightDash: 0
   UseShield: 0
   CanUseShield: 1
-  ShieldEffect: {fileID: 4747603662305410989}
+  ShieldEffect: {fileID: 0}
   Hurtbox: {fileID: 5221676046918968834}
+  JetpackCurrent: 0
   PlayerAnimator: {fileID: 3174844919600878019}
-  _Visual: {fileID: 4510057821674243094}
   CanDeactivateBomb: 0
   BombDeactivated: 0
   PlayerPosition: {fileID: 121723838745017328}
+  PlayerVisual: {fileID: 4510057821674243094}
 --- !u!114 &1285085348665157858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -740,6 +745,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21248639e228a1541bd23a7108b3ead8, type: 3}
+--- !u!1 &1476348798565597655 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1273762135670527843, guid: 21248639e228a1541bd23a7108b3ead8, type: 3}
+  m_PrefabInstance: {fileID: 418910085917431476}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4006543425150885223 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3623812773057940435, guid: 21248639e228a1541bd23a7108b3ead8, type: 3}
@@ -798,6 +808,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
+--- !u!1 &4751668375457878898 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5336394164665417807, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
+  m_PrefabInstance: {fileID: 864690090948318013}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7980352572926956056 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7295857150246109477, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
@@ -935,6 +950,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7072485761889421369, guid: 1aba41ed5d9f13a46880a661a37f02b0, type: 3}
   m_PrefabInstance: {fileID: 4710353251591542417}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8691843899886406809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4161652244906269192, guid: 1aba41ed5d9f13a46880a661a37f02b0, type: 3}
+  m_PrefabInstance: {fileID: 4710353251591542417}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7136250626931596250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -996,6 +1016,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 626ac54f042b6be44ac9aa006cd7a5d0, type: 3}
+--- !u!1 &6989980799194248907 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 146482033498828049, guid: 626ac54f042b6be44ac9aa006cd7a5d0, type: 3}
+  m_PrefabInstance: {fileID: 7136250626931596250}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8037298859648446931 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 901624376944093705, guid: 626ac54f042b6be44ac9aa006cd7a5d0, type: 3}

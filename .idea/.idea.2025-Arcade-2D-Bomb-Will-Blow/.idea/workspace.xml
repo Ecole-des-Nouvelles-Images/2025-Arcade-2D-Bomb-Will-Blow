@@ -24,17 +24,42 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/CamFollowsPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/CamFollowsPlayer2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/PlayerCameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Crawler/CrawlerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Drone/DroneBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/PlayerControllerFinal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Turret/TurretBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateDash.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateJetpack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateWalk.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateWallCatch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Level/ChunkSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Level/DeactivateBomb.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/LeftWallCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerDamagedSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/ActivateVictoryUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayCredits.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/QuitSoundMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/SoundMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/SoundToPause.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PreselectedButtonsInMenus/SetFirstButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/VictoryAfterDeath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/VictoryText/VictoryAfterBombDefuse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/VictoryAfterDeath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/a.verne/Desktop/LocalRepo/2025-Arcade-2D-Bomb-Will-Blow/Assets/__Workspaces/Alexis/Scripts/Proto/PlayerScripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/a.verne/Desktop/LocalRepo/2025-Arcade-2D-Bomb-Will-Blow/Assets/__Workspaces/Alexis/Scripts/Proto/PlayerScripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/a.verne/Desktop/LocalRepo/2025-Arcade-2D-Bomb-Will-Blow/Assets/__Workspaces/Alexis/Scripts/Proto/PlayerScripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/a.verne/Desktop/LocalRepo/2025-Arcade-2D-Bomb-Will-Blow/Assets/__Workspaces/Alexis/Scripts/Proto/PlayerScripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/a.verne/Desktop/LocalRepo/2025-Arcade-2D-Bomb-Will-Blow/Assets/__Workspaces/Alexis/Scripts/Proto/PlayerScripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/a.verne/Desktop/LocalRepo/2025-Arcade-2D-Bomb-Will-Blow/Assets/__Workspaces/Alexis/Scripts/Proto/PlayerScripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/a.verne/Desktop/LocalRepo/2025-Arcade-2D-Bomb-Will-Blow/Assets/__Workspaces/Alexis/Scripts/Proto/PlayerScripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/a.verne/Desktop/LocalRepo/2025-Arcade-2D-Bomb-Will-Blow/Assets/__Workspaces/Alexis/Scripts/Proto/PlayerScripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/a.verne/Desktop/LocalRepo/2025-Arcade-2D-Bomb-Will-Blow/Assets/__Workspaces/Alexis/Scripts/Proto/PlayerScripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/a.verne/Desktop/LocalRepo/2025-Arcade-2D-Bomb-Will-Blow/Assets/__Workspaces/Alexis/Scripts/Proto/PlayerScripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/a.verne/Desktop/LocalRepo/2025-Arcade-2D-Bomb-Will-Blow/Assets/__Workspaces/Alexis/Scripts/Proto/PlayerScripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/a.verne/Desktop/LocalRepo/2025-Arcade-2D-Bomb-Will-Blow/Assets/__Workspaces/Alexis/Scripts/Proto/PlayerScripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -54,14 +79,14 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "XThreadsFramesViewSplitterKey": "0.3953202",
-    "git-widget-placeholder": "Tom",
+    "git-widget-placeholder": "Alexis",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -71,10 +96,8 @@
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\BombWillBlowBuilds" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
@@ -83,10 +106,8 @@
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
@@ -95,10 +116,8 @@
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
@@ -257,5 +276,9 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
