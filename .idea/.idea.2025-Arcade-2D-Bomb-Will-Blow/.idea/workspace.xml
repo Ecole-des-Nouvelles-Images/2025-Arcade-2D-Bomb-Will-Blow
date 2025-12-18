@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/SoundMenuBackGround.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/SoundMenuBackGround.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/EntrySceneTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/EntrySceneTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/StartChunk.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/StartChunk.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletLeftSide 1 (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletLeftSide 1 (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletRightSide (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletRightSide (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/Player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/Player1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/SceneDevJeu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/SceneDevJeu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PanneauMat2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PanneauMat2.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.3953202&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Alexis&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Tom&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,

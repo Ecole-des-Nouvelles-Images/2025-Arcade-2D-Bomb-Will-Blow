@@ -8,9 +8,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 32073766844456498, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 32073766844456498, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773044047079625564, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773044047079625564, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5336394164665417807, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
       propertyPath: m_Name
-      value: JumpRightSide 1 (1) Variant
+      value: JumpRigthInclined
+      objectReference: {fileID: 0}
+    - target: {fileID: 6120914237970738441, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6120914237970738441, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6876349243078602280, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6876349243078602280, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6876349243078602280, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
       propertyPath: VelocityModule.x.scalar
@@ -67,6 +99,22 @@ PrefabInstance:
     - target: {fileID: 7295857150246109477, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8494413733734094758, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8494413733734094758, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
+      propertyPath: stopAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9008874006934211782, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9008874006934211782, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9008874006934211782, guid: 0cbe9cd307973d24397a5dffaa75b230, type: 3}
       propertyPath: ShapeModule.m_Rotation.y
