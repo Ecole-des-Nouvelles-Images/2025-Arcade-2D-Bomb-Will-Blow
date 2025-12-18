@@ -6260,6 +6260,10 @@ PrefabInstance:
       propertyPath: '_HeartContainersP2.Array.data[4]'
       value: 
       objectReference: {fileID: 882069678}
+    - target: {fileID: 4306392705680985215, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4691937348572167235, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
       propertyPath: _UiScriptManager
       value: 
@@ -6308,6 +6312,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6664104165423357087, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6738911812003850326, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
       propertyPath: m_DefaultActionMap
       value: df70fa95-8a34-4494-b137-73ab6b9c7d37
@@ -6318,6 +6326,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6738911812003850326, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
       propertyPath: m_NeverAutoSwitchControlSchemes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7123287775167124063, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010330460476030965, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
+      propertyPath: moveWithTransform
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

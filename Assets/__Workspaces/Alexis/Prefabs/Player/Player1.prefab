@@ -275,7 +275,9 @@ MonoBehaviour:
   DashCd: 0
   DashRefillTime: 0
   DashLeftSide: {fileID: 3282695998715931745}
+  InstantiateLeftDash: 0
   DashRightSide: {fileID: 5224785901629017025}
+  InstantiateRightDash: 0
   UseShield: 0
   CanUseShield: 1
   ShieldEffect: {fileID: 3605273399553287492}
@@ -993,15 +995,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 901624376944093705, guid: 626ac54f042b6be44ac9aa006cd7a5d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 901624376944093705, guid: 626ac54f042b6be44ac9aa006cd7a5d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 901624376944093705, guid: 626ac54f042b6be44ac9aa006cd7a5d0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 901624376944093705, guid: 626ac54f042b6be44ac9aa006cd7a5d0, type: 3}
       propertyPath: m_LocalRotation.w
