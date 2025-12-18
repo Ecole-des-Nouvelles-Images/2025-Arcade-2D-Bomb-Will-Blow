@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bf97bf1ddaf6ee24681a315f89888aa5
+guid: adbc47faeff77b64fb22cc64d7c8849e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpriteSheetSmoke_0
+      name: nuage blanc_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 512
-        height: 512
+        x: 60
+        y: 1399
+        width: 2084
+        height: 733
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,20 +125,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68bdac3f1e54ec748b742dde9483e533
-      internalID: -2113452714
+      spriteID: 23cd0fe18c2f8e244a9be5263be5db5e
+      internalID: -962577579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheetSmoke_1
+      name: nuage blanc_1
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 512
-        height: 512
+        x: 682
+        y: 1363
+        width: 38
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70d01ba56003a584d89246238a095fae
-      internalID: -1395882996
+      spriteID: a07a9306af40d9f4f97c368fafe0bfbb
+      internalID: -1916038495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheetSmoke_2
+      name: nuage blanc_2
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 512
-        height: 512
+        x: 1224
+        y: 1282
+        width: 355
+        height: 207
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29967b7a509da7f42be3fd63a2961aad
-      internalID: -2117057033
+      spriteID: 018b6ce7a91ead546886481cfe171813
+      internalID: 554669467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheetSmoke_3
+      name: nuage blanc_3
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 512
-        height: 512
+        x: 1584
+        y: 1329
+        width: 419
+        height: 282
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8e032b889ead4f468ebfb3d73d66896
-      internalID: 564684030
+      spriteID: 96b90b1420bce7d42a6f4c42987f9212
+      internalID: 1905797948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheetSmoke_4
+      name: nuage blanc_4
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 0
-        width: 512
-        height: 512
+        x: 551
+        y: 1321
+        width: 8
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b80eac39b4b50d49a9de35558af4b51
-      internalID: 884215459
+      spriteID: 88025bc459238254c90852e87495be79
+      internalID: 1997349190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheetSmoke_5
+      name: nuage blanc_5
       rect:
         serializedVersion: 2
-        x: 2560
-        y: 0
-        width: 512
-        height: 512
+        x: 489
+        y: 1307
+        width: 5
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28fe73d7ebc267f40919c46b72d56d33
-      internalID: 1708542547
+      spriteID: 5f5fc0c8c3a6edd41a706778849c946c
+      internalID: -1940307232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheetSmoke_6
+      name: nuage blanc_6
       rect:
         serializedVersion: 2
-        x: 3072
-        y: 0
-        width: 512
-        height: 512
+        x: 504
+        y: 1300
+        width: 6
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f86546e113720964299adcf1612fe9c5
-      internalID: -1234836754
+      spriteID: 7be8ebfe9a939fa44b1fab1864073cb8
+      internalID: -1528840528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheetSmoke_7
+      name: nuage blanc_7
       rect:
         serializedVersion: 2
-        x: 3584
-        y: 0
-        width: 512
-        height: 512
+        x: 493
+        y: 1295
+        width: 8
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98e2760ce13031649bae70e211739ab4
-      internalID: -230219185
+      spriteID: d3bc4605798a5154eb20d247facf3d50
+      internalID: -1925665593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheetSmoke_8
+      name: nuage blanc_8
       rect:
         serializedVersion: 2
-        x: 4096
-        y: 0
-        width: 512
-        height: 512
+        x: 649
+        y: 1273
+        width: 54
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,20 +301,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76e85789a09563343b3d4da5982a9ff4
-      internalID: 1829452543
+      spriteID: b2e988561d258ea46af5c4fa794b8377
+      internalID: -89563305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheetSmoke_9
+      name: nuage blanc_9
       rect:
         serializedVersion: 2
-        x: 4608
-        y: 0
-        width: 512
-        height: 512
+        x: 527
+        y: 1273
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,20 +323,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b54f228d8bdafb4786389c13a384165
-      internalID: -2015607054
+      spriteID: 24bf6ef8cb787ca47ab6bd39aac5fedc
+      internalID: 40706655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheetSmoke_10
+      name: nuage blanc_10
       rect:
         serializedVersion: 2
-        x: 5120
-        y: 0
-        width: 512
-        height: 512
+        x: 690
+        y: 1271
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,8 +345,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3f3701a3a8a24941901ad5c711fe489
-      internalID: 1396537818
+      spriteID: 2889f9a85160dfa4ca1162a18ff6fdcd
+      internalID: -287494437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage blanc_11
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1271
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e2a1d79fa784841973171df8fbe6f3
+      internalID: 605092897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage blanc_12
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1267
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de679dc3620a4844994fc5f17f1e6e5
+      internalID: -1703818877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage blanc_13
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1267
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2cfedc13891cf4ebfb35f698334f3a
+      internalID: 1612507115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage blanc_14
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 1264
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f753e8c73f452a245939c7136635d71e
+      internalID: 1348558455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage blanc_15
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1255
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffaf29280b05e646ae75777276f166f
+      internalID: 817133844
       vertices: []
       indices: 
       edges: []
@@ -355,7 +465,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4217b46b81e389e459cf544a62b66aae
+    spriteID: 0589deaf1aaedcd49bf8ec04dd11ca50
     internalID: 0
     vertices: []
     indices: 
@@ -365,19 +475,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":11.0,"y":1.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      SpriteSheetSmoke_0: -2113452714
-      SpriteSheetSmoke_1: -1395882996
-      SpriteSheetSmoke_10: 1396537818
-      SpriteSheetSmoke_2: -2117057033
-      SpriteSheetSmoke_3: 564684030
-      SpriteSheetSmoke_4: 884215459
-      SpriteSheetSmoke_5: 1708542547
-      SpriteSheetSmoke_6: -1234836754
-      SpriteSheetSmoke_7: -230219185
-      SpriteSheetSmoke_8: 1829452543
-      SpriteSheetSmoke_9: -2015607054
+      nuage blanc_0: -962577579
+      nuage blanc_1: -1916038495
+      nuage blanc_10: -287494437
+      nuage blanc_11: 605092897
+      nuage blanc_12: -1703818877
+      nuage blanc_13: 1612507115
+      nuage blanc_14: 1348558455
+      nuage blanc_15: 817133844
+      nuage blanc_2: 554669467
+      nuage blanc_3: 1905797948
+      nuage blanc_4: 1997349190
+      nuage blanc_5: -1940307232
+      nuage blanc_6: -1528840528
+      nuage blanc_7: -1925665593
+      nuage blanc_8: -89563305
+      nuage blanc_9: 40706655
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
