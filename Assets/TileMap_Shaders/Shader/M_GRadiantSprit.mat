@@ -41,8 +41,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _MaxY: 58.55
-    - _MinY: 30.9
+    - _MaxY: 152.5
+    - _MinY: 101.4
     m_Colors:
     - _BaseColor: {r: 0.8085801, g: 0.53631186, b: 0.8679245, a: 1}
     - _Color2: {r: 0.4018334, g: 0.61236084, b: 0.8113208, a: 1}

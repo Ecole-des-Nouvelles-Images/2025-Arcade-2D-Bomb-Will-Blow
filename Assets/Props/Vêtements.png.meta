@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e3aa045a63a9a9d4c80c95f5fa6704e5
+guid: 6465d74de1602154584293eb5e838b18
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,23 +110,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Panneau fleche_0
+      name: "V\xEAtements_0"
       rect:
         serializedVersion: 2
-        x: 201
-        y: 182
-        width: 99
-        height: 147
+        x: 0
+        y: 361
+        width: 1024
+        height: 296
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddcca08e2ecf5b84795191cd97016a39
-      internalID: 365256849
+      spriteID: 726bddfb45fe1ab42a410736ecb5f7ae
+      internalID: 1320916483
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8b7a4f659837f744f9fc6110640685ae
+    spriteID: b16a7592a9d3f034c8b0c86999c3a048
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Panneau fleche_0: 365256849
+      "V\xEAtements_0": 1320916483
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

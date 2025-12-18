@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e3aa045a63a9a9d4c80c95f5fa6704e5
+guid: 48d5308f3bb9cc349a65dea1061198b4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,23 +110,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Panneau fleche_0
+      name: Bat2_0
       rect:
         serializedVersion: 2
-        x: 201
-        y: 182
-        width: 99
-        height: 147
+        x: 626
+        y: 0
+        width: 272
+        height: 3288
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 3086, z: 0, w: 99}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddcca08e2ecf5b84795191cd97016a39
-      internalID: 365256849
+      spriteID: 2775f6580561d1b4cbf612d31e069268
+      internalID: 469049975
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8b7a4f659837f744f9fc6110640685ae
+    spriteID: 6480f1b25b93fed4a8aa5366b2e26483
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +145,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Panneau fleche_0: 365256849
+      Bat2_0: 469049975
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
