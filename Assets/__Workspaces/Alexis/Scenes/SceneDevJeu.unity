@@ -23,10 +23,10 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.6662958, g: 0.72603047, b: 0.8773585, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubtractiveShadowColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -2771,7 +2771,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -4
   m_Sprite: {fileID: -1611125870, guid: 5ed640a88939f214baab9c9ce8341828, type: 3}
   m_Color: {r: 1, g: 0.585702, b: 0, a: 0.74509805}
   m_FlipX: 0
@@ -3000,7 +3000,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: -1611125870, guid: 5ed640a88939f214baab9c9ce8341828, type: 3}
   m_Color: {r: 1, g: 0.5882353, b: 0, a: 0.15686275}
   m_FlipX: 0
@@ -3756,7 +3756,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: -1611125870, guid: 5ed640a88939f214baab9c9ce8341828, type: 3}
   m_Color: {r: 1, g: 0.5882353, b: 0, a: 0.5529412}
   m_FlipX: 0
@@ -4279,7 +4279,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -4
   m_Sprite: {fileID: -1611125870, guid: 5ed640a88939f214baab9c9ce8341828, type: 3}
   m_Color: {r: 1, g: 0.5882353, b: 0, a: 0.2627451}
   m_FlipX: 0
@@ -4736,7 +4736,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: -1611125870, guid: 5ed640a88939f214baab9c9ce8341828, type: 3}
   m_Color: {r: 1, g: 0.5882353, b: 0, a: 0.38431373}
   m_FlipX: 0
@@ -89693,9 +89693,25 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+    - target: {fileID: 899878187846048527, guid: dda65927add020540bb2be836c1b6828, type: 3}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176454111412759803, guid: dda65927add020540bb2be836c1b6828, type: 3}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978813112658934472, guid: dda65927add020540bb2be836c1b6828, type: 3}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 3789759848869299557, guid: dda65927add020540bb2be836c1b6828, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797039147070994567, guid: dda65927add020540bb2be836c1b6828, type: 3}
+      propertyPath: m_SortingOrder
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5134114246045572972, guid: dda65927add020540bb2be836c1b6828, type: 3}
       propertyPath: m_Enabled
@@ -89748,6 +89764,10 @@ PrefabInstance:
     - target: {fileID: 7733479920021568181, guid: dda65927add020540bb2be836c1b6828, type: 3}
       propertyPath: m_Name
       value: StartChunk
+      objectReference: {fileID: 0}
+    - target: {fileID: 8252096960401301263, guid: dda65927add020540bb2be836c1b6828, type: 3}
+      propertyPath: m_SortingOrder
+      value: -3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -89904,6 +89924,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f4a4c5148bec040ad6a50275e7ba24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActivateVictoryUI
+--- !u!114 &7271085862360248711 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8402607639939595710, guid: d074945ceaad5de4cb8f4c34c175e969, type: 3}
+  m_PrefabInstance: {fileID: 7271085862360248704}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527865530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b7f0e14478b1d47b37af62c9efbe83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ReplayGame
 --- !u!1001 &7741235656812506693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -91147,7 +91178,7 @@ PrefabInstance:
     - target: {fileID: 4491498745561436857, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 8402607639939595710, guid: d074945ceaad5de4cb8f4c34c175e969, type: 3}
+      objectReference: {fileID: 7271085862360248711}
     - target: {fileID: 4491498745561436857, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -91323,6 +91354,14 @@ PrefabInstance:
     - target: {fileID: 5103231329816187340, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5103231329816187340, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7271085862360248711}
+    - target: {fileID: 5103231329816187340, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Replay
       objectReference: {fileID: 0}
     - target: {fileID: 5394526825181085844, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: m_AnchorMax.x
