@@ -20,12 +20,12 @@ public class StateDash : BaseState
 
     public override void OnUpdate()
     {
-        if (_timeToChargeDash <= 1.5f )
+        if (_timeToChargeDash <= 0.2f )
         {
             _timeToChargeDash += Time.deltaTime;
         }
 
-        if (_timeToChargeDash >= 1.5f)
+        if (_timeToChargeDash >= 0.2f)
         {
             LaunchDash();
             KillEnnemies();
@@ -34,17 +34,16 @@ public class StateDash : BaseState
         
         if (_playerPosition.position.y >= _positionToReach.y)
         {
-            
             PlayerControllerFinal.Rb.AddForce(new Vector2(0, -700));
             PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
             PlayerControllerFinal.PlayerPosition.position = _positionToReach;
             _hasDashed = true;
-            
         }
     }
 
     public override void OnExit()
     {
+        PlayerControllerFinal.PlayerVisual.SetActive(true);
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
     }
 
@@ -63,7 +62,19 @@ public class StateDash : BaseState
 
     private void LaunchDash()
     {
+        PlayerControllerFinal.PlayerVisual.SetActive(false);
         PlayerControllerFinal.Hurtbox.SetActive(false);
+        if (PlayerControllerFinal.IsOnLeftWall)
+        {
+            /*PlayerControllerFinal.InstantiateLeftDash = true;*/
+            PlayerControllerFinal.DashLeftSide.SetActive(true);
+        }
+
+        if (PlayerControllerFinal.IsOnRightWall)
+        {
+            /*PlayerControllerFinal.InstantiateRightDash = true;*/
+            PlayerControllerFinal.DashRightSide.SetActive(true);
+        }
         PlayerControllerFinal.Rb.AddForce(new Vector2(0,700));
         PlayerControllerFinal.DashRefillTime = 0;
         PlayerControllerFinal.CanDash = false;
@@ -73,11 +84,8 @@ public class StateDash : BaseState
     {
         RaycastHit2D[] hits = Physics2D.LinecastAll(_playerPosition.position, _positionToReach,  LayerMask.GetMask("Ennemies"));
         
-        
-        
         foreach (var hit in hits) 
         {
-            Debug.Log(hit.collider.gameObject.name + "touché");
             hit.collider.gameObject.GetComponent<IKillable>().Kill();
         }
     }

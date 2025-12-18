@@ -6,8 +6,12 @@ public class StateJetpack : BaseState
 
     private float JetpackForce = 25000;
     
+    private float _timeBeforeCatch;
+    private bool _canCatch;
+    
     public override void OnEnter()
     {
+        Debug.Log("State Jetpack Entry");
         PlayerControllerFinal.PlayerAnimator.SetBool("Jetpack", true);
         PlayerControllerFinal.Rb.linearVelocity = Vector2.zero;
         PlayerControllerFinal.IsInJetpack = true;
@@ -21,12 +25,17 @@ public class StateJetpack : BaseState
         {
             JetpackHorizontalMobility();
         }
-        /*JetpackHorizontalMobility();
-        PlayerControllerFinal.JetpackFuel -= Time.deltaTime;
-        if (PlayerControllerFinal.JetpackFuel <= 0)
+        
+        if (_timeBeforeCatch < 0.2)
         {
-            PlayerControllerFinal.IsInJetpack = false;
-        }*/
+            _timeBeforeCatch += Time.deltaTime;
+            _canCatch = false;
+        }
+            
+        if (_timeBeforeCatch >= 0.2)
+        {
+            _canCatch = true;
+        }
     }
 
     public override void OnExit()
@@ -44,14 +53,8 @@ public class StateJetpack : BaseState
             return new StateInAir(PlayerControllerFinal);
         }
         
-        //Shield state
-        if (PlayerControllerFinal.UseShield)
-        {
-            return new StateShield(PlayerControllerFinal);
-        }
-        
         //Wall sate
-        if (PlayerControllerFinal.IsOnLeftWall || PlayerControllerFinal.IsOnRightWall)
+        if (PlayerControllerFinal.IsOnLeftWall || PlayerControllerFinal.IsOnRightWall && _canCatch)
         {
             return new StateWallCatch(PlayerControllerFinal);
         }

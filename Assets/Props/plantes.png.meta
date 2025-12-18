@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4ef71a183de08a4488d2d3deb94176ca
+guid: 56d5e5199e13cf94b80038377373ca7c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,23 +110,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Parametre_0
+      name: plantes_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1327
-        height: 388
+        x: 4
+        y: 6
+        width: 169
+        height: 166
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 656, y: 189, z: 647, w: 180}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45e52cbb20a323144b18e29f4a19f082
-      internalID: -1389447850
+      spriteID: 2038ddd43ee51f94cae526cc1ac62b9d
+      internalID: 2105131220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantes_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 6
+        width: 346
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6e1e563267e2c4e8c4c9b360443071
+      internalID: 327638942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantes_2
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 6
+        width: 58
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c811acb6bfb7f1438678d8757c59959
+      internalID: 1769061940
       vertices: []
       indices: 
       edges: []
@@ -135,7 +179,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c54006f3de5b675418658a184232ae5a
+    spriteID: 6c408721274cf514594c4a5dc8c1f7b1
     internalID: 0
     vertices: []
     indices: 
@@ -145,7 +189,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Parametre_0: -1389447850
+      plantes_0: 2105131220
+      plantes_1: 327638942
+      plantes_2: 1769061940
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
