@@ -800,6 +800,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5065933592303016096, guid: e6ef48fcfee8ed742a51c02ac0b4ea44, type: 3}
+      propertyPath: stopAction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5671422453756602988, guid: e6ef48fcfee8ed742a51c02ac0b4ea44, type: 3}
       propertyPath: m_Name
       value: DashRedRight
@@ -1188,6 +1192,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8781276515992059839, guid: f58072f3fd7194e43bfff4daa964e0ed, type: 3}
       propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9138226682934137545, guid: f58072f3fd7194e43bfff4daa964e0ed, type: 3}
+      propertyPath: stopAction
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
