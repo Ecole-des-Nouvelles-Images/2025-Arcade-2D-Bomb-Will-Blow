@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="" />
+    <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/StartChunk.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/StartChunk.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletLeftSide 1 (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletLeftSide 1 (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletRightSide (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletRightSide (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/Player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/Player1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/SceneDevJeu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/SceneDevJeu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PanneauMat2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PanneauMat2.mat" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
