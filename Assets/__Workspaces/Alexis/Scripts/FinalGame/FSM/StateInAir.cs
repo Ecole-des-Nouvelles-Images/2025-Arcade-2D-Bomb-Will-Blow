@@ -49,6 +49,7 @@ public class StateInAir : BaseState
     {
         _timeBeforeCatch = 0;
         PlayerControllerFinal.OutOfJetpack = false;
+        PlayerControllerFinal.PlayerAnimator.SetBool("EndJump", true);
         PlayerControllerFinal.RightJumpEffect.SetActive(false);
         PlayerControllerFinal.LeftJumpEffect.SetActive(false);
     }
@@ -64,7 +65,6 @@ public class StateInAir : BaseState
         //Wall state
         if (PlayerControllerFinal.IsOnRightWall && _canCatch || PlayerControllerFinal.IsOnLeftWall && _canCatch)
         {
-            PlayerControllerFinal.PlayerAnimator.SetBool("EndJump", true);
             return new StateWallCatch(PlayerControllerFinal);
         }
         

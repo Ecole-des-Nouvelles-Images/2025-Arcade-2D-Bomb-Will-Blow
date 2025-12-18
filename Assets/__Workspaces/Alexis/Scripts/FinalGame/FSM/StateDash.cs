@@ -6,7 +6,7 @@ public class StateDash : BaseState
 {
     public StateDash(PlayerControllerFinal playerControllerFinal) : base(playerControllerFinal) { }
     
-    private float _timeToChargeDash;
+    private float _timeToChargeDash = 0.5f;
     private Transform _playerPosition;
     private Vector2 _positionToReach;
     private bool _hasDashed;
@@ -19,27 +19,13 @@ public class StateDash : BaseState
     }
 
     public override void OnUpdate()
-    {PlayerControllerFinal.PlayerVisual.SetActive(false);
-        PlayerControllerFinal.Hurtbox.SetActive(false);
-        if (PlayerControllerFinal.IsOnLeftWall)
-        {
-            /*PlayerControllerFinal.InstantiateLeftDash = true;*/
-            PlayerControllerFinal.DashLeftSide.SetActive(true);
-        }
-
-        if (PlayerControllerFinal.IsOnRightWall)
-        {
-            /*PlayerControllerFinal.InstantiateRightDash = true;*/
-            PlayerControllerFinal.DashRightSide.SetActive(true);
-        }
-        
-        if (_timeToChargeDash <= 0.5f )
+    {
+        if (_timeToChargeDash <= 0.2f )
         {
             _timeToChargeDash += Time.deltaTime;
-            
         }
 
-        if (_timeToChargeDash >= 0.5f)
+        if (_timeToChargeDash >= 0.2f)
         {
             LaunchDash();
             KillEnnemies();
@@ -76,19 +62,19 @@ public class StateDash : BaseState
 
     private void LaunchDash()
     {
-       // PlayerControllerFinal.PlayerVisual.SetActive(false);
-       // PlayerControllerFinal.Hurtbox.SetActive(false);
-        /*if (PlayerControllerFinal.IsOnLeftWall)
+        PlayerControllerFinal.PlayerVisual.SetActive(false);
+        PlayerControllerFinal.Hurtbox.SetActive(false);
+        if (PlayerControllerFinal.IsOnLeftWall)
         {
-            /*PlayerControllerFinal.InstantiateLeftDash = true;#1#
+            /*PlayerControllerFinal.InstantiateLeftDash = true;*/
             PlayerControllerFinal.DashLeftSide.SetActive(true);
         }
 
         if (PlayerControllerFinal.IsOnRightWall)
         {
-            /*PlayerControllerFinal.InstantiateRightDash = true;#1#
+            /*PlayerControllerFinal.InstantiateRightDash = true;*/
             PlayerControllerFinal.DashRightSide.SetActive(true);
-        }*/
+        }
         PlayerControllerFinal.Rb.AddForce(new Vector2(0,700));
         PlayerControllerFinal.DashRefillTime = 0;
         PlayerControllerFinal.CanDash = false;
