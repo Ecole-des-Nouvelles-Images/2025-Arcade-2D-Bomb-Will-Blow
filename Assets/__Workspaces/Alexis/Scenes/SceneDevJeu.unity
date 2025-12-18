@@ -23,10 +23,10 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.6662958, g: 0.72603047, b: 0.8773585, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubtractiveShadowColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -2456,6 +2456,10 @@ PrefabInstance:
       propertyPath: '_HeartContainersP2.Array.data[4]'
       value: 
       objectReference: {fileID: 882069678}
+    - target: {fileID: 4306392705680985215, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4691937348572167235, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
       propertyPath: _UiScriptManager
       value: 
@@ -2504,6 +2508,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6664104165423357087, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6738911812003850326, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
       propertyPath: m_DefaultActionMap
       value: df70fa95-8a34-4494-b137-73ab6b9c7d37
@@ -2514,6 +2522,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6738911812003850326, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
       propertyPath: m_NeverAutoSwitchControlSchemes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7123287775167124063, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010330460476030965, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
+      propertyPath: moveWithTransform
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -86147,6 +86163,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f4a4c5148bec040ad6a50275e7ba24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActivateVictoryUI
+--- !u!114 &7271085862360248711 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8402607639939595710, guid: d074945ceaad5de4cb8f4c34c175e969, type: 3}
+  m_PrefabInstance: {fileID: 7271085862360248704}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527865530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b7f0e14478b1d47b37af62c9efbe83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ReplayGame
 --- !u!1001 &7741235656812506693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -87390,7 +87417,7 @@ PrefabInstance:
     - target: {fileID: 4491498745561436857, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 8402607639939595710, guid: d074945ceaad5de4cb8f4c34c175e969, type: 3}
+      objectReference: {fileID: 7271085862360248711}
     - target: {fileID: 4491498745561436857, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -87566,6 +87593,14 @@ PrefabInstance:
     - target: {fileID: 5103231329816187340, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5103231329816187340, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7271085862360248711}
+    - target: {fileID: 5103231329816187340, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Replay
       objectReference: {fileID: 0}
     - target: {fileID: 5394526825181085844, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: m_AnchorMax.x
