@@ -270,20 +270,20 @@ MonoBehaviour:
   UseJetpack: 0
   OutOfJetpack: 0
   IsInJetpack: 0
+  JetpackCurrent: 0
   UseDash: 0
-  DashRefillTime: 0
+  DashTimer: 0
   DashLeftSide: {fileID: 3282695998715931745}
+  InstantiateLeftDash: 0
   DashRightSide: {fileID: 5224785901629017025}
+  InstantiateRightDash: 0
   UseShield: 0
-  CanUseShield: 1
   ShieldEffect: {fileID: 3605273399553287492}
   Hurtbox: {fileID: 7779676862021751079}
-  JetpackCurrent: 0
+  ShieldTimer: 0
   PlayerAnimator: {fileID: 1393612825892715235}
-  _Visual: {fileID: 8331446572972086905}
   CanDeactivateBomb: 0
   BombDeactivated: 0
-  PlayerPosition: {fileID: 0}
   PlayerVisual: {fileID: 8331446572972086905}
 --- !u!114 &8656399115178811529
 MonoBehaviour:
@@ -623,6 +623,9 @@ MonoBehaviour:
   - {fileID: 6515465944606280382, guid: 08aa3c1edd6cf4b4baf25d728879e33c, type: 3}
   - {fileID: 1621414660325377008, guid: 98ef9530f44265f438969ba5826c093a, type: 3}
   - {fileID: 8508122738899691535, guid: f45898521dc6f46449f86d4f17bfb921, type: 3}
+  _FlashMaterial: {fileID: 2100000, guid: 1d1f830d3a8252840b10dbf0cbc838f8, type: 2}
+  _FlashDuration: 0.25
+  spriteRenderer: {fileID: 4057020370594603430}
   HealthCurrent: 0
 --- !u!1 &8331446572972086905
 GameObject:

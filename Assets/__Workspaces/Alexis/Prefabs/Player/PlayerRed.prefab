@@ -140,10 +140,6 @@ PrefabInstance:
       propertyPath: m_DefaultControlScheme
       value: Gamepad
       objectReference: {fileID: 0}
-    - target: {fileID: 6738911812003850326, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
-      propertyPath: m_NeverAutoSwitchControlSchemes
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7123287775167124063, guid: 4d3c202afa3cbe24faa89ca94268ce68, type: 3}
       propertyPath: moveWithTransform
       value: 1

@@ -406,6 +406,9 @@ MonoBehaviour:
   player: {fileID: 7838103970437092494}
   _HeartContainersP1: []
   _HeartContainersP2: []
+  _FlashMaterial: {fileID: 2100000, guid: 1d1f830d3a8252840b10dbf0cbc838f8, type: 2}
+  _FlashDuration: 0.25
+  spriteRenderer: {fileID: 6140733031316457389}
   HealthCurrent: 0
 --- !u!1 &7838103970437092494
 GameObject:
@@ -564,6 +567,7 @@ MonoBehaviour:
   UseJetpack: 0
   OutOfJetpack: 0
   IsInJetpack: 0
+  JetpackCurrent: 0
   UseDash: 0
   DashTimer: 0
   DashLeftSide: {fileID: 0}
@@ -571,14 +575,12 @@ MonoBehaviour:
   DashRightSide: {fileID: 0}
   InstantiateRightDash: 0
   UseShield: 0
-  CanUseShield: 1
   ShieldEffect: {fileID: 0}
   Hurtbox: {fileID: 5221676046918968834}
-  JetpackCurrent: 0
+  ShieldTimer: 0
   PlayerAnimator: {fileID: 3174844919600878019}
   CanDeactivateBomb: 0
   BombDeactivated: 0
-  PlayerPosition: {fileID: 121723838745017328}
   PlayerVisual: {fileID: 4510057821674243094}
 --- !u!114 &1285085348665157858
 MonoBehaviour:
@@ -656,7 +658,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 1
+  m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Gamepad
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1

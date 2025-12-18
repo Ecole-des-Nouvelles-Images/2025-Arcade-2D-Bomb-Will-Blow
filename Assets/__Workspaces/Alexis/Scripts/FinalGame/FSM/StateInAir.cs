@@ -58,7 +58,7 @@ public class StateInAir : BaseState
     public override BaseState NextState()
     {
         //Shield state
-        if (PlayerController.UseShield)
+        if (PlayerController.UseShield && PlayerController.CanShield)
         {
             return new StateShield(PlayerController);
         }

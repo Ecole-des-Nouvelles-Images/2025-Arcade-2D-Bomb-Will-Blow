@@ -45,33 +45,28 @@ namespace __Workspaces.Alexis.Scripts.FinalGame.Player
         public bool UseJetpack;
         public bool OutOfJetpack;
         public bool IsInJetpack;
+        public float JetpackCurrent;
     
         [Space(4), Header("DashParameters")]
         //Dash
         public bool UseDash;
         
         public float DashTimer;
-        public float ShieldTimer;
         public GameObject DashLeftSide;
         public bool InstantiateLeftDash;
         public GameObject DashRightSide;
         public bool InstantiateRightDash;
+        public bool CanDash => DashTimer >= PlayerData.DashCd;
     
         [Space(4), Header("ShieldParameters")]
         //Shield
         public bool UseShield;
-        public bool CanUseShield = true;
         public GameObject ShieldEffect;
         public GameObject Hurtbox;
-        private float _timeWithShieldActive = 0.5f;
-        private float _TimeSinceShieldActive;
-        private float _timeToReuseShield;
         private int ShieldCd = 500;
-
-        public float JetpackCurrent;
-    
-        public bool CanDash => DashTimer >= PlayerData.DashCd;
-    
+        public float ShieldTimer; 
+        public bool CanShield => ShieldTimer >= PlayerData.ShieldCd;
+        
         //FSM
         private BaseState _currentState;
     
@@ -156,15 +151,8 @@ namespace __Workspaces.Alexis.Scripts.FinalGame.Player
             }
         
             //Shield cooldown
-            if (!CanUseShield)
-            {
-                ShieldTimer += Time.deltaTime;
-                if (ShieldTimer >= PlayerData.ShieldCd)
-                {
-                    CanUseShield = true;
-                }
-            }
-        
+            ShieldTimer += Time.deltaTime;
+            
             //Dash cooldown
             DashTimer += Time.deltaTime;
         

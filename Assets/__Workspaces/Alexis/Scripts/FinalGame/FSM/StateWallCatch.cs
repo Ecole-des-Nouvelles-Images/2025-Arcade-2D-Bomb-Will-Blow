@@ -72,7 +72,7 @@ public class StateWallCatch : BaseState
         }
         
         //Shield state
-        if (PlayerController.UseShield && PlayerController.CanUseShield)
+        if (PlayerController.UseShield && PlayerController.CanShield)
         {
             return new StateShield(PlayerController);
         }

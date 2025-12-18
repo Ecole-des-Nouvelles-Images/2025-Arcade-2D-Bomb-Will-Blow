@@ -27,7 +27,6 @@ namespace __Workspaces.Alexis.Scripts.FinalGame.Level
             {
                 _sharedSeed = new System.Random().Next(int.MinValue, int.MaxValue);
                 _seedInitialized = true;
-                Debug.Log("Shared ChunkSpawner seed: " + _sharedSeed);
             }
 
             // Initialisation du Random local basé sur la seed partagée
