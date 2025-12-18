@@ -1,5 +1,5 @@
 
-# [Project Name]
+# [Bomb Will Blow]
 
 [A brief and engaging tagline or description of the game]
 
@@ -23,63 +23,47 @@
 ---
 
 ## Introduction
-**[Project Name]** is a [genre of the game] developed by **[Team/Organization Name]** during **[timeframe]**.  
-This project was created as part of **[context, e.g., a school project, game jam, or indie initiative]**.  
-The development process included **[key phases, such as preproduction, production, etc.]**.
+Bomb Will Blow is a 2D plateformer combining racing and versus in a vertical run.
+This project was created by 4 students for a school project in only 5 weeks
+The development process included a preproduction (1 week), production (3 weeks) and a postproduction (1 week).
 
 ---
 
 ## Team
 This game was brought to life by **[Team Name or "a group of X developers/artists"]**:
-- **[Name 1]**: [Role and contributions]
-- **[Name 2]**: [Role and contributions]
-- **[Name 3]**: [Role and contributions]
-- **[Name 4]**: [Role and contributions]
+- Alexis Verne-Rey : Game developer (Game Owner)
+- Noelia Gerouville: Game Artist (Lead Artist)
+- Wren Feliza : Game Artist
+- Tom Goret Ferrier : Tech artist
 
 ![Team](https://github.com/Ecole-des-Nouvelles-Images/Unity-Template/blob/main/MetaData/team-photo.png)
 
 ---
 
 ## Gameplay
-[Describe the core gameplay loop, mechanics, and objectives of the game. Include details like number of players, perspective, and unique gameplay features.]
-
-### Phase 1: [Phase Name]
-[Describe the first phase of gameplay, objectives, and player actions.]
-
-### Phase 2: [Phase Name]
-[Describe the second phase, any escalating challenges, and goals.]
+Bomb Will Blow is a versus racing game in which you play as two ninjas whose goal is to train to defuse a bomb as quickly as possible.
+To do this, you will have to jump between two buildings to move forward while dodging the obstacles that block your path.
+Your Ninja, enhanced by cybertechnology, is capable of dashing powerfully forward, destroying everything in its path, using a shield to protect itself from obstacles for a short time, and even using a jetpack.
 
 ![Gameplay Screenshot](https://github.com/Ecole-des-Nouvelles-Images/Unity-Template/blob/main/MetaData/gameplay-screenshot.png)
 
 ---
 
 ## Universe
-[Provide a brief story or lore for the game world, highlighting key characters, locations, or events. Explain how the story ties into the gameplay.]
+In the year 2237, a company trains cyber-enhanced ninjas to protect civilization from enemy threats. You play as ninjas who are part of the organization, training to become better. Today's training focuses on agility in climbing, with enemies blocking your path. Your goal is to defuse the bomb as quickly as possible.
 
 ---
 
 ## Release
-[Provide details about the platform, availability, and installation instructions. Mention if the game is available on PC, console, or mobile, and provide links to download or install.]
-
-This game supports **[platform requirements, e.g., Android 5.1+]**.
-
----
-
-## Development
-This project is currently **[status: finished, in development, etc.]**. Future updates might include **[examples of planned features or fixes]**.  
-
-If you encounter any bugs or have suggestions, please open an **[issue ticket](https://github.com/Ecole-des-Nouvelles-Images/Unity-Template/issues/new)**.
+This game can be played on a laptop or desktop computer, as long as it runs on Windows.
 
 ---
 
 ## Special Thanks
 We would like to thank:
-- **[Name 1]**: [Contribution, e.g., mentorship, inspiration]
-- **[Name 2]**: [Contribution]
-- **[Name 3]**: [Contribution]
 
----
+The teaching staff at the École des Nouvelles Images for their support,
+and especially
+Frédéric Conil, Frédéric Bast, Jérôme Cros, Yvan Bladet, and Tommy Ha Phuoc for their invaluable help and advices.
+(And the interns for testing.)
 
-## Recommendations
-For the best experience, we recommend playing with **[optimal player setup, equipment, or difficulty settings]**.  
-[Additional recommendations, such as tutorials or preparation tips.]
