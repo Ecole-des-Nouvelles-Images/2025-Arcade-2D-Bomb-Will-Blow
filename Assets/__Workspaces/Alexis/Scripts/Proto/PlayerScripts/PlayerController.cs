@@ -1,4 +1,4 @@
-using __Workspaces.Alexis.Scripts.FinalGame.Player;
+using ScriptsFinaux.Player;
 using UnityEngine;
 
 namespace __Workspaces.Alexis.Scripts.Proto.PlayerScripts

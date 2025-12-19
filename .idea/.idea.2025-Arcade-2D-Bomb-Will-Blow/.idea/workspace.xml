@@ -6,9 +6,542 @@
   <component name="ChangeListManager">
     <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateWallCatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateWallCatch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/GénérateurDeMap.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Audio/AudioMixer.mixer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Audio/AudioMixer.mixer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Data/BaseNinja.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Data/BaseNinja.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk5.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk5.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerBase.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerBase.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerBlue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerBlue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerRed.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerRed.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/PlayerInuptManager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/PlayerInuptManager.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Canvas UI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Canvas UI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur1P1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur1P1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur1P2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur1P2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur2P1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur2P1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur2P2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur2P2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur3P1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur3P1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur3P2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur3P2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur4P1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur4P1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur4P2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur4P2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur5P1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur5P1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur5P2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Coeurs/Coeur5P2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/SoundMenuBackGround.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/SoundMenuBackGround.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/UISrciptManager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/UISrciptManager.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/Credits.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/Credits.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/SceneDevJeu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/SceneDevJeu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Audio/AudioManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Audio/AudioManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/CamFollowsPlayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/CamFollowsPlayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/CamFollowsPlayer2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/CamFollowsPlayer2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/PlayerCameraFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/PlayerCameraFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/CollisionDamage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/CollisionDamage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Crawler.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Crawler/CrawlerBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Crawler/CrawlerBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Drone.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Drone/DroneBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Drone/DroneBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Turret.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Turret/BulletBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Turret/BulletBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Turret/TurretBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Turret/TurretBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/BaseState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/BaseState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/IKillable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/IKillable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateDash.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateDash.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateIdle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateIdle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateInAir.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateInAir.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateJetpack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateJetpack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateJump.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateJump.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateShield.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateShield.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateWalk.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateWalk.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateWallCatch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateWallCatch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Level.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Level/ChunkSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Level/ChunkSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Level/DeactivateBomb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Level/DeactivateBomb.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/GroundCheck.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/GroundCheck.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/InputManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/InputManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/LeftWallCheck.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/LeftWallCheck.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerDamagedSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerDamagedSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/RightWallCheck.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/RightWallCheck.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/ActivateVictoryUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/ActivateVictoryUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayCredits.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayCredits.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayGame.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayGame.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/QuitSoundMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/QuitSoundMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/SoundMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/SoundMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/InGameUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/InGameUI/HeartsOnUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/InGameUI/HeartsOnUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/InGameUI/PowerCooldowns.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/InGameUI/PowerCooldowns.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/MainMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/MainMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/MinimapAdvancement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/MinimapAdvancement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/InGamePause.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/InGamePause.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/ResumeGame.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/ResumeGame.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/SoundFromGame.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/SoundFromGame.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/SoundToPause.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/SoundToPause.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PreselectedButtonsInMenus.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PreselectedButtonsInMenus/SetFirstButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PreselectedButtonsInMenus/SetFirstButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/QuitGame.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/QuitGame.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/ReplayGame.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/ReplayGame.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/VictoryAfterDeath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/VictoryAfterDeath.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/VictoryText.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/VictoryText/VictoryAfterBombDefuse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/VictoryText/VictoryAfterBombDefuse.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/VictoryText/VictoryByDeath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/VictoryText/VictoryByDeath.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/VFX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/VFX/VFXDurationScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/VFX/VFXDurationScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/Proto/PlayerScripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/Proto/PlayerScripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_EndJump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_EndJump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_EndSprint.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_EndSprint.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_IdleMur.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_IdleMur.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_Jetpack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_Jetpack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_Jump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_Jump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_Sprint.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_Sprint.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_StartJetpack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_StartJetpack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_StartJump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_StartJump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_StartSprint.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Animation clip/B_StartSprint.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/EndJumBleu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/EndJumBleu.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/IdleBleu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/IdleBleu.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/IdleMurBleu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/IdleMurBleu.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/JetpackBleu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/JetpackBleu.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/SautBleu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/SautBleu.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/StartJetpackBleu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/StartJetpackBleu.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/StartJumpBlue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/StartJumpBlue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/animation sprint ninja bleu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/animation sprint ninja bleu.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/end sprint ninja bleu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/end sprint ninja bleu.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/start sprint ninja bleu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim BLEU/Sprites/start sprint ninja bleu.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/BLEUUUU.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/BLEUUUU.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/BLEUUUU.psb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/BLEUUUU.psb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/Menuwoninjas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/Menuwoninjas.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NUAGE 1 MOVING.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NUAGE 1 MOVING.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NUAGE 1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NUAGE 1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NUAGE 2 MOVING.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NUAGE 2 MOVING.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NUAGE 2.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NUAGE 2.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NinjaBleuMenu.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NinjaBleuMenu.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NinjaROugeAnimation.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NinjaROugeAnimation.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NinjaROugeAnimation.psb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NinjaROugeAnimation.psb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NinjaRougeMenu.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/NinjaRougeMenu.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/Nuage 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/Nuage 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/Nuage 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/Nuage 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/Sky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/Sky.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/Square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/Test anim.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/Test anim.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/menuwosky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim Menu/menuwosky.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_EndJump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_EndJump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_IdleMure.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_IdleMure.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_Jetpack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_Jetpack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_Jump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_Jump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_Sprint.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_Sprint.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_StartJetpack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_StartJetpack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_StartJump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_StartJump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_StartSprint.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_StartSprint.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_StopSprint.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Animation Clip/R_StopSprint.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/EnjumpRed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/EnjumpRed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/IdleMurRouge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/IdleMurRouge.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/IdleRouge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/IdleRouge.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/JetpackRouge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/JetpackRouge.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/JumpRouge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/JumpRouge.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/StartJetpackRouge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/StartJetpackRouge.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/StartJumpRed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/StartJumpRed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/animation sheet end sprint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/animation sheet end sprint.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/animation sheet sprint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/animation sheet sprint.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/animation sheet start sprint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/Anim ROUGE/Sprites/animation sheet start sprint.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/EntrySceneTest.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/EntrySceneTest.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Dust.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Dust.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Duzt 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Duzt 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Duzt.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Duzt.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Flame.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Flame.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Flash 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Flash 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Flash.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Flash.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/HitEffect.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/HitEffect.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/JumpV1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/JumpV1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Boulon.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Boulon.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Boulon2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Boulon2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Cable.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Cable.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Coquille.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Coquille.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Eye.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Eye.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Mandibulle.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Mandibulle.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Metal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Metal.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Oeil_Cassé.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Oeil_Cassé.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Part.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Part.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Patte.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Morceaux_Explosion/Patte.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/New Material 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/New Material 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/NinjaMat 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/NinjaMat 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/NinjaMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/NinjaMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/PulseSlash 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/PulseSlash 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Trail_Texure.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Materials/Trail_Texure.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scripts/GlowSpeedController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scripts/GlowSpeedController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scripts/HideExplosion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scripts/HideExplosion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scripts/PlayerAppear.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scripts/PlayerAppear.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/ExplosionV2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/ExplosionV2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/Glow.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/Glow.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/GlowMotel.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/GlowMotel.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/Glow_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/Glow_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/MuzzleShot.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/MuzzleShot.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/Panneau flecheGlow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/Panneau flecheGlow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/Panneau flecheGlow_0.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/Panneau flecheGlow_0.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/PanneauFleche.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/PanneauFleche.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/Panneaux HotelGlow_0.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/Panneaux HotelGlow_0.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/ShadowMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/ShadowMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/YellowLights.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow/YellowLights.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/GlowPulse.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/GlowPulse.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/GlowPulse3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/GlowPulse3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/Glow_Pulse.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/Glow_Pulse.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PanneauMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PanneauMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PanneauMat1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PanneauMat1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PanneauMat2 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PanneauMat2 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PanneauMat2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PanneauMat2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PulseShield.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PulseShield.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PulseSlash.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PulseSlash.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow_Shot.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow_Shot.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow_Trail.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Glow_Trail.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Shield.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Shield/Shield.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Shield/Shield.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Shield/ShieldMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Shield/ShieldMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Trail2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Trail2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/TrailMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/TrailMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Trail_Shader.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/Trail_Shader.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Araignée_SpriteSheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Araignée_SpriteSheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/CCarapace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/CCarapace.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Coquille.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Coquille.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Mandibulle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Mandibulle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Metal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Metal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Oeil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Oeil.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Oeil_Cassé001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Oeil_Cassé001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Oeil_Cassé002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Oeil_Cassé002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Patte.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Araignée/Patte.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Corections.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Corections/Spider2_SpriteSheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Corections/Spider2_SpriteSheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Corections/Tourelle_SpritSheet2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Corections/Tourelle_SpritSheet2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/DashEffetc1 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/DashEffetc1 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/DashEffetc1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/DashEffetc1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Explosion_SpriteSheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Explosion_SpriteSheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Explosion_SpriteSheet2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Explosion_SpriteSheet2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Joueur.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Joueur/Dust.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Joueur/Dust.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Joueur/V2 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Joueur/V2 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Metal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Metal/Boulon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Metal/Boulon1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Metal/Boulon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Metal/Boulon2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Metal/Cable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Metal/Cable.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/MuzzleMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/MuzzleMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/MuzzleShotP2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/MuzzleShotP2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Onde.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Onde.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Panneau flecheGlow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Panneau flecheGlow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Panneaux HotelGlow 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Panneaux HotelGlow 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Panneaux HotelGlow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Panneaux HotelGlow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Projectil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Projectil.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Projectil2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Projectil2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Projectil3 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Projectil3 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Projectil3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Projectil3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Sans titre-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Sans titre-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Sans titre-1_0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Sans titre-1_0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpiteSheetPropulse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpiteSheetPropulse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpritSheet_Rouge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpritSheet_Rouge.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpriteSheetMUZZLESHOT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpriteSheetMUZZLESHOT.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpriteSheetSlash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpriteSheetSlash.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpriteSheetZigzag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpriteSheetZigzag.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpriteSheet_Bleue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpriteSheet_Bleue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpriteSheet_Drone 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpriteSheet_Drone 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpriteSheet_Explosion3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpriteSheet_Explosion3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpriteSheet_MuzzleShot 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/SpriteSheet_MuzzleShot 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Alliage.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Alliage.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Alliage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Alliage.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Base.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Base.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Base.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Canon.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Canon.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Canon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Canon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Eclat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Eclat.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Socle.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Socle.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Socle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Socle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Tourelle_SpriteShee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/Tourelle/Tourelle_SpriteShee.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Sprites/V2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Texture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Texture/DustWalk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Texture/DustWalk.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Texture/Glow1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Texture/Glow1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Texture/Trail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Texture/Trail.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Texture/Trail2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Texture/Trail2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Texture/Trail3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Texture/Trail3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
