@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ca24a20163d4b2d9c5a7e1ce9d57356, type: 3}
+  m_Name: NinjaTest2
+  m_EditorClassIdentifier: Assembly-CSharp::__Workspaces.Alexis.Scripts.FinalGame.Player.PlayerData
+  MaxHealth: 0
+  MoveSpeed: 0
+  DashCdDuration: 0
+  DashDuration: 0
+  DashForce: 0
+  ShieldCdDuration: 0
+  ShieldDuration: 0
+  JetpackUsageDuration: 0
+  WallGravityScale: 0

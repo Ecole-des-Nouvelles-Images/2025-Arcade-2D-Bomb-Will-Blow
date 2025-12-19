@@ -1,14 +1,15 @@
+using __Workspaces.Alexis.Scripts.Proto.PlayerScripts;
 using UnityEngine;
 using UnityEngine.UI;
 public class FuelBarScript : MonoBehaviour
 {
     [SerializeField] private Image _FuelBar;
     [SerializeField] private Image _FuelButton;
-    private PlayerController _playerController;
+    private __Workspaces.Alexis.Scripts.Proto.PlayerScripts.PlayerController _playerController;
     
     void Start()
     {
-        _playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+        _playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<__Workspaces.Alexis.Scripts.Proto.PlayerScripts.PlayerController>();
     }
     
     void Update()

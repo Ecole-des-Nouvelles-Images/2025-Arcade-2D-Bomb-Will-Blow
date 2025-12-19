@@ -1,3 +1,4 @@
+using __Workspaces.Alexis.Scripts.Proto.PlayerScripts;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,12 +7,12 @@ public class ShieldButtonFill : MonoBehaviour
 {
     [SerializeField] private Image shieldButon;
     [SerializeField] private TextMeshProUGUI shieldTimerText;
-    private PlayerController _playerController;
+    private __Workspaces.Alexis.Scripts.Proto.PlayerScripts.PlayerController _playerController;
     private int _shieldTimerInt;
     
     void Start()
     {
-        _playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+        _playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<__Workspaces.Alexis.Scripts.Proto.PlayerScripts.PlayerController>();
     }
 
     void Update()
