@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 3798229757095751665}
   - component: {fileID: 3058103544630468448}
   - component: {fileID: 388374345346907731}
-  - component: {fileID: 581603883094367766}
   - component: {fileID: 2879957753189555682}
   - component: {fileID: 7060103665375767444}
+  - component: {fileID: 8320311816562955427}
   m_Layer: 7
   m_Name: Crawler
   m_TagString: Enemy
@@ -168,18 +168,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
---- !u!114 &581603883094367766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4680303480438485787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11781fd2545ece34cbeaec56394a72d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CollisionDamage
 --- !u!95 &2879957753189555682
 Animator:
   serializedVersion: 7
@@ -219,3 +207,15 @@ MonoBehaviour:
   OnLeftWall: 0
   _deathEffectLeftSide: {fileID: 2144428989738454136, guid: f7b01c64655c03f48b3e86ecae4c0b9d, type: 3}
   _deathEffectRightSide: {fileID: 4596366539920317749, guid: d1a63c6da7de49a4b995d0a96f12d278, type: 3}
+--- !u!114 &8320311816562955427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4680303480438485787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec9080c3c44dcb4cbeff74fe6dd5563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionDamage

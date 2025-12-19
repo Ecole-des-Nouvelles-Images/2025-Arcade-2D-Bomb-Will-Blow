@@ -8,7 +8,6 @@ public class StateShield : BaseState
     
     public override void OnEnter()
     {
-        Debug.Log("Shield entered");
         PlayerController.UseShield = true;
         Object.Instantiate(PlayerController.ShieldEffect, PlayerController.transform.position, Quaternion.identity);
         PlayerController.Hurtbox.SetActive(false);

@@ -71,7 +71,7 @@ namespace __Workspaces.Alexis.Scripts.FinalGame.Player
             Destroy(player);
         }
 
-        private void TakeDamage() {
+        public void TakeDamage() {
             HealthCurrent--;
             spriteRenderer.material = _FlashMaterial;
             _hitReceived = true;

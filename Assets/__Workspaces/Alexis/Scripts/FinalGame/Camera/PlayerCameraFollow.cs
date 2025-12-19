@@ -5,8 +5,8 @@ namespace __Workspaces.Alexis.Scripts.FinalGame.Camera
     public class PlayerCameraFollow : MonoBehaviour
     {
         [SerializeField] private Transform _player;
-        [SerializeField] private float _minDelta = 2f;   // seuil bas relatif à la caméra
-        [SerializeField] private float _maxDelta = 5f;   // seuil haut relatif à la caméra
+        [SerializeField] private float _minDelta = -9f;   // seuil bas relatif à la caméra
+        [SerializeField] private float _maxDelta = -3f;   // seuil haut relatif à la caméra
 
         private float _baseY;
 

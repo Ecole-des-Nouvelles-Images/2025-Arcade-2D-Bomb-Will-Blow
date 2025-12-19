@@ -8,9 +8,9 @@ namespace __Workspaces.Alexis.Scripts.FinalGame.Level
     {
         [SerializeField] private List<GameObject> terrainChunks;
 
-        [SerializeField] private int numberOfChunks = 5;
-        [SerializeField] private float chunkHeight = 23f;
-        [SerializeField] private float heightOffset = 23f;
+        [SerializeField] private int numberOfChunks = 4;
+        [SerializeField] private float chunkHeight = 46f;
+        [SerializeField] private float heightOffset = 46f;
 
         private Vector3 _spawnPosition;
 
@@ -46,7 +46,7 @@ namespace __Workspaces.Alexis.Scripts.FinalGame.Level
         private void SpawnChunk(GameObject prefab)
         {
             Instantiate(prefab, _spawnPosition, Quaternion.identity);
-            _spawnPosition += Vector3.up * chunkHeight;
+            _spawnPosition += Vector3.up * chunkHeight * 1.5f;
         }
     }
 }

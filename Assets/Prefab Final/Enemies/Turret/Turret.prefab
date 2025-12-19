@@ -74,9 +74,9 @@ GameObject:
   - component: {fileID: 1227788182909063007}
   - component: {fileID: 7962530310217901248}
   - component: {fileID: 7192326226684731594}
-  - component: {fileID: 3172417098269325412}
   - component: {fileID: 1997062766285708662}
   - component: {fileID: 1740673263595109958}
+  - component: {fileID: 8361068154800488578}
   m_Layer: 7
   m_Name: Turret
   m_TagString: Enemy
@@ -233,18 +233,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &3172417098269325412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5203659833494140171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11781fd2545ece34cbeaec56394a72d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CollisionDamage
 --- !u!114 &1997062766285708662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,6 +251,8 @@ MonoBehaviour:
   bulletSpawnLeftSide: {fileID: 4554063734759801000}
   SpawnBulletToTheRightSide: 0
   SpawnBulletToTheLeftSide: 0
+  _deathEffectLeftSide: {fileID: 0}
+  _deathEffectRightSide: {fileID: 0}
 --- !u!95 &1740673263595109958
 Animator:
   serializedVersion: 7
@@ -285,6 +275,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8361068154800488578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5203659833494140171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec9080c3c44dcb4cbeff74fe6dd5563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionDamage
 --- !u!1001 &5348778486493917258
 PrefabInstance:
   m_ObjectHideFlags: 0
