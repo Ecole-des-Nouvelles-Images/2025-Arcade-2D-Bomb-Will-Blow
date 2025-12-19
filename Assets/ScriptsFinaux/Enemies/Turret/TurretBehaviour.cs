@@ -1,0 +1,91 @@
+using UnityEngine;
+
+public class TurretBehaviour : MonoBehaviour, IKillable
+{
+    [Header("BulletReferences")]
+    [SerializeField] private GameObject bulletPrefabRightSide;
+    [SerializeField] private GameObject bulletPrefabLeftSide;
+    
+    [Space(4), Header("BulletSpawners")]
+    [SerializeField] private GameObject bulletSpawnRightSide;
+    [SerializeField] private GameObject bulletSpawnLeftSide;
+    
+    [Space(4), Header("SideToShoot")]
+    [SerializeField] private bool SpawnBulletToTheRightSide;
+    [SerializeField] private bool SpawnBulletToTheLeftSide;
+    
+    [Space(4), Header("Death Effect Prefab")]
+    [SerializeField] private GameObject _deathEffectLeftSide;
+    [SerializeField] private GameObject _deathEffectRightSide;
+    
+    private bool _hasShot;
+    private float _shootingRate = 1.1f;
+    private float _shootingTimer;
+    private SpriteRenderer _renderer;
+
+    void Start()
+    {
+        _renderer = GetComponent<SpriteRenderer>();
+        if (SpawnBulletToTheRightSide)
+        {
+            _renderer.flipX = false;
+        }
+
+        if (SpawnBulletToTheLeftSide)
+        {
+            _renderer.flipX = true;
+        }
+    }
+    
+    // Update is called once per frame
+    void Update()
+    {
+        if (!_hasShot && SpawnBulletToTheRightSide)
+        {
+            FireRightSide();
+        }
+        
+        if (!_hasShot && SpawnBulletToTheLeftSide)
+        {
+            FireLeftSide();
+        }
+
+        if (_hasShot)
+        {
+            _shootingTimer += Time.deltaTime;
+            if (_shootingTimer >= _shootingRate)
+            {
+                _hasShot = false;
+            }
+        }
+    }
+
+    void FireRightSide()
+    {
+        GameObject instantiate = Instantiate(bulletPrefabRightSide, bulletSpawnRightSide.transform.position, bulletSpawnRightSide.transform.rotation);
+        instantiate.GetComponent<Rigidbody2D>().AddForce(new Vector2(600,0));
+        _hasShot = true;
+        _shootingTimer = 0;
+    }
+    
+    void FireLeftSide()
+    {
+        GameObject instantiate = Instantiate(bulletPrefabLeftSide, bulletSpawnLeftSide.transform.position, bulletSpawnLeftSide.transform.rotation);
+        instantiate.GetComponent<Rigidbody2D>().AddForce(new Vector2(-600,0));
+        _hasShot = true;
+        _shootingTimer = 0;
+    }
+    
+    public void Kill() 
+    {
+        if (SpawnBulletToTheRightSide)
+        {
+            _deathEffectLeftSide.SetActive(true);
+        }
+        else
+        {
+            _deathEffectRightSide.SetActive(true);
+        }
+        gameObject.SetActive(false);
+    }
+}

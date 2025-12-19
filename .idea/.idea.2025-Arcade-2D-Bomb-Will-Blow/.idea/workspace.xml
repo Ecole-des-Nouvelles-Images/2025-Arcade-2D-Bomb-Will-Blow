@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataFinal/BaseNinja.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DataFinal/BaseNinja.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunInfo.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunSettings.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/Enemies/Crawler/CrawlerBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/Enemies/Crawler/CrawlerBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/CamFollowsPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/CollisionDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Crawler/CrawlerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Drone/DroneBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayCredits.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/QuitSoundMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/SoundMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/SoundToPause.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PreselectedButtonsInMenus/SetFirstButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/VictoryText/VictoryAfterBombDefuse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="35bnCKSmL5xUXuSN6khzyPC1DxZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.3953202&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Alexis&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../BombWillBlowBuilds/Build fin de prod\Unity Template.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\BombWillBlowBuilds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.2.3f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="" />
+      <created>1763387509852</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763387509852</updated>
+      <workItem from="1763387511052" duration="584000" />
+      <workItem from="1763388110717" duration="2000" />
+      <workItem from="1763389896609" duration="123000" />
+      <workItem from="1763390035514" duration="36000" />
+      <workItem from="1763390105658" duration="36000" />
+      <workItem from="1763390161172" duration="40000" />
+      <workItem from="1763390209192" duration="13000" />
+      <workItem from="1763390227430" duration="26000" />
+      <workItem from="1763390418684" duration="4000" />
+      <workItem from="1763390507791" duration="17000" />
+      <workItem from="1763390537026" duration="8000" />
+      <workItem from="1763391405395" duration="30000" />
+      <workItem from="1763391451374" duration="38000" />
+      <workItem from="1763391495330" duration="74000" />
+      <workItem from="1763391644754" duration="85000" />
+      <workItem from="1763391822738" duration="1736000" />
+      <workItem from="1763394710056" duration="415000" />
+      <workItem from="1763455541283" duration="1918000" />
+      <workItem from="1763457503210" duration="6352000" />
+      <workItem from="1763464158768" duration="253000" />
+      <workItem from="1763464432957" duration="3059000" />
+      <workItem from="1763471679027" duration="6986000" />
+      <workItem from="1763479014801" duration="2772000" />
+      <workItem from="1763541270484" duration="7474000" />
+      <workItem from="1763549916919" duration="2580000" />
+      <workItem from="1763558134874" duration="2131000" />
+      <workItem from="1763560474675" duration="1003000" />
+      <workItem from="1763561646825" duration="3388000" />
+      <workItem from="1763565544309" duration="8000" />
+      <workItem from="1763565615520" duration="13000" />
+      <workItem from="1763565667819" duration="130000" />
+      <workItem from="1763565927494" duration="2429000" />
+      <workItem from="1763627919104" duration="10897000" />
+      <workItem from="1763645176954" duration="500000" />
+      <workItem from="1763646188565" duration="195000" />
+      <workItem from="1763646487150" duration="696000" />
+      <workItem from="1763647966858" duration="3426000" />
+      <workItem from="1763652897065" duration="891000" />
+      <workItem from="1763715737749" duration="8306000" />
+      <workItem from="1763735914249" duration="2233000" />
+      <workItem from="1763976074909" duration="96000" />
+      <workItem from="1763976707027" duration="859000" />
+      <workItem from="1763977619560" duration="565000" />
+      <workItem from="1763978210915" duration="12000" />
+      <workItem from="1763978237811" duration="17000" />
+      <workItem from="1763978275749" duration="27000" />
+      <workItem from="1763978323318" duration="107000" />
+      <workItem from="1763978445404" duration="11000" />
+      <workItem from="1763978466370" duration="1463000" />
+      <workItem from="1763980381919" duration="26000" />
+      <workItem from="1763980442307" duration="13000" />
+      <workItem from="1763980471715" duration="709000" />
+      <workItem from="1763981190523" duration="10000" />
+      <workItem from="1763981232778" duration="7484000" />
+      <workItem from="1763997467396" duration="20000" />
+      <workItem from="1763997499104" duration="499000" />
+      <workItem from="1763998018785" duration="1296000" />
+      <workItem from="1763999343824" duration="80000" />
+      <workItem from="1763999431122" duration="907000" />
+      <workItem from="1764060450859" duration="3786000" />
+      <workItem from="1764064602249" duration="6000" />
+      <workItem from="1764067004442" duration="6918000" />
+      <workItem from="1764080789458" duration="4515000" />
+      <workItem from="1764146834970" duration="15748000" />
+      <workItem from="1764234602063" duration="1785000" />
+      <workItem from="1764236946561" duration="10000" />
+      <workItem from="1764237027286" duration="23000" />
+      <workItem from="1764237163284" duration="12629000" />
+      <workItem from="1764333623801" duration="102000" />
+      <workItem from="1764333751789" duration="987000" />
+      <workItem from="1764581285093" duration="6523000" />
+      <workItem from="1764596260868" duration="2241000" />
+      <workItem from="1764599356318" duration="194000" />
+      <workItem from="1764602612747" duration="1397000" />
+      <workItem from="1764668290981" duration="2421000" />
+      <workItem from="1764758204260" duration="6496000" />
+      <workItem from="1764774458787" duration="3400000" />
+      <workItem from="1764837805469" duration="12598000" />
+      <workItem from="1764862660701" duration="38000" />
+      <workItem from="1764930994678" duration="8786000" />
+      <workItem from="1765187047743" duration="5842000" />
+      <workItem from="1765373152646" duration="3014000" />
+      <workItem from="1765444185891" duration="3889000" />
+      <workItem from="1765459237349" duration="8377000" />
+      <workItem from="1765527625874" duration="6398000" />
+      <workItem from="1765535117436" duration="2131000" />
+      <workItem from="1765542606464" duration="5796000" />
+      <workItem from="1765633609475" duration="85000" />
+      <workItem from="1765633724111" duration="2478000" />
+      <workItem from="1765788504005" duration="877000" />
+      <workItem from="1765817379966" duration="122000" />
+      <workItem from="1765817507868" duration="34000" />
+      <workItem from="1765817927167" duration="12032000" />
+      <workItem from="1765880330008" duration="1251000" />
+      <workItem from="1765895855624" duration="921000" />
+      <workItem from="1765908314892" duration="2409000" />
+      <workItem from="1765927278149" duration="2076000" />
+      <workItem from="1765961944709" duration="7078000" />
+      <workItem from="1766085463536" duration="4561000" />
+      <workItem from="1766090184767" duration="7749000" />
+      <workItem from="1766099555434" duration="3357000" />
+      <workItem from="1766105680032" duration="2290000" />
+      <workItem from="1766115499753" duration="363000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
