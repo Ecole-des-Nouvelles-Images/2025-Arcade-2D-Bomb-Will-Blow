@@ -88,7 +88,7 @@ public class StateWallCatch : BaseState
 
     private void DoWallSlide()
     {
-        PlayerController.Rb.AddForce(new Vector2(0, - 1 * Time.deltaTime));
+        PlayerController.Rb.AddForce(new Vector2(0, - PlayerController.PlayerData.SlideDownForce * Time.deltaTime));
         _canGetSpeed = false;
         _activatesOnlyOnce = false;
     }

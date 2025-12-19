@@ -137,18 +137,6 @@ namespace __Workspaces.Alexis.Scripts.FinalGame.Player
             {
                 CanWalk = true;
             }
-
-            //How long the Shield stays active
-            if (ShieldEffect.activeSelf)
-            {
-                PlayerData.TimeWithShieldActive += Time.deltaTime;
-                if (PlayerData.TimeWithShieldActive >= PlayerData.ShieldDuration)
-                {
-                    ShieldEffect.SetActive(false);
-                    Hurtbox.SetActive(true);
-                    PlayerData.TimeWithShieldActive = 0;
-                }
-            }
         
             //Shield cooldown
             ShieldTimer += Time.deltaTime;

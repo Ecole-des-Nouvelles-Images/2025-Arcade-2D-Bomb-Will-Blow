@@ -24,10 +24,8 @@ namespace __Workspaces.Alexis.Scripts.FinalGame.Player
         
         //Shield
         public float ShieldCd = 5;
-        public float ShieldDuration;
-        public float TimeWithShieldActive;
        
         //Wall
-        public float TimeBeforePlayerSlidesDown;
+        public float SlideDownForce;
     }
 }
