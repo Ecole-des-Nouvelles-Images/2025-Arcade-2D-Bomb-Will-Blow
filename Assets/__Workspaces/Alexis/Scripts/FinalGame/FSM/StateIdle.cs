@@ -8,7 +8,6 @@ public class StateIdle : BaseState
     
     public override void OnEnter()
     {
-        Debug.Log("State Idle Entry");
         PlayerController.PlayerAnimator.SetBool("StartWalk",false);
         PlayerController.PlayerAnimator.SetBool("InAir", false);
         PlayerController.PlayerAnimator.SetBool("EndRun", true);
@@ -42,7 +41,7 @@ public class StateIdle : BaseState
         }
 
         //Shield state
-        if (PlayerController.UseShield)
+        if (PlayerController.UseShield && PlayerController.CanShield)
         {
             return new StateShield(PlayerController);
         }

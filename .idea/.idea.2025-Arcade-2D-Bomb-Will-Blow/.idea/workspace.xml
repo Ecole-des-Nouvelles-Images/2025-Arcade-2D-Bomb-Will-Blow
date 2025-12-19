@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/StartChunk.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/StartChunk.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletLeftSide 1 (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletLeftSide 1 (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletRightSide (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletRightSide (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/Player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/Player1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/PlayerShield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/PlayerShield.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Data/BaseNinja.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Data/BaseNinja.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerBase.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerBase.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerBlue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerBlue.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerRed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerRed.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Canvas UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Canvas UI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/SceneDevJeu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/SceneDevJeu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PanneauMat2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Shaders/GlowPulse/PanneauMat2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateIdle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateIdle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateInAir.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateInAir.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateShield.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateWallCatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateWallCatch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Level/ChunkSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Level/ChunkSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerDamagedSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerDamagedSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/ReplayGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/ReplayGame.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +40,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/CamFollowsPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Crawler/CrawlerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Drone/DroneBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/PlayerControllerFinal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/HitReceivedFeedback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayCredits.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/QuitSoundMenu.cs" root0="FORCE_HIGHLIGHTING" />
@@ -35,7 +48,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/SoundToPause.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PreselectedButtonsInMenus/SetFirstButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/VictoryText/VictoryAfterBombDefuse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/VictoryAfterDeath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -55,14 +67,14 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.3953202&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Tom&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Alexis&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -72,9 +84,7 @@
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\BombWillBlowBuilds" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
@@ -82,9 +92,7 @@
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
@@ -92,9 +100,7 @@
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -108,7 +114,6 @@
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -122,7 +127,6 @@
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
@@ -235,6 +239,8 @@
       <workItem from="1765908314892" duration="2409000" />
       <workItem from="1765927278149" duration="2076000" />
       <workItem from="1765961944709" duration="7078000" />
+      <workItem from="1766085463536" duration="4561000" />
+      <workItem from="1766090184767" duration="7749000" />
     </task>
     <servers />
   </component>
@@ -251,5 +257,9 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

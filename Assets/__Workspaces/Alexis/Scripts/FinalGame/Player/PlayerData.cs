@@ -23,7 +23,7 @@ namespace __Workspaces.Alexis.Scripts.FinalGame.Player
         public int JetpackForce;
         
         //Shield
-        public float ShieldCd;
+        public float ShieldCd = 5;
         public float ShieldDuration;
         public float TimeWithShieldActive;
        

@@ -44,7 +44,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   JetpackMax: 0
   JetpackForce: 0
-  ShieldCd: 0
+  ShieldCd: 5
   ShieldDuration: 0
   TimeWithShieldActive: 0
   TimeBeforePlayerSlidesDown: 0

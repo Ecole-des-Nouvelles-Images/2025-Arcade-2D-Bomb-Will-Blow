@@ -8,8 +8,11 @@ public class StateShield : BaseState
     
     public override void OnEnter()
     {
+        Debug.Log("Shield entered");
         PlayerController.UseShield = true;
-        DoShield();
+        Object.Instantiate(PlayerController.ShieldEffect, PlayerController.transform.position, Quaternion.identity);
+        PlayerController.Hurtbox.SetActive(false);
+        PlayerController.ShieldTimer = 0;
     }
 
     public override void OnUpdate()
@@ -48,13 +51,5 @@ public class StateShield : BaseState
         }
         
         return null;
-    }
-
-    private void DoShield()
-    {
-        PlayerController.ShieldTimer = 0;
-        PlayerController.ShieldEffect.SetActive(true);
-        PlayerController.Hurtbox.SetActive(false);
-        PlayerController.CanUseShield = false;
     }
 }
