@@ -6,40 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Crawler/Crawler.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Crawler/Crawler.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/FlyDrone/FlyDrone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/FlyDrone/FlyDrone.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/Turret.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/Turret.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Appear.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Appear.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/GlowEyesDrone 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/GlowEyesDrone 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/GlowEyesDrone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/GlowEyesDrone.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/GlowEyesSpider.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/GlowEyesSpider.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashBlueLeft.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashBlueLeft.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashBlueRight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashBlueRight.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashRedLeft.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashRedLeft.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashRedRight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashRedRight.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DustSlideLeft.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DustSlideLeft.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DustSlideRight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DustSlideRight.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpLeftInclined.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpLeftInclined.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpLeftSide.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpLeftSide.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpRightSide 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpRightSide 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpRigthInclined.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/JumpRigthInclined.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/Landing_Left.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/Landing_Left.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/Landing_Right.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/Landing_Right.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/PlayerShield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/PlayerShield.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Chunks/RealGameChunks/Chunk5.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerBase.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerBase.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerBlue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/Player/PlayerBlue.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Canvas UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/Canvas UI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/SoundMenuBackGround.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Prefabs/UI/SoundMenuBackGround.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/SceneDevJeu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scenes/SceneDevJeu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/PlayerCameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/PlayerCameraFollow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/FSM/StateShield.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Level/ChunkSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Level/ChunkSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/CollisionDamage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/CollisionDamage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerDamagedSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Player/PlayerDamagedSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/EntrySceneTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Noelia/EntrySceneTest.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

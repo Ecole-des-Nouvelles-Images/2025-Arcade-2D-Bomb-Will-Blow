@@ -3507,6 +3507,7 @@ GameObject:
   - component: {fileID: 7547786698055886501}
   - component: {fileID: 2926156256531393193}
   - component: {fileID: 3673171379085479452}
+  - component: {fileID: 675602068441265651}
   m_Layer: 5
   m_Name: MinimapHolder
   m_TagString: Untagged
@@ -3573,6 +3574,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 10.21
+--- !u!114 &675602068441265651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5408300595941153685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f1c725914454248a311f877e2b4c56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MinimapAdvancement
+  Player1Slider: {fileID: 1961657362696225303}
+  Player2Slider: {fileID: 8415818900794005319}
+  Player1: {fileID: 0}
+  Player2: {fileID: 0}
 --- !u!1 &5528780885567722211
 GameObject:
   m_ObjectHideFlags: 0
@@ -4749,7 +4766,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2111425413, guid: e3be6c0e6d8294642a1b5e1383bd5c23, type: 3}
+  m_Sprite: {fileID: -458893180, guid: 5f6c8b8ffee8b0f48b6ec8735070f3ae, type: 3}
   m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5014,7 +5031,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2111425413, guid: e3be6c0e6d8294642a1b5e1383bd5c23, type: 3}
+  m_Sprite: {fileID: -458893180, guid: 5f6c8b8ffee8b0f48b6ec8735070f3ae, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1

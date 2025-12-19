@@ -10,7 +10,12 @@ public class CollisionDamage : MonoBehaviour
         if (other.tag == "Player" || other.tag == "Player2")
         {
             playerDamagedSystem = other.GetComponentInChildren<PlayerDamagedSystem>();
-            playerDamagedSystem.TakeDamage();
+            if (playerDamagedSystem.HealthCurrent != 0)
+            {
+                playerDamagedSystem.TakeDamage();
+                return;
+            }
+            playerDamagedSystem.OnDeath();
         }
     }
 }

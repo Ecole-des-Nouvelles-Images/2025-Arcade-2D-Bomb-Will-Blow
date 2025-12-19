@@ -66,7 +66,7 @@ namespace __Workspaces.Alexis.Scripts.FinalGame.Player
             }
         }
     
-        private void OnDeath()
+        public void OnDeath()
         {
             Destroy(player);
         }
