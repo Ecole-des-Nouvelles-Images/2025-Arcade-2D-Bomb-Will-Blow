@@ -460,7 +460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6305144659058048798, guid: c4c5c1c8d084a274698dcb0c05e30a35, type: 3}
       propertyPath: MoveSpeedLeft
-      value: 5000
+      value: 15000
       objectReference: {fileID: 0}
     - target: {fileID: 6305144659058048798, guid: c4c5c1c8d084a274698dcb0c05e30a35, type: 3}
       propertyPath: leftSideLimit
@@ -468,7 +468,7 @@ PrefabInstance:
       objectReference: {fileID: 2723523135331093907}
     - target: {fileID: 6305144659058048798, guid: c4c5c1c8d084a274698dcb0c05e30a35, type: 3}
       propertyPath: MoveSpeedRight
-      value: 5000
+      value: 15000
       objectReference: {fileID: 0}
     - target: {fileID: 6305144659058048798, guid: c4c5c1c8d084a274698dcb0c05e30a35, type: 3}
       propertyPath: rightSideLimit
