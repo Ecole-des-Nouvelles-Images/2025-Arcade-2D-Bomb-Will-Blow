@@ -43,6 +43,6 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   JetpackMax: 5
-  JetpackForce: 10000
+  JetpackForce: 20000
   ShieldCd: 5
   SlideDownForce: 50
