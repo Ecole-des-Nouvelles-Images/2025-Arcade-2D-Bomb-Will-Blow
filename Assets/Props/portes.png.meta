@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3893769c4865b3b488fa2dc4458e3fc9
+guid: 7a10098b44f6b2744acd8b6323ad4b6e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,30 +93,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ventillation 1_0
+      name: portes_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 638
-        width: 647
-        height: 597
+        x: 0
+        y: 0
+        width: 432
+        height: 683
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fef6249a6d974e5408354f56656dbda9
-      internalID: 179780075
+      spriteID: 80ea3c03f4bb95c4ab2ccb86880ec560
+      internalID: 36942533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ventillation 1_1
+      name: portes_1
       rect:
         serializedVersion: 2
-        x: 149
-        y: 147
-        width: 365
-        height: 358
+        x: 728
+        y: 0
+        width: 431
+        height: 683
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,8 +134,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 516009da5c0960e45b0a11b97b244464
-      internalID: 81256202
+      spriteID: bc8b9e34d034d0449be2211373a16a46
+      internalID: 1461931696
       vertices: []
       indices: 
       edges: []
@@ -157,7 +144,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: da29f256352c1854b83990a51f573b43
+    spriteID: 970dc908fbbf7934baeee1f87918890f
     internalID: 0
     vertices: []
     indices: 
@@ -167,8 +154,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ventillation 1_0: 179780075
-      Ventillation 1_1: 81256202
+      portes_0: 36942533
+      portes_1: 1461931696
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
