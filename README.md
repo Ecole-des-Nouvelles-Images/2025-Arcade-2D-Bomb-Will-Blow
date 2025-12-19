@@ -20,7 +20,7 @@
 
 ## Introduction
 Bomb Will Blow is a 2D plateformer combining racing and versus in a vertical run.
-This project was created by 4 students for a school project in only 5 weeks
+This project was created by 4 students for a school project in 5 weeks.
 The development process included a preproduction (1 week), production (3 weeks) and a postproduction (1 week).
 
 ---
