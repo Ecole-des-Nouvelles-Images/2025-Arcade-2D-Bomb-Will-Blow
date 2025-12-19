@@ -5,8 +5,8 @@ using UnityEngine.UI;
 public class MinimapAdvancement : MonoBehaviour
 {
     [Header("SlidersReferences")]
-    [SerializeField] private Slider Player1Slider;
-    [SerializeField] private Slider Player2Slider;
+    [SerializeField] private Image Player1Slider;
+    [SerializeField] private Image Player2Slider;
     
     [Space(4), Header("Player references")]
     [SerializeField] private GameObject Player1;
@@ -14,7 +14,7 @@ public class MinimapAdvancement : MonoBehaviour
 
     private void Update()
     {
-        Player1Slider.value = Player1.transform.position.y;
-        Player2Slider.value = Player2.transform.position.y;
+        Player1Slider.fillAmount = Player1.transform.position.y / 185;
+        Player2Slider.fillAmount = Player2.transform.position.y / 185;
     }
 }
