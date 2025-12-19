@@ -176928,6 +176928,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5066283802309707588, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
+      propertyPath: _PlayerRed
+      value: 
+      objectReference: {fileID: 509761867}
+    - target: {fileID: 5066283802309707588, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
+      propertyPath: _PlayerBlue
+      value: 
+      objectReference: {fileID: 783190932}
     - target: {fileID: 5073165542209871317, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: m_Name
       value: Canvas

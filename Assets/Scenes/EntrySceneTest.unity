@@ -7796,6 +7796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::QuitSoundMenu
   _SoundMenu: {fileID: 287446140}
   _MainMenu: {fileID: 1455956661}
+  _Ninjas: {fileID: 1862708458}
 --- !u!114 &1474405344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7810,6 +7811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SoundMenu
   _SoundMenu: {fileID: 287446140}
   _MainMenu: {fileID: 1455956661}
+  _Ninjas: {fileID: 1862708458}
 --- !u!1001 &1593690081
 PrefabInstance:
   m_ObjectHideFlags: 0
