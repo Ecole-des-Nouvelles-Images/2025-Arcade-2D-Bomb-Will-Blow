@@ -1,14 +1,12 @@
 
 # [Bomb Will Blow]
 
-[A brief and engaging tagline or description of the game]
-
 [![Unity Version](https://img.shields.io/badge/Unity-2022.3.47-blue?style=flat&logo=unity)](https://unity.com/)
 [![GitHub Release](https://img.shields.io/github/v/release/Ecole-des-Nouvelles-Images/Unity-Template)](https://github.com/Ecole-des-Nouvelles-Images/Unity-Template/releases)
 [![License](https://img.shields.io/github/license/Ecole-des-Nouvelles-Images/Unity-Template)](https://github.com/Ecole-des-Nouvelles-Images/Unity-Template/blob/main/LICENSE)
 [![Repo Size](https://img.shields.io/github/repo-size/Ecole-des-Nouvelles-Images/Unity-Template?color=lightgrey)](https://github.com/Ecole-des-Nouvelles-Images/Unity-Template)
 
-![Main Banner](https://github.com/Ecole-des-Nouvelles-Images/Unity-Template/blob/main/MetaData/main-banner.png)
+<img width="3840" height="2160" alt="menutest" src="https://github.com/user-attachments/assets/6f14dcd0-0f9c-4f28-9cb8-22e2e3619e41" />
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -16,9 +14,7 @@
 3. [Gameplay](#gameplay)
 4. [Universe](#universe)
 5. [Release](#release)
-6. [Development](#development)
-7. [Special Thanks](#special-thanks)
-8. [Recommendations](#recommendations)
+6. [Special Thanks](#special-thanks)
 
 ---
 
@@ -36,8 +32,6 @@ This game was brought to life by **[Team Name or "a group of X developers/artist
 - Wren Feliza : Game Artist
 - Tom Goret Ferrier : Tech artist
 
-![Team](https://github.com/Ecole-des-Nouvelles-Images/Unity-Template/blob/main/MetaData/team-photo.png)
-
 ---
 
 ## Gameplay
@@ -45,7 +39,8 @@ Bomb Will Blow is a versus racing game in which you play as two ninjas whose goa
 To do this, you will have to jump between two buildings to move forward while dodging the obstacles that block your path.
 Your Ninja, enhanced by cybertechnology, is capable of dashing powerfully forward, destroying everything in its path, using a shield to protect itself from obstacles for a short time, and even using a jetpack.
 
-![Gameplay Screenshot](https://github.com/Ecole-des-Nouvelles-Images/Unity-Template/blob/main/MetaData/gameplay-screenshot.png)
+<img width="1438" height="807" alt="Image gameplay" src="https://github.com/user-attachments/assets/641c6261-802c-4d1f-be88-8c28e5ca4f0e" />
+
 
 ---
 
