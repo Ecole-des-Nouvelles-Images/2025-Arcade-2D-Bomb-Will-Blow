@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3893769c4865b3b488fa2dc4458e3fc9
+guid: f9225d5af0b12294d9c33061f79ab9f3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,30 +93,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ventillation 1_0
+      name: Blacon_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 638
-        width: 647
-        height: 597
+        x: 0
+        y: 221
+        width: 1024
+        height: 581
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,30 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fef6249a6d974e5408354f56656dbda9
-      internalID: 179780075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ventillation 1_1
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 147
-        width: 365
-        height: 358
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 516009da5c0960e45b0a11b97b244464
-      internalID: 81256202
+      spriteID: 3cd1009a21c439a4bab3c4f9593597c0
+      internalID: -1195919737
       vertices: []
       indices: 
       edges: []
@@ -157,7 +122,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: da29f256352c1854b83990a51f573b43
+    spriteID: 97d3a6cefde11cd4e945f4fb4302b3e1
     internalID: 0
     vertices: []
     indices: 
@@ -167,8 +132,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ventillation 1_0: 179780075
-      Ventillation 1_1: 81256202
+      Blacon_0: -1195919737
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

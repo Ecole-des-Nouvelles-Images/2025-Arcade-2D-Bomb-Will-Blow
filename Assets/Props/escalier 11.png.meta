@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3893769c4865b3b488fa2dc4458e3fc9
+guid: df439f9dfef2d2b4d83e9192d4046aad
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,62 +93,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ventillation 1_0
+      name: escalier 11_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 638
-        width: 647
-        height: 597
+        x: 42
+        y: 69
+        width: 311
+        height: 889
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 348, z: 0, w: 291}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fef6249a6d974e5408354f56656dbda9
-      internalID: 179780075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ventillation 1_1
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 147
-        width: 365
-        height: 358
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 516009da5c0960e45b0a11b97b244464
-      internalID: 81256202
+      spriteID: e864eebb640304b45936681c0b0b9a19
+      internalID: -1604954671
       vertices: []
       indices: 
       edges: []
@@ -157,7 +122,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: da29f256352c1854b83990a51f573b43
+    spriteID: b5c2e145af82edc40ada4ba7fe4c0b16
     internalID: 0
     vertices: []
     indices: 
@@ -167,8 +132,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ventillation 1_0: 179780075
-      Ventillation 1_1: 81256202
+      escalier 11_0: -1604954671
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
