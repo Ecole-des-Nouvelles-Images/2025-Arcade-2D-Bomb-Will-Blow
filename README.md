@@ -26,7 +26,7 @@ The development process included a preproduction (1 week), production (3 weeks) 
 ---
 
 ## Team
-This game was brought to life by **a group of 4 developers/artists"**:
+This game was brought to life by **a group of 4 developers/artists**:
 - Alexis Verne-Rey : Game developer (Game Owner)
 - Noelia Gerouville: Game Artist (Lead Artist)
 - Wren Feliza : Game Artist
