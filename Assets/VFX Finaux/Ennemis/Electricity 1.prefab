@@ -4849,11 +4849,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4221440068111897283, guid: a7daa35df99ba2b44afc8b4fdeef2f68, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.383
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4221440068111897283, guid: a7daa35df99ba2b44afc8b4fdeef2f68, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.04
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4221440068111897283, guid: a7daa35df99ba2b44afc8b4fdeef2f68, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4886,6 +4886,14 @@ PrefabInstance:
     - target: {fileID: 4221440068111897283, guid: a7daa35df99ba2b44afc8b4fdeef2f68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8888572284573306222, guid: a7daa35df99ba2b44afc8b4fdeef2f68, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8888572284573306222, guid: a7daa35df99ba2b44afc8b4fdeef2f68, type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8888572284573306222, guid: a7daa35df99ba2b44afc8b4fdeef2f68, type: 3}
       propertyPath: VelocityModule.enabled
@@ -4927,11 +4935,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4221440068111897283, guid: a7daa35df99ba2b44afc8b4fdeef2f68, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.632
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4221440068111897283, guid: a7daa35df99ba2b44afc8b4fdeef2f68, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.104
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4221440068111897283, guid: a7daa35df99ba2b44afc8b4fdeef2f68, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4964,6 +4972,14 @@ PrefabInstance:
     - target: {fileID: 4221440068111897283, guid: a7daa35df99ba2b44afc8b4fdeef2f68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8888572284573306222, guid: a7daa35df99ba2b44afc8b4fdeef2f68, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8888572284573306222, guid: a7daa35df99ba2b44afc8b4fdeef2f68, type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8888572284573306222, guid: a7daa35df99ba2b44afc8b4fdeef2f68, type: 3}
       propertyPath: NoiseModule.strength.scalar

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8600160687099933781}
   - component: {fileID: 5627373034410053884}
   m_Layer: 0
-  m_Name: Sans titre-1_0
+  m_Name: ChocWave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1214072468197705605}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2982, y: -0.8097799, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.12468549, y: 0.11528511, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -138,7 +138,7 @@ Transform:
   m_GameObject: {fileID: 3167327906001339231}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.23, y: 1.35, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -174,7 +174,7 @@ Transform:
   m_GameObject: {fileID: 4883478158890577121}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3, y: -0.74, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -203,7 +203,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0.2
+    scalar: 0
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -263,7 +263,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.22
+      scalar: 1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1192,7 +1192,7 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 1
+          value: 0.6363659
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -5063,11 +5063,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1418639616155153537, guid: 519025acb73a97a47b7e12abbd5fd065, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.2881999
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1418639616155153537, guid: 519025acb73a97a47b7e12abbd5fd065, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.73977995
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1418639616155153537, guid: 519025acb73a97a47b7e12abbd5fd065, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5107,15 +5107,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6440623947186943539, guid: 519025acb73a97a47b7e12abbd5fd065, type: 3}
       propertyPath: ShapeModule.type
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6440623947186943539, guid: 519025acb73a97a47b7e12abbd5fd065, type: 3}
       propertyPath: startDelay.scalar
-      value: 0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6440623947186943539, guid: 519025acb73a97a47b7e12abbd5fd065, type: 3}
       propertyPath: SizeModule.enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440623947186943539, guid: 519025acb73a97a47b7e12abbd5fd065, type: 3}
+      propertyPath: ShapeModule.enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6440623947186943539, guid: 519025acb73a97a47b7e12abbd5fd065, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -5135,7 +5139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6440623947186943539, guid: 519025acb73a97a47b7e12abbd5fd065, type: 3}
       propertyPath: ShapeModule.radiusThickness
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6440623947186943539, guid: 519025acb73a97a47b7e12abbd5fd065, type: 3}
       propertyPath: EmissionModule.m_Bursts.Array.size
@@ -5147,7 +5151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6440623947186943539, guid: 519025acb73a97a47b7e12abbd5fd065, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 0.19
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 6440623947186943539, guid: 519025acb73a97a47b7e12abbd5fd065, type: 3}
       propertyPath: InitialModule.startColor.maxColor.a
@@ -5167,7 +5171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6440623947186943539, guid: 519025acb73a97a47b7e12abbd5fd065, type: 3}
       propertyPath: InitialModule.startLifetime.minScalar
-      value: 0.25
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6440623947186943539, guid: 519025acb73a97a47b7e12abbd5fd065, type: 3}
       propertyPath: EmissionModule.m_Bursts.Array.data[0].cycleCount

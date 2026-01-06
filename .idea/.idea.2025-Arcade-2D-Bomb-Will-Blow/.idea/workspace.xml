@@ -6,23 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DataFinal/BaseNinja.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DataFinal/BaseNinja.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/Chunk5.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunInfo.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunSettings.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/Enemies/Crawler/CrawlerBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/Enemies/Crawler/CrawlerBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletLeftSide 1 (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletLeftSide 1 (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletRightSide (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletRightSide (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretHolder.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Player/PlayerPrefabs/PlayerBlue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Player/PlayerPrefabs/PlayerBlue.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Player/PlayerPrefabs/PlayerRed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Player/PlayerPrefabs/PlayerRed.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneDevJeu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneDevJeu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpritSheet_Rouge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpritSheet_Rouge.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpriteSheetSlash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpriteSheetSlash.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpriteSheetZigzag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpriteSheetZigzag.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpriteSheet_Explosion3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpriteSheet_Explosion3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/V2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Appear.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Appear.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Ennemis/Electricity 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Ennemis/Electricity 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Ennemis/ProjectilExplo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Ennemis/ProjectilExplo.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashBlueLeft.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashBlueLeft.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashRedRight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashRedRight.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Animations/AnimDef/ProjectileExplo.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Animations/AnimDef/ProjectileExplo.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scene/Chunk.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scene/Chunk.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +74,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "XThreadsFramesViewSplitterKey": "0.3953202",
-    "git-widget-placeholder": "new-int",
+    "git-widget-placeholder": "Tom",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -83,8 +91,10 @@
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\BombWillBlowBuilds" />
       <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
@@ -93,8 +103,10 @@
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
       <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
@@ -103,8 +115,10 @@
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
       <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
       <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
@@ -253,6 +267,7 @@
       <workItem from="1766115499753" duration="363000" />
       <workItem from="1766137037855" duration="2861000" />
       <workItem from="1766142301528" duration="1812000" />
+      <workItem from="1767691611075" duration="3277000" />
     </task>
     <servers />
   </component>
