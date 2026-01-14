@@ -28,6 +28,11 @@ public class StateIdle : BaseState
 
     public override BaseState NextState()
     {
+        //Death state
+        if (!PlayerController.Alive) {
+            return new StateDeath(PlayerController);
+        }
+        
         //Walk state
         if (PlayerController.Walk && PlayerController.CanWalk && PlayerController.Move.x >= 0.2f || PlayerController.Move.x <= -0.2f)
         {

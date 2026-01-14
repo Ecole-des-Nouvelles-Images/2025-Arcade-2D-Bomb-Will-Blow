@@ -14,7 +14,7 @@ public class StateJetpack : BaseState
     public override void OnEnter()
     {
         PlayerController.PlayerAnimator.SetBool("Jetpack", true);
-        Object.Instantiate(PlayerController.JetpackEffect, new Vector2(PlayerController.transform.position.x , PlayerController.transform.position.y), Quaternion.identity, PlayerController.transform);
+        Object.Instantiate(PlayerController.JetpackEffect, new Vector2(PlayerController.transform.position.x + 1.3f , PlayerController.transform.position.y - 0.8f), Quaternion.identity, PlayerController.transform);
         PlayerController.Rb.linearVelocity = Vector2.zero;
         PlayerController.IsInJetpack = true;
         DoJetpack();
@@ -48,6 +48,11 @@ public class StateJetpack : BaseState
 
     public override BaseState NextState()
     {
+        //Death state
+        if (!PlayerController.Alive) {
+            return new StateDeath(PlayerController);
+        }
+        
         //InAir state
         if (PlayerController.JetpackCurrent <= 0 || PlayerController.UseJetpack && _canCatch)
         {

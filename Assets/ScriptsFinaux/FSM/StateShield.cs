@@ -27,6 +27,11 @@ public class StateShield : BaseState
 
     public override BaseState NextState()
     {
+        //Death state
+        if (!PlayerController.Alive) {
+            return new StateDeath(PlayerController);
+        }
+        
         //Walk state
         if (PlayerController.Walk && PlayerController.CanWalk)
         {

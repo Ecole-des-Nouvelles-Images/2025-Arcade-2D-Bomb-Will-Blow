@@ -59,6 +59,11 @@ public class StateWallCatch : BaseState
 
     public override BaseState NextState()
     {
+        //Death state
+        if (!PlayerController.Alive) {
+            return new StateDeath(PlayerController);
+        }
+        
         //Jump state
         if (PlayerController.Jump && PlayerController.Move.x != 0)
         {
