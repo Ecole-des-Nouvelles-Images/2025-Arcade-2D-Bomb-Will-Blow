@@ -6,31 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletLeftSide 1 (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletLeftSide 1 (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletRightSide (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretBulletRightSide (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Enemies/Turret/TurretHolder.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Player/PlayerPrefabs/PlayerBlue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Player/PlayerPrefabs/PlayerBlue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Player/PlayerPrefabs/PlayerRed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Player/PlayerPrefabs/PlayerRed.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/MenuAnimations/Anim Menu/screentexture.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/MenuAnimations/Anim Menu/screentexture.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EntrySceneTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EntrySceneTest.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneDevJeu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneDevJeu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpritSheet_Rouge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpritSheet_Rouge.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpriteSheetSlash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpriteSheetSlash.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpriteSheetZigzag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpriteSheetZigzag.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpriteSheet_Explosion3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpriteSheet_Explosion3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/V2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Appear.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Appear.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Ennemis/Electricity 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Ennemis/Electricity 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Ennemis/ProjectilExplo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Ennemis/ProjectilExplo.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashBlueLeft.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashBlueLeft.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashRedRight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashRedRight.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Animations/AnimDef/ProjectileExplo.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Animations/AnimDef/ProjectileExplo.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scene/Chunk.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scene/Chunk.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Camera/CamFollowsPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/CollisionDamage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Crawler/CrawlerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/Enemies/Drone/DroneBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayCredits.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/PlayGame.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/QuitSoundMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/EntrySceneScripts/SoundMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PauseMenuUI/SoundToPause.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/PreselectedButtonsInMenus/SetFirstButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Alexis/Scripts/FinalGame/UI/VictoryText/VictoryAfterBombDefuse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Workspaces/Noelia/Level Loader test with dot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -66,25 +37,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "XThreadsFramesViewSplitterKey": "0.3953202",
-    "git-widget-placeholder": "Tom",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.3953202&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;new-Noelia&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../BombWillBlowBuilds/Build_semaine_Prod_4/Build_Test_Vendredi_Matin\Bomb Will Blow.exe" />
@@ -268,6 +239,9 @@
       <workItem from="1766137037855" duration="2861000" />
       <workItem from="1766142301528" duration="1812000" />
       <workItem from="1767691611075" duration="3277000" />
+      <workItem from="1767794193038" duration="2296000" />
+      <workItem from="1767883647543" duration="1109000" />
+      <workItem from="1768380936167" duration="15278000" />
     </task>
     <servers />
   </component>
