@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5663086710456091298}
   - component: {fileID: 6725463667307927577}
   - component: {fileID: 8311056921258082150}
-  - component: {fileID: 3594877949777074238}
+  - component: {fileID: 7070164090987678263}
   m_Layer: 0
   m_Name: DustSlideRight
   m_TagString: Untagged
@@ -605,7 +605,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 1000
+    maxNumParticles: 20
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -4846,7 +4846,7 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!114 &3594877949777074238
+--- !u!114 &7070164090987678263
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4855,7 +4855,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7704929160536489575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c2d6e107b24410498b1b80179dbf03e, type: 3}
+  m_Script: {fileID: 11500000, guid: 68fd8459146e76a4ba301ec343f43e84, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SlideDustDuration
-  _maxDuration: 0.5
+  m_EditorClassIdentifier: Assembly-CSharp::VFXDurationScript
+  VFX: {fileID: 7704929160536489575}
+  _VFXDuration: 2
