@@ -5,8 +5,9 @@ namespace ScriptsFinaux.Player
 {
     public class PlayerDamagedSystem : MonoBehaviour
     {
-        [Space(4), Header("Game Object Player")]
+        [Space(4), Header("Game Object Player And Input Manager")]
         [SerializeField] private GameObject player;
+        [SerializeField] private GameObject _IManager;
         
         [Space(4), Header("UI Hearts")]
         [SerializeField] private List<GameObject> _HeartContainersP1;
@@ -16,6 +17,10 @@ namespace ScriptsFinaux.Player
         [SerializeField] private Material _FlashMaterial;
         [SerializeField] private float _FlashDuration;
         [SerializeField] private SpriteRenderer spriteRenderer;
+        
+        [Space(4), Header("PlayerColor")]
+        [SerializeField] private bool _PlayerRed;
+        [SerializeField] private bool _PlayerBlue;
         
         public int HealthCurrent;
         
@@ -27,71 +32,83 @@ namespace ScriptsFinaux.Player
         private Material _originalMaterial;
         private Vector2 _currentPosition;
         private Transform _playerTransform;
+        private float _twoSecondsTimer;
         
-        private void Awake()
-        {
+        private void Awake() {
             _playerController = player.GetComponent<PlayerController>();
             _playerTransform = player.GetComponent<Transform>();
             HealthCurrent = _playerController.PlayerData.HealthMax;
+            
         }
 
-        private void Start()
-        {
+        private void Start() {
             _originalMaterial = spriteRenderer.material;
         }
 
-        private void Update()
-        {
-            if (HealthCurrent == 0)
-            {
+        private void Update() {
+            if (HealthCurrent == 0) {
                 OnDeath();
             }
 
-            if (_hitReceived)
-            {
+            if (_hitReceived) {
                 _flashTimer += Time.deltaTime;
-                if (_flashTimer >= _FlashDuration)
-                {
+                if (_flashTimer >= _FlashDuration) {
                     spriteRenderer.material = _originalMaterial;
                     _hitReceived = false;
                     _flashTimer = 0;
                 }
             }
 
-            if (_hasDied) {
+            if (_hasDied)
+            {
+                _twoSecondsTimer += Time.deltaTime;
                 Debug.Log("HasDied");
-                if (_playerTransform.position.y <= _currentPosition.y - 12) {
-                    _playerTransform.position = new Vector3(2.5f, 2, 0);
+                if (_twoSecondsTimer >= 2 && _PlayerRed) {
+                    Debug.Log("Reset");
+                    _playerTransform.position = new Vector3(-25, 2, 0);
                     _playerController.PlayerAnimator.SetBool("IsDead", false);
+                    _IManager.SetActive(true);
                     _playerController.FreezeCamera = false;
+                    _hasDied  = false;
+                    _twoSecondsTimer = 0;
+                }
+                
+                if (_twoSecondsTimer >= 2 && _PlayerBlue) {
+                    Debug.Log("Reset");
+                    _playerTransform.position = new Vector3(22.5f, 2, 0);
+                    _playerController.PlayerAnimator.SetBool("IsDead", false);
+                    _IManager.SetActive(true);
+                    _playerController.FreezeCamera = false;
+                    _hasDied  = false;
+                    _twoSecondsTimer = 0;
                 }
             }
         }
 
-        private void OnTriggerEnter2D(Collider2D collision)
-        {
-            if (collision.gameObject.CompareTag("Enemy") && _canTakeDamage)
-            {
+        private void OnTriggerEnter2D(Collider2D collision) {
+            
+            if (collision.gameObject.CompareTag("Enemy") && _canTakeDamage) {
                 TakeDamage();
                 _canTakeDamage = false;
             }
 
-            if (collision.gameObject.CompareTag("Bullet") && _canTakeDamage)
-            {
+            if (collision.gameObject.CompareTag("Bullet") && _canTakeDamage) {
                 TakeDamage();
                 _canTakeDamage = false;
             }
         }
     
-        public void OnDeath()
-        {
+        public void OnDeath() {
+            
             _playerController.PlayerAnimator.SetBool("IsDead", true);
             _playerController.FreezeCamera = true;
             _currentPosition = transform.position;
+            _IManager.SetActive(false);
             _hasDied  = true;
         }
         
         public void TakeDamage() {
+            
             HealthCurrent--;
             spriteRenderer.material = _FlashMaterial;
             _hitReceived = true;

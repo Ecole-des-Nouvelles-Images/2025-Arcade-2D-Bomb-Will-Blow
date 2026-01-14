@@ -11,6 +11,7 @@ namespace ScriptsFinaux.Player
         public static event Action<PlayerController> OnPlayer2Spawn;
     
         [SerializeField] private GameObject _UiScriptManager;
+        [SerializeField] private GameObject _Player;
 
         private PlayerInput _playerInput;
         private PlayerController _playerController;
@@ -19,8 +20,8 @@ namespace ScriptsFinaux.Player
     
 
         private void Awake() {
-            _playerInput = GetComponent<PlayerInput>();
-            _playerController = GetComponent<PlayerController>();
+            _playerInput = _Player.GetComponent<PlayerInput>();
+            _playerController = _Player.GetComponent<PlayerController>();
             _pause = _UiScriptManager.GetComponent<Pause>();
             if (_playerInput == null) throw new NullReferenceException("PlayerInputManager is null");
         }
