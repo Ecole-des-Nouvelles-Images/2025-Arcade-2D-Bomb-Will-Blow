@@ -782,6 +782,22 @@ PrefabInstance:
       propertyPath: startDelay.scalar
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 1776377550019168629, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: ShapeModule.m_Rotation.y
+      value: -25.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776377550019168629, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776377550019168629, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: InitialModule.startSizeY.scalar
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1776377550019168629, guid: eba04717314a06849818ceb527026f37, type: 3}
+      propertyPath: InitialModule.startSizeZ.scalar
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1922073631234360676, guid: eba04717314a06849818ceb527026f37, type: 3}
       propertyPath: m_SortingOrder
       value: 0

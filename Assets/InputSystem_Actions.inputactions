@@ -412,6 +412,17 @@
                 },
                 {
                     "name": "",
+                    "id": "7dd5d970-c023-4b80-a041-1d4336bedfc7",
+                    "path": "<DualSenseGamepadHID>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "b1470199-9c86-4644-8bef-360fa8c198d6",
                     "path": "<Gamepad>/buttonEast",
                     "interactions": "",

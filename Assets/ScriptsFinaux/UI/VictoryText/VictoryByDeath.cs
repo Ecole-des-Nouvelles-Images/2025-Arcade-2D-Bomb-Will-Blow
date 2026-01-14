@@ -8,6 +8,9 @@ public class VictoryByDeath : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _VictoryByDeathText;
     
+    [SerializeField] private GameObject _PlayerRed;
+    [SerializeField] private GameObject _PlayerBlue;
+    
     private PlayerController _playerControllerP1;
     private PlayerController _playerControllerP2;
     

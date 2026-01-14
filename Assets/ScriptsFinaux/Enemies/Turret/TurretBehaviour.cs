@@ -18,6 +18,10 @@ public class TurretBehaviour : MonoBehaviour, IKillable
     [SerializeField] private GameObject _deathEffectLeftSide;
     [SerializeField] private GameObject _deathEffectRightSide;
     
+    [Space(4), Header("GlowEyesFX")]
+    [SerializeField] private GameObject _glowEyesFX;
+    [SerializeField] private bool FlipGlowEyesFX;
+    
     private bool _hasShot;
     private float _shootingRate = 1.1f;
     private float _shootingTimer;
@@ -33,6 +37,11 @@ public class TurretBehaviour : MonoBehaviour, IKillable
 
         if (SpawnBulletToTheLeftSide)
         {
+            _renderer.flipX = true;
+        }
+        
+        _renderer = _glowEyesFX.GetComponent<SpriteRenderer>();
+        if (FlipGlowEyesFX) {
             _renderer.flipX = true;
         }
     }
