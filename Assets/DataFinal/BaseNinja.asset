@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: BaseNinja
   m_EditorClassIdentifier: Assembly-CSharp::__Workspaces.Alexis.Scripts.FinalGame.Player.PlayerData
   HealthMax: 5
-  MoveSpeed: 6000
+  MoveSpeed: 5000
   DashDuration: 0.5
   DashCd: 5
-  DashDeathLine: {x: 0, y: 10}
-  DashForce: 50
+  DashDeathLine: {x: 0, y: 5}
+  DashForce: 20
   DashCurve:
     serializedVersion: 2
     m_Curve:

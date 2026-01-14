@@ -157,9 +157,9 @@ namespace ScriptsFinaux.Player
                 JumpY = 0.7f;
             }
 
-            if (JumpY < -0.3f)
+            if (JumpY < 0)
             {
-                JumpY = -0.3f;
+                JumpY = 0;
             }
         
             //Getting Move.X to be a constant for a  jump that is always dynamic
