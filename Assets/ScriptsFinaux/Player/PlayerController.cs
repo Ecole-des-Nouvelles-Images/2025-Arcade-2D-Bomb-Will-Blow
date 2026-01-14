@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace ScriptsFinaux.Player
 {
@@ -93,8 +94,10 @@ namespace ScriptsFinaux.Player
         //Visual
         public GameObject PlayerVisual;
         
+        [Space(4), Header("Life")]
         //Health
         public PlayerDamagedSystem PlayerDamagedSystem;
+        public bool Alive;
 
         //Camera freeze
         public bool FreezeCamera;
@@ -103,7 +106,7 @@ namespace ScriptsFinaux.Player
         {
             Rb = GetComponent<Rigidbody2D>();
             _spriteRenderer = PlayerVisual.GetComponent<SpriteRenderer>();
-            PlayerDamagedSystem = GetComponent<PlayerDamagedSystem>();
+            PlayerDamagedSystem = GetComponentInChildren<PlayerDamagedSystem>();
         }
     
         void Start()
@@ -185,7 +188,15 @@ namespace ScriptsFinaux.Player
         
             //Getting Move.X to be a constant for a  jump that is always dynamic
             JumpXDynamic = 1 / Move.x;
-
+            
+            //Checks if player is alive
+            if (PlayerDamagedSystem.HealthCurrent <= 0) {
+                Alive = false;
+            }
+            else {
+                Alive = true;
+            }
+            
             if (_currentState != null)
             {
                 //FSM gestion

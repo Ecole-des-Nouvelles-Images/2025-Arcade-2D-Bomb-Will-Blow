@@ -35,12 +35,17 @@ public class StateJump : BaseState
 
     public override BaseState NextState()
     {
+        //Death state
+        if (!PlayerController.Alive) {
+            return new StateDeath(PlayerController);
+        }
+        
         //InAir state
         if (!PlayerController.IsOnLeftWall || !PlayerController.IsOnRightWall && !PlayerController.IsInJetpack)
         {
             return new StateInAir(PlayerController);
         }
-
+        
         return null;
     }
 

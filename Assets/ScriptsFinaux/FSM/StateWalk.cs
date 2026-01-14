@@ -27,6 +27,11 @@ public class StateWalk : BaseState
 
     public override BaseState NextState()
     {
+        //Death state
+        if (!PlayerController.Alive) {
+            return new StateDeath(PlayerController);
+        }
+        
         //Wall state
         if (PlayerController.IsOnRightWall || PlayerController.IsOnLeftWall)
         {

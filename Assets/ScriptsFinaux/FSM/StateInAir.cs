@@ -57,6 +57,11 @@ public class StateInAir : BaseState
 
     public override BaseState NextState()
     {
+        //Death state
+        if (!PlayerController.Alive) {
+            return new StateDeath(PlayerController);
+        }
+        
         //Shield state
         if (PlayerController.UseShield && PlayerController.CanShield)
         {

@@ -48,6 +48,11 @@ public class StateJetpack : BaseState
 
     public override BaseState NextState()
     {
+        //Death state
+        if (!PlayerController.Alive) {
+            return new StateDeath(PlayerController);
+        }
+        
         //InAir state
         if (PlayerController.JetpackCurrent <= 0 || PlayerController.UseJetpack && _canCatch)
         {
