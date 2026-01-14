@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1866679730936980588}
   - component: {fileID: 5511899044334095311}
   - component: {fileID: 1775489351355580820}
-  - component: {fileID: 2411531869065843714}
+  - component: {fileID: 3076622045760869450}
   m_Layer: 0
   m_Name: DustSlideLeft
   m_TagString: Untagged
@@ -4846,7 +4846,7 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!114 &2411531869065843714
+--- !u!114 &3076622045760869450
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4855,8 +4855,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2583403296474842126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68fd8459146e76a4ba301ec343f43e84, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c2d6e107b24410498b1b80179dbf03e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VFXDurationScript
-  VFX: {fileID: 0}
-  _VFXDuration: 0
+  m_EditorClassIdentifier: Assembly-CSharp::SlideDustDuration
+  _maxDuration: 0.5

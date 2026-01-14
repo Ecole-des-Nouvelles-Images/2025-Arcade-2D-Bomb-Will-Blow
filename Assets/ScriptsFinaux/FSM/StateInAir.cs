@@ -70,13 +70,6 @@ public class StateInAir : BaseState
             return new StateWallCatch(PlayerController);
         }
         
-        /*
-        //Jetpack state
-        if (PlayerControllerFinal.UseJetpack)
-        {
-            return new StateJetpack(PlayerControllerFinal);
-        }*/
-        
         //Idle state 
         if (PlayerController.IsGrounded && PlayerController.Move.x == 0 && _canCatch)
         {

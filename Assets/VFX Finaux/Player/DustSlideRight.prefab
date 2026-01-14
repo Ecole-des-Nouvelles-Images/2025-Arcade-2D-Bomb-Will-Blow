@@ -4858,4 +4858,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2d6e107b24410498b1b80179dbf03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SlideDustDuration
-  _maxDuration: 10
+  _maxDuration: 0.5

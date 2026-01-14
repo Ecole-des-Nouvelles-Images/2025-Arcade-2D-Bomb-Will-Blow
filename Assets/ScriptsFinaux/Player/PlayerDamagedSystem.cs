@@ -44,7 +44,7 @@ namespace ScriptsFinaux.Player
         private void Start() {
             _originalMaterial = spriteRenderer.material;
         }
-
+        
         private void Update() {
             if (HealthCurrent == 0) {
                 OnDeath();
