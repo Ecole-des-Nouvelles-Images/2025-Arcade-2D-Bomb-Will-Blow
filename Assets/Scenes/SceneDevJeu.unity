@@ -177541,6 +177541,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 6311641035348731401, guid: a8a61e40f975e8045b95a3fa98ae3e95, type: 3}
+      propertyPath: UseDash
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311641035348731401, guid: a8a61e40f975e8045b95a3fa98ae3e95, type: 3}
+      propertyPath: InstantiateLeftDash
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311641035348731401, guid: a8a61e40f975e8045b95a3fa98ae3e95, type: 3}
+      propertyPath: InstantiateRightDash
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7048798313632964967, guid: a8a61e40f975e8045b95a3fa98ae3e95, type: 3}
       propertyPath: _UiScriptManager
       value: 

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="" />
+    <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneDevJeu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneDevJeu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashBlueLeft.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashBlueLeft.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashBlueRight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashBlueRight.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashRedLeft.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashRedLeft.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashRedRight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DashRedRight.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DustSlideLeft.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX Finaux/Player/DustSlideLeft.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scene/Chunk.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Workspaces/Tom/Scene/Chunk.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -242,6 +251,7 @@
       <workItem from="1766142301528" duration="1812000" />
       <workItem from="1767691611075" duration="3277000" />
       <workItem from="1767779492475" duration="1854000" />
+      <workItem from="1768313693419" duration="1265000" />
     </task>
     <servers />
   </component>
