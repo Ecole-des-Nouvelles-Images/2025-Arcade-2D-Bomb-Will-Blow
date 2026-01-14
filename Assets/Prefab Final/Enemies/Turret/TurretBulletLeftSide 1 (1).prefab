@@ -179,7 +179,6 @@ Transform:
   - {fileID: 5605851170948762562}
   - {fileID: 1281888214827663295}
   - {fileID: 2201474834915475480}
-  - {fileID: 1129527536664045734}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8919633299279307388
@@ -435,80 +434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92180025398b49e68c32b03d262d6e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::__Workspaces.Alexis.Scripts.FinalGame.Enemies.Turret.BulletBehaviour
---- !u!1001 &2820395716325446595
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2624426843426538993}
-    m_Modifications:
-    - target: {fileID: 2920845744145267557, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.51
-      objectReference: {fileID: 0}
-    - target: {fileID: 2920845744145267557, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 2920845744145267557, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.11759862
-      objectReference: {fileID: 0}
-    - target: {fileID: 2920845744145267557, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2920845744145267557, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2920845744145267557, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2920845744145267557, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2920845744145267557, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2920845744145267557, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2920845744145267557, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3167327906001339231, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-      propertyPath: m_Name
-      value: ProjectilExplo
-      objectReference: {fileID: 0}
-    - target: {fileID: 3167327906001339231, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3250910488247935626, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8793251740582786651, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.6
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
---- !u!4 &1129527536664045734 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2920845744145267557, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
-  m_PrefabInstance: {fileID: 2820395716325446595}
-  m_PrefabAsset: {fileID: 0}
+  _bulletExplosionPrefab: {fileID: 3167327906001339231, guid: 3742fc1b975bdba4a936fe6cb7c59889, type: 3}
 --- !u!1001 &3125427678478790012
 PrefabInstance:
   m_ObjectHideFlags: 0
