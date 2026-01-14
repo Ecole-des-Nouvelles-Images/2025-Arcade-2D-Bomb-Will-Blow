@@ -42,18 +42,24 @@ public class ActivateVictoryUI : MonoBehaviour
     void Update()
     {
         //ActivateVictoryScenes
-        if (_playerControllerP1.CanDeactivateBomb && _playerControllerP1.BombDeactivated)
+        if (_playerControllerP1.PlayerData.P1Win)
         {
+            Debug.Log("Player 1 deactivated bomb");
             P1Win = true;
             _victoryUI.SetActive(true);
+            _playerControllerP2.PlayerData.P1Win = false;
+            Time.timeScale = 0;
         }
 
-        if (_playerControllerP2 == null) return;
+        // if (_playerControllerP2 == null) return;
         
-        if (_playerControllerP2.CanDeactivateBomb && _playerControllerP2.BombDeactivated)
+        if (_playerControllerP2.PlayerData.P2Win)
         {
+            Debug.Log("Player 2 deactivated bomb");
             P2Win = true;
             _victoryUI.SetActive(true);
+            _playerControllerP2.PlayerData.P2Win = false;
+            Time.timeScale = 0;
         }
     }
 }

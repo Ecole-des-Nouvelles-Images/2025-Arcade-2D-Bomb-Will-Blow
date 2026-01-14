@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using ScriptsFinaux.Player;
+using UnityEngine;
 
 namespace ScriptsFinaux.Camera
 {
@@ -7,6 +8,7 @@ namespace ScriptsFinaux.Camera
         [SerializeField] private Transform _player;
         [SerializeField] private float _minDelta = -9f;   // seuil bas relatif à la caméra
         [SerializeField] private float _maxDelta = -3f;   // seuil haut relatif à la caméra
+        [SerializeField] private PlayerController _playerController;
 
         private float _baseY;
 
@@ -18,7 +20,8 @@ namespace ScriptsFinaux.Camera
         private void LateUpdate()
         {
             if (!_player) return;
-
+            if (_playerController.FreezeCamera) return;
+            
             Vector3 pos = transform.position;
             float deltaY = _player.position.y - pos.y;
 

@@ -8,7 +8,6 @@ public class StateWalk : BaseState
     
     public override void OnEnter()
     {
-        Debug.Log("State walk Entry");
         PlayerController.PlayerAnimator.SetBool("StartWalk",true);
         PlayerController.Rb.linearVelocity = Vector2.zero;
         PlayerController.PlayerAnimator.SetBool("Walking", true);
@@ -38,12 +37,6 @@ public class StateWalk : BaseState
         if (PlayerController.Move == Vector2.zero)
         {
             return new StateIdle(PlayerController);
-        }
-        
-        //Jetpack state
-        if (PlayerController.UseJetpack)
-        {
-            return new StateJetpack(PlayerController);
         }
         
         //Shield state

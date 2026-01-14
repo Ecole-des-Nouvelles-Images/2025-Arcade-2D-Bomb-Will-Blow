@@ -27,5 +27,9 @@ namespace ScriptsFinaux.Player
        
         //Wall
         public float SlideDownForce;
+        
+        //Win 
+        public bool P1Win;
+        public bool P2Win;
     }
 }

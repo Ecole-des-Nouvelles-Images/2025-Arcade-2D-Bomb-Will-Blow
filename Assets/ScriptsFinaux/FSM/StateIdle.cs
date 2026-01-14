@@ -34,12 +34,6 @@ public class StateIdle : BaseState
             return new StateWalk(PlayerController);
         }
 
-        //JetpackState
-        if (PlayerController.UseJetpack)
-        {
-            return new StateJetpack(PlayerController);
-        }
-
         //Shield state
         if (PlayerController.UseShield && PlayerController.CanShield)
         {
