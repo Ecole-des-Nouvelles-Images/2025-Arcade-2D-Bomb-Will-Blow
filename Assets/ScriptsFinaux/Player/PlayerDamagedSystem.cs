@@ -71,6 +71,7 @@ namespace ScriptsFinaux.Player
                     _playerController.FreezeCamera = false;
                     _hasDied  = false;
                     _twoSecondsTimer = 0;
+                    HealthCurrent = _playerController.PlayerData.HealthMax;
                 }
                 
                 if (_twoSecondsTimer >= 2 && _PlayerBlue) {
@@ -81,6 +82,7 @@ namespace ScriptsFinaux.Player
                     _playerController.FreezeCamera = false;
                     _hasDied  = false;
                     _twoSecondsTimer = 0;
+                    HealthCurrent = _playerController.PlayerData.HealthMax;
                 }
             }
         }
