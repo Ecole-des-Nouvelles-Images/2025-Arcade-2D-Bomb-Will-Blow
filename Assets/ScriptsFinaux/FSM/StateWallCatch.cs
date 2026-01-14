@@ -13,6 +13,7 @@ public class StateWallCatch : BaseState
 
     public override void OnEnter()
     {
+        //Passer en instatiate
         if (PlayerController.IsOnLeftWall)
         {
             PlayerController.LandingEffectLeftSide.SetActive(true);
@@ -89,6 +90,13 @@ public class StateWallCatch : BaseState
     private void DoWallSlide()
     {
         PlayerController.Rb.AddForce(new Vector2(0, - PlayerController.PlayerData.SlideDownForce * Time.deltaTime));
+        if (PlayerController.IsOnLeftWall) {
+            Object.Instantiate(PlayerController.LeftSlideDust, PlayerController.transform.position, Quaternion.identity);
+        }
+
+        if (PlayerController.IsOnRightWall) {
+            Object.Instantiate(PlayerController.RightSlideDust, PlayerController.transform.position, Quaternion.identity);
+        }
         _canGetSpeed = false;
         _activatesOnlyOnce = false;
     }

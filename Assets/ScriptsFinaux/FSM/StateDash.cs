@@ -32,10 +32,11 @@ public class StateDash : BaseState
         }
         
         RaycastHit2D[] hits = Physics2D.LinecastAll(_playerPosition.position, _positionToReach,  LayerMask.GetMask("Ennemies"));
-        
+            
         foreach (var hit in hits) 
         {
             hit.collider.gameObject.GetComponent<IKillable>().Kill();
+            Debug.Log(hit.collider.gameObject.name);
         }
     }
 
@@ -60,6 +61,8 @@ public class StateDash : BaseState
     {
         if (_dashTimer <= PlayerController.PlayerData.DashDuration) return null;
         if (IsOnWall) return new StateWallCatch(PlayerController);
+        
+        
 
         return new StateInAir(PlayerController);
     }

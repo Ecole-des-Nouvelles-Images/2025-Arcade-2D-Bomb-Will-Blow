@@ -45,8 +45,8 @@ public class VictoryAfterDeath : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        P1WinByDeath();
-        P2WinByDeath();
+        //P1WinByDeath();
+        //P2WinByDeath();
     }
 
     private void P1WinByDeath()

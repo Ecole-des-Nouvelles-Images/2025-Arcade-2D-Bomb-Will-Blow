@@ -9,7 +9,7 @@ public class StateShield : BaseState
     public override void OnEnter()
     {
         PlayerController.UseShield = true;
-        Object.Instantiate(PlayerController.ShieldEffect, PlayerController.transform.position, Quaternion.identity);
+        Object.Instantiate(PlayerController.ShieldEffect, PlayerController.transform.position, Quaternion.identity, PlayerController.transform);
         PlayerController.Hurtbox.SetActive(false);
         PlayerController.ShieldTimer = 0;
     }
@@ -22,6 +22,7 @@ public class StateShield : BaseState
     public override void OnExit()
     {
         PlayerController.UseShield = false;
+        PlayerController.Hurtbox.SetActive(false);
     }
 
     public override BaseState NextState()
@@ -44,6 +45,7 @@ public class StateShield : BaseState
             return new StateInAir(PlayerController);
         }
         
+        //Move state
         if (PlayerController.Move == Vector2.zero)
         {
             return new StateIdle(PlayerController);
