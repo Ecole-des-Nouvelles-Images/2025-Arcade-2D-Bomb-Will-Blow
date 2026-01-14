@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &1276657167
+--- !u!1001 &1293107249
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -129,19 +129,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2559168391775008624, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
       propertyPath: m_Name
-      value: DashBlueLeft
+      value: DashBlueLeft (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5227593030661091621, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
       propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227593030661091621, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
+      propertyPath: stopAction
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227593030661091621, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
+      propertyPath: moveWithTransform
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277261323385306526, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 5277261323385306526, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
+      propertyPath: m_RenderMode
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6675263850679177604, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.796783
+      value: 29.949398
       objectReference: {fileID: 0}
     - target: {fileID: 6675263850679177604, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 35.202713
+      value: 36.175407
       objectReference: {fileID: 0}
     - target: {fileID: 6675263850679177604, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -177,18 +193,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6905635842257463310, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
       propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6905635842257463310, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
+      propertyPath: stopAction
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7755814173441777075, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
-      propertyPath: looping
+      propertyPath: stopAction
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8612091797902751336, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
       propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612091797902751336, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
+      propertyPath: stopAction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612091797902751336, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
+      propertyPath: lengthInSec
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612091797902751336, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
+      propertyPath: moveWithTransform
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9166072667381879312, guid: b93bdfcb56b86d14faacdf03a788fac1, type: 3}
-      propertyPath: looping
+      propertyPath: stopAction
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -780,4 +812,4 @@ SceneRoots:
   - {fileID: 2118803475080535104}
   - {fileID: 8785608310943946879}
   - {fileID: 6455398316705404410}
-  - {fileID: 1276657167}
+  - {fileID: 1293107249}
