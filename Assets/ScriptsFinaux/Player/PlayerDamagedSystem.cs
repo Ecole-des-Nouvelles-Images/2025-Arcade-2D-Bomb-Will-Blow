@@ -77,6 +77,8 @@ namespace ScriptsFinaux.Player
                     _hasDied  = false;
                     _twoSecondsTimer = 0;
                     HealthCurrent = _playerController.PlayerData.HealthMax;
+                    HeartsOnUI.Instance.DislayHeathPlayer1(HealthCurrent);
+                    HeartsOnUI.Instance.DislayHeathPlayer2(HealthCurrent);
                 }
                 
                 if (_twoSecondsTimer >= 2 && _PlayerBlue) {
@@ -88,6 +90,8 @@ namespace ScriptsFinaux.Player
                     _hasDied  = false;
                     _twoSecondsTimer = 0;
                     HealthCurrent = _playerController.PlayerData.HealthMax;
+                    HeartsOnUI.Instance.DislayHeathPlayer1(HealthCurrent);
+                    HeartsOnUI.Instance.DislayHeathPlayer2(HealthCurrent);
                 }
             }
         }
