@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a821ecd2-a4f8-48c3-a6d7-531a75dfa1c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/StartChunk.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab Final/Chunks/StartChunk.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlayerAnimations/Anim ROUGE/Sprites/fall_spriteshit_b_0.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/PlayerAnimations/Anim ROUGE/Sprites/fall_spriteshit_b_0.controller.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "XThreadsFramesViewSplitterKey": "0.3953202",
-    "git-widget-placeholder": "Wren",
+    "git-widget-placeholder": "new-Noelia",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -53,7 +54,7 @@
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../Desktop/Bomb Will Blow\Bomb Will Blow.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../BombWillBlowBuilds/Build fin de prod\Unity Template.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\BombWillBlowBuilds" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -241,7 +242,7 @@
       <workItem from="1768420780294" duration="940000" />
       <workItem from="1768423952976" duration="5355000" />
       <workItem from="1768432759958" duration="367000" />
-      <workItem from="1768477136054" duration="1934000" />
+      <workItem from="1768475151451" duration="54000" />
     </task>
     <servers />
   </component>
