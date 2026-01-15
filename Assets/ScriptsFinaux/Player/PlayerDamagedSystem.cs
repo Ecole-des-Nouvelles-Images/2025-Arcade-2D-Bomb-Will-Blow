@@ -70,7 +70,7 @@ namespace ScriptsFinaux.Player
                 Debug.Log("HasDied");
                 if (_twoSecondsTimer >= 2 && _PlayerRed) {
                     Debug.Log("Reset");
-                    _playerTransform.position = new Vector3(-25, 2, 0);
+                    _playerTransform.position = new Vector3(-25, -4.5f, 0);
                     _playerController.PlayerAnimator.SetBool("IsDead", false);
                     _IManager.SetActive(true);
                     _playerController.FreezeCamera = false;
@@ -81,7 +81,7 @@ namespace ScriptsFinaux.Player
                 
                 if (_twoSecondsTimer >= 2 && _PlayerBlue) {
                     Debug.Log("Reset");
-                    _playerTransform.position = new Vector3(22.5f, 2, 0);
+                    _playerTransform.position = new Vector3(22.5f, -4.5f, 0);
                     _playerController.PlayerAnimator.SetBool("IsDead", false);
                     _IManager.SetActive(true);
                     _playerController.FreezeCamera = false;
