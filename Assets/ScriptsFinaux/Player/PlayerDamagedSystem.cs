@@ -59,6 +59,11 @@ namespace ScriptsFinaux.Player
                 }
             }
 
+            if (_hitReceived && _hasDied)
+            {
+                _playerController.PlayerAnimator.SetTrigger("Dead");
+            }
+
             if (_hasDied)
             {
                 _twoSecondsTimer += Time.deltaTime;

@@ -7,7 +7,7 @@ public class StateDeath : BaseState
 
     public override void OnEnter()
     {
-        Debug.Log("State Death");
+        
     }
 
     public override void OnUpdate()
