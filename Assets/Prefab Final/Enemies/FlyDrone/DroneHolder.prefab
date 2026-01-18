@@ -4965,18 +4965,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.62
       objectReference: {fileID: 0}
-    - target: {fileID: 3881909400711154743, guid: 14ec987380c3186498f892a65b903463, type: 3}
-      propertyPath: m_Color.b
-      value: 0.8584906
-      objectReference: {fileID: 0}
-    - target: {fileID: 3881909400711154743, guid: 14ec987380c3186498f892a65b903463, type: 3}
-      propertyPath: m_Color.g
-      value: 0.8584906
-      objectReference: {fileID: 0}
-    - target: {fileID: 3881909400711154743, guid: 14ec987380c3186498f892a65b903463, type: 3}
-      propertyPath: m_Color.r
-      value: 0.8584906
-      objectReference: {fileID: 0}
     - target: {fileID: 3931284701107870744, guid: 14ec987380c3186498f892a65b903463, type: 3}
       propertyPath: m_Name
       value: FlyDrone
