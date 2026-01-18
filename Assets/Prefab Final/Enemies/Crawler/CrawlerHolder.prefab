@@ -115,6 +115,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6492100760142039546}
     m_Modifications:
+    - target: {fileID: 3798229757095751665, guid: a5b903ca6ca75ef4eb80997d4768ed4b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8867924
+      objectReference: {fileID: 0}
+    - target: {fileID: 3798229757095751665, guid: a5b903ca6ca75ef4eb80997d4768ed4b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8867924
+      objectReference: {fileID: 0}
+    - target: {fileID: 3798229757095751665, guid: a5b903ca6ca75ef4eb80997d4768ed4b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8867924
+      objectReference: {fileID: 0}
     - target: {fileID: 4680303480438485787, guid: a5b903ca6ca75ef4eb80997d4768ed4b, type: 3}
       propertyPath: m_Name
       value: Crawler
