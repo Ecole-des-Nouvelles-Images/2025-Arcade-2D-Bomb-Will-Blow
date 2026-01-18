@@ -1309,7 +1309,7 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 1, b: 1, a: 0.39607844}
+        key0: {r: 1, g: 1, b: 1, a: 0.8117647}
         key1: {r: 1, g: 1, b: 1, a: 0}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
@@ -4859,4 +4859,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VFXDurationScript
   VFX: {fileID: 2583403296474842126}
-  _VFXDuration: 2
+  _VFXDuration: 0.1
