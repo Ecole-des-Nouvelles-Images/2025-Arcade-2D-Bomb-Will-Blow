@@ -5000,6 +5000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2674486708627723882}
   - component: {fileID: 3552755652170071311}
+  - component: {fileID: 887605031697109021}
   m_Layer: 0
   m_Name: Train 1_1
   m_TagString: Untagged
@@ -5016,7 +5017,7 @@ Transform:
   m_GameObject: {fileID: 350337791956262170}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.27996, y: 78.13403, z: 0}
+  m_LocalPosition: {x: 56.56, y: 78.13403, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5074,12 +5075,34 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 6.829999, y: 1.26}
+  m_Size: {x: 28.892214, y: 1.26}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &887605031697109021
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350337791956262170}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 92aa2893b8250804facc7b1a4374717e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &461849353772605943
 GameObject:
   m_ObjectHideFlags: 0
@@ -20527,7 +20550,7 @@ Transform:
   m_GameObject: {fileID: 4796278171961827091}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.2876124, y: 77.41833, z: 0}
+  m_LocalPosition: {x: 6.2876124, y: 73.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
