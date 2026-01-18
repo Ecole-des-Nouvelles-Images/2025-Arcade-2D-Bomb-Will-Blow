@@ -68,11 +68,11 @@ namespace ScriptsFinaux.Player
             {
                 _twoSecondsTimer += Time.deltaTime;
                 
-                if (_twoSecondsTimer >= 1.8f && _PlayerRed) {
+                if (_twoSecondsTimer >= 1.7f && _PlayerRed) {
                     _playerController.PlayerAnimator.SetBool("IsDead", false);
                 }
                 
-                if (_twoSecondsTimer >= 1.5f && _PlayerBlue) {
+                if (_twoSecondsTimer >= 1.6f && _PlayerBlue) {
                     _playerController.PlayerAnimator.SetBool("IsDead", false);
                 }
                 
