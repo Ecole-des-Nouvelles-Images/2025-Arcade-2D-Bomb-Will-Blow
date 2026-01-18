@@ -85992,9 +85992,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 53c1577c69c002f40a9a1b83bc6e63d9, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.461
-  m_Pitch: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.231
+  m_Pitch: 0.84
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -86112,7 +86112,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.923
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -88695,8 +88695,8 @@ MonoBehaviour:
   - {fileID: 126630043, guid: ac82ccc869c40af4d803b5ea818640e0, type: 3}
   - {fileID: 1473516759, guid: ac82ccc869c40af4d803b5ea818640e0, type: 3}
   - {fileID: -1154262683, guid: ac82ccc869c40af4d803b5ea818640e0, type: 3}
-  _PortraitHolderP1: {fileID: 0}
-  _PortraitHolderP2: {fileID: 0}
+  _PortraitHolderP1: {fileID: 1978619419}
+  _PortraitHolderP2: {fileID: 177231069}
 --- !u!114 &949704031 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5429949844658134311, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
@@ -89280,7 +89280,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: bc2252b420a964e43ab9c1633df98008, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.176
+  m_Volume: 0.009
   m_Pitch: 1
   Loop: 1
   Mute: 0
