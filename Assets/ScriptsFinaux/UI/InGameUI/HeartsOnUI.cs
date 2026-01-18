@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class HeartsOnUI : MonoBehaviour
 {
@@ -35,6 +35,11 @@ public class HeartsOnUI : MonoBehaviour
             _HeartContainersP1[i].SetActive(newHealth > i);
             //PortraitsP1.sprite = _PortraitsP1[i];
         }
+        
+        // Changement du portrait
+        if (newHealth > 0 && newHealth <= _PortraitsP1.Count) {
+            PortraitsP1.sprite = _PortraitsP1[newHealth - 1];
+        }
     }
     
     public void DislayHeathPlayer2(int newHealth) {
@@ -42,6 +47,11 @@ public class HeartsOnUI : MonoBehaviour
             if (_HeartContainersP2[i] == null) continue;
             _HeartContainersP2[i].SetActive(newHealth > i); 
             //PortraitsP2.sprite = _PortraitsP2[i];
+        }
+        
+        // Changement du portrait
+        if (newHealth > 0 && newHealth <= _PortraitsP2.Count) {
+            PortraitsP2.sprite = _PortraitsP2[newHealth - 1];
         }
     }
 }
