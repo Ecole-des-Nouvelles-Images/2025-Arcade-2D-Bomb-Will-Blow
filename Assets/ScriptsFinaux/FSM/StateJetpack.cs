@@ -13,6 +13,8 @@ public class StateJetpack : BaseState
     
     public override void OnEnter()
     {
+        
+        PlayerController.PlayerAudio.PlayOneShot(PlayerController.JetpackSounds[Random.Range(0, PlayerController.JetpackSounds.Count)]);
         PlayerController.PlayerAnimator.SetBool("Jetpack", true);
         Object.Instantiate(PlayerController.JetpackEffect, new Vector2(PlayerController.transform.position.x + 1.3f , PlayerController.transform.position.y - 0.8f), Quaternion.identity, PlayerController.transform);
         PlayerController.Rb.linearVelocity = Vector2.zero;
@@ -42,6 +44,7 @@ public class StateJetpack : BaseState
 
     public override void OnExit()
     {
+        PlayerController.PlayerAudio.Stop();
         PlayerController.PlayerAnimator.SetBool("Jetpack", false);
         PlayerController.IsInJetpack = false;
     }

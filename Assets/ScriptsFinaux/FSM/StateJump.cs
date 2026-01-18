@@ -10,6 +10,7 @@ public class StateJump : BaseState
     public override void OnEnter()
     {
         PlayerController.PlayerAnimator.SetTrigger("StartJump");
+        PlayerController.PlayerAudio.PlayOneShot(PlayerController.JumpSounds[Random.Range(0, PlayerController.JumpSounds.Count)]);
         PlayerController.Rb.linearVelocity = Vector2.zero;
         if (PlayerController.IsOnRightWall)
         {

@@ -8,6 +8,7 @@ public class StateShield : BaseState
     
     public override void OnEnter()
     {
+        PlayerController.PlayerAudio.PlayOneShot(PlayerController.ShieldSound);
         PlayerController.UseShield = true;
         Object.Instantiate(PlayerController.ShieldEffect, PlayerController.transform.position, Quaternion.identity, PlayerController.transform);
         PlayerController.Hurtbox.SetActive(false);

@@ -120,7 +120,7 @@ namespace ScriptsFinaux.Player
         }
         
         public void TakeDamage() {
-            
+            _playerController.PlayerAudio.PlayOneShot(_playerController.DamageSounds[Random.Range(0, _playerController.DamageSounds.Count)]);
             HealthCurrent--;
             spriteRenderer.material = _FlashMaterial;
             _hitReceived = true;
