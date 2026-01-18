@@ -11,14 +11,17 @@ public class HeartsOnUI : MonoBehaviour
     [SerializeField] private List<GameObject> _HeartContainersP1;
     [SerializeField] private List<GameObject> _HeartContainersP2;
 
+    [Space(4)]
     //Portraits
     [SerializeField] private List<Sprite> _PortraitsP1;
     [SerializeField] private List<Sprite> _PortraitsP2;
     
+    [Space(4)]
     //Portraits holder GameObjects
     [SerializeField] private GameObject _PortraitHolderP1;
     [SerializeField] private GameObject _PortraitHolderP2;
     
+    [Space(4)]
     //Portraits holder
     private Image PortraitsP1;
     private Image PortraitsP2;

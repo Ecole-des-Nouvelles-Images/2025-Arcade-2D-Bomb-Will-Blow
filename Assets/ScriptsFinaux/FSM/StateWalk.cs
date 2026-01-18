@@ -15,12 +15,14 @@ public class StateWalk : BaseState
 
     public override void OnUpdate()
     {
+        PlayerController.PlayerAudio.PlayOneShot(PlayerController.RunSounds[Random.Range(0, PlayerController.RunSounds.Count)]);
         float moveX = PlayerController.Move.x * Time.deltaTime * PlayerController.PlayerData.MoveSpeed;
         PlayerController.Rb.linearVelocity = new Vector2(moveX, PlayerController.Rb.linearVelocity.y);
     }
 
     public override void OnExit()
     {
+        PlayerController.PlayerAudio.Stop();
         PlayerController.Walk = false;
         PlayerController.PlayerAnimator.SetBool("Walking", false);
     }

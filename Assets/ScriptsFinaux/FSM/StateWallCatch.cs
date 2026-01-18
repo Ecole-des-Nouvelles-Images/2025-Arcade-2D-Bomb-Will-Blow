@@ -86,6 +86,7 @@ public class StateWallCatch : BaseState
         //Dash state
         if (PlayerController.UseDash && PlayerController.CanDash)
         {
+            PlayerController.PlayerAudio.PlayOneShot(PlayerController.DashSound);
             return new StateDash(PlayerController);
         }
         

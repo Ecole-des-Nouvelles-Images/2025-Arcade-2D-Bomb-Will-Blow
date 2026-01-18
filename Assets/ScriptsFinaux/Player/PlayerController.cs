@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -101,6 +102,17 @@ namespace ScriptsFinaux.Player
 
         //Camera freeze
         public bool FreezeCamera;
+        
+        //Audio source
+        public AudioSource PlayerAudio;
+
+        //Audio clips
+        public List<AudioClip> DamageSounds;
+        public List<AudioClip> JumpSounds;
+        public List<AudioClip> RunSounds;
+        public List<AudioClip> JetpackSounds;
+        public AudioClip DashSound;
+        public AudioClip ShieldSound;
         
         void Awake() 
         {
