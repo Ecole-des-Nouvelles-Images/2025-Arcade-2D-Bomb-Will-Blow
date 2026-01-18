@@ -67,30 +67,33 @@ namespace ScriptsFinaux.Player
             if (_hasDied)
             {
                 _twoSecondsTimer += Time.deltaTime;
-                Debug.Log("HasDied");
-                if (_twoSecondsTimer >= 2 && _PlayerRed) {
-                    Debug.Log("Reset");
-                    _playerTransform.position = new Vector3(-25, -4.5f, 0);
+                
+                if (_twoSecondsTimer >= 1.8f && _PlayerRed) {
                     _playerController.PlayerAnimator.SetBool("IsDead", false);
+                }
+                
+                if (_twoSecondsTimer >= 1.5f && _PlayerBlue) {
+                    _playerController.PlayerAnimator.SetBool("IsDead", false);
+                }
+                
+                if (_twoSecondsTimer >= 2 && _PlayerRed) {
+                    _playerTransform.position = new Vector3(-25, -4.5f, 0);
                     _IManager.SetActive(true);
                     _playerController.FreezeCamera = false;
                     _hasDied  = false;
                     _twoSecondsTimer = 0;
                     HealthCurrent = _playerController.PlayerData.HealthMax;
                     HeartsOnUI.Instance.DislayHeathPlayer1(HealthCurrent);
-                    HeartsOnUI.Instance.DislayHeathPlayer2(HealthCurrent);
                 }
                 
                 if (_twoSecondsTimer >= 2 && _PlayerBlue) {
-                    Debug.Log("Reset");
-                    _playerTransform.position = new Vector3(22.5f, -4.5f, 0);
                     _playerController.PlayerAnimator.SetBool("IsDead", false);
+                    _playerTransform.position = new Vector3(22.5f, -4.5f, 0);
                     _IManager.SetActive(true);
                     _playerController.FreezeCamera = false;
                     _hasDied  = false;
                     _twoSecondsTimer = 0;
                     HealthCurrent = _playerController.PlayerData.HealthMax;
-                    HeartsOnUI.Instance.DislayHeathPlayer1(HealthCurrent);
                     HeartsOnUI.Instance.DislayHeathPlayer2(HealthCurrent);
                 }
             }
@@ -110,8 +113,6 @@ namespace ScriptsFinaux.Player
         }
     
         public void OnDeath() {
-            
-            _playerController.PlayerAnimator.SetBool("IsDead", true);
             _playerController.FreezeCamera = true;
             _currentPosition = transform.position;
             _IManager.SetActive(false);

@@ -5,9 +5,8 @@ public class StateDeath : BaseState
 {
     public StateDeath(PlayerController playerController) : base(playerController) { }
 
-    public override void OnEnter()
-    {
-        
+    public override void OnEnter() {
+        PlayerController.PlayerAnimator.SetBool("IsDead", true);
     }
 
     public override void OnUpdate()
@@ -17,12 +16,11 @@ public class StateDeath : BaseState
 
     public override void OnExit()
     {
-        
     }
 
     public override BaseState NextState()
     {
-        if (PlayerController.IsGrounded && PlayerController.Move.x == 0)
+        if (PlayerController.IsGrounded)
         {
             return new StateIdle(PlayerController);
         }
