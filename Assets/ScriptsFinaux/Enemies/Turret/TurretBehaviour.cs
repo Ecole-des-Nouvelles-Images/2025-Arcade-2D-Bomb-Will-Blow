@@ -87,12 +87,11 @@ public class TurretBehaviour : MonoBehaviour, IKillable
     
     public void Kill() 
     {
-        if (SpawnBulletToTheRightSide)
-        {
+        if (SpawnBulletToTheRightSide) {
             _deathEffectLeftSide.SetActive(true);
         }
-        else
-        {
+        
+        else {
             _deathEffectRightSide.SetActive(true);
         }
         gameObject.SetActive(false);

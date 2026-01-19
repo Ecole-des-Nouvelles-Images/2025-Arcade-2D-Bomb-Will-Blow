@@ -15,14 +15,14 @@ namespace ScriptsFinaux.Player
 
         private PlayerInput _playerInput;
         private PlayerController _playerController;
-        private Pause _pause;
+        private InGamePause _pause;
         private bool _isControllerConnected;
     
 
         private void Awake() {
             _playerInput = _Player.GetComponent<PlayerInput>();
             _playerController = _Player.GetComponent<PlayerController>();
-            _pause = _UiScriptManager.GetComponent<Pause>();
+            _pause = _UiScriptManager.GetComponent<InGamePause>();
             if (_playerInput == null) throw new NullReferenceException("PlayerInputManager is null");
         }
 
@@ -133,7 +133,7 @@ namespace ScriptsFinaux.Player
 
         private void OnPauseMenuOpened(InputAction.CallbackContext context)
         {
-            _pause.PauseGame();
+            _pause.OpenPauseMenu();
         }
 
         private void OnDeactivateBomb(InputAction.CallbackContext context)
