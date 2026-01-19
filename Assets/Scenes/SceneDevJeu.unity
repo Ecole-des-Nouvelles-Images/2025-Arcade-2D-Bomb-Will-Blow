@@ -201079,11 +201079,11 @@ PrefabInstance:
     - target: {fileID: 458019551569925322, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: '_PortraitsP1.Array.data[0]'
       value: 
-      objectReference: {fileID: 1030877809, guid: d29a82f42e8f435499911771f4fa60ac, type: 3}
+      objectReference: {fileID: 33527442, guid: d29a82f42e8f435499911771f4fa60ac, type: 3}
     - target: {fileID: 458019551569925322, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: '_PortraitsP1.Array.data[1]'
       value: 
-      objectReference: {fileID: 1358606853, guid: d29a82f42e8f435499911771f4fa60ac, type: 3}
+      objectReference: {fileID: 598752298, guid: d29a82f42e8f435499911771f4fa60ac, type: 3}
     - target: {fileID: 458019551569925322, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: '_PortraitsP1.Array.data[2]'
       value: 
@@ -201091,19 +201091,19 @@ PrefabInstance:
     - target: {fileID: 458019551569925322, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: '_PortraitsP1.Array.data[3]'
       value: 
-      objectReference: {fileID: 598752298, guid: d29a82f42e8f435499911771f4fa60ac, type: 3}
+      objectReference: {fileID: 1358606853, guid: d29a82f42e8f435499911771f4fa60ac, type: 3}
     - target: {fileID: 458019551569925322, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: '_PortraitsP1.Array.data[4]'
       value: 
-      objectReference: {fileID: 33527442, guid: d29a82f42e8f435499911771f4fa60ac, type: 3}
+      objectReference: {fileID: 1030877809, guid: d29a82f42e8f435499911771f4fa60ac, type: 3}
     - target: {fileID: 458019551569925322, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: '_PortraitsP2.Array.data[0]'
       value: 
-      objectReference: {fileID: -1154262683, guid: ac82ccc869c40af4d803b5ea818640e0, type: 3}
+      objectReference: {fileID: -1590576607, guid: ac82ccc869c40af4d803b5ea818640e0, type: 3}
     - target: {fileID: 458019551569925322, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: '_PortraitsP2.Array.data[1]'
       value: 
-      objectReference: {fileID: 1473516759, guid: ac82ccc869c40af4d803b5ea818640e0, type: 3}
+      objectReference: {fileID: 256650963, guid: ac82ccc869c40af4d803b5ea818640e0, type: 3}
     - target: {fileID: 458019551569925322, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: '_PortraitsP2.Array.data[2]'
       value: 
@@ -201111,11 +201111,11 @@ PrefabInstance:
     - target: {fileID: 458019551569925322, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: '_PortraitsP2.Array.data[3]'
       value: 
-      objectReference: {fileID: 256650963, guid: ac82ccc869c40af4d803b5ea818640e0, type: 3}
+      objectReference: {fileID: 1473516759, guid: ac82ccc869c40af4d803b5ea818640e0, type: 3}
     - target: {fileID: 458019551569925322, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: '_PortraitsP2.Array.data[4]'
       value: 
-      objectReference: {fileID: -1590576607, guid: ac82ccc869c40af4d803b5ea818640e0, type: 3}
+      objectReference: {fileID: -1154262683, guid: ac82ccc869c40af4d803b5ea818640e0, type: 3}
     - target: {fileID: 519159270528027830, guid: 57daa45e30993f548a704ca92c3462b3, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -203177,6 +203177,7 @@ PrefabInstance:
     - {fileID: 7048798313632964967, guid: a8a61e40f975e8045b95a3fa98ae3e95, type: 3}
     m_RemovedGameObjects:
     - {fileID: 2958202980701869796, guid: a8a61e40f975e8045b95a3fa98ae3e95, type: 3}
+    - {fileID: 3457828862167200469, guid: a8a61e40f975e8045b95a3fa98ae3e95, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8438977439780394030, guid: a8a61e40f975e8045b95a3fa98ae3e95, type: 3}
       insertIndex: -1

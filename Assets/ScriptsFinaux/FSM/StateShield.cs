@@ -50,13 +50,7 @@ public class StateShield : BaseState
         {
             return new StateInAir(PlayerController);
         }
-        
-        //Move state
-        if (PlayerController.Move == Vector2.zero)
-        {
-            return new StateIdle(PlayerController);
+
+        return new StateIdle(PlayerController);
         }
-        
-        return null;
-    }
 }

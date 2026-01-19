@@ -8,12 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneDevJeu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneDevJeu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateJetpack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateJetpack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateJump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateJump.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateShield.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateWalk.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateWalk.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateWallCatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateWallCatch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/Player/PlayerDamagedSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/Player/PlayerDamagedSystem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +56,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../BombWillBlow_Builds/Bomb_Will_Blow_Polish_Over\Bomb Will Blow.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../BombWillBlow_Builds/Bomb_Will_Blow_Polish_Last_Build_Backup\Bomb Will Blow.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\BombWillBlowBuilds" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -244,6 +239,7 @@
       <workItem from="1768475151451" duration="54000" />
       <workItem from="1768482841626" duration="3966000" />
       <workItem from="1768767045594" duration="1862000" />
+      <workItem from="1768811925556" duration="2482000" />
     </task>
     <servers />
   </component>
