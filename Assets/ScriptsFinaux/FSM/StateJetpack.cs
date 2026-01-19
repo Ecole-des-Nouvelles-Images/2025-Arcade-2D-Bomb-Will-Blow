@@ -79,12 +79,12 @@ public class StateJetpack : BaseState
         PlayerController.Rb.linearVelocity = Vector2.zero;
         if (PlayerController.IsOnLeftWall)
         {
-            PlayerController.Rb.AddForce(new Vector2 (Time.deltaTime * 80000, PlayerController.PlayerData.JetpackForce * Time.deltaTime)); 
+            PlayerController.Rb.AddForce(new Vector2 (Time.deltaTime * 100000, PlayerController.PlayerData.JetpackForce * Time.deltaTime)); 
         }
 
         if (PlayerController.IsOnRightWall)
         {
-            PlayerController.Rb.AddForce(new Vector2 (Time.deltaTime * - 80000, PlayerController.PlayerData.JetpackForce * Time.deltaTime)); 
+            PlayerController.Rb.AddForce(new Vector2 (Time.deltaTime * - 100000, PlayerController.PlayerData.JetpackForce * Time.deltaTime)); 
         }
     }
 
