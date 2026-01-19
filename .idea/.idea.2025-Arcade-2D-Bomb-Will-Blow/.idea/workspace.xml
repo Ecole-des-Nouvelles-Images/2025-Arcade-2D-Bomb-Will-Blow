@@ -8,12 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2025-Arcade-2D-Bomb-Will-Blow/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneDevJeu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneDevJeu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateJetpack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateJetpack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateJump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateJump.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateShield.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateWalk.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateWalk.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateWallCatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/FSM/StateWallCatch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptsFinaux/Player/PlayerDamagedSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptsFinaux/Player/PlayerDamagedSystem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +56,13 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../BombWillBlowBuilds/Build fin de prod\Unity Template.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../BombWillBlow_Builds/Bomb_Will_Blow_Polish_Last_Build_Backup\Bomb Will Blow.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\BombWillBlowBuilds" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
@@ -73,7 +70,9 @@
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
@@ -81,10 +80,12 @@
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\a.verne\Desktop\LocalRepo\2025-Arcade-2D-Bomb-Will-Blow" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -97,7 +98,7 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -238,6 +239,7 @@
       <workItem from="1768475151451" duration="54000" />
       <workItem from="1768482841626" duration="3966000" />
       <workItem from="1768767045594" duration="1862000" />
+      <workItem from="1768811925556" duration="2482000" />
     </task>
     <servers />
   </component>
