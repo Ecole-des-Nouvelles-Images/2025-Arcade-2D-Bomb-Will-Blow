@@ -253,6 +253,8 @@ MonoBehaviour:
   SpawnBulletToTheLeftSide: 0
   _deathEffectLeftSide: {fileID: 0}
   _deathEffectRightSide: {fileID: 0}
+  _glowEyesFX: {fileID: 3491063874482846980}
+  FlipGlowEyesFX: 0
 --- !u!95 &1740673263595109958
 Animator:
   serializedVersion: 7
@@ -351,11 +353,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlowEyesTurrets
       objectReference: {fileID: 0}
+    - target: {fileID: 8811413244289158478, guid: f257dbf08fab17649af29a34478688b4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f257dbf08fab17649af29a34478688b4, type: 3}
+--- !u!1 &3491063874482846980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8811413244289158478, guid: f257dbf08fab17649af29a34478688b4, type: 3}
+  m_PrefabInstance: {fileID: 5348778486493917258}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8131117935683393852 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4246090840139622774, guid: f257dbf08fab17649af29a34478688b4, type: 3}
