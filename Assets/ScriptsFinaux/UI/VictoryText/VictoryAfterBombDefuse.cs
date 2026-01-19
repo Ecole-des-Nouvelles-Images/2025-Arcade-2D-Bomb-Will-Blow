@@ -25,11 +25,11 @@ public class VictoryAfterBombDefuse : MonoBehaviour
     
     private void Player1WinsText()
     {
-        _VictoryByDeathText.text = "Le joueur 2 a désactivé la bombe avant le joueur 1! Il a gagné ! Bravo !";
+        _VictoryByDeathText.text = "Le joueur 1 a désactivé la bombe avant le joueur 2! Il a gagné ! Bravo !";
     }
 
     private void Player2WinsText()
     {
-        _VictoryByDeathText.text = "Le joueur 1 a désactivé la bombe avant le joueur 2! Il a gagné ! Bravo !";
+        _VictoryByDeathText.text = "Le joueur 2 a désactivé la bombe avant le joueur 1! Il a gagné ! Bravo !";
     }
 }
