@@ -8,11 +8,11 @@ public class RatMovement : MonoBehaviour
     void Start()
     {
         if (_movesToLeft) {
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(-100, 0), ForceMode2D.Impulse);
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(-50, 0), ForceMode2D.Impulse);
         }
         
         if (!_movesToLeft) {
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(100, 0), ForceMode2D.Impulse);
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(50, 0), ForceMode2D.Impulse);
         }
     }
 }
