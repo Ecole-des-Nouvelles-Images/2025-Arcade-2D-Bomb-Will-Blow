@@ -97,11 +97,11 @@ public class StateWallCatch : BaseState
     {
         PlayerController.Rb.AddForce(new Vector2(0, - PlayerController.PlayerData.SlideDownForce * Time.deltaTime));
         if (PlayerController.IsOnLeftWall) {
-            Object.Instantiate(PlayerController.LeftSlideDust, PlayerController.transform.position, Quaternion.identity);
+            Object.Instantiate(PlayerController.LeftSlideDust, new Vector3(PlayerController.transform.position.x - 0.7f, PlayerController.transform.position.y, PlayerController.transform.position.z), Quaternion.identity);
         }
 
         if (PlayerController.IsOnRightWall) {
-            Object.Instantiate(PlayerController.RightSlideDust, PlayerController.transform.position, Quaternion.identity);
+            Object.Instantiate(PlayerController.RightSlideDust, new Vector3(PlayerController.transform.position.x + 0.5f, PlayerController.transform.position.y, PlayerController.transform.position.z), Quaternion.identity);
         }
         _canGetSpeed = false;
         _activatesOnlyOnce = false;
