@@ -10,6 +10,7 @@ public class StateJump : BaseState
     public override void OnEnter()
     {
         PlayerController.PlayerAnimator.SetTrigger("StartJump");
+        PlayerController.PlayerAudio.PlayOneShot(PlayerController.JumpSounds[Random.Range(0, PlayerController.JumpSounds.Count)]);
         PlayerController.Rb.linearVelocity = Vector2.zero;
         if (PlayerController.IsOnRightWall)
         {
@@ -35,12 +36,17 @@ public class StateJump : BaseState
 
     public override BaseState NextState()
     {
+        //Death state
+        if (!PlayerController.Alive) {
+            return new StateDeath(PlayerController);
+        }
+        
         //InAir state
         if (!PlayerController.IsOnLeftWall || !PlayerController.IsOnRightWall && !PlayerController.IsInJetpack)
         {
             return new StateInAir(PlayerController);
         }
-
+        
         return null;
     }
 

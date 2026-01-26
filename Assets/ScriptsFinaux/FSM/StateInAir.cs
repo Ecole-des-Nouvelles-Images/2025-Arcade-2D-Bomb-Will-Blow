@@ -57,6 +57,11 @@ public class StateInAir : BaseState
 
     public override BaseState NextState()
     {
+        //Death state
+        if (!PlayerController.Alive) {
+            return new StateDeath(PlayerController);
+        }
+        
         //Shield state
         if (PlayerController.UseShield && PlayerController.CanShield)
         {
@@ -69,13 +74,6 @@ public class StateInAir : BaseState
             PlayerController.PlayerAnimator.SetBool("EndJump", true);
             return new StateWallCatch(PlayerController);
         }
-        
-        /*
-        //Jetpack state
-        if (PlayerControllerFinal.UseJetpack)
-        {
-            return new StateJetpack(PlayerControllerFinal);
-        }*/
         
         //Idle state 
         if (PlayerController.IsGrounded && PlayerController.Move.x == 0 && _canCatch)

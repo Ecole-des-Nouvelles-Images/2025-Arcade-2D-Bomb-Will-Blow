@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace ScriptsFinaux.Player
 {
@@ -28,9 +30,11 @@ namespace ScriptsFinaux.Player
         [Space(4), Header("Landing Effect")]
         public GameObject LandingEffectRightSide;
         public GameObject LandingEffectLeftSide;
-    
+
         [Space(4), Header("Walls")]
         //Wall
+        public GameObject LeftSlideDust;
+        public GameObject RightSlideDust;
         public bool IsOnLeftWall;
         public bool CanJumpToRightWall;
         public bool IsOnRightWall;
@@ -46,6 +50,8 @@ namespace ScriptsFinaux.Player
         public bool OutOfJetpack;
         public bool IsInJetpack;
         public float JetpackCurrent;
+        
+        public GameObject JetpackEffect;
     
         [Space(4), Header("DashParameters")]
         //Dash
@@ -88,11 +94,31 @@ namespace ScriptsFinaux.Player
         [Space(4), Header("Visual")]
         //Visual
         public GameObject PlayerVisual;
+        
+        [Space(4), Header("Life")]
+        //Health
+        public PlayerDamagedSystem PlayerDamagedSystem;
+        public bool Alive;
 
+        //Camera freeze
+        public bool FreezeCamera;
+        
+        //Audio source
+        public AudioSource PlayerAudio;
+
+        //Audio clips
+        public List<AudioClip> DamageSounds;
+        public List<AudioClip> JumpSounds;
+        public List<AudioClip> RunSounds;
+        public List<AudioClip> JetpackSounds;
+        public AudioClip DashSound;
+        public AudioClip ShieldSound;
+        
         void Awake() 
         {
             Rb = GetComponent<Rigidbody2D>();
             _spriteRenderer = PlayerVisual.GetComponent<SpriteRenderer>();
+            PlayerDamagedSystem = GetComponentInChildren<PlayerDamagedSystem>();
         }
     
         void Start()
@@ -141,6 +167,13 @@ namespace ScriptsFinaux.Player
             //Shield cooldown
             ShieldTimer += Time.deltaTime;
             
+            //Shield duration
+            ShieldTimer += Time.deltaTime;
+            if (ShieldTimer >= PlayerData.ShieldCd)
+            {
+                Hurtbox.SetActive(true);
+            }
+            
             //Dash cooldown
             DashTimer += Time.deltaTime;
         
@@ -157,14 +190,25 @@ namespace ScriptsFinaux.Player
                 JumpY = 0.7f;
             }
 
-            if (JumpY < 0)
+            if (JumpY < -0.3f)
             {
-                JumpY = 0;
+                JumpY = -0.3f;
             }
+            
+            //Blocking auto defuse after jetpack
+            BombDeactivated = false;
         
             //Getting Move.X to be a constant for a  jump that is always dynamic
             JumpXDynamic = 1 / Move.x;
-
+            
+            //Checks if player is alive
+            if (PlayerDamagedSystem.HealthCurrent <= 0) {
+                Alive = false;
+            }
+            else {
+                Alive = true;
+            }
+            
             if (_currentState != null)
             {
                 //FSM gestion

@@ -33,27 +33,16 @@ namespace ScriptsFinaux.Level
         }
         // Update is called once per frame
         void Update()
-        { 
-            /*if (!_playerControllerP1Found)
         {
-            _p1 = GameObject.FindGameObjectWithTag("Player");
-            _playerControllerP1 =  _p1.GetComponent<PlayerControllerFinal>();
-            if (_playerControllerP1 == _playerControllerP1.GetComponent<PlayerControllerFinal>())
+            if (_playerControllerP1.CanDeactivateBomb && _playerControllerP1.BombDeactivated)
             {
-                _playerControllerP1Found = true;
+                _playerControllerP1.PlayerData.P1Win = true;
             }
-        }
-
-        if (!_playerControllerP2Found)
-        {
-            _p2 = GameObject.FindGameObjectWithTag("Player2");
-            if (_p2 == null) return;
-            _playerControllerP2 = _p2.GetComponent<PlayerControllerFinal>();
-            if (_playerControllerP2 == _playerControllerP2.GetComponent<PlayerControllerFinal>())
+            
+            if (_playerControllerP2.CanDeactivateBomb && _playerControllerP1.BombDeactivated)
             {
-                _playerControllerP2Found = true; 
+                _playerControllerP2.PlayerData.P2Win = true;
             }
-        }*/
         }
 
         private void OnTriggerEnter2D(Collider2D other)
@@ -61,11 +50,13 @@ namespace ScriptsFinaux.Level
             if (other.gameObject.tag == "Player")
             {
                 _playerControllerP1.CanDeactivateBomb = true;
+                Debug.Log("Player 1 in deactivation zone");
             }
 
             if (other.gameObject.tag == "Player2")
             {
                 _playerControllerP2.CanDeactivateBomb  = true;
+                Debug.Log("Player 2 in deactivation zone");
             }
         }
 

@@ -13,6 +13,7 @@ public class StateWallCatch : BaseState
 
     public override void OnEnter()
     {
+        //Passer en instatiate
         if (PlayerController.IsOnLeftWall)
         {
             PlayerController.LandingEffectLeftSide.SetActive(true);
@@ -58,6 +59,11 @@ public class StateWallCatch : BaseState
 
     public override BaseState NextState()
     {
+        //Death state
+        if (!PlayerController.Alive) {
+            return new StateDeath(PlayerController);
+        }
+        
         //Jump state
         if (PlayerController.Jump && PlayerController.Move.x != 0)
         {
@@ -80,6 +86,7 @@ public class StateWallCatch : BaseState
         //Dash state
         if (PlayerController.UseDash && PlayerController.CanDash)
         {
+            PlayerController.PlayerAudio.PlayOneShot(PlayerController.DashSound);
             return new StateDash(PlayerController);
         }
         
@@ -89,6 +96,13 @@ public class StateWallCatch : BaseState
     private void DoWallSlide()
     {
         PlayerController.Rb.AddForce(new Vector2(0, - PlayerController.PlayerData.SlideDownForce * Time.deltaTime));
+        if (PlayerController.IsOnLeftWall) {
+            Object.Instantiate(PlayerController.LeftSlideDust, new Vector3(PlayerController.transform.position.x - 0.7f, PlayerController.transform.position.y, PlayerController.transform.position.z), Quaternion.identity);
+        }
+
+        if (PlayerController.IsOnRightWall) {
+            Object.Instantiate(PlayerController.RightSlideDust, new Vector3(PlayerController.transform.position.x + 0.5f, PlayerController.transform.position.y, PlayerController.transform.position.z), Quaternion.identity);
+        }
         _canGetSpeed = false;
         _activatesOnlyOnce = false;
     }

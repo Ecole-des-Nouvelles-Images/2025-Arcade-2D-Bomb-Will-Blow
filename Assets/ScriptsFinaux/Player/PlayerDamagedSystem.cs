@@ -5,8 +5,9 @@ namespace ScriptsFinaux.Player
 {
     public class PlayerDamagedSystem : MonoBehaviour
     {
-        [Space(4), Header("Game Object Player")]
+        [Space(4), Header("Game Object Player And Input Manager")]
         [SerializeField] private GameObject player;
+        [SerializeField] private GameObject _IManager;
         
         [Space(4), Header("UI Hearts")]
         [SerializeField] private List<GameObject> _HeartContainersP1;
@@ -17,61 +18,109 @@ namespace ScriptsFinaux.Player
         [SerializeField] private float _FlashDuration;
         [SerializeField] private SpriteRenderer spriteRenderer;
         
+        [Space(4), Header("PlayerColor")]
+        [SerializeField] private bool _PlayerRed;
+        [SerializeField] private bool _PlayerBlue;
+        
         public int HealthCurrent;
+        
         private PlayerController _playerController;
         private bool _hitReceived;
+        private bool _canTakeDamage = true;
+        private bool _hasDied;
         private float _flashTimer;
-        private Material originalMaterial;
+        private Material _originalMaterial;
+        private Vector2 _currentPosition;
+        private Transform _playerTransform;
+        private float _twoSecondsTimer;
         
-        private void Awake()
-        {
+        private void Awake() {
             _playerController = player.GetComponent<PlayerController>();
+            _playerTransform = player.GetComponent<Transform>();
             HealthCurrent = _playerController.PlayerData.HealthMax;
+            
         }
 
-        private void Start()
-        {
-            originalMaterial = spriteRenderer.material;
+        private void Start() {
+            _originalMaterial = spriteRenderer.material;
         }
-
-        private void Update()
-        {
-            if (HealthCurrent == 0)
-            {
+        
+        private void Update() {
+            if (HealthCurrent == 0) {
                 OnDeath();
             }
 
-            if (_hitReceived)
-            {
+            if (_hitReceived) {
                 _flashTimer += Time.deltaTime;
-                if (_flashTimer >= _FlashDuration)
-                {
-                    spriteRenderer.material = originalMaterial;
+                if (_flashTimer >= _FlashDuration) {
+                    spriteRenderer.material = _originalMaterial;
                     _hitReceived = false;
                     _flashTimer = 0;
                 }
             }
-        }
 
-        private void OnTriggerEnter2D(Collider2D collision)
-        {
-            if (collision.gameObject.CompareTag("Enemy"))
+            if (_hitReceived && _hasDied)
             {
-                TakeDamage();
+                _playerController.PlayerAnimator.SetTrigger("Dead");
             }
 
-            if (collision.gameObject.CompareTag("Bullet"))
+            if (_hasDied)
             {
+                _twoSecondsTimer += Time.deltaTime;
+                
+                if (_twoSecondsTimer >= 1.7f && _PlayerRed) {
+                    _playerController.PlayerAnimator.SetBool("IsDead", false);
+                }
+                
+                if (_twoSecondsTimer >= 1.6f && _PlayerBlue) {
+                    _playerController.PlayerAnimator.SetBool("IsDead", false);
+                }
+                
+                if (_twoSecondsTimer >= 2 && _PlayerRed) {
+                    _playerTransform.position = new Vector3(-25, -4.5f, 0);
+                    _IManager.SetActive(true);
+                    _playerController.FreezeCamera = false;
+                    _hasDied  = false;
+                    _twoSecondsTimer = 0;
+                    HealthCurrent = _playerController.PlayerData.HealthMax;
+                    HeartsOnUI.Instance.DislayHeathPlayer1(HealthCurrent);
+                }
+                
+                if (_twoSecondsTimer >= 2 && _PlayerBlue) {
+                    _playerController.PlayerAnimator.SetBool("IsDead", false);
+                    _playerTransform.position = new Vector3(22.5f, -4.5f, 0);
+                    _IManager.SetActive(true);
+                    _playerController.FreezeCamera = false;
+                    _hasDied  = false;
+                    _twoSecondsTimer = 0;
+                    HealthCurrent = _playerController.PlayerData.HealthMax;
+                    HeartsOnUI.Instance.DislayHeathPlayer2(HealthCurrent);
+                }
+            }
+        }
+
+        private void OnTriggerEnter2D(Collider2D collision) {
+            
+            if (collision.gameObject.CompareTag("Enemy") && _canTakeDamage) {
                 TakeDamage();
+                _canTakeDamage = false;
+            }
+
+            if (collision.gameObject.CompareTag("Bullet") && _canTakeDamage) {
+                TakeDamage();
+                _canTakeDamage = false;
             }
         }
     
-        public void OnDeath()
-        {
-            Destroy(player);
+        public void OnDeath() {
+            _playerController.FreezeCamera = true;
+            _currentPosition = transform.position;
+            _IManager.SetActive(false);
+            _hasDied  = true;
         }
-
+        
         public void TakeDamage() {
+            _playerController.PlayerAudio.PlayOneShot(_playerController.DamageSounds[Random.Range(0, _playerController.DamageSounds.Count)]);
             HealthCurrent--;
             spriteRenderer.material = _FlashMaterial;
             _hitReceived = true;

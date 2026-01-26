@@ -8,8 +8,9 @@ public class StateShield : BaseState
     
     public override void OnEnter()
     {
+        PlayerController.PlayerAudio.PlayOneShot(PlayerController.ShieldSound);
         PlayerController.UseShield = true;
-        Object.Instantiate(PlayerController.ShieldEffect, PlayerController.transform.position, Quaternion.identity);
+        Object.Instantiate(PlayerController.ShieldEffect, PlayerController.transform.position, Quaternion.identity, PlayerController.transform);
         PlayerController.Hurtbox.SetActive(false);
         PlayerController.ShieldTimer = 0;
     }
@@ -22,10 +23,16 @@ public class StateShield : BaseState
     public override void OnExit()
     {
         PlayerController.UseShield = false;
+        PlayerController.Hurtbox.SetActive(false);
     }
 
     public override BaseState NextState()
     {
+        //Death state
+        if (!PlayerController.Alive) {
+            return new StateDeath(PlayerController);
+        }
+        
         //Walk state
         if (PlayerController.Walk && PlayerController.CanWalk)
         {
@@ -43,12 +50,7 @@ public class StateShield : BaseState
         {
             return new StateInAir(PlayerController);
         }
-        
-        if (PlayerController.Move == Vector2.zero)
-        {
-            return new StateIdle(PlayerController);
+
+        return new StateIdle(PlayerController);
         }
-        
-        return null;
-    }
 }

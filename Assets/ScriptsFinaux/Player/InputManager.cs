@@ -11,17 +11,18 @@ namespace ScriptsFinaux.Player
         public static event Action<PlayerController> OnPlayer2Spawn;
     
         [SerializeField] private GameObject _UiScriptManager;
+        [SerializeField] private GameObject _Player;
 
         private PlayerInput _playerInput;
         private PlayerController _playerController;
-        private InGamePause _inGamePause;
+        private InGamePause _pause;
         private bool _isControllerConnected;
     
 
         private void Awake() {
-            _playerInput = GetComponent<PlayerInput>();
-            _playerController = GetComponent<PlayerController>();
-            _inGamePause = _UiScriptManager.GetComponent<InGamePause>();
+            _playerInput = _Player.GetComponent<PlayerInput>();
+            _playerController = _Player.GetComponent<PlayerController>();
+            _pause = _UiScriptManager.GetComponent<InGamePause>();
             if (_playerInput == null) throw new NullReferenceException("PlayerInputManager is null");
         }
 
@@ -132,12 +133,12 @@ namespace ScriptsFinaux.Player
 
         private void OnPauseMenuOpened(InputAction.CallbackContext context)
         {
-            _inGamePause.OpenPauseMenu();
+            _pause.OpenPauseMenu();
         }
 
         private void OnDeactivateBomb(InputAction.CallbackContext context)
         {
-            _playerController.BombDeactivated =  true;
+            _playerController.BombDeactivated = true;
         }
     }
 }

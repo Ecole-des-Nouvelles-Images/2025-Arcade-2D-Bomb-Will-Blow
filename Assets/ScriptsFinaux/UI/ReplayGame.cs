@@ -18,7 +18,7 @@ public class ReplayGame : MonoBehaviour
     {
         _VictoryScreenFromBomb.SetActive(false);
         _VictoryScreenFromDeath.SetActive(false);
-        SceneManager.LoadScene(currentScene.name);
         Time.timeScale = 1;
+        SceneManager.LoadScene(currentScene.name);
     }
 }
